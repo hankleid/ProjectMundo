@@ -15,7 +15,69 @@ PARAMS = {
 
 r = requests.get(url=URL, params=PARAMS)
 
+# %%
+
+## TESTING NEW IDEA: CHANGING XML IN PLACE KINDA
+## RETURN XML OF SAME FORMAT BUT WITH SENTENCES TRANSLATED
+## REFERENCES AT THE END OF EACH SENTENCE.
+
+data = BeautifulSoup(r.content, features="xml")
+body = data.body
+print(body.prettify())
+print(len(body.contents))
+sections = [_ for _ in body.children]
+intro = sections[0] # equivalent to subsection
+pars = [_ for _ in intro.children]
+
+# seems like if you can get it to the <Par#> section, maybe we can feed to chatgpt
+
+# %%
+
+def get_refs(sups):
+    flattened = []
+    for sup in sups:
+        for ref in sup.find_all('xref'):
+            flattened.append(ref)
+            flattened.append(",")
+    return flattened[:-1]
+
+sentences = []
+sups = []
+curr_sent = ""
+new_par = BeautifulSoup("<p></p>",features='xml')
+for s in pars[1].children:
+    if s.name == 'sup':
+        sups.append(s)
+    elif s.string != None:
+        if s.string[0] != '.':
+            curr_sent += s.string
+        else:
+            # end of sentence
+            sentences.append(curr_sent)
+            curr_sent = s.string
+
+            refs = get_refs(sups)
+            sup = BeautifulSoup("<sup></sup>",features='xml')
+            for i, ref in zip(range(len(refs)), refs):
+                sup.sup.insert(i, ref)
+            sentences.append(sup.sup)
+            sups = []
+
+print(sentences)
+
+for i, s in zip(range(len(sentences)), sentences):
+    new_par.p.insert(i,s)
+
+print(new_par.prettify())
+
+# %%
+
+
+
+
 #%%
+
+## PREVIOUS ATTEMPT
 
 # print(r)
 
@@ -52,8 +114,45 @@ def parse_section(this_sec):
                     for xref in s.find_all('xref'):
                         numbers.append(xref.string)
                     paragraph.append(numbers)
-        subsection[p['id']] = paragraph
+        subsection[p['id']] = format_paragraph(paragraph)
     return this_sec['id'], subsection
+
+def format_paragraph(par):
+    # par is a list of sentences (and refs).
+    # if a sentence starts with a period, it should move to the end of the 2nd previous sentence.
+    # (to put the refs after a full sentence)
+    # if a sentence ends with a comma, it should find join itself to the previous 'sentence.'
+    formatted = ["" for _ in range(len(par))]
+    i_p = 0
+    i_f = 0
+    for sentence in par[0:]:
+        if isinstance(sentence, list):
+            formatted[i_f] = [int(ref) for ref in sentence]
+        elif sentence.isnumeric():
+            formatted[i_f] = int(sentence)
+        elif sentence[0] == ',':
+            # put the clauses together in one sentence.
+            sub = 1
+            while isinstance(formatted[i_f-sub], str) == False:
+                sub += 1
+            formatted[i_f-sub] += sentence
+            i_f -= 1
+        elif sentence[0] == '.': # change to be if any char not the final one is equal to "."
+            # put the period at the end of the last sentence.
+            sub = 1
+            while isinstance(formatted[i_f-sub], str) == False:
+                sub += 1
+            formatted[i_f-sub] += "."
+            formatted[i_f] = sentence[2:]
+        # elif i_f > 0 and len(formatted[i_f-1]) > 5 and formatted[i_f-1][:-6] == "\u00a0":
+        #     # put fig number back in the same sentence.
+        #     formatted[i_f-1] += " " + sentence
+        #     i_f -= 1
+        else:
+            formatted[i_f] = sentence
+        i_p += 1
+        i_f += 1
+    return formatted
 
 #%% 
 
@@ -71,8 +170,9 @@ CONTENT = {}
 # (text)
 # (figure)
 
-# TODO: finish organizing article into CONTENTS; to do so, might have to handle the Figure sections since <p> has no 'id' attr.
-# restructure sentences in paragraph lists to be one sentence per element, each separated by a list of ref #s for the previous sentence.
+# TODO: differentiate btwn refs and reg numbers by putting all refs in their own list even if it's a single ref.
+# move sentences with periods
+# move sentences randomly put on another line back to the prev. one.
 
 for sec in body.children:
     print(sec['id'])
@@ -89,11 +189,7 @@ for sec in body.children:
             key, value = parse_section(subsec)
             CONTENT[sec['id']][key] = value
 
-
-
-# %%
-            
 with open("test.json", "w+") as outfile:
     json.dump(CONTENT, outfile, indent=4)
-
-# %%
+    
+print(len(CONTENT["Sec1"]["Par3"]))
