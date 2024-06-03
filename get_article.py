@@ -110,7 +110,7 @@ print(data.prettify())
 
 
 #%%
-f = open("test.xml", "w")
+f = open("index.xml", "w")
 f.write(data.prettify())
 f.close()
 
