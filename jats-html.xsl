@@ -399,8 +399,6 @@ or pipeline) parameterized.
                 copyright-year"/>
               
               <xsl:apply-templates mode="metadata" select="permissions"/>
-              
-              <xsl:apply-templates mode="metadata" select="history/date"/>
 
               <xsl:apply-templates mode="metadata" select="pub-date"/>
 
