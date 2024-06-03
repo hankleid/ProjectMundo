@@ -828,7 +828,7 @@ or pipeline) parameterized.
         </xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:apply-templates select="license" mode="metadata"/>
+   
   </xsl:template>
 
 
@@ -846,27 +846,7 @@ or pipeline) parameterized.
   </xsl:template>
   
   
-  <xsl:template match="license" mode="metadata">
-    <xsl:call-template name="metadata-area">
-      <xsl:with-param name="label">
-        <xsl:text>Please Remove The License</xsl:text>
-        <xsl:if test="@license-type | @xlink:href">
-          <xsl:text> (</xsl:text>
-          <span class="data">
-            <xsl:value-of select="@license-type"/>
-            <xsl:if test="@xlink:href">
-              <xsl:if test="@license-type">, </xsl:if>
-              <a>
-                <xsl:call-template name="assign-href"/>
-                <xsl:value-of select="@xlink:href"/>
-              </a>
-            </xsl:if>
-          </span>
-          <xsl:text>)</xsl:text>
-        </xsl:if>
-      </xsl:with-param>
-    </xsl:call-template>
-  </xsl:template>
+  
 
 
   
@@ -2248,7 +2228,16 @@ or pipeline) parameterized.
 	</xsl:template>
 
 
-
+  <xsl:template match="p | license-p">
+    <p>
+      <xsl:if test="not(preceding-sibling::*)">
+        <xsl:attribute name="class">first</xsl:attribute>
+      </xsl:if>
+      <xsl:call-template name="assign-id"/>
+      <xsl:apply-templates select="@content-type"/>
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
   
   
   <xsl:template match="@content-type">
@@ -2295,7 +2284,7 @@ or pipeline) parameterized.
         </xsl:for-each>
       </p>
     </xsl:if>
-    <xsl:apply-templates select="license"/>
+    
     </div>
   </xsl:template>
   
