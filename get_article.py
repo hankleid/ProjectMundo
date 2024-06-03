@@ -3,14 +3,21 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from translation import Translator
 
 # %%
 
+key = ""
+with open("../keys/nature_key.txt") as f:
+      key = f.readline()
+
+#%%
 URL = "http://api.springernature.com/openaccess/jats?"
+
 
 PARAMS = {
     "q": "doi:10.1038/s41467-019-11343-1",
-    "api_key": "86e121ae7080eb66373361f62f04b07b"
+    "api_key": key
 }
 
 r = requests.get(url=URL, params=PARAMS)
@@ -22,12 +29,7 @@ r = requests.get(url=URL, params=PARAMS)
 ## REFERENCES AT THE END OF EACH SENTENCE.
 
 data = BeautifulSoup(r.content, features="xml")
-body = data.body
-# print(body.prettify())
-# print(len(body.contents))
-sections = [_ for _ in body.children]
-intro = sections[0] # equivalent to subsection
-pars = [_ for _ in intro.children]
+tl = Translator()
 
 # seems like if you can get it to the <Par#> section, maybe we can feed to chatgpt
 
@@ -76,19 +78,48 @@ def parse_par(this_par):
     new_par.p.extend(sentences)
     return new_par.p
 
-#print(parse_par(body.contents[0].contents[0]).prettify())
 
+front = data.front
+body = data.body
 
-for sec in body:
-    pars = sec.find_all("p")
-    for p in sec.find_all("p"):
-        new_p = parse_par(p)
-        p.clear()
-        p.extend(new_p.contents)
-print(body.prettify())
+title = front.find('article-title')
+new_title = tl.translate_text(title.string, "Latin American Spanish")
+title.clear()
+title.append(new_title)
+
+for ab in front.find_all('abstract'):
+    translated_ab = tl.translate_xml(ab, "Latin American Spanish")
+    new_ab = BeautifulSoup(translated_ab, features="xml")
+    ab.clear()
+    ab.extend(new_ab)
+    # if ab.title != None:
+    #     new_subtitle = tl.translate_word(ab.title.string, "Latin American Spanish")
+    #     ab.title.clear()
+    #     ab.title.append(new_subtitle)
+    # for p in ab.find_all('p'):
+    #     new_abstract = tl.translate_text(p.string, "Latin American Spanish")
+    #     p.clear()
+    #     p.append(new_abstract)
+
+for p in body.find_all('p'):
+    formatted_p = parse_par(p)
+    p.clear()
+    p.extend(formatted_p.contents)
+
+for sec in body.find_all('sec'):
+    translated_sec = tl.translate_xml(sec, "Latin American Spanish")
+    new_sec = BeautifulSoup(translated_sec, features="xml")
+    sec.clear()
+    sec.extend(new_sec.contents)
+
+print(data.prettify())
+
 
 #%%
-with open("test.json", "w+") as outfile:
-    json.dump(CONTENT, outfile, indent=4)
-    
-print(len(CONTENT["Sec1"]["Par3"]))
+f = open("test.xml", "w")
+f.write(data.prettify())
+f.close()
+
+print(tl.count_tokens())
+
+# %%
