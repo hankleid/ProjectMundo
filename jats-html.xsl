@@ -850,20 +850,6 @@ or pipeline) parameterized.
     <xsl:call-template name="metadata-area">
       <xsl:with-param name="label">
         <xsl:text>Please Remove The License</xsl:text>
-        <xsl:if test="@license-type | @xlink:href">
-          <xsl:text> (</xsl:text>
-          <span class="data">
-            <xsl:value-of select="@license-type"/>
-            <xsl:if test="@xlink:href">
-              <xsl:if test="@license-type">, </xsl:if>
-              <a>
-                <xsl:call-template name="assign-href"/>
-                <xsl:value-of select="@xlink:href"/>
-              </a>
-            </xsl:if>
-          </span>
-          <xsl:text>)</xsl:text>
-        </xsl:if>
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
@@ -1261,7 +1247,7 @@ or pipeline) parameterized.
         <xsl:choose>
           <xsl:when test="@pub-id-type='art-access-id'">Accession ID</xsl:when>
           <xsl:when test="@pub-id-type='coden'">Coden</xsl:when>
-          <xsl:when test="@pub-id-type='doi'">doioooi</xsl:when>
+          <xsl:when test="@pub-id-type='doi'">DOI</xsl:when>
           <xsl:when test="@pub-id-type='manuscript'">Manuscript ID</xsl:when>
           <xsl:when test="@pub-id-type='medline'">Medline ID</xsl:when>
           <xsl:when test="@pub-id-type='pii'">Publisher Item ID</xsl:when>
