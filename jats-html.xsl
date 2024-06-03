@@ -852,6 +852,13 @@ or pipeline) parameterized.
       <xsl:with-param name="contents">
         <xsl:call-template name="format-date"/>
       </xsl:with-param>
+      <xsl:with-param name="label">
+        <xsl:text>Publication date</xsl:text>
+        <xsl:call-template name="append-pub-type"/>
+      </xsl:with-param>
+      <xsl:with-param name="contents">
+        <xsl:call-template name="format-date"/>
+      </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
 
