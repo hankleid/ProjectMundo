@@ -869,24 +869,7 @@ or pipeline) parameterized.
   </xsl:template>
 
 
-  <xsl:template match="history/date" mode="metadata">
-    <xsl:call-template name="metadata-labeled-entry">
-      <xsl:with-param name="label">
-        <xsl:text>Date</xsl:text>
-        <xsl:for-each select="@date-type">
-          <xsl:choose>
-            <xsl:when test=".='accepted'"> accepted</xsl:when>
-            <xsl:when test=".='received'"> received</xsl:when>
-            <xsl:when test=".='rev-request'"> revision requested</xsl:when>
-            <xsl:when test=".='rev-recd'"> revision received</xsl:when>
-          </xsl:choose>
-        </xsl:for-each>
-      </xsl:with-param>
-      <xsl:with-param name="contents">
-        <xsl:call-template name="format-date"/>
-      </xsl:with-param>
-    </xsl:call-template>
-  </xsl:template>
+  
 
 
   <xsl:template match="pub-date" mode="metadata">
@@ -1255,7 +1238,35 @@ or pipeline) parameterized.
   </xsl:template>
 
 
-  
+  <xsl:template match="article-id" mode="metadata">
+    <xsl:call-template name="metadata-labeled-entry">
+      <xsl:with-param name="label">
+        <xsl:choose>
+          <xsl:when test="@pub-id-type='art-access-id'">Accession ID</xsl:when>
+          <xsl:when test="@pub-id-type='coden'">Coden</xsl:when>
+          <xsl:when test="@pub-id-type='doi'">DOI</xsl:when>
+          <xsl:when test="@pub-id-type='manuscript'">Manuscript ID</xsl:when>
+          <xsl:when test="@pub-id-type='medline'">Medline ID</xsl:when>
+          <xsl:when test="@pub-id-type='pii'">Publisher Item ID</xsl:when>
+          <xsl:when test="@pub-id-type='pmid'">PubMed ID</xsl:when>
+          <xsl:when test="@pub-id-type='publisher-id'">Publisher ID</xsl:when>
+          <xsl:when test="@pub-id-type='sici'">Serial Item and Contribution ID</xsl:when>
+          <xsl:when test="@pub-id-type='doaj'">DOAJ ID</xsl:when>
+          <xsl:when test="@pub-id-type='arXiv'">arXiv.org ID</xsl:when>
+          <xsl:otherwise>
+            <xsl:text>Article Id</xsl:text>
+            <xsl:for-each select="@pub-id-type">
+              <xsl:text> (</xsl:text>
+              <span class="data">
+                <xsl:value-of select="."/>
+              </span>
+              <xsl:text>)</xsl:text>
+            </xsl:for-each>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
 
 
   <xsl:template match="contract-num" mode="metadata">
