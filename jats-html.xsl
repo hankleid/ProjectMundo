@@ -477,7 +477,6 @@ or pipeline) parameterized.
                   <xsl:if test="not(normalize-space(string(title)))">
                     <span class="generated">
                       <xsl:if test="self::trans-abstract">Translated </xsl:if>
-                      <xsl:text>Abstract</xsl:text>
                     </span>
                   </xsl:if>
                 </h4>
@@ -843,12 +842,6 @@ or pipeline) parameterized.
     </xsl:call-template>
   </xsl:template>
   
-  
-  
-
-
-  
-
 
   <xsl:template match="pub-date" mode="metadata">
     <xsl:call-template name="metadata-labeled-entry">
