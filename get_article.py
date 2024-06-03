@@ -21,17 +21,19 @@ PARAMS = {
 }
 
 r = requests.get(url=URL, params=PARAMS)
+print(r.content)
 
 # %%
 
-## TESTING NEW IDEA: CHANGING XML IN PLACE KINDA
-## RETURN XML OF SAME FORMAT BUT WITH SENTENCES TRANSLATED
-## REFERENCES AT THE END OF EACH SENTENCE.
-
 data = BeautifulSoup(r.content, features="xml")
+# Enter correct XSLT style information.
+data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>', features="xml"))
+# Remove the API response portion of the XML.
+data.response.replace_with(data.records.article)
+
 tl = Translator()
 
-# seems like if you can get it to the <Par#> section, maybe we can feed to chatgpt
+#%% 
 
 def parse_sups(this_sups):
     # returns a list of reference elements from a list of sup elements.
@@ -92,14 +94,6 @@ for ab in front.find_all('abstract'):
     new_ab = BeautifulSoup(translated_ab, features="xml")
     ab.clear()
     ab.extend(new_ab)
-    # if ab.title != None:
-    #     new_subtitle = tl.translate_word(ab.title.string, "Latin American Spanish")
-    #     ab.title.clear()
-    #     ab.title.append(new_subtitle)
-    # for p in ab.find_all('p'):
-    #     new_abstract = tl.translate_text(p.string, "Latin American Spanish")
-    #     p.clear()
-    #     p.append(new_abstract)
 
 for p in body.find_all('p'):
     formatted_p = parse_par(p)
