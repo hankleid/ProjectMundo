@@ -395,6 +395,8 @@ or pipeline) parameterized.
               <xsl:apply-templates mode="metadata" select="product"/>
 
               <!-- only in 2.3 -->
+              <xsl:apply-templates mode="metadata" select="copyright-statement |
+                copyright-year | license"/>
               
               <xsl:apply-templates mode="metadata" select="permissions"/>
               
@@ -844,27 +846,7 @@ or pipeline) parameterized.
   </xsl:template>
   
   
-  <xsl:template match="license" mode="metadata">
-    <xsl:call-template name="metadata-area">
-      <xsl:with-param name="label">
-        <xsl:text>License</xsl:text>
-        <xsl:if test="@license-type | @xlink:href">
-          <xsl:text> (</xsl:text>
-          <span class="data">
-            <xsl:value-of select="@license-type"/>
-            <xsl:if test="@xlink:href">
-              <xsl:if test="@license-type">, </xsl:if>
-              <a>
-                <xsl:call-template name="assign-href"/>
-                <xsl:value-of select="@xlink:href"/>
-              </a>
-            </xsl:if>
-          </span>
-          <xsl:text>)</xsl:text>
-        </xsl:if>
-      </xsl:with-param>
-    </xsl:call-template>
-  </xsl:template>
+  
 
 
   <xsl:template match="history/date" mode="metadata">
