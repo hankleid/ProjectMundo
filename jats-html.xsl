@@ -1261,7 +1261,7 @@ or pipeline) parameterized.
         <xsl:choose>
           <xsl:when test="@pub-id-type='art-access-id'">Accession ID</xsl:when>
           <xsl:when test="@pub-id-type='coden'">Coden</xsl:when>
-          <xsl:when test="@pub-id-type='doi'">DOI</xsl:when>
+          <xsl:when test="@pub-id-type='doi'">doioooi</xsl:when>
           <xsl:when test="@pub-id-type='manuscript'">Manuscript ID</xsl:when>
           <xsl:when test="@pub-id-type='medline'">Medline ID</xsl:when>
           <xsl:when test="@pub-id-type='pii'">Publisher Item ID</xsl:when>
