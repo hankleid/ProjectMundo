@@ -2248,16 +2248,7 @@ or pipeline) parameterized.
 	</xsl:template>
 
 
-  <xsl:template match="p | license-p">
-    <p>
-      <xsl:if test="not(preceding-sibling::*)">
-        <xsl:attribute name="class">first</xsl:attribute>
-      </xsl:if>
-      <xsl:call-template name="assign-id"/>
-      <xsl:apply-templates select="@content-type"/>
-      <xsl:apply-templates/>
-    </p>
-  </xsl:template>
+
   
   
   <xsl:template match="@content-type">
