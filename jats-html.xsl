@@ -396,7 +396,7 @@ or pipeline) parameterized.
 
               <!-- only in 2.3 -->
               <xsl:apply-templates mode="metadata" select="copyright-statement |
-                copyright-year"/>
+                copyright-year | license"/>
               
               <xsl:apply-templates mode="metadata" select="permissions"/>
               
@@ -828,7 +828,7 @@ or pipeline) parameterized.
         </xsl:with-param>
       </xsl:call-template>
     </xsl:if>
-    <xsl:apply-templates select="license" mode="metadata"/>
+    
   </xsl:template>
 
 
