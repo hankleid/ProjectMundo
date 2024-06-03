@@ -395,8 +395,6 @@ or pipeline) parameterized.
               <xsl:apply-templates mode="metadata" select="product"/>
 
               <!-- only in 2.3 -->
-              <xsl:apply-templates mode="metadata" select="copyright-statement |
-                copyright-year | license"/>
               
               <xsl:apply-templates mode="metadata" select="permissions"/>
               
