@@ -471,9 +471,9 @@ or pipeline) parameterized.
             <!-- title in left column, content (paras, secs) in right -->
             <div class="metadata one-column table">
               <div class="row">
-              <div class="cell">
-                <xsl:apply-templates select="*[not(self::title)]"/>
-              </div>
+                <div class="cell spanning">
+                  <xsl:apply-templates select="*[not(self::title)]"/>
+                </div>
               </div>
             </div>
           </xsl:for-each>
