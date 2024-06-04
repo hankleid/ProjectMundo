@@ -469,14 +469,14 @@ or pipeline) parameterized.
           
           <xsl:for-each select="abstract | trans-abstract">
             <!-- title in left column, content (paras, secs) in right -->
-           
+            <div class="section">
               
-            <div class="cell">
-              <xsl:apply-templates select="*[not(self::title)]"/>
+              <div class="cell">
+                <xsl:apply-templates select="*[not(self::title)]"/>
+              </div>
+              
+              </div>
             </div>
-              
-              
-            
           </xsl:for-each>
           <!-- end of abstract or trans-abstract -->
         </xsl:if>
