@@ -469,20 +469,10 @@ or pipeline) parameterized.
           
           <xsl:for-each select="abstract | trans-abstract">
             <!-- title in left column, content (paras, secs) in right -->
-            <div class="metadata two-column table">
+            <div class="metadata one-column table">
               <div class="row">
               <div class="cell">
                 <xsl:apply-templates select="*[not(self::title)]"/>
-              </div>
-              <div class="cell" style="text-align: right">
-                <h4 class="callout-title">
-                  <xsl:apply-templates select="title/node()"/>
-                  <xsl:if test="not(normalize-space(string(title)))">
-                    <span class="generated">
-                      <xsl:if test="self::trans-abstract">Translated </xsl:if>
-                    </span>
-                  </xsl:if>
-                </h4>
               </div>
               </div>
             </div>
