@@ -36,7 +36,7 @@ div { margin-top: 0.5em }
 
 div.front, div.footer { }
 
-.back, .body { font-family: serif }
+.back, .body { font-family: sans-serif }
 
 div.metadata { font-family: sans-serif }
 div.centered { text-align: center }
@@ -122,11 +122,11 @@ h1, h2, h3, h4, h5, h6 {
    margin-bottom: 0.5em;
    font-family: helvetica, sans-serif;
    font-weight: bold;
-   color: midnightblue;
+   color: #00320c;
   }
 /* titling level 1: document title */
 .document-title {
-   text-align: center;
+   text-align: left;
    }
 
 /* callout titles appear in a left column (table cell)

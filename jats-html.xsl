@@ -471,6 +471,9 @@ or pipeline) parameterized.
             <!-- title in left column, content (paras, secs) in right -->
             <div class="metadata two-column table">
               <div class="row">
+              <div class="cell">
+                <xsl:apply-templates select="*[not(self::title)]"/>
+              </div>
               <div class="cell" style="text-align: right">
                 <h4 class="callout-title">
                   <xsl:apply-templates select="title/node()"/>
@@ -480,9 +483,6 @@ or pipeline) parameterized.
                     </span>
                   </xsl:if>
                 </h4>
-              </div>
-              <div class="cell">
-                <xsl:apply-templates select="*[not(self::title)]"/>
               </div>
               </div>
             </div>
@@ -845,13 +845,6 @@ or pipeline) parameterized.
 
   <xsl:template match="pub-date" mode="metadata">
     <xsl:call-template name="metadata-labeled-entry">
-      <xsl:with-param name="label">
-        <xsl:text>Publication date</xsl:text>
-        <xsl:call-template name="append-pub-type"/>
-      </xsl:with-param>
-      <xsl:with-param name="contents">
-        <xsl:call-template name="format-date"/>
-      </xsl:with-param>
       <xsl:with-param name="label">
         <xsl:text>Publication date</xsl:text>
         <xsl:call-template name="append-pub-type"/>
