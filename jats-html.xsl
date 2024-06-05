@@ -1409,19 +1409,17 @@ or pipeline) parameterized.
             ext-link | on-behalf-of | role | uri | xref)*)       -->
       <div class="metadata two-column table">
           <div class="row">
-          <div class="cell">
-            <xsl:for-each select="contrib">
-              <xsl:call-template name="contrib-identify">
-              <!-- handles (contrib-id)*,
-                (anonymous | collab | collab-alternatives |
-                 name | name-alternatives | degrees | xref) -->
-              </xsl:call-template>
-              <span class="generated">, </span>
-            </xsl:for-each>
-          </div>
-          <div class="cell">
-            
-          </div>
+            <div class="cell">
+              <xsl:for-each select="contrib">
+                <xsl:call-template name="contrib-identify">
+                <!-- handles (contrib-id)*,
+                  (anonymous | collab | collab-alternatives |
+                  name | name-alternatives | degrees | xref) -->
+                </xsl:call-template>
+                <span class="generated">, </span>
+              </xsl:for-each>
+            </div>
+            <div class="cell empty"/>
           </div>
       </div>
       
