@@ -1401,32 +1401,30 @@ or pipeline) parameterized.
         (address | aff | author-comment | bio | email |
         ext-link | on-behalf-of | role | uri | xref)*) -->
       <!-- each contrib makes a row: name at left, details at right -->
-      <xsl:for-each select="contrib">
         <!--  content model of contrib:
           ((contrib-id)*,
            (anonymous | collab | collab-alternatives | name | name-alternatives)*,
            (degrees)*,
            (address | aff | aff-alternatives | author-comment | bio | email |
             ext-link | on-behalf-of | role | uri | xref)*)       -->
-        <div class="metadata two-column table">
+      <div class="metadata two-column table">
           <div class="row">
-          <div class="cell" style="text-align: right">
-            <xsl:call-template name="contrib-identify">
+          <div class="cell">
+            <xsl:for-each select="contrib">
+              <xsl:call-template name="contrib-identify">
               <!-- handles (contrib-id)*,
                 (anonymous | collab | collab-alternatives |
                  name | name-alternatives | degrees | xref) -->
-            </xsl:call-template>
+              </xsl:call-template>
+              <span class="generated">, </span>
+            </xsl:for-each>
           </div>
           <div class="cell">
-            <xsl:call-template name="contrib-info">
-              <!-- handles
-                   (address | aff | author-comment | bio | email |
-                    ext-link | on-behalf-of | role | uri) -->
-            </xsl:call-template>
+            
           </div>
           </div>
-        </div>
-      </xsl:for-each>
+      </div>
+      
       <!-- end of contrib -->
       <xsl:variable name="misc-contrib-data"
         select="*[not(self::contrib | self::xref)]"/>
