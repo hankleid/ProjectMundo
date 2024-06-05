@@ -1395,7 +1395,7 @@ or pipeline) parameterized.
     </xsl:if>
   </xsl:template>
   
-  <xsl:template mode="metadata" match="article-meta/contrib-group">
+  <xsl:template mode="metadata-inline" match="article-meta/contrib-group">
       <!-- content model of contrib-group:
         (contrib+, 
         (address | aff | author-comment | bio | email |
