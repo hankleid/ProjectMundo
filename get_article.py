@@ -117,3 +117,8 @@ f.close()
 print(tl.count_tokens())
 
 # %%
+
+f = open("front.xml", "w")
+f.write(data.front.prettify())
+f.close()
+# %%

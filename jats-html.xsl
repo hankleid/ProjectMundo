@@ -1395,7 +1395,7 @@ or pipeline) parameterized.
     </xsl:if>
   </xsl:template>
   
-  <xsl:template mode="metadata-inline" match="article-meta/contrib-group">
+  <xsl:template mode="metadata" match="article-meta/contrib-group">
       <!-- content model of contrib-group:
         (contrib+, 
         (address | aff | author-comment | bio | email |
@@ -1407,19 +1407,12 @@ or pipeline) parameterized.
            (degrees)*,
            (address | aff | aff-alternatives | author-comment | bio | email |
             ext-link | on-behalf-of | role | uri | xref)*)       -->
-      <div class="metadata two-column table">
+      <div class="metadata one-column table">
           <div class="row">
-            <div class="cell">
-              <xsl:for-each select="contrib">
-                <xsl:call-template name="contrib-identify">
-                <!-- handles (contrib-id)*,
-                  (anonymous | collab | collab-alternatives |
-                  name | name-alternatives | degrees | xref) -->
-                </xsl:call-template>
-                <span class="generated">, </span>
-              </xsl:for-each>
+            <div class="cell spanning">
+              <xsl:call-template name="gerp-list-authors"/>
+              
             </div>
-            <div class="cell empty"/>
           </div>
       </div>
       
@@ -1441,6 +1434,32 @@ or pipeline) parameterized.
       </xsl:if>
   </xsl:template>
 
+  <xsl:template name="gerp-list-authors">
+    <div class="metadata-group">
+      <xsl:for-each select="contrib">
+        <xsl:for-each select="name | name-alternatives/*">
+          <xsl:if test="position() = 1">
+              <!-- a named anchor for the contrib goes with its
+              first member -->
+              <xsl:call-template name="named-anchor"/>
+              <!-- so do any contrib-ids -->
+              <xsl:apply-templates mode="metadata-inline"
+                select="../contrib-id"/>
+            </xsl:if>
+            <xsl:apply-templates select="." mode="metadata-inline"/>
+            <xsl:if test="position() = last()">
+              <xsl:apply-templates mode="metadata-inline"
+                select="degrees | xref"/>
+              <!-- xrefs in the parent contrib-group go with the last member
+              of *each* contrib in the group -->
+              <xsl:apply-templates mode="metadata-inline"
+                select="following-sibling::xref"/>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:if test="not(position()=last())">, </xsl:if>
+      </xsl:for-each>
+    </div>
+  </xsl:template>
 
   <xsl:template name="contrib-identify">
     <!-- Placed in a left-hand pane  -->
