@@ -1443,8 +1443,7 @@ or pipeline) parameterized.
               first member -->
               <xsl:call-template name="named-anchor"/>
               <!-- so do any contrib-ids -->
-              <xsl:apply-templates mode="metadata-inline"
-                select="../contrib-id"/>
+              
             </xsl:if>
             <xsl:apply-templates select="." mode="metadata-inline"/>
             <xsl:if test="position() = last()">
@@ -1452,7 +1451,8 @@ or pipeline) parameterized.
                 select="degrees | xref"/>
               <!-- xrefs in the parent contrib-group go with the last member
               of *each* contrib in the group -->
-              
+              <xsl:apply-templates mode="metadata-inline"
+                select="following-sibling::xref"/>
             </xsl:if>
         </xsl:for-each>
         <xsl:if test="not(position()=last())">, </xsl:if>
