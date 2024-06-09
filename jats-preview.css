@@ -55,7 +55,7 @@ div.two-column div.cell {
 div.one-column div.cell.spanning { width: 100% }
 
 div.metadata-group { margin-top: 0.5em;
-  font-size: 75% }
+  font-size: 100% }
 
 div.metadata-group > p, div.metadata-group > div { margin-top: 0.5em }
 
