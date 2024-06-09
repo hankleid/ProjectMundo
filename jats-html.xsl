@@ -292,161 +292,19 @@ or pipeline) parameterized.
 
   <xsl:template match="front | front-stub">
     <!-- First Table: journal and article metadata -->
-    <div class="metadata two-column table">
-      <div class="row">
-        <!-- Cell 1: journal information -->
-        <xsl:for-each select="journal-meta">
-          <!-- (journal-id+, journal-title-group*, (contrib-group | aff | aff-alternatives)*,
-                issn+, issn-l?, isbn*, publisher?, notes*, self-uri*)         -->
-          <div class="cell">
-            <h4 class="generated">
-              <xsl:text>Journal Information</xsl:text>
-            </h4>
-            <div class="metadata-group">
-              <xsl:apply-templates select="journal-id | journal-title-group" mode="metadata"/>
-              <!-- the following may appear in 2.3 -->
-              <xsl:apply-templates mode="metadata" select="journal-title | journal-subtitle | trans-title | trans-subtitle | abbrev-journal-title"/>
-              <!-- contrib-group, aff, aff-alternatives, author-notes -->
-              <xsl:apply-templates mode="metadata"
-                select="contrib-group"/>
-              <xsl:if test="aff | aff-alternatives | author-notes">
-                <div class="metadata-group">
-                  <xsl:apply-templates mode="metadata"
-                    select="aff | aff-alternatives | author-notes"/>
-                </div>
-              </xsl:if>
-              <xsl:apply-templates select="issn | issn-l | isbn | publisher | notes | self-uri" mode="metadata"/>
-            </div>
-          </div>
-        </xsl:for-each>
 
-        <!-- Cell 2: Article information -->
-        <xsl:for-each select="article-meta | self::front-stub">
-          <!-- content model:
-				    (article-id*, article-categories?, title-group,
-				     (contrib-group | aff)*, 
-             author-notes?, pub-date+, volume?, volume-id*,
-             volume-series?, issue?, issue-id*, issue-title*,
-             issue-sponsor*, issue-part?, isbn*, supplement?, 
-             ((fpage, lpage?, page-range?) | elocation-id)?, 
-             (email | ext-link | uri | product | 
-              supplementary-material)*, 
-             history?, permissions?, self-uri*, related-article*, 
-             abstract*, trans-abstract*, 
-             kwd-group*, funding-group*, conference*, counts?,
-             custom-meta-group?)
-            
-            These are handled as follows:
-
-            In the "Article Information" header cell:
-              article-id
-              pub-date
-              volume
-              volume-id
-              volume-series
-              issue
-              issue-id
-              issue-title
-              issue-sponsor
-              issue-part
-              isbn
-              supplement
-              fpage
-              lpage
-              page-range
-              elocation-id
-              email
-              ext-link
-              uri
-              product
-              history
-              permissions
-              self-uri
-              related-article
-              funding-group
-              conference
-
-            In the "Article title" cell:
-              title-group
-              contrib-group
-              aff
-              author-notes
-              abstract
-              trans-abstract
-
-            In the metadata footer
-              article-categories
-              supplementary-material
-              kwd-group
-              counts
-              custom-meta-group
-
-				  -->
-
-          <div class="cell">
-            <h4 class="generated">
-              <xsl:text>Article Information</xsl:text>
-            </h4>
-            <div class="metadata-group">
-
-              <xsl:apply-templates mode="metadata"
-                select="email | ext-link | uri | self-uri"/>
-
-              <xsl:apply-templates mode="metadata" select="product"/>
-
-              <!-- only in 2.3 -->
-              <xsl:apply-templates mode="metadata" select="copyright-statement |
-                copyright-year"/>
-              
-              <xsl:apply-templates mode="metadata" select="permissions"/>
-
-              <xsl:apply-templates mode="metadata" select="pub-date"/>
-
-              <xsl:call-template name="volume-info">
-                <!-- handles volume?, volume-id*, volume-series? -->
-              </xsl:call-template>
-
-              <xsl:call-template name="issue-info">
-                <!-- handles issue?, issue-id*, issue-title*,
-                     issue-sponsor*, issue-part? -->
-              </xsl:call-template>
-
-              <xsl:call-template name="page-info">
-                <!-- handles (fpage, lpage?, page-range?) -->
-              </xsl:call-template>
-
-              <xsl:apply-templates mode="metadata" select="elocation-id"/>
-
-              <xsl:apply-templates mode="metadata" select="isbn"/>
-
-              <xsl:apply-templates mode="metadata"
-                select="supplement | related-article | conference"/>
-
-              <xsl:apply-templates mode="metadata" select="article-id"/>
-
-              <!-- only in 2.3 -->
-              <xsl:apply-templates mode="metadata" select="contract-num | contract-sponsor |
-                grant-num | grant-sponsor"/>
-                
-              <xsl:apply-templates mode="metadata" select="funding-group/*">
-                <!-- includes (award-group*, funding-statement*,
-                     open-access?) -->
-              </xsl:apply-templates>
-            </div>
-          </div>
-        </xsl:for-each>
-      </div>
-    </div>
-
+    <!-- Gerp deleted the metadata sections from the template -->
 
     <!-- Gerp adds journal title; issue; publication date -->
     
     <div class="metadata one-column table">
       <div class="row">
         <div class="cell spanning">
+          <!--
           <h4 class="generated">
             <xsl:text>Gerp Information</xsl:text>
           </h4>
+          -->
           <xsl:call-template name="gerp-meta-header"/>
         </div>
       </div>
@@ -518,7 +376,7 @@ or pipeline) parameterized.
         <xsl:apply-templates mode="metadata-inline" select="article-meta/issue"/>
         <text>(</text>
         <xsl:apply-templates mode="metadata-inline" select="article-meta/elocation-id"/>
-        <text>) |</text>
+        <text>) | </text>
 
         <!-- publication date -->
         <text>Published </text>
@@ -528,10 +386,20 @@ or pipeline) parameterized.
             <xsl:apply-templates mode="metadata-inline" select="."/>
           </xsl:if>
         </xsl:for-each>
-      <xsl:apply-templates mode="metadata" select="article-meta/article-id"/>
+
+        <!-- DOI -->
+        <xsl:for-each select= "article-meta/article-id">
+          <xsl:if test="@pub-id-type='doi'">
+            <xsl:call-template name="metadata-labeled-entry">
+              <xsl:with-param name="label">DOI</xsl:with-param>
+            </xsl:call-template>
+          </xsl:if>
+        </xsl:for-each>
+        
       </div>
     </xsl:template>
 
+ 
  
   <xsl:template name="footer-metadata">
     <!-- handles: article-categories, kwd-group, counts, 
