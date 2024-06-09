@@ -372,7 +372,6 @@ or pipeline) parameterized.
         <!-- journal information -->
         <xsl:apply-templates mode="metadata-inline" select="journal-meta/journal-title-group/journal-title"/>
         <xsl:apply-templates mode="metadata-inline" select="article-meta/volume"/>
-        <text>, </text>
         <xsl:apply-templates mode="metadata-inline" select="article-meta/issue"/>
         <text>(</text>
         <xsl:apply-templates mode="metadata-inline" select="article-meta/elocation-id"/>
@@ -764,9 +763,7 @@ or pipeline) parameterized.
   </xsl:template>
 
   <xsl:template match="volume" mode="metadata-inline">
-    <b>
-      <xsl:apply-templates/>
-    </b>
+    <xsl:apply-templates/>
   </xsl:template>
 
   <xsl:template match="issue" mode="metadata-inline">
