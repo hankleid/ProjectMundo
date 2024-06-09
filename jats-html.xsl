@@ -437,6 +437,21 @@ or pipeline) parameterized.
         </xsl:for-each>
       </div>
     </div>
+
+
+    <!-- Gerp adds journal title; issue; publication date -->
+    
+    <div class="metadata one-column table">
+      <div class="row">
+        <div class="cell spanning">
+          <h4 class="generated">
+            <xsl:text>Gerp Information</xsl:text>
+          </h4>
+          <xsl:call-template name="gerp-meta-header"/>
+        </div>
+      </div>
+    </div>
+
     
     <hr class="part-rule"/>
     
@@ -491,6 +506,31 @@ or pipeline) parameterized.
     
     <!-- end of big front-matter pull -->
   </xsl:template>
+
+
+  <xsl:template name="gerp-meta-header">
+      <div class="metadata-group">
+
+        <!-- journal information -->
+        <xsl:apply-templates mode="metadata-inline" select="journal-meta/journal-title-group/journal-title"/>
+        <xsl:apply-templates mode="metadata-inline" select="article-meta/volume"/>
+        <text>, </text>
+        <xsl:apply-templates mode="metadata-inline" select="article-meta/issue"/>
+        <text>(</text>
+        <xsl:apply-templates mode="metadata-inline" select="article-meta/elocation-id"/>
+        <text>) |</text>
+
+        <!-- publication date -->
+        <text>Published </text>
+        <xsl:for-each select="article-meta/pub-date">
+          <xsl:if test="position() = 1">
+          <!-- sometimes there are multiple pub dates but choose the first -->
+            <xsl:apply-templates mode="metadata-inline" select="."/>
+          </xsl:if>
+        </xsl:for-each>
+      <xsl:apply-templates mode="metadata" select="article-meta/article-id"/>
+      </div>
+    </xsl:template>
 
  
   <xsl:template name="footer-metadata">
@@ -845,6 +885,32 @@ or pipeline) parameterized.
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
+
+  <!-- gerp version - metadata inline mode for no line break -->
+  <xsl:template match="pub-date" mode="metadata-inline">
+    <xsl:call-template name="format-date"/>  
+  </xsl:template>
+
+  <xsl:template match="journal-title" mode="metadata-inline">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="volume" mode="metadata-inline">
+    <b>
+      <xsl:apply-templates/>
+    </b>
+  </xsl:template>
+
+  <xsl:template match="issue" mode="metadata-inline">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="elocation-id" mode="metadata-inline">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+
+  
 
 
   <xsl:template name="volume-info">
@@ -3815,7 +3881,7 @@ or pipeline) parameterized.
 
 
   <xsl:template match="month" mode="map">
-    <!-- maps numeric values to English months -->
+    
     <xsl:choose>
       <xsl:when test="number() = 1">January</xsl:when>
       <xsl:when test="number() = 2">February</xsl:when>
@@ -3834,6 +3900,9 @@ or pipeline) parameterized.
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+ 
+  
+
   
 
 <!-- ============================================================= -->
