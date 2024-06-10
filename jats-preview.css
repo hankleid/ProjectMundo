@@ -52,7 +52,7 @@ div.metadata div.cell {
 div.two-column div.cell {
     width: 50% }
 
-div.one-column div.cell.spanning { width: 80% }
+div.one-column div.cell.spanning { width: 100% }
 
 div.metadata-group { margin-top: 0.5em;
   font-size: 100% }

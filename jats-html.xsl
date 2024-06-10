@@ -1460,15 +1460,27 @@ or pipeline) parameterized.
   <xsl:template match="xref" mode="metadata-inline">
     <!-- These are not expected to appear in mixed content, so
       brackets are provided -->
-    <span class="generated">[</span>
-    <xsl:apply-templates select="."/>
-    <span class="generated">]</span>
+    <!-- gerp edits since nature comm doesnt include symbol for equal contrib.-->
+    <xsl:choose>
+      <xsl:when test="@rid='fn1'">
+        <sup>
+          <b>
+            <text>&#10033;</text>
+          </b>
+        </sup>
+      </xsl:when>
+      <xsl:otherwise>
+        <sup>
+          <xsl:apply-templates select="."/>
+        </sup>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
   
   <xsl:template match="contrib-id" mode="metadata-inline">
     <span class="generated">[</span>
     <xsl:apply-templates select="."/>
-    <span class="generated">] </span>
+    <span class="generated">]</span>
   </xsl:template>
   
   
@@ -2433,9 +2445,9 @@ or pipeline) parameterized.
   <xsl:template match="aff/label | corresp/label | chem-struct/label |
     element-citation/label | mixed-citation/label | citation/label">
     <!-- these labels appear in line -->
-    <span class="generated">[</span>
-    <xsl:apply-templates/>
-    <span class="generated">] </span>
+    <sup>
+      <xsl:apply-templates/>
+    </sup>
   </xsl:template>
 
 
@@ -2787,9 +2799,9 @@ or pipeline) parameterized.
 
 
   <xsl:template match="sup">
-    <sup>
-      <xsl:apply-templates/>
-    </sup>
+    <span class="generated">[</span>
+    <xsl:apply-templates/>
+    <span class="generated">]</span>
   </xsl:template>
 
 
@@ -3196,15 +3208,16 @@ or pipeline) parameterized.
   
   
   <xsl:template match="fn" mode="label-text">
+
     <xsl:param name="warning" select="boolean(key('xref-by-rid',@id))"/>
     <!-- pass $warning in as false() if a warning string is not wanted
-         (for example, if generating autonumbered labels);
-         by default, we get a warning only if we need a label for
-         a cross-reference -->
+        (for example, if generating autonumbered labels);
+        by default, we get a warning only if we need a label for
+        a cross-reference -->
     <!-- autonumber all fn elements outside fn-group,
-         front matter and table-wrap only if none of them 
-         have labels or @symbols (to keep numbering
-         orderly) -->
+        front matter and table-wrap only if none of them 
+        have labels or @symbols (to keep numbering
+        orderly) -->
     <xsl:variable name="in-scope-notes"
       select="ancestor::article//fn[not(parent::fn-group
       | ancestor::front
@@ -3223,6 +3236,7 @@ or pipeline) parameterized.
         <xsl:apply-templates select="@fn-type"/>
       </xsl:with-param>
     </xsl:call-template>
+
   </xsl:template>
 
   <xsl:template match="fn/@fn-type[.='abbr']" priority="2">
