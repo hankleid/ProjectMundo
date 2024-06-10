@@ -1348,8 +1348,8 @@ or pipeline) parameterized.
       </div>
       
       <!-- end of contrib -->
-      <xsl:variable name="misc-contrib-data"
-        select="*[not(self::contrib | self::xref)]"/>
+      <!-- gerp: somehow this is where the institutions are listed. -->
+      <xsl:variable name="misc-contrib-data" select="aff"/>
       <xsl:if test="$misc-contrib-data">
         <div class="metadata two-column table">
           <div class="row">
@@ -1527,7 +1527,19 @@ or pipeline) parameterized.
     <xsl:call-template name="metadata-entry">
       <xsl:with-param name="contents">
         <xsl:call-template name="named-anchor"/>
-        <xsl:apply-templates/>
+        <!-- gerp tidies up the institution information -->
+        <xsl:apply-templates select="label"/>
+        <xsl:apply-templates select="institution-wrap/institution[@content-type='org-division']"/>
+        <text>, </text>
+        <xsl:apply-templates select="institution-wrap/institution[@content-type='org-name']"/>
+        <text>, </text>
+        <xsl:apply-templates select="addr-line[@content-type='city']"/>
+        <text>, </text>
+        <xsl:apply-templates select="addr-line[@content-type='state']"/>
+        <text>, </text>
+        <xsl:apply-templates select="addr-line[@content-type='postcode']"/>
+        <text>, </text>
+        <xsl:apply-templates select="country"/>
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
