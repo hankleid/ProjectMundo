@@ -1353,13 +1353,13 @@ or pipeline) parameterized.
       <xsl:if test="$misc-contrib-data">
         <div class="metadata two-column table">
           <div class="row">
-          <div class="cell">&#160;</div>
           <div class="cell">
             <div class="metadata-group">
               <xsl:apply-templates mode="metadata"
                 select="$misc-contrib-data"/>
             </div>
           </div>
+          <div class="cell empty"/>
           </div>
         </div>
       </xsl:if>
@@ -1535,8 +1535,10 @@ or pipeline) parameterized.
         <text>, </text>
         <xsl:apply-templates select="addr-line[@content-type='city']"/>
         <text>, </text>
-        <xsl:apply-templates select="addr-line[@content-type='state']"/>
-        <text>, </text>
+        <xsl:if test="addr-line[@content-type='state']">
+          <xsl:apply-templates select="addr-line[@content-type='state']"/>
+          <text>, </text>
+        </xsl:if>
         <xsl:apply-templates select="addr-line[@content-type='postcode']"/>
         <text>, </text>
         <xsl:apply-templates select="country"/>
