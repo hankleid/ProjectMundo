@@ -1574,7 +1574,7 @@ or pipeline) parameterized.
 
   <xsl:template match="author-notes" mode="metadata">
     <xsl:call-template name="metadata-area">
-      <xsl:with-param name="label">Author notes</xsl:with-param>
+      
       <xsl:with-param name="contents">
         <xsl:call-template name="named-anchor"/>
         <xsl:apply-templates mode="metadata"/>
@@ -1596,11 +1596,14 @@ or pipeline) parameterized.
   <xsl:template match="author-notes/fn | author-notes/p" mode="metadata">
     <xsl:call-template name="metadata-labeled-entry">
       <xsl:with-param name="label">
-        <xsl:apply-templates select="@fn-type"/>
+        <!-- <xsl:apply-templates select="@fn-type"/> i dont want this --> 
       </xsl:with-param>
       <xsl:with-param name="contents">
         <xsl:call-template name="named-anchor"/>
-        <xsl:apply-templates/>
+        <!-- the present address thing is a bit ugly so i removed it -->
+        <xsl:if test="not(@fn-type='present-address')">
+          <xsl:apply-templates/>
+        </xsl:if>
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
@@ -3221,7 +3224,7 @@ or pipeline) parameterized.
   
   
   <xsl:template match="fn" mode="label-text">
-
+  
     <xsl:param name="warning" select="boolean(key('xref-by-rid',@id))"/>
     <!-- pass $warning in as false() if a warning string is not wanted
         (for example, if generating autonumbered labels);
@@ -3238,6 +3241,7 @@ or pipeline) parameterized.
     <xsl:variable name="auto-number-fn"
       select="not($in-scope-notes/label |
       $in-scope-notes/@symbol)"/>
+    
     <xsl:call-template name="make-label-text">
       <xsl:with-param name="auto" select="$auto-number-fn"/>
       <xsl:with-param name="warning" select="$warning"/>
