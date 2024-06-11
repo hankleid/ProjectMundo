@@ -1344,7 +1344,7 @@ or pipeline) parameterized.
               <xsl:call-template name="gerp-list-authors"/>
             </div>
             <div class="cell">
-              <xsl:apply-templates select="author-notes/corresp">
+              <xsl:apply-templates select="author-notes/corresp"/>
             </div>
           </div>
       </div>
