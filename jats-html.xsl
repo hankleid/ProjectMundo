@@ -1348,18 +1348,17 @@ or pipeline) parameterized.
       </div>
       
       <!-- end of contrib -->
-      <!-- gerp: somehow this is where the institutions are listed. -->
+      <!-- gerp: somehow / apparently this is where the institutions are listed. -->
       <xsl:variable name="misc-contrib-data" select="aff"/>
       <xsl:if test="$misc-contrib-data">
-        <div class="metadata two-column table">
+        <div class="metadata one-column table">
           <div class="row">
-          <div class="cell">
+          <div class="cell spanning">
             <div class="metadata-group">
               <xsl:apply-templates mode="metadata"
                 select="$misc-contrib-data"/>
             </div>
           </div>
-          <div class="cell empty"/>
           </div>
         </div>
       </xsl:if>
@@ -1530,17 +1529,17 @@ or pipeline) parameterized.
         <!-- gerp tidies up the institution information -->
         <xsl:apply-templates select="label"/>
         <xsl:apply-templates select="institution-wrap/institution[@content-type='org-division']"/>
-        <text>, </text>
+        <text>,</text>
         <xsl:apply-templates select="institution-wrap/institution[@content-type='org-name']"/>
-        <text>, </text>
+        <text>,</text>
         <xsl:apply-templates select="addr-line[@content-type='city']"/>
-        <text>, </text>
+        <text>,</text>
         <xsl:if test="addr-line[@content-type='state']">
           <xsl:apply-templates select="addr-line[@content-type='state']"/>
-          <text>, </text>
+          <text>,</text>
         </xsl:if>
         <xsl:apply-templates select="addr-line[@content-type='postcode']"/>
-        <text>, </text>
+        <text>,</text>
         <xsl:apply-templates select="country"/>
       </xsl:with-param>
     </xsl:call-template>
