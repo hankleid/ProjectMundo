@@ -1351,13 +1351,16 @@ or pipeline) parameterized.
       <!-- gerp: somehow / apparently this is where the institutions are listed. -->
       <xsl:variable name="misc-contrib-data" select="aff"/>
       <xsl:if test="$misc-contrib-data">
-        <div class="metadata one-column table">
+        <div class="metadata two-column table">
           <div class="row">
-          <div class="cell spanning">
+          <div class="cell">
             <div class="metadata-group">
               <xsl:apply-templates mode="metadata"
                 select="$misc-contrib-data"/>
             </div>
+          <div class="cell">
+            
+          </div>
           </div>
           </div>
         </div>
