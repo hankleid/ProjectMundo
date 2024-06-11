@@ -1338,14 +1338,12 @@ or pipeline) parameterized.
            (degrees)*,
            (address | aff | aff-alternatives | author-comment | bio | email |
             ext-link | on-behalf-of | role | uri | xref)*)       -->
-      <div class="metadata two-column table">
+      <div class="metadata one-column table">
           <div class="row">
-            <div class="cell">
+            <div class="cell spanning">
               <xsl:call-template name="gerp-list-authors"/>
             </div>
-            <div class="cell">
-              <xsl:apply-templates select="../author-notes/corresp"/>
-            </div>
+            
           </div>
       </div>
       
