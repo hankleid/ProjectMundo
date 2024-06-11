@@ -1587,7 +1587,7 @@ or pipeline) parameterized.
     <xsl:call-template name="metadata-labeled-entry">
       <xsl:with-param name="label">
         <xsl:call-template name="named-anchor"/>
-        <xsl:text>Correspondence to</xsl:text>
+        <!-- <xsl:text>Correspondence to</xsl:text> -->
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
@@ -1600,10 +1600,10 @@ or pipeline) parameterized.
       </xsl:with-param>
       <xsl:with-param name="contents">
         <xsl:call-template name="named-anchor"/>
-        <!-- the present address thing is a bit ugly so i removed it -->
-        <xsl:if test="not(@fn-type='present-address')">
-          <xsl:apply-templates/>
-        </xsl:if>
+        <!-- ignoring present address, equal contribution etc to simplify the design -->
+      
+        <!-- <xsl:apply-templates/> -->
+        
       </xsl:with-param>
     </xsl:call-template>
   </xsl:template>
