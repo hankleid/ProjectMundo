@@ -376,7 +376,7 @@ or pipeline) parameterized.
         <xsl:apply-templates mode="metadata-inline" select="article-meta/issue"/>
         <text>(</text>
         <xsl:apply-templates mode="metadata-inline" select="article-meta/elocation-id"/>
-        <text>) | </text>
+        <text>),</text>
 
         <!-- publication date -->
         <text>Published </text>
@@ -1468,20 +1468,22 @@ or pipeline) parameterized.
     <!-- These are not expected to appear in mixed content, so
       brackets are provided -->
     <!-- gerp edits since nature comm doesnt include symbol for equal contrib.-->
-    <xsl:choose>
-      <xsl:when test="@rid='fn1'">
-        <sup>
-          <b>
-            <text>&#10033;</text>
-          </b>
-        </sup>
-      </xsl:when>
-      <xsl:otherwise>
-        <sup>
-          <xsl:apply-templates select="."/>
-        </sup>
-      </xsl:otherwise>
-    </xsl:choose>
+    <xsl:if test="not(@ref-type='fn')">
+      <xsl:choose>
+        <xsl:when test="@rid='fn1'">
+          <sup>
+            <b>
+              <text>&#10033;</text>
+            </b>
+          </sup>
+        </xsl:when>
+        <xsl:otherwise>
+          <sup>
+            <xsl:apply-templates select="."/>
+          </sup>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template match="contrib-id" mode="metadata-inline">
