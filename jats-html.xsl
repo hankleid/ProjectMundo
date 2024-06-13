@@ -1353,17 +1353,17 @@ or pipeline) parameterized.
       <xsl:if test="$misc-contrib-data">
         <div class="metadata two-column table">
           <div class="row">
-          <div class="cell">
-            <div class="metadata-group">
-              <xsl:apply-templates mode="metadata"
-                select="$misc-contrib-data"/>
-            </div>
-          <div class="cell">
-            <!-- put corresp labels/emails on the side of the institutions -->
-            <div class="metadata-group">  
-              <xsl:apply-templates mode="metadata"
-                  select="../author-notes/corresp"/>
-            </div>
+            <div class="cell">
+              <div class="small-metadata-group">
+                <xsl:apply-templates mode="metadata"
+                  select="$misc-contrib-data"/>
+              </div>
+            <div class="cell">
+              <!-- put corresp labels/emails on the side of the institutions -->
+              <div class="small-metadata-group">  
+                <xsl:apply-templates mode="metadata"
+                    select="../author-notes/corresp"/>
+              </div>
           </div>
           </div>
           </div>
