@@ -1359,7 +1359,9 @@ or pipeline) parameterized.
                 select="$misc-contrib-data"/>
             </div>
           <div class="cell">
-            
+            <!-- put corresp labels/emails on the side of the institutions -->
+            <xsl:apply-templates mode="metadata"
+                select="../author-notes/corresp"/>
           </div>
           </div>
           </div>
