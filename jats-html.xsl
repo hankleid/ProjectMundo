@@ -1360,8 +1360,10 @@ or pipeline) parameterized.
             </div>
           <div class="cell">
             <!-- put corresp labels/emails on the side of the institutions -->
-            <xsl:apply-templates mode="metadata"
-                select="../author-notes/corresp"/>
+            <div class="metadata-group">  
+              <xsl:apply-templates mode="metadata"
+                  select="../author-notes/corresp"/>
+            </div>
           </div>
           </div>
           </div>
