@@ -1358,14 +1358,14 @@ or pipeline) parameterized.
                 <xsl:apply-templates mode="metadata"
                   select="$misc-contrib-data"/>
               </div>
+            </div>
             <div class="cell">
               <!-- put corresp labels/emails on the side of the institutions -->
               <div class="small-metadata-group">  
                 <xsl:apply-templates mode="metadata"
                     select="../author-notes/corresp"/>
               </div>
-          </div>
-          </div>
+            </div>
           </div>
         </div>
       </xsl:if>
