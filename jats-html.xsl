@@ -327,8 +327,9 @@ or pipeline) parameterized.
             <div class="cell empty"/>
             <div class="cell">
               <div class="metadata-group">
-                <xsl:apply-templates mode="metadata"
-                  select="aff | aff-alternatives | author-notes"/>
+              <!-- gerp removes this -->
+                <!-- <xsl:apply-templates mode="metadata"
+                  select="aff | aff-alternatives | author-notes"/> -->
               </div>
             </div>
             </div>
