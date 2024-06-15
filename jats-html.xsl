@@ -195,6 +195,9 @@ or pipeline) parameterized.
   <xsl:template name="make-html-header">
     <head>
       <title>
+      <script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
         <xsl:variable name="authors">
           <xsl:call-template name="author-string"/>
         </xsl:variable>
@@ -262,7 +265,8 @@ or pipeline) parameterized.
       <!-- $loose-footnotes is defined below as any footnotes outside
            front matter or fn-group -->
       <div id="{$this-article}-back" class="back">
-        <xsl:call-template name="make-back"/>
+      <!-- comment out the back -->
+        <!-- <xsl:call-template name="make-back"/> -->
       </div>
     </xsl:if>
 
@@ -280,8 +284,9 @@ or pipeline) parameterized.
 
     <!-- more metadata goes in the footer -->
     <div id="{$this-article}-footer" class="footer">
-      <xsl:call-template name="footer-metadata"/>
-      <xsl:call-template name="footer-branding"/>
+    <!-- removing the footer -->
+      <!-- <xsl:call-template name="footer-metadata"/> -->
+      <!-- <xsl:call-template name="footer-branding"/> -->
     </div>
 
     <!-- sub-article or response (recursively calls
