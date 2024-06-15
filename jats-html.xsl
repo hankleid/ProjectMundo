@@ -286,7 +286,7 @@ or pipeline) parameterized.
     <div id="{$this-article}-footer" class="footer">
     <!-- removing the footer -->
       <!-- <xsl:call-template name="footer-metadata"/> -->
-      <!-- <xsl:call-template name="footer-branding"/> -->
+      <xsl:call-template name="footer-branding"/>
     </div>
 
     <!-- sub-article or response (recursively calls
@@ -351,9 +351,9 @@ or pipeline) parameterized.
             <div class="metadata one-column table">
               <div class="row">
                 <div class="cell spanning">
-                  <div class="abstract">
-                    <xsl:apply-templates select="*[not(self::title)]"/>
-                  </div>
+                
+                  <xsl:apply-templates select="*[not(self::title)]"/>
+                  
                 </div>
                 
               </div>
@@ -2832,9 +2832,9 @@ or pipeline) parameterized.
 
 
   <xsl:template match="sup">
-    <span class="generated">[</span>
-    <xsl:apply-templates/>
-    <span class="generated">]</span>
+    <sup>
+      <xsl:apply-templates/>
+    </sup>
   </xsl:template>
 
 

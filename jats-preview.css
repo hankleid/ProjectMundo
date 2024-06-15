@@ -60,8 +60,6 @@ div.metadata-group { margin-top: 0.5em;
 div.small-metadata-group { margin-top: 0.5em;
   font-size: 60% }
 
-div.abstract { width: 70% }
-
 div.metadata-group > p, div.metadata-group > div { margin-top: 0.5em }
 
 div.metadata-area * { margin: 0em }
@@ -181,7 +179,7 @@ div.note { margin-top: 0em; margin-left: 1em;
 
 h5.label { margin-top: 0em; margin-bottom: 0em }
 
-p { margin-top: 0.5em; margin-bottom: 0em }
+p { margin-top: 0.5em; margin-bottom: 0em; line-height: 1.5; }
 
 p.first { margin-top: 0em }
 
