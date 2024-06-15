@@ -383,7 +383,7 @@ or pipeline) parameterized.
         <xsl:apply-templates mode="metadata-inline" select="article-meta/issue"/>
         <text>(</text>
         <xsl:apply-templates mode="metadata-inline" select="article-meta/elocation-id"/>
-        <text>),</text>
+        <text>), </text>
 
         <!-- publication date -->
         <text>Published </text>
