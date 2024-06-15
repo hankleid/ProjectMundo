@@ -60,6 +60,8 @@ div.metadata-group { margin-top: 0.5em;
 div.small-metadata-group { margin-top: 0.5em;
   font-size: 60% }
 
+div.abstract { width: 70% }
+
 div.metadata-group > p, div.metadata-group > div { margin-top: 0.5em }
 
 div.metadata-area * { margin: 0em }
@@ -80,7 +82,7 @@ div.footnote { font-size: 90% }
 /* rules */
 hr.part-rule {
     border: thin solid black;
-    width: 50%;
+    width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
     }

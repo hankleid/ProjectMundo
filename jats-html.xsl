@@ -346,7 +346,9 @@ or pipeline) parameterized.
             <div class="metadata one-column table">
               <div class="row">
                 <div class="cell spanning">
-                  <xsl:apply-templates select="*[not(self::title)]"/>
+                  <div class="abstract">
+                    <xsl:apply-templates select="*[not(self::title)]"/>
+                  </div>
                 </div>
                 
               </div>
@@ -361,7 +363,7 @@ or pipeline) parameterized.
               <xsl:apply-templates mode="metadata" select="."/>
             </div>
       </xsl:for-each>
-        <hr class="part-rule"/>
+        <hr class="section-rule"/>
     
     <!-- end of big front-matter pull -->
   </xsl:template>
