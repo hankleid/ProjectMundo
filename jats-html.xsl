@@ -1363,17 +1363,18 @@ or pipeline) parameterized.
       <xsl:if test="$misc-contrib-data">
         <div class="metadata two-column table">
           <div class="row">
-            <div class="cell">
-              <div class="small-metadata-group">
-                <xsl:apply-templates mode="metadata"
-                  select="$misc-contrib-data"/>
+            <div class="small-metadata-group">
+              <div class="cellleft">
+                
+                  <xsl:apply-templates mode="metadata"
+                    select="$misc-contrib-data"/>
+            
               </div>
-            </div>
-            <div class="cell">
-              <!-- put corresp labels/emails on the side of the institutions -->
-              <div class="small-metadata-group">  
-                <xsl:apply-templates mode="metadata"
-                    select="../author-notes/corresp"/>
+              <div class="cellright">
+                <!-- put corresp labels/emails on the side of the institutions --> 
+                  <xsl:apply-templates mode="metadata"
+                      select="../author-notes/corresp"/>
+
               </div>
             </div>
           </div>
@@ -2356,9 +2357,8 @@ or pipeline) parameterized.
           </p>
         </div>
         <div class="ref-content cell">
-          <!-- gerp formats the reference list items -->
+          <!-- todo: gerp formats the reference list items -->
           <xsl:apply-templates/>
-          <text>Hello World!</text>
         </div>
       </div>
   </xsl:template>
