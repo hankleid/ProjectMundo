@@ -82,6 +82,25 @@ def parse_par(this_par):
     new_par.p.extend(sentences)
     return new_par.p
 
+
+def translate(xml, tl, language, text=False):
+    # translates the chunk in place.
+        # xml: article to translate
+        # tl: Translator object
+        # language: language to translate to
+        # text (bool): true if only want to translate string, not whole xml obj.
+    
+    if text:
+        result = tl.translate_text(xml.string, language)
+        xml.clear()
+        xml.append(result)
+    else:
+        # translate entire xml
+        result = tl.translate_xml(xml, language)
+        new_xml = BeautifulSoup(result, features="xml")
+        xml.clear()
+        xml.extend(new_xml)
+
 def translate_article(xml, tl, language):
     # edits xml in place with translated text.
         # xml: article to translate
@@ -90,32 +109,37 @@ def translate_article(xml, tl, language):
 
     front = xml.front
     body = xml.body
+    back = xml.back
 
     title = front.find('article-title')
-    new_title = tl.translate_text(title.string, language)
-    title.clear()
-    title.append(new_title)
+    translate(title,tl,language,text=True)
 
     ab = front.find('abstract')
-    translated_ab = tl.translate_xml(ab, language)
-    print(translated_ab)
-    new_ab = BeautifulSoup(translated_ab, features="xml")
-    ab.clear()
-    ab.extend(new_ab)
+    translate(ab,tl,language)
 
+    # Restructure the sentences.
     for p in body.find_all('p'):
         formatted_p = parse_par(p)
         p.clear()
         p.extend(formatted_p.contents)
 
+    # Translate the body.
     for sec in body.find_all('sec'):
-        translated_sec = tl.translate_xml(sec, language)
-        new_sec = BeautifulSoup(translated_sec, features="xml")
-        sec.clear()
-        sec.extend(new_sec.contents)
+        translate(sec,tl,language)
+
+    # Translate acknowledgements and author contributions.
+    ack = back.find('ack')
+    translate(ack,tl,language)
+    contr = back.find('sec', {'sec-type': 'author-contribution'})
+    translate(contr,tl,language)
+
+    # Translate the (sub)titles in case they were missed.
+    for title in data.find_all('title'):
+        translate(title,tl,language,text=True)
+
 
 def filename_from_DOI(xml):
-    doi = xml.front.find("article-meta").findAll("article-id", {"pub-id-type": "doi"})[0].string
+    doi = xml.front.find('article-meta').find('article-id', {'pub-id-type': 'doi'}).string
     _ = doi.replace('/','_')
     filename = _.replace('.','X')
     return filename

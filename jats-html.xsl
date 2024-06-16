@@ -2871,7 +2871,7 @@ or pipeline) parameterized.
     <xsl:if test="not(fn-group) and $loose-footnotes">
       <xsl:call-template name="footnotes"/>
     </xsl:if>
-    <xsl:apply-templates/>
+    <xsl:apply-templates select="ack | ref-list"/>
   </xsl:template>
   
   
