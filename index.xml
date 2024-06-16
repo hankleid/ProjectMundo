@@ -61,7 +61,7 @@
    </article-categories>
    <title-group>
     <article-title xml:lang="en">
-     Crecimiento de materiales bidimensionales mediante ingeniería de deformación
+     이차원 물질의 변형 공학적 성장
     </article-title>
    </title-group>
    <contrib-group>
@@ -517,18 +517,18 @@
    </permissions>
    <abstract id="Abs1" xml:lang="en">
     <title>
-     Resumen
+     초록
     </title>
     <p id="Par1">
-     La aplicación de tensión a los semiconductores permite la modificación controlada de su estructura de bandas. Este principio se emplea para la fabricación de dispositivos que van desde transistores de alto rendimiento hasta láseres de estado sólido. Tradicionalmente, la tensión se logra típicamente mediante el crecimiento en sustratos con desajuste de red. Para los semiconductores bidimensionales (2D), esto no es factible ya que típicamente no interactúan epitaxialmente con el sustrato. Aquí, demostramos la ingeniería de tensión controlada de semiconductores 2D durante la síntesis utilizando la discrepancia del coeficiente de expansión térmica entre el sustrato y el semiconductor. Usando WSe
+     반도체에 변형을 가하는 것은 밴드 구조를 제어된 방식으로 수정할 수 있게 합니다. 이 원리는 고성능 트랜지스터에서 고체 레이저에 이르는 장치 제조에 사용됩니다. 전통적으로 변형은 격자 불일치 기판에서의 성장을 통해 달성됩니다. 이차원(2D) 반도체의 경우, 기판과 상호작용하지 않기 때문에 이는 실현 불가능합니다. 여기서 우리는 기판과 반도체 간의 열팽창 계수 불일치를 이용하여 합성 중 2D 반도체의 제어된 변형 엔지니어링을 시연합니다. WSe
      <sub>
       2
      </sub>
-     como sistema modelo, demostramos tensiones incorporadas estables que van desde 1% de tracción hasta 0.2% de compresión en sustratos con diferentes coeficientes de expansión térmica. En consecuencia, observamos una modulación dramática de la estructura de bandas, manifestada por una transición de banda prohibida indirecta a directa impulsada por la tensión y el brillo del excitón oscuro en WSe
+     를 모델 시스템으로 사용하여, 서로 다른 열팽창 계수를 가진 기판에서 1% 인장에서 0.2% 압축까지 안정적인 내장 변형을 시연합니다. 그 결과, 변형에 의해 간접 밴드갭에서 직접 밴드갭으로의 전환과 이중층 및 단일층 WSe
      <sub>
       2
      </sub>
-     de doble capa y monocapa, respectivamente. El método de crecimiento desarrollado aquí debería permitir flexibilidad en el diseño de dispositivos más sofisticados basados en materiales 2D.
+     에서 어두운 엑시톤의 밝아짐으로 나타나는 밴드 구조의 극적인 변조를 관찰합니다. 여기서 개발된 성장 방법은 2D 재료를 기반으로 한 더 정교한 장치 설계의 유연성을 가능하게 할 것입니다.
     </p>
    </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" specific-use="web-only" xml:lang="en">
@@ -823,10 +823,10 @@
  <body>
   <sec id="Sec1" sec-type="introduction">
    <title>
-    Introducción
+    소개
    </title>
    <p id="Par3">
-    Los dicalcogenuros de metales de transición bidimensionales (2D) (TMDCs) han sido objeto de investigación enfocada debido a sus aplicaciones potenciales en optoelectrónica y transistores de menos de 10 nm
+    이차원(2D) 전이 금속 디칼코게나이드(TMDCs)는 광전자공학 및 10nm 이하 트랜지스터에 대한 잠재적 응용 가능성으로 인해 집중적인 연구의 대상이 되어 왔습니다
     <sup>
      <xref ref-type="bibr" rid="CR1">
       1
@@ -836,15 +836,15 @@
       2
      </xref>
     </sup>
-    . La principal atracción de los TMDCs como MoS
+    . MoS
     <sub>
      2
     </sub>
-    y WSe
+    및 WSe
     <sub>
      2
     </sub>
-    para ambas aplicaciones es su superficie naturalmente terminada, lo que les permite reducirse al límite atómico sin la preocupación de enlaces colgantes en la superficie. Además, en muchos materiales 2D, emergen una serie de propiedades deseables en el límite de monocapa, siendo la más notable la presencia de una banda prohibida directa. Muchos estudios basados en la flexión mecánica de TMDCs 2D exfoliados se han realizado en sustratos flexibles, y han demostrado que la aplicación de tensión puede ajustar las propiedades de esta nueva clase de materiales
+    와 같은 TMDCs의 주요 매력은 자연적으로 종결된 표면으로, 표면 매달린 결합에 대한 걱정 없이 원자 한계까지 축소할 수 있다는 점입니다. 더욱이, 많은 2D 재료에서 단일층 한계에서 직접 밴드갭의 존재와 같은 여러 바람직한 특성이 나타납니다. 박리된 2D TMDCs의 기계적 굽힘을 기반으로 한 많은 연구가 유연한 기판에서 수행되었으며, 이러한 새로운 종류의 재료의 특성을 조정할 수 있음을 보여주었습니다
     <sup>
      <xref ref-type="bibr" rid="CR3">
       3
@@ -862,24 +862,24 @@
       6
      </xref>
     </sup>
-    . Por ejemplo, se ha demostrado que en WSe
+    . 예를 들어, 다층 WSe
     <sub>
      2
     </sub>
-    multicapa, particularmente en WSe
+    , 특히 명목상 간접 갭 이중층 WSe
     <sub>
      2
     </sub>
-    bicapa nominalmente de banda prohibida indirecta, la aplicación de tensión de tracción puede resultar en una transición de una banda prohibida indirecta a una directa
+    에서 인장 변형의 적용이 간접-직접 밴드갭 전환을 초래할 수 있음이 입증되었습니다
     <sup>
      <xref ref-type="bibr" rid="CR7">
       7
      </xref>
     </sup>
-    . Sin embargo, los estudios sobre los efectos de la tensión en los TMDCs se han limitado a la flexión mecánica de muestras, y aún no existe una técnica que pueda realizar directamente tensiones de tracción y compresión incorporadas.
+    . 그러나 TMDCs에서 변형의 효과에 대한 연구는 샘플의 기계적 굽힘에 국한되어 있으며, 내장된 인장 및 압축 변형을 직접적으로 실현할 수 있는 기술은 아직 없습니다.
    </p>
    <p id="Par4">
-    Tradicionalmente, la ingeniería de tensión de semiconductores se ha aprovechado para ajustar la estructura de bandas electrónicas de dispositivos de alto rendimiento, siendo la más notable la reducción de la dispersión entre valles, el aumento de la movilidad en transistores de Si y la reducción de la masa efectiva de los agujeros en láseres de semiconductores III–V
+    전통적으로 반도체의 변형 공학은 고성능 장치의 전자 밴드 구조를 조정하기 위해 활용되어 왔으며, 가장 주목할 만한 것은 간극 산란을 줄이고, Si 트랜지스터의 이동성을 증가시키며, III-V 반도체 레이저에서 홀 유효 질량을 줄이는 것입니다
     <sup>
      <xref ref-type="bibr" rid="CR8">
       8
@@ -889,13 +889,13 @@
       9
      </xref>
     </sup>
-    . El crecimiento en sustratos epitaxiales con un desajuste controlado de la constante de red se ha utilizado típicamente para establecer tensión incorporada en semiconductores tridimensionales
+    . 제어된 격자 상수 불일치를 가진 에피택셜 기판에서의 성장은 일반적으로 3차원 반도체에서 내장된 변형을 확립하기 위해 사용되었습니다
     <sup>
      <xref ref-type="bibr" rid="CR10">
       10
      </xref>
     </sup>
-    . Sin embargo, debido a la interacción relativamente débil entre los materiales 2D y los sustratos, es probable que este método establecido de ingeniería de tensión no sea aplicable para el crecimiento de TMDCs con tensión incorporada. Por lo tanto, es muy deseable una ruta hacia el desarrollo de TMDCs con tensión en áreas grandes sobre un sustrato práctico. Se han realizado esfuerzos de investigación significativos para lograr TMDCs de gran área, con la mayoría de los esfuerzos centrados en la deposición química de vapor (CVD)
+    . 그러나 2D 재료와 기판 간의 상대적으로 약한 상호작용으로 인해, 이 확립된 변형 공학 방법은 TMDCs의 변형 공학적 성장을 위해 적용될 가능성이 낮습니다. 따라서 실용적인 기판에서 대면적 변형 TMDCs의 개발을 위한 경로가 매우 바람직합니다. 대면적 TMDCs를 실현하기 위한 상당한 연구 노력이 이루어졌으며, 대부분의 노력은 화학 기상 증착(CVD)에 중점을 두고 있습니다
     <sup>
      <xref ref-type="bibr" rid="CR11">
       11
@@ -909,7 +909,7 @@
       13
      </xref>
     </sup>
-    . Curiosamente, varios estudios que emplean el crecimiento por CVD de materiales 2D han reportado tensión aparente en las muestras sintetizadas
+    . 흥미롭게도, 2D 재료의 CVD 성장을 사용하는 여러 연구에서 합성된 샘플에서 명백한 변형이 보고되었습니다
     <sup>
      <xref ref-type="bibr" rid="CR14">
       14
@@ -919,43 +919,43 @@
       15
      </xref>
     </sup>
-    . Sin embargo, no se ha logrado el crecimiento de materiales 2D de alta calidad con tensión incorporada controlable. Por lo tanto, las propiedades que son difíciles de sondear mediante experimentos de flexión mecánica, como las mediciones ópticas a baja temperatura y el rendimiento eléctrico, aún no se han explorado.
+    . 그러나 제어 가능한 내장 변형을 가진 고품질 2D 재료의 성장은 실현되지 않았습니다. 따라서 저온 광학 측정 및 전기적 성능과 같은 기계적 굽힘 실험을 통해 탐구하기 어려운 특성은 아직 탐구되지 않았습니다.
    </p>
    <p id="Par5">
-    En este trabajo, demostramos la ingeniería de tensión de materiales 2D directamente a través del crecimiento por CVD mientras se mantiene simultáneamente una alta calidad del material, utilizando la desajuste del coeficiente de expansión térmica (TCE) entre el TMDC y el sustrato de crecimiento. La difracción de electrones de monocapas tensadas crecidas directamente sobre ventanas de microscopía electrónica de transmisión (TEM) se utiliza para cuantificar inequívocamente la tensión. Usando WSe
+    이 연구에서는 TMDC와 성장 기판 간의 열 팽창 계수(TCE) 불일치를 활용하여 고품질 재료를 유지하면서 CVD 성장을 통해 2D 재료의 변형 공학을 직접적으로 시연합니다. 전자 현미경(TEM) 창에 직접 성장된 변형 단일층의 전자 회절을 사용하여 변형을 명확하게 정량화합니다. WSe
     <sub>
      2
     </sub>
-    como un sistema modelo, mostramos que es posible obtener semiconductores 2D tensados tanto de tracción (~ 1%) como de compresión (0.2%) en áreas grandes sobre sustratos rígidos. Además, en el sistema modelo de WSe
+    를 모델 시스템으로 사용하여, 단단한 기판에서 대면적의 인장(~1%) 및 압축(0.2%) 변형 2D 반도체를 얻을 수 있음을 보여줍니다. 더욱이, WSe
     <sub>
      2
     </sub>
-    mostramos la transición óptica de indirecta a directa en bicapas de WSe
+    모델 시스템에서 인장 변형 WSe
     <sub>
      2
     </sub>
-    tensadas por tracción, así como la eliminación del apagado de excitones oscuros en monocapas de WSe
+    이중층에서 간접-직접 광학 전환 및 WSe
     <sub>
      2
     </sub>
-    .
+    단일층에서 어두운 엑시톤 소멸 제거를 보여줍니다.
    </p>
   </sec>
   <sec id="Sec2" sec-type="results">
    <title>
-    Resultados
+    결과
    </title>
    <sec id="Sec3">
     <title>
-     Deformación inducida por desajuste de TCE
+     TCE 불일치로 인한 변형
     </title>
     <p id="Par6">
-     Debido a las altas temperaturas de crecimiento utilizadas para sintetizar TMDCs, el desajuste de TCE entre el sustrato y el semiconductor 2D puede ser utilizado para controlar la deformación en el material 2D sintetizado, como se muestra esquemáticamente en la Fig.
+     TMDC를 합성하는 데 사용되는 높은 성장 온도로 인해, 기판과 2D 반도체 간의 TCE 불일치를 이용하여 합성된 2D 재료의 변형을 제어할 수 있습니다. 이는 도식적으로 Fig.
      <xref ref-type="fig" rid="Fig1">
       1
      </xref>
      <sup/>
-     . El límite superior teórico para la deformación, asumiendo que no hay relajación, puede ser calculado usando la diferencia en la constante de red del sustrato y el semiconductor 2D a temperatura ambiente y temperatura de síntesis:
+     에 나타나 있습니다. 이론적으로, 이완이 없다고 가정할 때 변형의 상한은 실온과 합성 온도에서 기판과 2D 반도체의 격자 상수 차이를 사용하여 계산할 수 있습니다:
      <disp-formula id="Equ1">
       <label>
        1
@@ -1020,6 +1020,43 @@
           <mo>
            -
           </mo>
+          <msub>
+           <mrow>
+            <mi>
+             a
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
+             2
+            </mn>
+            <mi mathvariant="normal">
+             D
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
+             25
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
+               ∘
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
+             C
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow>
           <msub>
            <mrow>
             <mi>
@@ -1143,42 +1180,42 @@
        <graphic href="41467_2017_516_Article_Equ1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </disp-formula>
-     donde
+     여기서
      <italic>
       a
      </italic>
      <sub>
       2D
      </sub>
-     es la constante de red en el plano para el material 2D que se está creciendo,
+     는 성장 중인 2D 재료의 평면 내 격자 상수이고,
      <italic>
       a
      </italic>
      <sub>
       Sub
      </sub>
-     es la constante de red en el plano del sustrato, y
+     는 기판의 평면 내 격자 상수이며,
      <italic>
       T
      </italic>
      <sub>
       g
      </sub>
-     es la temperatura de crecimiento. Más generalmente, esto puede ser calculado usando el coeficiente de expansión térmica dependiente de la temperatura para el material 2D (
+     는 성장 온도입니다. 보다 일반적으로, 이는 2D 재료(
      <italic>
       α
      </italic>
      <sub>
       2D
      </sub>
-     ) y el sustrato (
+     )와 기판(
      <italic>
       α
      </italic>
      <sub>
       Sub
      </sub>
-     ) de acuerdo a:
+     )의 온도 의존적 열팽창 계수를 사용하여 다음과 같이 계산할 수 있습니다:
      <disp-formula id="Equ2">
       <label>
        2
@@ -1359,38 +1396,38 @@
      </disp-formula>
      <fig id="Fig1" position="float">
       <label>
-       Fig. 1
+       그림 1
       </label>
       <caption xml:lang="en">
        <p>
-        Crecimiento de WSe
+        TCE 불일치를 이용한 WSe
         <sub>
          2
         </sub>
-        con ingeniería de deformación utilizando desajuste de TCE. Esquema del proceso a través del cual se realiza la deformación durante el crecimiento de materiales 2D mediante desajuste en el coeficiente de expansión térmica del sustrato y TMDC.
+        의 변형 엔지니어링 성장. 기판과 TMDC 열팽창 계수의 불일치를 통해 2D 재료의 성장 중에 변형이 실현되는 과정을 도식적으로 나타낸 것입니다.
         <bold>
          a
         </bold>
-        Se logra deformación tensil cuando el TCE del sustrato es menor que el del material 2D,
+        기판의 TCE가 2D 재료보다 작을 때 인장 변형이 발생하고,
         <bold>
          b
         </bold>
-        se logran muestras relajadas cuando el TCE del sustrato y el material 2D coinciden, y
+        기판과 2D 재료의 TCE가 일치할 때 이완된 샘플이 얻어지며,
         <bold>
          c
         </bold>
-        se logra deformación compresiva cuando el TCE del sustrato es mayor que el del material 2D
+        기판의 TCE가 2D 재료보다 클 때 압축 변형이 발생합니다.
        </p>
       </caption>
       <graphic href="MediaObjects/41467_2017_516_Fig1_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par7">
-     Para retener la deformación generada por el desajuste de TCE, la unión entre la capa 2D y el sustrato debe ser lo suficientemente fuerte y corrugada para mantener la condición de no deslizamiento que transmite la deformación a la capa. Aunque se espera que surjan deformaciones de esta magnitud durante el crecimiento epitaxial, es difícil ver cómo puede surgir una deformación similar en películas unidas por fuerzas de van der Waals a un sustrato amorfo. Experimentalmente, la corrugación en la película debe ser lo suficientemente grande para retener la deformación al enfriarse. Para estimar la magnitud de la corrugación necesaria para sostener la deformación, analizamos un modelo de Frenkel-Kontorova 2D, mostrado en la Nota Suplementaria
+     TCE 불일치로 생성된 변형을 유지하려면, 2D 층과 기판 간의 결합이 충분히 강하고 주름져서 변형을 층에 전달하는 비슬립 조건을 유지해야 합니다. 이러한 크기의 변형이 에피택셜 성장 중에 발생할 것으로 예상되지만, 비정질 기판에 반데르발스 힘으로 결합된 필름에서 유사한 변형이 발생하는 것은 어렵습니다. 실험적으로, 필름의 주름은 냉각 시 변형을 유지할 수 있을 만큼 커야 합니다. 변형을 유지하기 위해 필요한 주름의 크기를 추정하기 위해, 보충 자료 노트
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
-     y la Fig. Suplementaria
+     및 보충 그림
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
@@ -1399,25 +1436,21 @@
        16
       </xref>
      </sup>
-     . Este modelo sugiere que variaciones en la energía de enlace atómico de tan solo 14 meV en el rango de la celda unitaria son capaces de retener deformaciones de la magnitud de las observadas experimentalmente. Esta variación es ~ 1% de la fuerza típica de un enlace covalente, y muy cercana a la fuerza típica de un enlace de van der Waals. Aunque se necesita desarrollar una teoría más detallada, especialmente para entender la química de la superficie inmediatamente antes del crecimiento para determinar la naturaleza de la unión, este análisis simple sugiere que el desajuste de expansión térmica puede deformar una película, incluso en el caso de una unión débil entre la película y el sustrato. Cabe señalar que en un estudio previo, se utilizó el calentamiento local de MoS
+     에 나타난 2D Frenkel–Kontorova 모델을 분석했습니다. 이 모델은 단위 셀 범위 내에서 14 meV 정도의 원자 결합 에너지 변동이 실험적으로 관찰된 크기의 변형을 유지할 수 있음을 시사합니다. 이 변동은 일반적인 공유 결합 강도의 약 1%이며, 반데르발스 결합의 일반적인 강도에 매우 가깝습니다. 보다 상세한 이론이 개발되어야 하며, 특히 성장 직전의 표면 화학을 이해하여 결합의 성질을 결정해야 하지만, 이 간단한 분석은 필름과 기판 간의 약한 결합의 경우에도 열팽창 불일치가 필름에 변형을 줄 수 있음을 시사합니다. 이전 연구에서는 레이저를 사용하여 MoS
      <sub>
       2
      </sub>
-     usando un láser para generar deformaciones de hasta 0.2% derivadas del desajuste de TCE de MoS
-     <sub>
-      2
-     </sub>
-     con el sustrato
+     의 국부 가열을 통해 기판과의 TCE 불일치로 인해 최대 0.2%의 변형을 생성한 바 있습니다
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
       </xref>
      </sup>
-     . Aunque este método no genera deformaciones incorporadas (la deformación se libera una vez que se apaga el láser), sugiere que la unión MoS
+     . 이 방법은 내장된 변형을 생성하지 않지만(레이저가 꺼지면 변형이 해제됨), MoS
      <sub>
       2
      </sub>
-     -sustrato es lo suficientemente fuerte como para permitir la ingeniería de deformación inducida por desajuste de TCE
+     -기판 결합이 TCE 불일치로 인한 변형 엔지니어링을 가능하게 할 만큼 강하다는 것을 시사합니다
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
@@ -1426,15 +1459,15 @@
      .
     </p>
     <p id="Par8">
-     Para demostrar el crecimiento CVD con ingeniería de deformación de WSe
+     WSe
      <sub>
       2
      </sub>
-     , se eligieron cuatro sustratos, que tienen un rango de TCEs. La sílice fundida y el nitruro de aluminio (AlN) tienen un TCE de 0.55 y 5.5 ppm, respectivamente, mucho menor que el de WSe
+     의 변형 엔지니어링 CVD 성장을 시연하기 위해, 다양한 TCE를 가진 네 가지 기판을 선택했습니다. 융합 실리카와 알루미늄 나이트라이드(AlN)는 각각 0.55 및 5.5 ppm의 TCE를 가지며, 이는 WSe
      <sub>
       2
      </sub>
-     (9.5 ± 3.2 ppm), y se esperaría que induzcan deformación tensil
+     (9.5 ± 3.2 ppm)보다 훨씬 작아 인장 변형을 유도할 것으로 예상됩니다
      <sup>
       <xref ref-type="bibr" rid="CR3">
        3
@@ -1460,11 +1493,11 @@
        22
       </xref>
      </sup>
-     . En contraste, el zafiro tiene un TCE que coincide estrechamente con el de WSe
+     . 반면, 사파이어는 WSe
      <sub>
       2
      </sub>
-     y se esperaría que produzca muestras relajadas, y el titanato de estroncio (STO) con un TCE de 12 ppm debería producir muestras con deformación compresiva
+     와 TCE가 거의 일치하여 이완된 샘플을 생성할 것으로 예상되며, TCE가 12 ppm인 스트론튬 타이타네이트(STO)는 압축 변형된 샘플을 생성할 것으로 예상됩니다
      <sup>
       <xref ref-type="bibr" rid="CR20">
        20
@@ -1478,65 +1511,35 @@
        24
       </xref>
      </sup>
-     . La muestra fue enfriada rápidamente después del crecimiento para limitar la relajación en el WSe
+     . 샘플은 WSe
      <sub>
       2
      </sub>
+     의 이완을 제한하기 위해 성장 후 급속 냉각되었습니다
      <sup/>
-     . Es importante notar que se encontró que el proceso de enfriamiento rápido es importante para mantener la presencia de deformación, y el retraso en el paso de enfriamiento puede resultar en una relajación parcial del material 2D.
+     . 급속 냉각 과정이 변형의 존재를 유지하는 데 중요하다는 점을 주목해야 하며, 냉각 단계의 지연은 2D 재료의 부분적 이완을 초래할 수 있습니다.
     </p>
    </sec>
-   <sec id="Sec4">
-    <title>
-     Caracterización de la deformación y calidad del material
-    </title>
-    <p id="Par9">
-     Para caracterizar la deformación presente en el material tal como se creció, se utilizaron múltiples métodos de caracterización. Primero, se realizó difracción de electrones en WSe
-     <sub>
-      2
-     </sub>
-     tal como se creció en rejillas TEM de SiO
-     <sub>
-      2
-     </sub>
-     y WSe
-     <sub>
-      2
-     </sub>
-     transferido a rejillas TEM de SiO
-     <sub>
-      2
-     </sub>
-     . Los patrones de difracción resultantes se muestran en las Figs.
-     <xref ref-type="fig" rid="Fig2">
-      2a–c
-     </xref>
-     <sup/>
-     . En todas las mediciones de difracción TEM en WSe
-     <sub>
-      2
-     </sub>
-    </p>
-   </sec>
+   <sec id="Sec4"/>
   </sec>
   <sec id="Sec6" sec-type="discussion">
    <title>
-    Discusión
+    토론
    </title>
    <p id="Par14">
-    En resumen, hemos demostrado la ingeniería de deformación controlada y estable de materiales 2D mediante el crecimiento, realizado a través de la desajuste de TCE entre el sustrato y el material 2D. La ingeniería de deformación demostrada permite una modulación dramática de las propiedades físicas de los materiales 2D. Usando WSe
+    요약하자면, 우리는 기판과 2D 물질 간의 TCE 불일치를 통해 성장에 의해 제어되고 안정적인 2D 물질의 변형 공학을 입증했습니다. 입증된 변형 공학은 2D 물질의 물리적 특성의 극적인 변조를 가능하게 합니다. WSe
     <sub>
      2
     </sub>
-    como un sistema modelo, hemos logrado una transición óptica inducida por deformación de indirecta a directa en una bicapa de WSe
+    를 모델 시스템으로 사용하여, 직접 성장한 WSe
     <sub>
      2
     </sub>
-    crecida directamente, resultando en una amplificación de la intensidad de PL por más de cincuenta veces. También hemos mostrado emisión de PL ajustable de la monocapa de WSe
+    이중층에서 변형 유도 간접-직접 광학 전이를 달성하여 PL 강도를 50배 이상 증폭시켰습니다. 또한, 높은 성능을 유지하면서 WSe
     <sub>
      2
     </sub>
-    , manteniendo su alto rendimiento. Notablemente, en el caso de la monocapa bajo deformación tensil, observamos un aumento de la luminiscencia a temperaturas reducidas, en marcado contraste con lo que se ha reportado en el material exfoliado sin deformación, sugiriendo que la deformación puede ser utilizada para iluminar el excitón oscuro. Esta ruta práctica para la realización directa de la ingeniería de deformación en materiales 2D puede permitir la caracterización de las propiedades del dispositivo en función de la deformación, así como habilitar mediciones ópticas que no son accesibles a muestras deformadas por flexión o estiramiento físico. Nuestro trabajo muestra que se pueden obtener deformaciones biaxiales de 1% tensil a 0.2% compresiva utilizando diferencias fácilmente alcanzables en los coeficientes de expansión térmica eligiendo un sustrato de crecimiento apropiado. Al expandir este método, puede ser posible obtener deformación uniaxial mediante el crecimiento en sustratos con coeficientes de expansión térmica anisotrópicos o obtener valores de deformación significativamente más altos mediante el crecimiento en sustratos piezoeléctricos
+    단층의 조정 가능한 PL 방출을 보여주었습니다. 특히, 인장 변형 하의 단층의 경우, 온도가 낮아질수록 발광이 증가하는 것을 관찰했으며, 이는 변형되지 않은 박리된 물질에서 보고된 것과는 현저히 대조적이며, 변형이 어두운 엑시톤을 밝히는 데 사용될 수 있음을 시사합니다. 2D 물질에서 변형 공학을 직접 실현하는 이 실용적인 경로는 변형의 함수로서 장치 특성의 특성을 가능하게 하며, 물리적 굽힘이나 스트레칭에 의해 변형된 샘플에서는 접근할 수 없는 광학 측정을 가능하게 합니다. 우리의 연구는 적절한 성장 기판을 선택함으로써 쉽게 달성할 수 있는 열팽창 계수의 차이를 사용하여 1% 인장에서 0.2% 압축의 이축 변형을 얻을 수 있음을 보여줍니다. 이 방법을 확장함으로써, 이방성 열팽창 계수를 가진 기판에서의 성장을 통해 단축 변형을 얻거나 압전 기판에서의 성장을 통해 훨씬 더 높은 변형 값을 얻을 수 있을 것입니다
     <sup>
      <xref ref-type="bibr" rid="CR34">
       34
@@ -1551,63 +1554,64 @@
   </sec>
   <sec id="Sec7" sec-type="materials|methods">
    <title>
-    Métodos
+    Methods
    </title>
    <sec id="Sec8">
     <title>
-     Crecimiento del material
+     Material growth
     </title>
     <p id="Par15">
      WSe
      <sub>
       2
      </sub>
-     se creció en varios sustratos con coeficientes de expansión térmica variables utilizando CVD. Específicamente, el crecimiento se realizó en sílice fundida (amorfa), nitruro de aluminio (plano c), zafiro (plano c) o titanato de estroncio (&lt;100&gt;); todos los sustratos eran de grado electrónico y tenían una rugosidad superficial cuadrática media de &lt;10 Å. Los sustratos se limpiaron primero mediante sonicación en acetona y alcohol isopropílico durante 10 minutos. El crecimiento se llevó a cabo utilizando un horno de dos zonas de calentamiento (DaePoong Industry, 50602); un esquema del montaje de crecimiento se muestra en la Fig. Suplementaria
+     는 CVD를 사용하여 다양한 열팽창 계수를 가진 여러 기판에서 성장되었습니다. 구체적으로, 성장은 융합 실리카(비정질), 질화 알루미늄(c-면), 사파이어(c-면) 또는 스트론튬 타이타네이트(&lt;100&gt;)에서 수행되었습니다. 모든 기판은 전자 등급이며 루트 평균 제곱 표면 거칠기가 &lt;10 Å입니다. 기판은 먼저 아세톤과 이소프로필 알코올에서 10분 동안 초음파 세척으로 청소되었습니다. 성장은 이중 가열 구역로(DaePoong Industry, 50602)를 사용하여 수행되었으며, 성장 설정의 개략도는 보충 그림
      <xref ref-type="supplementary-material" rid="MOESM1">
       7
      </xref>
      <sup/>
-     . Los sustratos limpios se cargaron en la zona de corriente descendente, y luego se colocó un bote de cerámica que contenía una mezcla de WO
+     에 나와 있습니다. 청소된 기판은 하류 구역에 로드되었고, WO
      <sub>
       3
      </sub>
-     y bromuro de potasio (KBr) junto a los sustratos. KBr se mezcló con WO
+     와 브롬화 칼륨(KBr) 혼합물을 포함하는 세라믹 보트가 기판 옆에 배치되었습니다. KBr은 WO
      <sub>
       3
      </sub>
-     en una proporción de 1:2, con el KBr actuando como promotor del crecimiento. Esto es similar a los métodos descritos en la ref.
+     와 1:2 비율로 혼합되었으며, KBr은 성장을 촉진하는 역할을 합니다. 이는 ref.
      <sup>
       <xref ref-type="bibr" rid="CR36">
        36
       </xref>
      </sup>
-     . Sin embargo, encontramos que se pueden usar varias sales y la elección del promotor tiene un papel significativo en la determinación de la morfología final de la muestra (esto se discute más en los
+     에 설명된 방법과 유사합니다. 그러나 우리는 여러 염을 사용할 수 있으며 촉진제의 선택이 최종 샘플 형태를 결정하는 데 중요한 역할을 한다는 것을 발견했습니다(이는
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Métodos Suplementarios
+      보충 방법
      </xref>
-     ). Cabe señalar que independientemente del promotor utilizado, la tensión presente en la muestra no se vio afectada como se muestra en la Fig. Suplementaria
+     에서 더 논의됩니다). 사용된 촉진제와 관계없이 샘플에 존재하는 변형은 보충 그림
      <xref ref-type="supplementary-material" rid="MOESM1">
       8
      </xref>
      <sup/>
-     . Un bote de cerámica que contenía 500 mg de polvo de Se se colocó en el centro de la zona de corriente ascendente. Después de la carga, se evacuó el tubo de cuarzo y se introdujo Ar a 60 sccm, resultando en una presión de 2.6 Torr. Luego, la temperatura de la zona de corriente ascendente se incrementó a 100 °C y el horno de corriente descendente se incrementó posteriormente a un punto de ajuste de 825 °C. El punto de ajuste de la zona de corriente ascendente se ajustó de manera que el calor residual de la zona de corriente descendente resultara en la vaporización de Se. Una vez estabilizada la temperatura del horno de corriente descendente, se introdujo hidrógeno a una tasa de flujo de 40 sccm (presión total de 3 Torr). Esto inicia el crecimiento ya que la presencia de hidrógeno es necesaria para descomponer y vaporizar WO
+     에 나와 있듯이 영향을 받지 않았음을 주목해야 합니다. 500 mg의 Se 분말을 포함하는 세라믹 보트가 상류 구역의 중앙에 배치되었습니다. 로딩 후, 석영 튜브는 배기되고 Ar이 60 sccm으로 도입되어 2.6 Torr의 압력을 형성했습니다. 상류 구역의 온도는 100 °C로 상승되었고, 하류로는 825 °C의 설정점으로 상승되었습니다. 상류 구역의 설정점은 하류 구역의 잔여 열이 Se의 기화를 초래하도록 조정되었습니다. 하류로의 온도가 안정화되면, 수소가 40 sccm의 유량(총 압력 3 Torr)으로 도입되었습니다. 이는 WO
      <sub>
       x
      </sub>
+     의 분해 및 기화를 위해 수소가 필요하기 때문에 성장을 시작합니다
      <sup>
       <xref ref-type="bibr" rid="CR37">
        37
       </xref>
      </sup>
-     . El tiempo de crecimiento utilizado fue de 15 minutos. Una vez completado el crecimiento, se detuvo el flujo de hidrógeno y se abrió el horno para enfriar rápidamente la muestra. La influencia de la relación H
+     . 사용된 성장 시간은 15분이었습니다. 성장이 완료되면, 수소 흐름이 중단되고, 샘플을 빠르게 냉각하기 위해 로가 열렸습니다. H
      <sub>
       2
      </sub>
-     /Ar, el tiempo de crecimiento y la presión de crecimiento se discuten en los
+     /Ar 비율, 성장 시간 및 성장 압력의 영향은
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Métodos Suplementarios
+      보충 방법
      </xref>
-     y se muestran en las Figuras Suplementarias
+     에서 논의되며 보충 그림
      <xref ref-type="supplementary-material" rid="MOESM1">
       9
      </xref>
@@ -1616,107 +1620,109 @@
       11
      </xref>
      <sup/>
-     . Las imágenes de microscopio óptico de muestras crecidas en varios sustratos se muestran en la Fig. Suplementaria
+     에 나와 있습니다. 다양한 기판에서 성장한 샘플의 광학 현미경 이미지는 보충 그림
      <xref ref-type="supplementary-material" rid="MOESM1">
       12
      </xref>
      <sup/>
-     . Las condiciones específicas de crecimiento se ajustaron para optimizar la QY de PL de las muestras crecidas y para promover el crecimiento de dominios de una o dos capas (discutido en los
+     에 나와 있습니다. 특정 성장 조건은 성장된 샘플의 PL QY를 최적화하고 이중층 또는 단일층 도메인의 성장을 촉진하도록 조정되었습니다(이는
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Métodos Suplementarios
+      보충 방법
      </xref>
-     ). Cabe señalar que para los crecimientos donde se varió la temperatura del sustrato, el bote de WO
+     에서 논의됩니다). 기판 온도가 변동된 성장을 위해 WO
      <sub>
       3
      </sub>
-     /KBr se colocó en el centro de la primera zona de calentamiento y el bote de Se se colocó en el borde de la primera zona de calentamiento. Los sustratos se colocaron en el centro de la segunda zona de calentamiento. La posición del bote de Se se ajustó para controlar la temperatura. La transferencia de WSe
+     /KBr 보트는 첫 번째 가열 구역의 중앙에 배치되었고 Se 보트는 첫 번째 가열 구역의 가장자리에 배치되었습니다. 기판은 두 번째 가열 구역의 중앙에 배치되었습니다. Se 보트의 위치는 온도를 제어하기 위해 조정되었습니다. 성장된 WSe
      <sub>
       2
      </sub>
-     crecido se realiza utilizando una técnica de transferencia húmeda basada en HF con PMMA como medio de transferencia utilizando el procedimiento específico descrito en la ref.
+     의 전이는 PMMA를 전이 매체로 사용하는 HF 기반의 습식 전이 기술을 사용하여 수행되었으며, 구체적인 절차는 ref.
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
      </sup>
-     . El rendimiento eléctrico de WSe
+     에 설명되어 있습니다. 융합 실리카에서 성장된 CVD WSe
      <sub>
       2
      </sub>
-     crecido por CVD en sílice fundida y transferido a Si/SiO
+     의 전기적 성능은 Si/SiO
      <sub>
       2
      </sub>
-     también se compara con el de muestras exfoliadas, y se muestra en la Fig. Suplementaria
+     로 전이된 것과 박리된 샘플의 성능과 비교되었으며, 보충 그림
      <xref ref-type="supplementary-material" rid="MOESM1">
       13
      </xref>
      <sup/>
-     .
+     에 나와 있습니다.
     </p>
    </sec>
    <sec id="Sec9">
     <title>
-     Microscopía electrónica de transmisión
+     Transmission electron microscopy
     </title>
     <p id="Par16">
-     Las monocapas de WSe
+     WSe
      <sub>
       2
      </sub>
-     se crecieron y transfirieron directamente sobre membranas de SiO
+     단일층은 전자 회절 측정을 위해 8 nm 두께의 SiO
      <sub>
       2
      </sub>
-     de 8 nm de espesor (Ted Pella) para mediciones de difracción de electrones con el fin de medir directamente la constante de red de las muestras tensadas y no tensadas, respectivamente. Las mediciones de difracción de electrones se realizaron en el Centro Nacional de Microscopía Electrónica en LBNL utilizando un microscopio FEI Titan 60–300 operado a 80 kV con iluminación de haz paralelo.
+     멤브레인(Ted Pella)에서 직접 성장 및 전이되었으며, 각각 변형된 샘플과 변형되지 않은 샘플의 격자 상수를 직접 측정하기 위해 사용되었습니다. 전자 회절 측정은 LBNL의 National Center for Electron Microscopy에서 80 kV로 작동하는 FEI Titan 60–300 현미경을 사용하여 평행 빔 조명으로 수행되었습니다.
     </p>
    </sec>
    <sec id="Sec10">
     <title>
-     Caracterización óptica
+     Optical characterization
     </title>
     <p id="Par17">
-     Los datos de PL presentados en este trabajo se obtuvieron utilizando un instrumento micro-PL personalizado descrito en detalle en la ref.
+     이 연구에서 제시된 PL 데이터는 ref.
      <sup>
       <xref ref-type="bibr" rid="CR1">
        1
       </xref>
      </sup>
-     . En resumen, las mediciones se realizaron utilizando la línea de 514.5 nm de onda continua de un láser de Ar (Lexel 95) y la potencia del láser se ajustó utilizando filtros de densidad neutra. El láser se enfocó en la muestra utilizando una lente objetivo de 80 × (NA = 0.9). La señal de PL se midió utilizando la misma lente objetivo, se pasó a través de un filtro dieléctrico de paso largo de 550 nm, se dispersó mediante un espectrómetro
+     에 자세히 설명된 맞춤형 마이크로-PL 장비를 사용하여 얻었습니다. 간단히 말해, 측정은 Ar 레이저(Lexel 95)의 연속파 514.5 nm 라인을 사용하여 수행되었으며, 레이저 출력은 중성 밀도 필터를 사용하여 조정되었습니다. 레이저는 80 × 대물 렌즈(NA = 0.9)를 사용하여 샘플에 초점이 맞춰졌습니다. PL 신호는 동일한 대물 렌즈를 사용하여 측정되었고, 550 nm 다이렉트 롱패스 필터를 통과하여
      <italic>
       f
      </italic>
-     = 340 mm con una rejilla de 150 g mm, y se detectó utilizando una cámara CCD de Si (Andor iDus BEX2-DD). Antes de cada medición, se obtuvo el fondo del CCD y posteriormente se restó de la adquisición de PL. La sensibilidad del instrumento en función de la longitud de onda (función del instrumento) se determinó mediante la medición de una fuente de cuerpo negro virtual Lambertiano bajo el objetivo, creada mediante la imagen de la iluminación de una lámpara estabilizada en temperatura (ThorLabs SLS201) en un reflector difuso (Spectralon). La eficiencia del sistema se determinó midiendo la respuesta del láser de excitación enfocado en un reflector difuso (Spectralon), con el filtro de paso largo de 550 nm removido. La eficiencia cuántica externa medida se convirtió a QY utilizando la absorción de la muestra en la longitud de onda de la bomba y la fracción de luz que puede escapar de la muestra (1/4
+     = 340 mm 분광기로 분산되었으며, 150 g mm 격자를 사용하여 Si CCD 카메라(Andor iDus BEX2-DD)로 감지되었습니다. 각 측정 전에 CCD 배경이 얻어졌고, 이후 PL 획득에서 차감되었습니다. 파장에 따른 장비의 민감도(장비 함수)는 온도 안정화 램프(ThorLabs SLS201)의 조명을 확산 반사체(Spectralon)에 이미징하여 생성된 가상 램버시안 흑체 소스를 측정하여 결정되었습니다. 시스템 효율은 550 nm 롱패스 필터를 제거한 상태에서 확산 반사체(Spectralon)에 초점을 맞춘 여기 레이저의 응답을 측정하여 결정되었습니다. 측정된 외부 양자 효율은 펌프 파장에서 샘플 흡수와 샘플에서 탈출할 수 있는 빛의 비율(1/4
      <italic>
       n
      </italic>
-     , donde
+     , 여기서
      <italic>
       n
      </italic>
-     es el índice de refracción del medio). Todas las mediciones mostradas en este trabajo se realizaron a una potencia incidente de 1.5 W cm (correspondiente a una potencia de láser de 200 nW). Esta potencia de láser está significativamente por debajo del inicio de la recombinación biexcitónica en WSe
+     은 매질의 굴절률)을 사용하여 QY로 변환되었습니다. 이 연구에서 보여준 모든 측정은 1.5 W cm의 입사 전력(레이저 출력 200 nW에 해당)에서 수행되었습니다. 이 레이저 출력은 WSe
      <sub>
       2
      </sub>
+     에서 이중 여기 재결합의 시작점보다 훨씬 낮습니다
      <sup>
       <xref ref-type="bibr" rid="CR38">
        38
       </xref>
      </sup>
-     . Las mediciones a baja temperatura se realizaron utilizando una lente objetivo de larga distancia de trabajo de 50 × en un micro-cryostato (Janis) con una ventana de infrasil. Se utilizó el procedimiento descrito anteriormente para calcular la eficiencia de PL de la muestra. Se realizó la imagen de PL en las muestras para determinar su uniformidad. Las mediciones se realizaron utilizando un montaje de microscopía de fluorescencia con un diodo emisor de luz de 470 nm como fuente de excitación y un detector CCD (Andor Luca). Se realizaron mediciones de Raman y mapeo de alta resolución para caracterizar la tensión en el WSe
+     . 저온 측정은 마이크로-크라이오스탯(Janis)과 인프라실 창을 사용하여 긴 작업 거리 50 × 대물 렌즈를 사용하여 수행되었습니다. 이전에 설명된 절차를 사용하여 샘플 PL 효율을 계산했습니다. 샘플의 균일성을 확인하기 위해 PL 이미징이 수행되었습니다. 측정은 470 nm 발광 다이오드를 여기 소스로 사용하고 CCD 검출기(Andor Luca)를 사용하여 형광 현미경 설정을 사용하여 수행되었습니다. WSe
      <sub>
       2
      </sub>
+     의 변형을 특성화하기 위해 라만 측정 및 고해상도 매핑이 수행되었습니다
      <sup/>
-     . Los espectros de Raman se obtuvieron utilizando un WITec Alpha 300RA equipado con una etapa de escaneo piezoeléctrico. La muestra se excitó utilizando la línea de 532 nm de un láser Nd:YAG de frecuencia duplicada como fuente de excitación y se enfocó en la muestra utilizando un objetivo de 100 ×.
+     . 라만 스펙트럼은 피에조 전기 스캐닝 스테이지가 장착된 WITec Alpha 300RA를 사용하여 얻었습니다. 샘플은 여기 소스로 주파수 이중화 Nd:YAG 레이저의 532 nm 라인을 사용하여 여기되었고, 100 × 대물 렌즈를 사용하여 샘플에 초점을 맞췄습니다.
     </p>
    </sec>
    <sec id="Sec11">
     <title>
-     Disponibilidad de datos
+     Data availability
     </title>
     <p id="Par18">
-     Los datos que respaldan los hallazgos de este estudio están disponibles del autor correspondiente a solicitud.
+     이 연구의 결과를 뒷받침하는 데이터는 요청 시 교신 저자로부터 제공됩니다.
     </p>
    </sec>
   </sec>
@@ -1724,22 +1730,22 @@
  <back>
   <ack>
    <title>
-    Agradecimientos
+    감사의 글
    </title>
    <p>
-    Los autores desean agradecer a Ian S. Winter por proporcionarles su código de constantes elásticas que interactúa con VASP. El crecimiento, la caracterización y la modelización de materiales fueron apoyados por el Departamento de Energía de los Estados Unidos, Oficina de Ciencia, Oficina de Ciencias Básicas de la Energía, División de Ciencias e Ingeniería de Materiales bajo el contrato no. DE-AC02-05CH11231 dentro del Programa de Materiales Electrónicos (KC1201). La Microscopía Electrónica se realizó en la Foundry Molecular, que es apoyada por la Oficina de Ciencia, Oficina de Ciencias Básicas de la Energía, del Departamento de Energía de los Estados Unidos bajo el contrato no. DE-AC02-05CH11231.
+    저자들은 VASP와 인터페이스하는 그의 탄성 상수 코드를 제공해 준 Ian S. Winter에게 감사의 뜻을 전하고자 합니다. 재료 성장, 특성화 및 모델링은 미국 에너지부, 과학국, 기초 에너지 과학국, 재료 과학 및 공학 부서의 전자 재료 프로그램(KC1201) 내 계약 번호 DE-AC02-05CH11231에 따라 지원받았습니다. 전자 현미경 분석은 미국 에너지부 과학국 기초 에너지 과학국의 지원을 받는 Molecular Foundry에서 수행되었습니다. 계약 번호는 DE-AC02-05CH11231입니다.
    </p>
   </ack>
   <sec sec-type="author-contribution">
    <title>
-    Contribuciones de los autores
+    저자 기여
    </title>
    <p>
-    G.H.A., M.A. y A.J. concibieron la idea del proyecto y diseñaron los experimentos. G.H.A. realizó la síntesis de WSe
+    G.H.A., M.A. 및 A.J.는 프로젝트 아이디어를 구상하고 실험을 설계했습니다. G.H.A.는 WSe
     <sub>
      2
     </sub>
-    . G.H.A., M.A. y D.-H.L. llevaron a cabo las caracterizaciones ópticas. H.R. y A.M.M. realizaron las mediciones de difracción de electrones. J.P.M. y D.C.C. realizaron modelado y simulaciones. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. y A.J. analizaron los datos. G.H.A., M.A. y A.J. escribieron el manuscrito. Todos los autores discutieron los resultados y comentaron sobre el manuscrito.
+    의 합성을 수행했습니다. G.H.A., M.A. 및 D.-H.L.은 광학 특성화를 수행했습니다. H.R. 및 A.M.M.는 전자 회절 측정을 수행했습니다. J.P.M. 및 D.C.C.는 모델링 및 시뮬레이션을 수행했습니다. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. 및 A.J.는 데이터를 분석했습니다. G.H.A., M.A. 및 A.J.는 원고를 작성했습니다. 모든 저자는 결과를 논의하고 원고에 대해 의견을 제시했습니다.
    </p>
   </sec>
   <sec sec-type="ethics-statement">
