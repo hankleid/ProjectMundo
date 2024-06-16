@@ -1,10 +1,8 @@
-# %%
-
 import requests
 from bs4 import BeautifulSoup
 from translation import Translator
 
-# %% ARTICLE ACQUISITION
+# ARTICLE ACQUISITION
 
 key = ""
 with open("../keys/nature_key.txt") as f:
@@ -31,7 +29,7 @@ f = open(f"korean.xml", "w")
 f.write(data.prettify())
 f.close()
 
-#%% TRANSLATION EXECUTION FUNCTIONS
+# TRANSLATION EXECUTION FUNCTIONS
 
 def parse_sups(this_sups):
     # returns a list of reference elements from a list of sup elements.
@@ -94,12 +92,13 @@ def translate(xml, tl, language, text=False):
         result = tl.translate_text(xml.string, language)
         xml.clear()
         xml.append(result)
+        print(result)
     else:
         # translate entire xml
         result = tl.translate_xml(xml, language)
         new_xml = BeautifulSoup(result, features="xml")
         xml.clear()
-        xml.extend(new_xml)
+        xml.extend(new_xml.contents)
 
 def translate_article(xml, tl, language):
     # edits xml in place with translated text.
@@ -133,9 +132,9 @@ def translate_article(xml, tl, language):
     contr = back.find('sec', {'sec-type': 'author-contribution'})
     translate(contr,tl,language)
 
-    # Translate the (sub)titles in case they were missed.
-    for title in data.find_all('title'):
-        translate(title,tl,language,text=True)
+    # # Translate the (sub)titles in case they were missed.
+    # for title in data.find_all('title'):
+    #     translate(title,tl,language,text=True)
 
 
 def filename_from_DOI(xml):
@@ -145,17 +144,14 @@ def filename_from_DOI(xml):
     return filename
 
 
-#%% EXECUTION
+# EXECUTION
 tl = Translator()
 translate_article(data, tl, "Korean")
 print(tl.count_tokens())
 
-#%% SAVING
-
+# SAVING
 fn = filename_from_DOI(data)
 # f = open(f"{fn}.xml", "w")
 f = open(f"index.xml", "w")
 f.write(data.prettify())
 f.close()
-
-# %%

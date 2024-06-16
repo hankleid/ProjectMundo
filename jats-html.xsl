@@ -348,16 +348,18 @@ or pipeline) parameterized.
           
           <xsl:for-each select="abstract | trans-abstract">
             <!-- title in left column, content (paras, secs) in right -->
-            <div class="metadata one-column table">
-              <div class="row">
-                <div class="cell spanning">
-                
-                  <xsl:apply-templates select="*[not(self::title)]"/>
+            <!-- only first abstract section contains the real abstract -->
+            <xsl:if test="position()=1"> 
+              <div class="metadata one-column table">
+                <div class="row">
+                  <div class="cell spanning">
                   
+                    <xsl:apply-templates select="*[not(self::title)]"/>
+                    
+                  </div>
                 </div>
-                
               </div>
-            </div>
+            </xsl:if>
           </xsl:for-each>
           <!-- end of abstract or trans-abstract -->
         </xsl:if>
@@ -2871,6 +2873,7 @@ or pipeline) parameterized.
     <xsl:if test="not(fn-group) and $loose-footnotes">
       <xsl:call-template name="footnotes"/>
     </xsl:if>
+    <!-- only put this part of back cuz the other stuff is not as pretty -->
     <xsl:apply-templates select="ack | ref-list"/>
   </xsl:template>
   
