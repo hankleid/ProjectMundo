@@ -97,8 +97,9 @@ def translate(xml, tl, language, text=False):
         # translate entire xml
         result = tl.translate_xml(xml, language)
         new_xml = BeautifulSoup(result, features="xml")
+        guts = new_xml.find(xml.name).contents
         xml.clear()
-        xml.extend(new_xml.contents)
+        xml.extend(guts)
 
 def translate_article(xml, tl, language):
     # edits xml in place with translated text.
@@ -124,6 +125,7 @@ def translate_article(xml, tl, language):
 
     # Translate the body.
     for sec in body.find_all('sec'):
+        # translate(sec,tl,language)
         translate(sec,tl,language)
 
     # Translate acknowledgements and author contributions.
