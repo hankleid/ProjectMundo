@@ -45,6 +45,9 @@ div.table { display: table }
 div.metadata.table { width: 100% }
 div.row { display: table-row }
 div.cell { display: table-cell; padding-left: 0.25em; padding-right: 0.25em }
+div.cellleft { display: table-cell; padding-left: 0.25em; padding-right: 0.25em }
+div.cellright { display: table-cell; padding-left: 0.25em; padding-right: 0.25em }
+
 
 div.metadata div.cell {
     vertical-align: top }
