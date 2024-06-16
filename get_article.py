@@ -134,9 +134,9 @@ def translate_article(xml, tl, language):
     contr = back.find('sec', {'sec-type': 'author-contribution'})
     translate(contr,tl,language)
 
-    # # Translate the (sub)titles in case they were missed.
-    # for title in data.find_all('title'):
-    #     translate(title,tl,language,text=True)
+    # Translate the (sub)titles in case they were missed.
+    for title in data.find_all('title'):
+        translate(title,tl,language,text=True)
 
 
 def filename_from_DOI(xml):

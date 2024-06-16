@@ -39,7 +39,7 @@ class Translator():
 
   def translate_text(self, text, language):
     # returns the translation of bare text into any language.
-    prompt = f"The following phrase is an exerpt from a scientific article. Please translate the phrase into {language}: {text}"
+    prompt = f"The following phrase is an exerpt from a scientific article. If this phrase is in {language} already, just return the sentence without changing it. Otherwise, please translate the phrase into {language}: {text}"
     return self.chat_prompt(prompt)
 
   def translate_xml(self, xml, language):
