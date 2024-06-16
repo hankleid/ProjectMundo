@@ -27,6 +27,10 @@ data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" hr
 # Remove the API response portion of the XML.
 data.response.replace_with(data.records.article)
 
+f = open(f"korean.xml", "w")
+f.write(data.prettify())
+f.close()
+
 #%% TRANSLATION EXECUTION FUNCTIONS
 
 def parse_sups(this_sups):
@@ -92,11 +96,12 @@ def translate_article(xml, tl, language):
     title.clear()
     title.append(new_title)
 
-    for ab in front.find_all('abstract'):
-        translated_ab = tl.translate_xml(ab, language)
-        new_ab = BeautifulSoup(translated_ab, features="xml")
-        ab.clear()
-        ab.extend(new_ab)
+    ab = front.find('abstract')
+    translated_ab = tl.translate_xml(ab, language)
+    print(translated_ab)
+    new_ab = BeautifulSoup(translated_ab, features="xml")
+    ab.clear()
+    ab.extend(new_ab)
 
     for p in body.find_all('p'):
         formatted_p = parse_par(p)
