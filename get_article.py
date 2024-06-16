@@ -148,12 +148,12 @@ def filename_from_DOI(xml):
 
 # EXECUTION
 tl = Translator()
-translate_article(data, tl, "Korean")
+translate_article(data, tl, "Latin American Spanish")
 print(tl.count_tokens())
 
 # SAVING
 fn = filename_from_DOI(data)
-# f = open(f"{fn}.xml", "w")
-f = open(f"index.xml", "w")
+f = open(f"{fn}.xml", "w")
+# f = open(f"index.xml", "w")
 f.write(data.prettify())
 f.close()

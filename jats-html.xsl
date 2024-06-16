@@ -354,7 +354,7 @@ or pipeline) parameterized.
                 <div class="row">
                   <div class="cell spanning">
                   
-                    <xsl:apply-templates select="*[not(self::title)]"/>
+                    <xsl:apply-templates select="."/>
                     
                   </div>
                 </div>
@@ -2446,8 +2446,8 @@ or pipeline) parameterized.
 
 	<xsl:template match="tex-math">
 		<span class="tex-math">
-			<span class="generated">[TeX:] </span>
-			<xsl:apply-templates/>
+			<!-- <span class="generated">[TeX:] </span> -->
+			<!-- <xsl:apply-templates/> -->
 		</span>
 	</xsl:template>
 
