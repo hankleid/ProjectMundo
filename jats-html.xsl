@@ -2356,7 +2356,9 @@ or pipeline) parameterized.
           </p>
         </div>
         <div class="ref-content cell">
+          <!-- gerp formats the reference list items -->
           <xsl:apply-templates/>
+          <text>Hello World!</text>
         </div>
       </div>
   </xsl:template>
