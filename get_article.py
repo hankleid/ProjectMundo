@@ -2,28 +2,24 @@
 
 import requests
 from bs4 import BeautifulSoup
-import json
 from translation import Translator
 
-# %%
+# %% ARTICLE ACQUISITION
 
 key = ""
 with open("../keys/nature_key.txt") as f:
       key = f.readline()
 
-#%%
+
 URL = "http://api.springernature.com/openaccess/jats?"
 
 
 PARAMS = {
-    "q": "doi:10.1038/s41467-019-11343-1",
+    "q": "doi:10.1038/s41467-017-00516-5",
     "api_key": key
 }
 
 r = requests.get(url=URL, params=PARAMS)
-print(r.content)
-
-# %%
 
 data = BeautifulSoup(r.content, features="xml")
 # Enter correct XSLT style information.
@@ -31,17 +27,19 @@ data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" hr
 # Remove the API response portion of the XML.
 data.response.replace_with(data.records.article)
 
-tl = Translator()
-
-#%% 
+#%% TRANSLATION EXECUTION FUNCTIONS
 
 def parse_sups(this_sups):
     # returns a list of reference elements from a list of sup elements.
     refs = []
     for sup in this_sups:
+        i = 0
         for ref in sup.find_all('xref'):
+            if i != 0:
+                refs.append(",")
             refs.append(ref)
-            refs.append(",")
+            i += 1
+
     sup = BeautifulSoup("<sup></sup>",features='xml')
     for ref in refs:
         sup.sup.append(ref)
@@ -80,45 +78,55 @@ def parse_par(this_par):
     new_par.p.extend(sentences)
     return new_par.p
 
+def translate_article(xml, tl, language):
+    # edits xml in place with translated text.
+        # xml: article to translate
+        # tl: Translator object
+        # language: language to translate to
 
-front = data.front
-body = data.body
+    front = xml.front
+    body = xml.body
 
-title = front.find('article-title')
-new_title = tl.translate_text(title.string, "Latin American Spanish")
-title.clear()
-title.append(new_title)
+    title = front.find('article-title')
+    new_title = tl.translate_text(title.string, language)
+    title.clear()
+    title.append(new_title)
 
-for ab in front.find_all('abstract'):
-    translated_ab = tl.translate_xml(ab, "Latin American Spanish")
-    new_ab = BeautifulSoup(translated_ab, features="xml")
-    ab.clear()
-    ab.extend(new_ab)
+    for ab in front.find_all('abstract'):
+        translated_ab = tl.translate_xml(ab, language)
+        new_ab = BeautifulSoup(translated_ab, features="xml")
+        ab.clear()
+        ab.extend(new_ab)
 
-for p in body.find_all('p'):
-    formatted_p = parse_par(p)
-    p.clear()
-    p.extend(formatted_p.contents)
+    for p in body.find_all('p'):
+        formatted_p = parse_par(p)
+        p.clear()
+        p.extend(formatted_p.contents)
 
-for sec in body.find_all('sec'):
-    translated_sec = tl.translate_xml(sec, "Latin American Spanish")
-    new_sec = BeautifulSoup(translated_sec, features="xml")
-    sec.clear()
-    sec.extend(new_sec.contents)
+    for sec in body.find_all('sec'):
+        translated_sec = tl.translate_xml(sec, language)
+        new_sec = BeautifulSoup(translated_sec, features="xml")
+        sec.clear()
+        sec.extend(new_sec.contents)
 
-print(data.prettify())
+def filename_from_DOI(xml):
+    doi = xml.front.find("article-meta").findAll("article-id", {"pub-id-type": "doi"})[0].string
+    _ = doi.replace('/','_')
+    filename = _.replace('.','X')
+    return filename
 
 
-#%%
-f = open("index.xml", "w")
+#%% EXECUTION
+tl = Translator()
+translate_article(data, tl, "Korean")
+print(tl.count_tokens())
+
+#%% SAVING
+
+fn = filename_from_DOI(data)
+# f = open(f"{fn}.xml", "w")
+f = open(f"index.xml", "w")
 f.write(data.prettify())
 f.close()
 
-print(tl.count_tokens())
-
-# %%
-
-f = open("front.xml", "w")
-f.write(data.front.prettify())
-f.close()
 # %%
