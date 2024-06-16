@@ -515,7 +515,24 @@
      </license-p>
     </license>
    </permissions>
-   <abstract id="Abs1" xml:lang="en"/>
+   <abstract id="Abs1" xml:lang="en">
+    <abstract id="Abs1" xml:lang="en">
+     <title>
+      Abstract
+     </title>
+     <p id="Par1">
+      반도체에 변형을 가하는 것은 밴드 구조를 제어된 방식으로 수정할 수 있게 합니다. 이 원리는 고성능 트랜지스터에서 고체 레이저에 이르는 장치 제조에 사용됩니다. 전통적으로 변형은 격자 불일치 기판에서의 성장을 통해 달성됩니다. 이차원(2D) 반도체의 경우, 기판과 상호작용하지 않기 때문에 이는 실현 불가능합니다. 여기서 우리는 기판과 반도체 간의 열팽창 계수 불일치를 이용하여 합성 중 2D 반도체의 제어된 변형 엔지니어링을 시연합니다. WSe
+      <sub>
+       2
+      </sub>
+      를 모델 시스템으로 사용하여, 서로 다른 열팽창 계수를 가진 기판에서 1% 인장에서 0.2% 압축까지 안정적인 내장 변형을 시연합니다. 그 결과, 변형에 의해 간접 밴드갭에서 직접 밴드갭으로의 전환과 이중층 및 단일층 WSe
+      <sub>
+       2
+      </sub>
+      에서 어두운 엑시톤의 밝아짐으로 나타나는 밴드 구조의 극적인 변조를 관찰합니다. 여기서 개발된 성장 방법은 2D 재료를 기반으로 한 더 정교한 장치 설계의 유연성을 가능하게 할 것입니다.
+     </p>
+    </abstract>
+   </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" specific-use="web-only" xml:lang="en">
     <p id="Par2">
      Strain engineering is an essential tool for modifying local electronic properties in silicon-based electronics. Here, Ahn et al. demonstrate control of biaxial strain in two-dimensional materials based on the growth substrate, enabling more complex low-dimensional electronics.
@@ -856,7 +873,7 @@
      <sub>
       2
      </sub>
-     에서 인장 변형을 적용하면 간접-직접 밴드갭 전환이 발생할 수 있음이 입증되었습니다
+     에서 인장 변형을 적용하면 간접에서 직접 밴드갭으로의 전환이 발생할 수 있음이 입증되었습니다
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
@@ -865,7 +882,7 @@
      . 그러나 TMDCs에서 변형의 효과에 대한 연구는 샘플의 기계적 굽힘에 국한되어 있으며, 내장된 인장 및 압축 변형을 직접 실현할 수 있는 기술은 아직 없습니다.
     </p>
     <p id="Par4">
-     전통적으로 반도체의 변형 공학은 고성능 장치의 전자 밴드 구조를 조정하기 위해 활용되어 왔으며, 그 중 가장 주목할 만한 것은 간섭 계곡 산란을 줄이고, Si 트랜지스터의 이동성을 증가시키며, III-V 반도체 레이저에서 홀 유효 질량을 줄이는 것입니다
+     전통적으로 반도체의 변형 공학은 고성능 장치의 전자 밴드 구조를 조정하기 위해 활용되어 왔으며, 그 중 가장 주목할 만한 것은 간섭 산란을 줄이고, Si 트랜지스터의 이동성을 증가시키며, III-V 반도체 레이저에서 홀 유효 질량을 줄이는 것입니다
      <sup>
       <xref ref-type="bibr" rid="CR8">
        8
@@ -875,13 +892,13 @@
        9
       </xref>
      </sup>
-     . 제어된 격자 상수 불일치를 가진 에피택셜 기판에서의 성장은 일반적으로 3차원 반도체에서 내장된 변형을 확립하기 위해 사용되었습니다
+     . 제어된 격자 상수 불일치를 가진 에피택셜 기판에서의 성장은 일반적으로 3차원 반도체에서 내장된 변형을 확립하는 데 사용되었습니다
      <sup>
       <xref ref-type="bibr" rid="CR10">
        10
       </xref>
      </sup>
-     . 그러나 2D 재료와 기판 간의 상대적으로 약한 상호작용으로 인해, 이 확립된 변형 공학 방법은 TMDCs의 변형 공학적 성장을 위해 적용될 가능성이 낮습니다. 따라서 실용적인 기판에서 대면적 변형 TMDCs의 개발을 위한 경로가 매우 바람직합니다. 대면적 TMDCs를 실현하기 위한 상당한 연구 노력이 이루어졌으며, 대부분의 노력은 화학 기상 증착(CVD)에 초점을 맞추고 있습니다
+     . 그러나 2D 재료와 기판 간의 상대적으로 약한 상호작용으로 인해, 이 확립된 변형 공학 방법은 TMDCs의 변형 공학적 성장을 위해 적용될 가능성이 낮습니다. 따라서 실용적인 기판에서 대면적 변형 TMDCs의 개발 경로가 매우 바람직합니다. 대면적 TMDCs를 실현하기 위한 상당한 연구 노력이 이루어졌으며, 대부분의 노력은 화학 기상 증착(CVD)에 초점을 맞추고 있습니다
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
@@ -920,7 +937,7 @@
      <sub>
       2
      </sub>
-     이중층에서 간접-직접 광학 전환 및 WSe
+     이중층에서 간접에서 직접 광학 전환 및 WSe
      <sub>
       2
      </sub>
@@ -938,12 +955,12 @@
       TCE 불일치로 인한 변형
      </title>
      <p id="Par6">
-      TMDC를 합성하는 데 사용되는 높은 성장 온도로 인해, 기판과 2D 반도체 간의 TCE 불일치를 이용하여 합성된 2D 재료의 변형을 제어할 수 있습니다. 이는 도식적으로 Fig.
+      TMDC를 합성하는 데 사용되는 높은 성장 온도 때문에, 기판과 2D 반도체 간의 TCE 불일치를 이용하여 합성된 2D 재료의 변형을 제어할 수 있습니다. 이는 도식적으로 Fig.
       <xref ref-type="fig" rid="Fig1">
        1
       </xref>
       <sup/>
-      에 나타나 있습니다. 이론적인 변형의 상한은 이완이 없다고 가정할 때, 실온과 합성 온도에서 기판과 2D 반도체의 격자 상수 차이를 사용하여 계산할 수 있습니다:
+      에 나타나 있습니다. 이론적으로, 이완이 없다고 가정할 때 변형의 상한값은 실온과 합성 온도에서 기판과 2D 반도체의 격자 상수 차이를 사용하여 계산할 수 있습니다:
       <disp-formula id="Equ1">
        <label>
         1
@@ -1445,11 +1462,11 @@
       </fig>
      </p>
      <p id="Par7">
-      TCE 불일치로 생성된 변형을 유지하려면, 2D 층과 기판 간의 결합이 충분히 강하고 주름져서 변형을 층에 전달하는 미끄럼 방지 조건을 유지해야 합니다. 이러한 크기의 변형이 에피택셜 성장 중에 발생할 것으로 예상되지만, 비정질 기판에 반데르발스 힘으로 결합된 필름에서 유사한 변형이 발생하는 것은 어렵습니다. 실험적으로, 필름의 주름은 냉각 시 변형을 유지할 수 있을 만큼 커야 합니다. 변형을 유지하는 데 필요한 주름의 크기를 추정하기 위해, 보충 자료 노트
+      TCE 불일치로 생성된 변형을 유지하려면, 2D 층과 기판 간의 결합이 충분히 강하고 주름져서 변형을 층에 전달하는 비슬립 조건을 유지해야 합니다. 이러한 크기의 변형이 에피택셜 성장 중에 발생할 것으로 예상되지만, 비정질 기판에 반데르발스 힘으로 결합된 필름에서 유사한 변형이 어떻게 발생할 수 있는지는 이해하기 어렵습니다. 실험적으로, 필름의 주름은 냉각 시 변형을 유지할 수 있을 만큼 커야 합니다. 변형을 유지하는 데 필요한 주름의 크기를 추정하기 위해, 보충 자료 노트
       <xref ref-type="supplementary-material" rid="MOESM1">
        1
       </xref>
-      및 보충 자료 Fig.
+      및 보충 그림
       <xref ref-type="supplementary-material" rid="MOESM1">
        1
       </xref>
@@ -1458,11 +1475,11 @@
         16
        </xref>
       </sup>
-      에 나타난 2D Frenkel–Kontorova 모델을 분석했습니다. 이 모델은 단위 셀 범위에서 14 meV 정도의 원자 결합 에너지 변동이 실험적으로 관찰된 변형 크기를 유지할 수 있음을 시사합니다. 이 변동은 일반적인 공유 결합 강도의 약 1%이며, 반데르발스 결합의 일반적인 강도에 매우 가깝습니다. 보다 상세한 이론이 개발되어야 하며, 특히 성장 직전의 표면 화학을 이해하여 결합의 성질을 결정해야 하지만, 이 간단한 분석은 필름과 기판 간의 약한 결합의 경우에도 열팽창 불일치가 필름에 변형을 줄 수 있음을 시사합니다. 이전 연구에서 레이저를 사용한 MoS
+      에 나타난 2D Frenkel–Kontorova 모델을 분석했습니다. 이 모델은 단위 셀 범위에서 14 meV 정도의 원자 결합 에너지 변동이 실험적으로 관찰된 크기의 변형을 유지할 수 있음을 시사합니다. 이 변동은 전형적인 공유 결합 강도의 약 1%이며, 반데르발스 결합 강도와 매우 가깝습니다. 보다 상세한 이론이 개발되어야 하며, 특히 성장 직전의 표면 화학을 이해하여 결합의 성질을 결정해야 하지만, 이 간단한 분석은 필름과 기판 간의 약한 결합의 경우에도 열팽창 불일치가 필름에 변형을 줄 수 있음을 시사합니다. 이전 연구에서는 레이저를 사용한 MoS
       <sub>
        2
       </sub>
-      의 국부 가열을 통해 기판과의 TCE 불일치로 인해 최대 0.2%의 변형을 생성한 바 있습니다
+      의 국부 가열을 통해 기판과의 TCE 불일치로 인해 최대 0.2%의 변형을 생성할 수 있음을 보여주었습니다
       <sup>
        <xref ref-type="bibr" rid="CR17">
         17
@@ -1519,210 +1536,217 @@
       <sub>
        2
       </sub>
-      와 TCE가 거의 일치하여 이완된 샘플을 생성할 것으로 예상
+      와 TCE가 거의 일치하여 이완된 샘플
      </p>
     </sec>
    </sec>
   </sec>
   <sec id="Sec6" sec-type="discussion">
-   <title>
-    Discussion
-   </title>
-   <p id="Par14">
-    In summary, we have demonstrated controlled and stable strain engineering of 2D materials by growth, realized through TCE mismatch between the substrate and 2D material. The demonstrated strain engineering allows for dramatic modulation of the physical properties of 2D materials. Using WSe
-    <sub>
-     2
-    </sub>
-    as a model system, we have achieved a strain induced indirect-to-direct optical transition in directly grown WSe
-    <sub>
-     2
-    </sub>
-    bilayer, resulting in an amplification of the PL intensity by over fifty times. We have also shown tunable PL emission of WSe
-    <sub>
-     2
-    </sub>
-    monolayer, whereas maintaining its high performance. Notably, in the monolayer case under tensile strain, we observed increasing luminescence at reduced temperatures, in stark contrast with what has been reported in the unstrained exfoliated material, suggesting that strain can be utilized to brighten the dark exciton. This practical route for the direct realization of strain engineering in 2D materials can allow for the characterization of device properties as a function of strain as well as enable optical measurements that are not accessible to samples strained by physical bending or stretching. Our work depicts that biaxial strains of 1% tensile to 0.2% compressive can be obtained by using readily achievable differences in the thermal expansion coefficients by choosing an appropriate growth substrate. By expanding upon this method, it may be possible to obtain uniaxial strain via growth on substrates with anisotropic thermal expansion coefficients or obtain significantly higher strain values via growth on piezoelectric substrates
-    <sup>
-     <xref ref-type="bibr" rid="CR34">
-      34
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR35">
-      35
-     </xref>
-    </sup>
-    .
-   </p>
-  </sec>
-  <sec id="Sec7" sec-type="materials|methods">
-   <title>
-    Methods
-   </title>
-   <sec id="Sec8">
+   <sec id="Sec6" sec-type="discussion">
     <title>
-     Material growth
+     토론
     </title>
-    <p id="Par15">
-     WSe
+    <p id="Par14">
+     요약하자면, 우리는 기판과 2D 물질 간의 TCE 불일치를 통해 성장에 의해 제어되고 안정적인 2D 물질의 변형 공학을 입증했습니다. 입증된 변형 공학은 2D 물질의 물리적 특성을 극적으로 조절할 수 있게 합니다. WSe
      <sub>
       2
      </sub>
-     was grown on several substrates with varying thermal expansion coefficients using CVD. Specifically, growth was performed on fused silica (amorphous), aluminum nitride (c-plane), Sapphire (c-plane), or strontium titanate (&lt;100&gt;); all substrates were electronic grade and have a root mean square surface roughness of &lt;10 Å. Substrates were first cleaned by sonication in acetone and isopropyl alcohol for 10 min. The growth was carried out using a two-heating-zone furnace (DaePoong Industry, 50602); a schematic of the growth setup is shown in Supplementary Fig.
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      7
-     </xref>
-     <sup/>
-     . The cleaned substrates were loaded into the downstream zone, and a ceramic boat containing mixture of WO
+     를 모델 시스템으로 사용하여, 우리는 직접 성장한 WSe
      <sub>
-      3
+      2
      </sub>
-     and potassiu﻿m bromide (KBr) was then placed next to the substrates. KBr was mixed with WO
+     이중층에서 변형 유도 간접-직접 광학 전이를 달성하여 PL 강도를 50배 이상 증폭시켰습니다. 또한, WSe
      <sub>
-      3
+      2
      </sub>
-     at a ratio of 1:2, with the KBr acting as a promoter for the growth. This is similar to methods described in ref.
+     단층의 조절 가능한 PL 방출을 보여주었으며, 높은 성능을 유지했습니다. 특히, 인장 변형 하의 단층의 경우, 낮은 온도에서 발광이 증가하는 것을 관찰했는데, 이는 변형되지 않은 박리된 물질에서 보고된 것과는 현저히 대조적이며, 변형을 이용하여 어두운 엑시톤을 밝힐 수 있음을 시사합니다. 2D 물질에서 변형 공학을 직접 실현하는 이 실용적인 경로는 변형의 함수로서 장치 특성의 특성을 가능하게 할 뿐만 아니라 물리적 굽힘이나 스트레칭에 의해 변형된 샘플에서는 접근할 수 없는 광학 측정을 가능하게 합니다. 우리의 연구는 적절한 성장 기판을 선택함으로써 쉽게 달성할 수 있는 열팽창 계수의 차이를 사용하여 1% 인장에서 0.2% 압축의 이축 변형을 얻을 수 있음을 보여줍니다. 이 방법을 확장함으로써, 이방성 열팽창 계수를 가진 기판에서의 성장을 통해 단축 변형을 얻거나 압전 기판에서의 성장을 통해 훨씬 더 높은 변형 값을 얻을 수 있을 것입니다
      <sup>
-      <xref ref-type="bibr" rid="CR36">
-       36
+      <xref ref-type="bibr" rid="CR34">
+       34
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR35">
+       35
       </xref>
      </sup>
-     . However, we found that several salts can be used and the choice of promoter has a significant role in determining the ultimate sample morphology (this is further discussed in the
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
-     </xref>
-     ). It should be noted that regardless of the promoter used, the strain present in the sample was unaffected as shown in Supplementary Fig.
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      8
-     </xref>
-     <sup/>
-     . A ceramic boat containing 500 mg Se powder was placed in the center of the upstream zone. After loading, the quartz tube was evacuated and Ar was introduced at 60 sccm resulting in a pressure of 2.6 Torr. The temperature of upstream zone was then ramped to 100 °C and the downstream furnace was subsequently ramped to a setpoint of 825 °C. The set point of the upstream zone was adjusted such that the residual heat from the downstream zone results in vaporization of Se. Once the temperature of downstream furnace was stabilized, hydrogen was introduced at a flow rate of 40 sccm (total pressure of 3 Torr). This initiates the growth as the presence of hydrogen is required to decompose and vaporize WO
-     <sub>
-      x
-     </sub>
-     <sup>
-      <xref ref-type="bibr" rid="CR37">
-       37
-      </xref>
-     </sup>
-     . The growth time used was 15 min. Once the growth is complete, hydrogen flow was stopped, and the furnace was opened to rapidly cool the sample. The influence of the H
-     <sub>
-      2
-     </sub>
-     /Ar ratio, growth time and growth pressure is discussed in the
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
-     </xref>
-     and are shown in Supplementary Figs
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      9
-     </xref>
-     –
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      11
-     </xref>
-     <sup/>
-     . Optical microscope images of samples grown on various substrates is shown in Supplementary Fig.
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      12
-     </xref>
-     <sup/>
-     . Specific growth conditions were tuned to optimize the PL QY of the as-grown samples and to either promote growth of bilayer or monolayer domains (discussed in
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
-     </xref>
-     ). It should be noted that for growths where the substrate temperature was varied the WO
-     <sub>
-      3
-     </sub>
-     /KBr boat was placed in the center of the first heating zone and the Se boat was placed at the edge of the first heating zone. The substrates were placed in the center of the second heating zone. The position of Se boat was adjusted to control the temperature. Transfer of grown WSe
-     <sub>
-      2
-     </sub>
-     is done using a HF based wet transfer technique with PMMA as the transfer medium using the specific procedure described in ref.
-     <sup>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-     </sup>
-     . The electrical performance of CVD WSe
-     <sub>
-      2
-     </sub>
-     grown on fused silica and transferred to Si/SiO
-     <sub>
-      2
-     </sub>
-     is also compared to that of exfoliated samples, and is shown in Supplementary Fig.
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      13
-     </xref>
-     <sup/>
      .
     </p>
    </sec>
-   <sec id="Sec9">
+  </sec>
+  <sec id="Sec7" sec-type="materials|methods">
+   <sec id="Sec7" sec-type="materials|methods">
     <title>
-     Transmission electron microscopy
+     Methods
     </title>
-    <p id="Par16">
-     WSe
-     <sub>
-      2
-     </sub>
-     monolayers were directly grown and transferred on 8 nm thick SiO
-     <sub>
-      2
-     </sub>
-     membranes (Ted Pella) for electron diffraction measurements in order to directly measure the lattice constant of the strained and unstrained samples, respectively. Electron diffraction measurements were performed at the National Center for Electron Microscopy at LBNL using a FEI Titan 60–300 microscope operated at 80 kV with parallel beam illumination.
-    </p>
-   </sec>
-   <sec id="Sec10">
-    <title>
-     Optical characterization
-    </title>
-    <p id="Par17">
-     The PL data presented in this work was obtained using a custom built micro-PL instrument described in detail in ref.
-     <sup>
-      <xref ref-type="bibr" rid="CR1">
-       1
+    <sec id="Sec8">
+     <title>
+      Material growth
+     </title>
+     <p id="Par15">
+      WSe
+      <sub>
+       2
+      </sub>
+      는 CVD를 사용하여 다양한 열팽창 계수를 가진 여러 기판에서 성장되었습니다. 구체적으로, 성장은 융합 실리카(비정질), 질화 알루미늄(c-면), 사파이어(c-면) 또는 스트론튬 타이타네이트(&lt;100&gt;)에서 수행되었습니다. 모든 기판은 전자 등급이며 루트 평균 제곱 표면 거칠기가 &lt;10 Å입니다. 기판은 먼저 아세톤과 이소프로필 알코올에서 10분 동안 초음파 세척으로 청소되었습니다. 성장은 이중 가열 구역로(DaePoong Industry, 50602)를 사용하여 수행되었으며, 성장 설정의 개략도는 보충 그림
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       7
       </xref>
-     </sup>
-     . In brief, measurements were performed using the continuous wave 514.5 nm line of an Ar laser (Lexel 95) and the laser power was adjusted using neutral density filters. The laser was focused on the sample using an 80 × objective lens (NA = 0.9). The PL signal was measured using the same objective lens, passed through a 550 nm dielectric longpass filter, dispersed by a
-     <italic>
-      f
-     </italic>
-     = 340 mm spectrometer with a 150 g mm grating, and detected using by an Si CCD camera (Andor iDus BEX2-DD). Prior to each measurement the CCD background was obtained and subsequently subtracted from the PL acquisition. The sensitivity of the instrument as a function of wavelength (instrument function) was determined through measurement of a virtual Lambertian blackbody source under the objective, created by imaging the illumination from a temperature stabilized lamp (ThorLabs SLS201) on a diffuse reflector (Spectralon). The system efficiency was determined by measuring the response of the excitation laser focused onto a diffuse reflector (Spectralon), with the 550 nm longpass filter removed. The measured external quantum efficiency was converted to QY using sample absorption at the pump wavelength and the fraction of light, which is able to escape the sample (1/4
-     <italic>
-      n
-     </italic>
-     , where
-     <italic>
-      n
-     </italic>
-     is the refractive index of the medium). All measurements shown in this work were performed at an incident power of 1.5 W cm (corresponding to a laser power of 200 nW). This laser power is significantly below the onset of biexcitonic recombination in WSe
-     <sub>
-      2
-     </sub>
-     <sup>
-      <xref ref-type="bibr" rid="CR38">
-       38
+      <sup/>
+      에 나와 있습니다. 청소된 기판은 하류 구역에 로드되었고, WO
+      <sub>
+       3
+      </sub>
+      와 브롬화 칼륨(KBr) 혼합물을 포함하는 세라믹 보트가 기판 옆에 배치되었습니다. KBr은 WO
+      <sub>
+       3
+      </sub>
+      와 1:2 비율로 혼합되었으며, KBr은 성장을 촉진하는 역할을 합니다. 이는 참조
+      <sup>
+       <xref ref-type="bibr" rid="CR36">
+        36
+       </xref>
+      </sup>
+      에 설명된 방법과 유사합니다. 그러나 우리는 여러 염을 사용할 수 있으며 촉진제의 선택이 최종 샘플 형태를 결정하는 데 중요한 역할을 한다는 것을 발견했습니다(이는
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       보충 방법
       </xref>
-     </sup>
-     . Low temperature measurements were performed using a long working distance 50 × objective lens in a micro-cryostat (Janis) with an infrasil window. The procedure described previously was used to calculate the sample PL efficiency. PL imaging was performed on the samples to determine their uniformity. Measurements were performed using a florescence microscopy setup using a 470 nm light emitting diode as the excitation source and a CCD detector (Andor Luca). Raman measurements and high-resolution mapping were performed to characterize the strain in the WSe
-     <sub>
-      2
-     </sub>
-     <sup/>
-     . Raman spectra were obtained using a WITec Alpha 300RA equipped with a piezo electric scanning stage. The sample was excited using the 532 nm line of a frequency-doubled Nd:YAG laser as the excitation source and focused on the sample using a 100 × objective.
-    </p>
-   </sec>
-   <sec id="Sec11">
-    <title>
-     Data availability
-    </title>
-    <p id="Par18">
-     The data that support the findings of this study are available from the corresponding author on request.
-    </p>
+      에서 더 논의됩니다). 사용된 촉진제와 관계없이 샘플에 존재하는 변형은 보충 그림
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       8
+      </xref>
+      <sup/>
+      에 나와 있듯이 영향을 받지 않았음을 주목해야 합니다. 500 mg의 Se 분말을 포함하는 세라믹 보트가 상류 구역의 중앙에 배치되었습니다. 로딩 후, 석영 튜브는 배기되고 Ar이 60 sccm으로 도입되어 2.6 Torr의 압력을 형성했습니다. 그런 다음 상류 구역의 온도가 100 °C로 상승되었고 하류로는 825 °C의 설정점으로 상승되었습니다. 상류 구역의 설정점은 하류 구역의 잔여 열이 Se의 기화를 초래하도록 조정되었습니다. 하류로의 온도가 안정화되면 수소가 40 sccm의 유량(총 압력 3 Torr)으로 도입되었습니다. 이는 WO
+      <sub>
+       x
+      </sub>
+      를 분해하고 기화시키기 위해 수소가 필요하기 때문에 성장을 시작합니다
+      <sup>
+       <xref ref-type="bibr" rid="CR37">
+        37
+       </xref>
+      </sup>
+      . 사용된 성장 시간은 15분이었습니다. 성장이 완료되면 수소 흐름이 중단되고 샘플을 빠르게 냉각하기 위해 로가 열렸습니다. H
+      <sub>
+       2
+      </sub>
+      /Ar 비율, 성장 시간 및 성장 압력의 영향은
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       보충 방법
+      </xref>
+      에서 논의되며 보충 그림
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       9
+      </xref>
+      –
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       11
+      </xref>
+      <sup/>
+      에 나와 있습니다. 다양한 기판에서 성장한 샘플의 광학 현미경 이미지는 보충 그림
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       12
+      </xref>
+      <sup/>
+      에 나와 있습니다. 특정 성장 조건은 성장된 샘플의 PL QY를 최적화하고 이중층 또는 단일층 도메인의 성장을 촉진하기 위해 조정되었습니다(이는
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       보충 방법
+      </xref>
+      에서 논의됩니다). 기판 온도가 변동된 성장을 위해 WO
+      <sub>
+       3
+      </sub>
+      /KBr 보트는 첫 번째 가열 구역의 중앙에 배치되었고 Se 보트는 첫 번째 가열 구역의 가장자리에 배치되었습니다. 기판은 두 번째 가열 구역의 중앙에 배치되었습니다. Se 보트의 위치는 온도를 제어하기 위해 조정되었습니다. 성장된 WSe
+      <sub>
+       2
+      </sub>
+      의 전이는 PMMA를 전이 매체로 사용하는 HF 기반의 습식 전이 기술을 사용하여 참조
+      <sup>
+       <xref ref-type="bibr" rid="CR11">
+        11
+       </xref>
+      </sup>
+      에 설명된 특정 절차를 사용하여 수행됩니다. 융합 실리카에서 성장하고 Si/SiO
+      <sub>
+       2
+      </sub>
+      로 전이된 CVD WSe
+      <sub>
+       2
+      </sub>
+      의 전기적 성능은 박리된 샘플과 비교되며 보충 그림
+      <xref ref-type="supplementary-material" rid="MOESM1">
+       13
+      </xref>
+      <sup/>
+      에 나와 있습니다.
+     </p>
+    </sec>
+    <sec id="Sec9">
+     <title>
+      Transmission electron microscopy
+     </title>
+     <p id="Par16">
+      WSe
+      <sub>
+       2
+      </sub>
+      단일층은 전자 회절 측정을 위해 8 nm 두께의 SiO
+      <sub>
+       2
+      </sub>
+      멤브레인(Ted Pella)에서 직접 성장 및 전이되어 각각 변형된 샘플과 변형되지 않은 샘플의 격자 상수를 직접 측정했습니다. 전자 회절 측정은 LBNL의 National Center for Electron Microscopy에서 평행 빔 조명을 사용하여 80 kV로 작동하는 FEI Titan 60–300 현미경을 사용하여 수행되었습니다.
+     </p>
+    </sec>
+    <sec id="Sec10">
+     <title>
+      Optical characterization
+     </title>
+     <p id="Par17">
+      이 연구에서 제시된 PL 데이터는 참조
+      <sup>
+       <xref ref-type="bibr" rid="CR1">
+        1
+       </xref>
+      </sup>
+      에 자세히 설명된 맞춤형 마이크로-PL 장비를 사용하여 얻었습니다. 간단히 말해, 측정은 Ar 레이저(Lexel 95)의 연속파 514.5 nm 라인을 사용하여 수행되었으며 레이저 출력은 중성 밀도 필터를 사용하여 조정되었습니다. 레이저는 80 × 대물 렌즈(NA = 0.9)를 사용하여 샘플에 초점을 맞췄습니다. PL 신호는 동일한 대물 렌즈를 사용하여 측정되었고, 550 nm 유전체 롱패스 필터를 통과하여
+      <italic>
+       f
+      </italic>
+      = 340 mm 분광기로 분산되었으며, Si CCD 카메라(Andor iDus BEX2-DD)를 사용하여 감지되었습니다. 각 측정 전에 CCD 배경이 얻어졌고 이후 PL 획득에서 차감되었습니다. 파장에 따른 장비의 감도(장비 함수)는 온도 안정화 램프(ThorLabs SLS201)의 조명을 확산 반사체(Spectralon)에 이미징하여 생성된 가상 램버시안 흑체 소스를 측정하여 결정되었습니다. 시스템 효율은 550 nm 롱패스 필터를 제거한 상태에서 확산 반사체(Spectralon)에 초점을 맞춘 여기 레이저의 응답을 측정하여 결정되었습니다. 측정된 외부 양자 효율은 펌프 파장에서 샘플 흡수와 샘플에서 탈출할 수 있는 빛의 비율(1/4
+      <italic>
+       n
+      </italic>
+      , 여기서
+      <italic>
+       n
+      </italic>
+      은 매질의 굴절률)을 사용하여 QY로 변환되었습니다. 이 연구에서 보여준 모든 측정은 1.5 W cm의 입사 전력(200 nW의 레이저 출력에 해당)에서 수행되었습니다. 이 레이저 출력은 WSe
+      <sub>
+       2
+      </sub>
+      에서 이중 여기 재결합의 시작점보다 훨씬 낮습니다
+      <sup>
+       <xref ref-type="bibr" rid="CR38">
+        38
+       </xref>
+      </sup>
+      . 저온 측정은 마이크로 크라이오스탯(Janis)과 적외선 창을 사용하여 긴 작업 거리 50 × 대물 렌즈를 사용하여 수행되었습니다. 이전에 설명된 절차를 사용하여 샘플 PL 효율을 계산했습니다. 샘플의 균일성을 확인하기 위해 PL 이미징이 수행되었습니다. 측정은 470 nm 발광 다이오드를 여기 소스로 사용하고 CCD 검출기(Andor Luca)를 사용하여 형광 현미경 설정을 사용하여 수행되었습니다. Raman 측정 및 고해상도 매핑은 WSe
+      <sub>
+       2
+      </sub>
+      의 변형을 특성화하기 위해 수행되었습니다
+      <sup/>
+      . Raman 스펙트럼은 피에조 전기 스캐닝 스테이지가 장착된 WITec Alpha 300RA를 사용하여 얻었습니다. 샘플은 여기 소스로 주파수 이중화 Nd:YAG 레이저의 532 nm 라인을 사용하여 여기되었고 100 × 대물 렌즈를 사용하여 샘플에 초점을 맞췄습니다.
+     </p>
+    </sec>
+    <sec id="Sec11">
+     <title>
+      Data availability
+     </title>
+     <p id="Par18">
+      이 연구의 결과를 뒷받침하는 데이터는 요청 시 교신 저자로부터 제공됩니다.
+     </p>
+    </sec>
    </sec>
   </sec>
  </body>

@@ -266,7 +266,7 @@ or pipeline) parameterized.
            front matter or fn-group -->
       <div id="{$this-article}-back" class="back">
       <!-- comment out the back -->
-        <!-- <xsl:call-template name="make-back"/> -->
+        <xsl:call-template name="make-back"/>
       </div>
     </xsl:if>
 
