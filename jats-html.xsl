@@ -2123,15 +2123,15 @@ or pipeline) parameterized.
 
   <xsl:template match="graphic | inline-graphic">
     <xsl:apply-templates/>
-    <img src="{@href}"/>
-    <img src="{@href}" alt="{@xlink:href}">
-      <xsl:for-each select="alt-text">
-        <xsl:attribute name="alt">
-          <xsl:value-of select="normalize-space(string(.))"/>
-        </xsl:attribute>
-      </xsl:for-each>
-      <xsl:call-template name="assign-src"/>
-    </img>
+    <xsl:if test="not(contains({@href},'gif'))">
+      <img src="{@href}" alt="{@xlink:href}">
+        <xsl:for-each select="alt-text">
+          <xsl:attribute name="alt">
+            <xsl:value-of select="normalize-space(string(.))"/>
+          </xsl:attribute>
+        </xsl:for-each>
+        <xsl:call-template name="assign-src"/>
+      </img>
   </xsl:template>
   
   
