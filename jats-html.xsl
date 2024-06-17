@@ -2125,7 +2125,7 @@ or pipeline) parameterized.
   <xsl:template name="gerp-graphic">
     <xsl:apply-templates/>
     <xsl:if test="not(contains({@href},'gif'))">
-      <img src="{@href}" alt="{@xlink:href}">
+      <img src="{@href}" alt="{@xlink:href}" size="100px">
         <xsl:for-each select="alt-text">
           <xsl:attribute name="alt">
             <xsl:value-of select="normalize-space(string(.))"/>
