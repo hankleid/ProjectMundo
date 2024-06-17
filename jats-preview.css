@@ -61,7 +61,7 @@ div.two-column div.cellleft {
 div.two-column div.cellright {
     width: 20% }
 
-div.one-column div.cell.spanning { width: 100% }
+div.one-column div.cell.spanning { width: 100%; margin-left: 2em; margin-right: 2em; }
 
 div.metadata-group { margin-top: 0.5em;
   font-size: 100% }
@@ -96,7 +96,7 @@ hr.part-rule {
 
 hr.section-rule {
     border: thin dotted black;
-    width: 50%;
+    width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
     }

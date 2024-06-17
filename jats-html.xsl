@@ -344,7 +344,7 @@ or pipeline) parameterized.
         <!-- abstract(s) -->
         <xsl:if test="abstract | trans-abstract">
           <!-- rule separates title+authors from abstract(s) -->
-          <hr class="section-rule"/>
+          <!-- <hr class="section-rule"/> -->
           
           <xsl:for-each select="abstract | trans-abstract">
             <!-- title in left column, content (paras, secs) in right -->
