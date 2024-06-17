@@ -140,6 +140,11 @@ def translate_article(xml, tl, language):
         translate(title,tl,language,text=True)
 
 
+def add_mathML(xml):
+    # Adds the MathML attribute for displaying equations.
+    for math in xml.find_all('math'):
+        math['xmlns'] = "http://www.w3.org/1998/Math/MathML"
+
 def filename_from_DOI(xml):
     doi = xml.front.find('article-meta').find('article-id', {'pub-id-type': 'doi'}).string
     _ = doi.replace('/','_')
@@ -149,8 +154,10 @@ def filename_from_DOI(xml):
 
 # EXECUTION
 tl = Translator()
+
 translate_article(data, tl, "Korean")
 print(tl.count_tokens())
+
 
 # SAVING
 fn = filename_from_DOI(data)
