@@ -107,10 +107,10 @@ Footer text is emended, with name of transformation (stylesheet
 or pipeline) parameterized.
 
 -->
+
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:mml="http://www.w3.org/1998/Math/MathML"
   exclude-result-prefixes="xlink mml">
 
 
@@ -195,16 +195,10 @@ or pipeline) parameterized.
   <xsl:template name="make-html-header">
     <head>
       <title>
+      <text>Project Mundo</text>
       <script type="text/javascript"
         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
       </script>
-        <xsl:variable name="authors">
-          <xsl:call-template name="author-string"/>
-        </xsl:variable>
-        <xsl:value-of select="normalize-space(string($authors))"/>
-        <xsl:if test="normalize-space(string($authors))">: </xsl:if>
-        <xsl:value-of
-          select="/article/front/article-meta/title-group/article-title[1]"/>
       </title>
       <link rel="stylesheet" type="text/css" href="{$css}"/>
       <!-- XXX check: any other header stuff? XXX -->
