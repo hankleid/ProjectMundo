@@ -44,7 +44,7 @@ class Translator():
 
   def translate_xml(self, xml, language):
     # returns the (string of) an xml object after translating its contents into any language.
-    prompt = f"The following xml object represents a section of a scientific article. Please translate the contents into {language} but please keep all of the xml tags. The format of the response should be an xml object without any extra words at the beginning or end.{xml}"
+    prompt = f"The following xml object represents a section of a scientific article. Please translate the contents of the entire section into {language} but please keep all of the xml tags. The format of the response should be the translated xml object.{xml}"
     response = self.chat_prompt(prompt)
     i = response.find("<") # start of the xml object
     j = response.rindex(">")+1 # end of the xml object
