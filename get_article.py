@@ -158,6 +158,8 @@ tl = Translator()
 translate_article(data, tl, "Korean")
 print(tl.count_tokens())
 
+add_mathML(data)
+
 
 # SAVING
 fn = filename_from_DOI(data)
