@@ -2127,7 +2127,7 @@ or pipeline) parameterized.
   <xsl:template name="gerp-graphic">
     <xsl:apply-templates/>
   
-    <img src="{@href}" alt="{@xlink:href}" width="100%" depth="100px">
+    <img src="{@href}" alt="{@xlink:href}" width="50%" depth="50%">
       <xsl:for-each select="alt-text">
         <xsl:attribute name="alt">
           <xsl:value-of select="normalize-space(string(.))"/>
