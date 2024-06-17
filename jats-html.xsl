@@ -2123,7 +2123,7 @@ or pipeline) parameterized.
 
   <xsl:template match="graphic | inline-graphic">
     <xsl:apply-templates/>
-    <img src="{@href}">
+    <img src="{@href}"/>
     <img src="{@href}" alt="{@xlink:href}">
       <xsl:for-each select="alt-text">
         <xsl:attribute name="alt">
