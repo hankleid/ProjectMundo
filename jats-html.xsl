@@ -195,7 +195,7 @@ or pipeline) parameterized.
   <xsl:template name="make-html-header">
     <head>
       <title>
-      <text>Project Mundo</text>
+      Project Mundo
       <script type="text/javascript"
         src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
       </script>
