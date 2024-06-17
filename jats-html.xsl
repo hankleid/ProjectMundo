@@ -2073,6 +2073,7 @@ or pipeline) parameterized.
     <div class="caption">
       <xsl:apply-templates/>
     </div>
+    <xsl:call-templates name="gerp-graphic" select="./graphic | ./inline-graphic"/>
   </xsl:template>
   
 
@@ -2121,7 +2122,7 @@ or pipeline) parameterized.
   
 
 
-  <xsl:template match="graphic | inline-graphic">
+  <xsl:template name="gerp-graphic">
     <xsl:apply-templates/>
     <xsl:if test="not(contains({@href},'gif'))">
       <img src="{@href}" alt="{@xlink:href}">
