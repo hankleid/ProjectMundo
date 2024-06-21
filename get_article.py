@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from translation import Translator
+import time
 
 # ARTICLE ACQUISITION
 
@@ -81,25 +82,20 @@ def parse_par(this_par):
     return new_par.p
 
 
-def translate(xml, tl, language, text=False):
+def translate(xml, tl, language, delay=False):
     # translates the chunk in place.
         # xml: article to translate
         # tl: Translator object
         # language: language to translate to
         # text (bool): true if only want to translate string, not whole xml obj.
-    
-    if text:
-        result = tl.translate_text(xml.string, language)
-        xml.clear()
-        xml.append(result)
-        print(result)
-    else:
-        # translate entire xml
-        result = tl.translate_xml(xml, language)
-        new_xml = BeautifulSoup(result, features="xml")
-        guts = new_xml.find(xml.name).contents
-        xml.clear()
-        xml.extend(guts)
+        # delay (bool): true if want to pause before translating. good for avoiding query frequency limits.
+    if delay:
+        time.sleep(0.5)
+    result = tl.translate_xml(xml, language)
+    new_xml = BeautifulSoup(result, features="xml")
+    guts = new_xml.find(xml.name).contents
+    xml.clear()
+    xml.extend(guts)
 
 def translate_article(xml, tl, language):
     # edits xml in place with translated text.
@@ -112,32 +108,31 @@ def translate_article(xml, tl, language):
     back = xml.back
 
     title = front.find('article-title')
-    translate(title,tl,language,text=True)
+    translate(title,tl,language,delay=True)
 
     ab = front.find('abstract')
-    translate(ab,tl,language)
+    translate(ab,tl,language,delay=True)
 
     # Restructure the sentences.
     for p in body.find_all('p'):
         formatted_p = parse_par(p)
         p.clear()
         p.extend(formatted_p.contents)
-        translate(p,tl,language)
+        translate(p,tl,language,delay=True)
 
     # # Translate the body.
     # for sec in body.find_all('sec'):
-    #     # translate(sec,tl,language)
-    #     translate(sec,tl,language)
+    #     translate(sec,tl,language,delay=True)
 
     # Translate acknowledgements and author contributions.
     ack = back.find('ack')
-    translate(ack,tl,language)
+    translate(ack,tl,language,delay=True)
     contr = back.find('sec', {'sec-type': 'author-contribution'})
     translate(contr,tl,language)
 
     # Translate the (sub)titles in case they were missed.
     for title in data.find_all('title'):
-        translate(title,tl,language,text=True)
+        translate(title,tl,language,delay=True)
 
 
 def add_mathML(xml):
