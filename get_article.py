@@ -118,11 +118,11 @@ def translate_article(xml, tl, language):
         formatted_p = parse_par(p)
         p.clear()
         p.extend(formatted_p.contents)
-        translate(p,tl,language,delay=True)
+        # translate(p,tl,language,delay=True)
 
-    # # Translate the body.
-    # for sec in body.find_all('sec'):
-    #     translate(sec,tl,language,delay=True)
+    # Translate the body.
+    for sec in body.find_all('sec'):
+        translate(sec,tl,language,delay=True)
 
     # Translate acknowledgements and author contributions.
     ack = back.find('ack')
