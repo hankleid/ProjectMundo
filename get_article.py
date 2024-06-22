@@ -107,32 +107,24 @@ def translate_article(xml, tl, language):
     body = xml.body
     back = xml.back
 
-    title = front.find('article-title')
-    translate(title,tl,language,delay=True)
-
-    ab = front.find('abstract')
-    translate(ab,tl,language,delay=True)
-
     # Restructure the sentences.
     for p in body.find_all('p'):
         formatted_p = parse_par(p)
         p.clear()
         p.extend(formatted_p.contents)
-        # translate(p,tl,language,delay=True)
 
+    # Translate the article title and abstract.
     # Translate the body.
-    for sec in body.find_all('sec'):
-        translate(sec,tl,language,delay=True)
-
     # Translate acknowledgements and author contributions.
-    ack = back.find('ack')
-    translate(ack,tl,language,delay=True)
-    contr = back.find('sec', {'sec-type': 'author-contribution'})
-    translate(contr,tl,language)
-
-    # Translate the (sub)titles in case they were missed.
-    for title in data.find_all('title'):
-        translate(title,tl,language,delay=True)
+    # Translate the (sub)titles in case they were missed. 
+    to_translate = [[front.find('article-title'), front.find('abstract')],
+                    [sec for sec in body.find_all('sec')],
+                    [back.find('ack'), back.find('sec', {'sec-type': 'author-contribution'})],
+                    [title for title in data.find_all('title')]]
+          
+    for _ in to_translate:
+        for xml in _:
+            translate(xml,tl,language,delay=True)
 
 
 def add_mathML(xml):
@@ -150,7 +142,7 @@ def filename_from_DOI(xml):
 # EXECUTION
 tl = Translator()
 
-translate_article(data, tl, "Korean")
+translate_article(data, tl, "Spanish")
 print(tl.count_tokens())
 
 add_mathML(data)
