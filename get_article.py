@@ -118,13 +118,13 @@ def translate_article(xml, tl, language):
     # Translate acknowledgements and author contributions.
     # Translate the (sub)titles in case they were missed. 
     to_translate = [[front.find('article-title'), front.find('abstract')],
-                    [sec for sec in body.find_all('sec')],
+                    [p for p in body.find_all('p')],
                     [back.find('ack'), back.find('sec', {'sec-type': 'author-contribution'})],
                     [title for title in data.find_all('title')]]
           
     for _ in to_translate:
         for xml in _:
-            translate(xml,tl,language,delay=True)
+            translate(xml,tl,language,delay=False)
 
 
 def add_mathML(xml):
