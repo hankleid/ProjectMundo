@@ -5,30 +5,30 @@ import time
 
 # ARTICLE ACQUISITION
 
-key = ""
-with open("../keys/nature_key.txt") as f:
-      key = f.readline()
+def get_article(doi):
+    key = ""
+    with open("../keys/nature_key.txt") as f:
+        key = f.readline()
 
+    URL = "http://api.springernature.com/openaccess/jats?"
 
-URL = "http://api.springernature.com/openaccess/jats?"
+    PARAMS = {
+        "q": f"doi:{doi}",
+        "api_key": key
+    }
 
+    r = requests.get(url=URL, params=PARAMS)
 
-PARAMS = {
-    "q": "doi:10.1038/s41467-017-00516-5",
-    "api_key": key
-}
+    data = BeautifulSoup(r.content, features="xml")
+    # Enter correct XSLT style information.
+    data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>', features="xml"))
+    # Remove the API response portion of the XML.
+    data.response.replace_with(data.records.article)
 
-r = requests.get(url=URL, params=PARAMS)
-
-data = BeautifulSoup(r.content, features="xml")
-# Enter correct XSLT style information.
-data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>', features="xml"))
-# Remove the API response portion of the XML.
-data.response.replace_with(data.records.article)
-
-f = open(f"korean.xml", "w")
-f.write(data.prettify())
-f.close()
+    # f = open(f"korean.xml", "w")
+    # f.write(data.prettify())
+    # f.close()
+    return data
 
 # TRANSLATION EXECUTION FUNCTIONS
 
@@ -49,6 +49,7 @@ def parse_sups(this_sups):
     return sup.sup
 
 def parse_par(this_par):
+    # rearranges this paragraph such that the references appear at the end of its respective sentence, not inside the sentence.
     sentences = []
     sups = []
     curr_sent = ""
@@ -77,10 +78,11 @@ def parse_par(this_par):
         sentences.append(parse_sups(sups))
         sentences.append(".")
 
-    
     new_par.p.extend(sentences)
-    return new_par.p
 
+    this_par.clear()
+    this_par.extend(new_par.p.contents)
+    # return new_par.p
 
 def translate(xml, tl, language, delay=False):
     # translates the chunk in place.
@@ -109,9 +111,11 @@ def translate_article(xml, tl, language):
 
     # Restructure the sentences.
     for p in body.find_all('p'):
-        formatted_p = parse_par(p)
-        p.clear()
-        p.extend(formatted_p.contents)
+        parse_par(p)
+
+        # formatted_p = parse_par(p)
+        # p.clear()
+        # p.extend(formatted_p.contents)
 
     # Translate the article title and abstract.
     # Translate the body.
@@ -132,24 +136,29 @@ def add_mathML(xml):
     for math in xml.find_all('math'):
         math['xmlns'] = "http://www.w3.org/1998/Math/MathML"
 
-def filename_from_DOI(xml):
+def filename_from_DOI(xml, language=None):
     doi = xml.front.find('article-meta').find('article-id', {'pub-id-type': 'doi'}).string
     _ = doi.replace('/','_')
     filename = _.replace('.','X')
+    if language:
+        filename += "f_{language}"
     return filename
 
 
 # EXECUTION
 tl = Translator()
+lang = "Korean"
 
-translate_article(data, tl, "Spanish")
+doi = "10.1038/s41467-017-00516-5"
+data = get_article(doi)
+translate_article(data, tl, lang)
 print(tl.count_tokens())
 
 add_mathML(data)
 
 
 # SAVING
-fn = filename_from_DOI(data)
+fn = filename_from_DOI(data, lang)
 # f = open(f"{fn}.xml", "w")
 f = open(f"index.xml", "w")
 f.write(data.prettify())
