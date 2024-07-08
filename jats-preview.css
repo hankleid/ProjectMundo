@@ -37,6 +37,7 @@ div { margin-top: 0.5em }
 .topnav {
   overflow: hidden;
   background-color: #333;
+  font-family: sans-serif;
 }
 
 .topnav a {
