@@ -162,7 +162,7 @@ or pipeline) parameterized.
   
   <xsl:param name="transform" select="'jats-html.xsl'"/>
 
-  <xsl:param name="css" select="'jats-preview.css'"/>
+  <xsl:param name="css" select="'../jats-preview.css'"/>
   
   <xsl:param name="report-warnings" select="'no'"/>
   
