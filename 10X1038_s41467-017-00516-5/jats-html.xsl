@@ -187,10 +187,10 @@ or pipeline) parameterized.
       <xsl:call-template name="make-html-header"/>
       <body>
         <div class="topnav">
-          <a class="active" href="index.xml">Home</a>
-          <a href="10X1038_s41467-017-00516-5/10X1038_s41467-017-00516-5-hin.xml">News</a>
-          <a href="10X1038_s41467-017-00516-5/10X1038_s41467-017-00516-5-kor.xml">Contact</a>
-          <a href="10X1038_s41467-017-00516-5/10X1038_s41467-017-00516-5-deu.xml">About</a>
+          <a class="active" href="../index.xml">Home</a>
+          <a href="10X1038_s41467-017-00516-5-hin.xml">News</a>
+          <a href="10X1038_s41467-017-00516-5-kor.xml">Contact</a>
+          <a href="10X1038_s41467-017-00516-5-deu.xml">About</a>
         </div>
 
         <xsl:apply-templates/>
