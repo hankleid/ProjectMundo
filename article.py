@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
-from translation import Translator
 import time
+import json
 
 # ARTICLE ACQUISITION
 
 def get_article(doi):
+    # Returns the article @ doi in JATS (XML) format
     key = ""
     with open("../keys/nature_key.txt") as f:
         key = f.readline()
@@ -29,6 +30,10 @@ def get_article(doi):
     # f.write(data.prettify())
     # f.close()
     return data
+
+def get_copy(xml):
+    # Returns a copied BeautifulSoup object
+    return BeautifulSoup(str(xml), features="xml")
 
 # TRANSLATION EXECUTION FUNCTIONS
 
@@ -124,42 +129,34 @@ def translate_article(xml, tl, language):
     to_translate = [[front.find('article-title'), front.find('abstract')],
                     [p for p in body.find_all('p')],
                     [back.find('ack'), back.find('sec', {'sec-type': 'author-contribution'})],
-                    [title for title in data.find_all('title')]]
+                    [title for title in xml.find_all('title')]]
           
     for _ in to_translate:
         for xml in _:
             translate(xml,tl,language,delay=False)
 
 
+# I/O FUNCTIONS 
+            
+def load_langs():
+    return json.load(open('lang.json'))
+
 def add_mathML(xml):
     # Adds the MathML attribute for displaying equations.
     for math in xml.find_all('math'):
         math['xmlns'] = "http://www.w3.org/1998/Math/MathML"
 
-def filename_from_DOI(xml, language=None):
-    doi = xml.front.find('article-meta').find('article-id', {'pub-id-type': 'doi'}).string
-    _ = doi.replace('/','_')
-    filename = _.replace('.','X')
+def filename_from_DOI(xml=None, doi=None, language=None):
+    filename = ""
+    if xml and not doi:
+        # collect doi from article
+        doi = xml.front.find('article-meta').find('article-id', {'pub-id-type': 'doi'}).string
+    
+    filename = doi.replace('/','_').replace('.','X')
+    
     if language:
-        filename += "f_{language}"
+        codes = load_langs()
+        filename += f"_{codes[language]}"
+
     return filename
 
-
-# EXECUTION
-tl = Translator()
-lang = "Korean"
-
-doi = "10.1038/s41467-017-00516-5"
-data = get_article(doi)
-translate_article(data, tl, lang)
-print(tl.count_tokens())
-
-add_mathML(data)
-
-
-# SAVING
-fn = filename_from_DOI(data, lang)
-# f = open(f"{fn}.xml", "w")
-f = open(f"index.xml", "w")
-f.write(data.prettify())
-f.close()

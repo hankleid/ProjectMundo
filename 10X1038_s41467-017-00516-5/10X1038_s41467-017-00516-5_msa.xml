@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../jats-html.xsl"?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" specific-use="web-only" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -61,7 +61,7 @@
    </article-categories>
    <title-group>
     <article-title xml:lang="en">
-     Strain-engineered growth of two-dimensional materials
+     Pertumbuhan bahan dua dimensi yang direka bentuk tegangan
     </article-title>
    </title-group>
    <contrib-group>
@@ -517,18 +517,18 @@
    </permissions>
    <abstract id="Abs1" xml:lang="en">
     <title>
-     Abstract
+     Abstrak
     </title>
     <p id="Par1">
-     The application of strain to semiconductors allows for controlled modification of their band structure. This principle is employed for the manufacturing of devices ranging from high-performance transistors to solid-state lasers. Traditionally, strain is typically achieved via growth on lattice-mismatched substrates. For two-dimensional (2D) semiconductors, this is not feasible as they typically do not interact epitaxially with the substrate. Here, we demonstrate controlled strain engineering of 2D semiconductors during synthesis by utilizing the thermal coefficient of expansion mismatch between the substrate and semiconductor. Using WSe
+     Penggunaan regangan pada semikonduktor membolehkan pengubahsuaian terkawal struktur jalur mereka. Prinsip ini digunakan untuk pembuatan peranti dari transistor berprestasi tinggi hingga laser keadaan pepejal. Secara tradisional, regangan biasanya dicapai melalui pertumbuhan pada substrat yang tidak sepadan kisi. Untuk semikonduktor dua dimensi (2D), ini tidak dapat dilakukan kerana mereka biasanya tidak berinteraksi secara epitaksi dengan substrat. Di sini, kami menunjukkan kejuruteraan regangan terkawal semikonduktor 2D semasa sintesis dengan menggunakan ketidakpadanan pekali pengembangan terma antara substrat dan semikonduktor. Menggunakan WSe
      <sub>
       2
      </sub>
-     as a model system, we demonstrate stable built-in strains ranging from 1% tensile to 0.2% compressive on substrates with different thermal coefficient of expansion. Consequently, we observe a dramatic modulation of the band structure, manifested by a strain-driven indirect-to-direct bandgap transition and brightening of the dark exciton in bilayer and monolayer WSe
+     sebagai sistem model, kami menunjukkan regangan terbina dalam yang stabil dari 1% regangan tegangan hingga 0.2% regangan mampatan pada substrat dengan pekali pengembangan terma yang berbeza. Akibatnya, kami memerhatikan modulasi dramatik struktur jalur, yang ditunjukkan oleh peralihan jalur tidak langsung ke langsung yang didorong oleh regangan dan pencerahan eksiton gelap dalam WSe
      <sub>
       2
      </sub>
-     , respectively. The growth method developed here should enable flexibility in design of more sophisticated devices based on 2D materials.
+     dua lapisan dan satu lapisan, masing-masing. Kaedah pertumbuhan yang dibangunkan di sini seharusnya membolehkan fleksibiliti dalam reka bentuk peranti yang lebih canggih berdasarkan bahan 2D.
     </p>
    </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" specific-use="web-only" xml:lang="en">
@@ -823,10 +823,10 @@
  <body>
   <sec id="Sec1" sec-type="introduction">
    <title>
-    Introduction
+    Pengenalan
    </title>
    <p id="Par3">
-    Two-dimensional (2D) transition metal dichalcogenides (TMDCs) have been the subject of focused research owing to their potential applications in optoelectronics and sub 10 nm transistors
+    Dikalkogenida logam peralihan dua dimensi (2D) (TMDCs) telah menjadi subjek penyelidikan yang tertumpu kerana potensi aplikasi mereka dalam optoelektronik dan transistor sub 10 nm
     <sup>
      <xref ref-type="bibr" rid="CR1">
       1
@@ -836,15 +836,15 @@
       2
      </xref>
     </sup>
-    . The primary attraction of TMDCs such as MoS
+    . Tarikan utama TMDCs seperti MoS
     <sub>
      2
     </sub>
-    and WSe
+    dan WSe
     <sub>
      2
     </sub>
-    for both applications is their naturally terminated surface, which allows them to be scaled down to the atomic limit without the concern of surface dangling bonds. Furthermore, in many 2D materials, a number of desirable properties emerge at the monolayer limit, the most notable of which being the presence of a direct bandgap. Many studies based on mechanical bending of exfoliated 2D TMDCs have been conducted on flexible substrates, and they have shown that the application of strain can tune the properties of this new class of materials
+    untuk kedua-dua aplikasi adalah permukaan mereka yang secara semula jadi berakhir, yang membolehkan mereka dikecilkan ke had atom tanpa kebimbangan tentang ikatan permukaan yang tergantung. Tambahan pula, dalam banyak bahan 2D, beberapa sifat yang diingini muncul pada had monolayer, yang paling ketara adalah kehadiran jurang jalur langsung. Banyak kajian berdasarkan lenturan mekanikal TMDCs 2D yang dieksfoliasi telah dijalankan pada substrat fleksibel, dan mereka telah menunjukkan bahawa aplikasi regangan boleh menala sifat bahan kelas baru ini
     <sup>
      <xref ref-type="bibr" rid="CR3">
       3
@@ -857,29 +857,29 @@
      <xref ref-type="bibr" rid="CR5">
       5
      </xref>
-     –
+     ,
      <xref ref-type="bibr" rid="CR6">
       6
      </xref>
     </sup>
-    . For example, it has been demonstrated that in multilayer WSe
+    . Sebagai contoh, telah ditunjukkan bahawa dalam WSe
     <sub>
      2
     </sub>
-    , particularly in nominally indirect-gap bilayer WSe
+    berbilang lapisan, terutamanya dalam WSe
     <sub>
      2
     </sub>
-    , application of tensile strain can result in a transition from an indirect-to-direct bandgap
+    bilayer yang secara nominalnya mempunyai jurang tidak langsung, aplikasi regangan tegangan boleh mengakibatkan peralihan dari jurang tidak langsung ke jurang langsung
     <sup>
      <xref ref-type="bibr" rid="CR7">
       7
      </xref>
     </sup>
-    . However, studies on the effects of strain in TMDCs have been limited to mechanical bending of samples, and there has yet to be a technique, which can directly realize built-in tensile and compressive strains.
+    . Walau bagaimanapun, kajian mengenai kesan regangan dalam TMDCs telah terhad kepada lenturan mekanikal sampel, dan masih belum ada teknik yang boleh secara langsung merealisasikan regangan tegangan dan mampatan terbina dalam.
    </p>
    <p id="Par4">
-    Traditionally, strain engineering of semiconductors has been leveraged to tune the electronic band structure of high-performance devices, the most notable of which being to reduce intervalley scattering, increase mobility in Si transistors, and reduce the hole effective mass in III–V semiconductor lasers
+    Secara tradisional, kejuruteraan regangan semikonduktor telah digunakan untuk menala struktur jalur elektronik peranti berprestasi tinggi, yang paling ketara adalah untuk mengurangkan penyebaran intervalley, meningkatkan mobiliti dalam transistor Si, dan mengurangkan jisim efektif lubang dalam laser semikonduktor III–V
     <sup>
      <xref ref-type="bibr" rid="CR8">
       8
@@ -889,13 +889,13 @@
       9
      </xref>
     </sup>
-    . Growth on epitaxial substrates with a controlled lattice constant mismatch has typically been utilized to establish built-in strain in three-dimensional semiconductors
+    . Pertumbuhan pada substrat epitaxial dengan ketidakpadanan pemalar kekisi yang terkawal biasanya telah digunakan untuk mewujudkan regangan terbina dalam semikonduktor tiga dimensi
     <sup>
      <xref ref-type="bibr" rid="CR10">
       10
      </xref>
     </sup>
-    . However, due to the relatively weak interaction between 2D materials and substrates, this established method of strain engineering is likely not applicable for the strain-engineered growth of TMDCs. Therefore, a route toward development of large-area strained TMDCs on a practical substrate is highly desirable. Significant research efforts have been made to realize large area TMDCs, with the majority of efforts focusing on chemical vapor deposition (CVD)
+    . Walau bagaimanapun, disebabkan oleh interaksi yang agak lemah antara bahan 2D dan substrat, kaedah kejuruteraan regangan yang ditetapkan ini mungkin tidak boleh digunakan untuk pertumbuhan TMDC yang direka bentuk regangan. Oleh itu, laluan ke arah pembangunan TMDC yang diregangkan kawasan besar pada substrat praktikal adalah sangat diingini. Usaha penyelidikan yang ketara telah dilakukan untuk merealisasikan TMDC kawasan besar, dengan kebanyakan usaha tertumpu pada pemendapan wap kimia (CVD)
     <sup>
      <xref ref-type="bibr" rid="CR11">
       11
@@ -904,12 +904,12 @@
      <xref ref-type="bibr" rid="CR12">
       12
      </xref>
-     –
+     ,
      <xref ref-type="bibr" rid="CR13">
       13
      </xref>
     </sup>
-    . Interestingly, a number of studies employing CVD growth of 2D materials have reported apparent strain in the synthesized samples
+    . Menariknya, beberapa kajian yang menggunakan pertumbuhan CVD bahan 2D telah melaporkan regangan yang ketara dalam sampel yang disintesis
     <sup>
      <xref ref-type="bibr" rid="CR14">
       14
@@ -919,285 +919,286 @@
       15
      </xref>
     </sup>
-    . However, growth of high-quality 2D materials with controllable built-in strain has not been realized. Hence, properties that are difficult to probe via mechanical bending experiments, such as low-temperature optical measurements and electrical performance, have yet to be explored.
+    . Walau bagaimanapun, pertumbuhan bahan 2D berkualiti tinggi dengan regangan terbina dalam yang boleh dikawal belum direalisasikan. Oleh itu, sifat-sifat yang sukar untuk diselidiki melalui eksperimen lenturan mekanikal, seperti pengukuran optik suhu rendah dan prestasi elektrik, masih belum diterokai.
    </p>
    <p id="Par5">
-    In this work, we demonstrate strain engineering of 2D materials directly via CVD growth while simultaneously maintaining high material quality, by utilizing the thermal coefficient of expansion (TCE) mismatch between the TMDC and the growth substrate. Electron diffraction of strained monolayers grown directly onto transmission electron microscopy (TEM) windows is utilized to unambiguously quantify strain. Using WSe
+    Dalam kerja ini, kami menunjukkan kejuruteraan regangan bahan 2D secara langsung melalui pertumbuhan CVD sambil mengekalkan kualiti bahan yang tinggi, dengan menggunakan ketidakpadanan pekali pengembangan terma (TCE) antara TMDC dan substrat pertumbuhan. Pembelauan elektron lapisan monolayer yang diregangkan yang ditanam secara langsung pada tingkap mikroskop elektron transmisi (TEM) digunakan untuk mengukur regangan dengan jelas. Menggunakan WSe
     <sub>
      2
     </sub>
-    as a model system, we show that it is possible to obtain both tensile (of ~ 1%) and compressive (0.2%) strained 2D semiconductors over large areas on rigid substrates. Furthermore, in the WSe
+    sebagai sistem model, kami menunjukkan bahawa adalah mungkin untuk mendapatkan semikonduktor 2D yang diregangkan secara tegangan (~1%) dan mampatan (0.2%) di kawasan yang luas pada substrat tegar. Selain itu, dalam sistem model WSe
     <sub>
      2
     </sub>
-    model system we show indirect-to-direct optical transition in tensile strained WSe
+    kami menunjukkan peralihan optik tidak langsung ke langsung dalam bilayer WSe
     <sub>
      2
     </sub>
-    bilayers as well as removal of dark exciton quenching in WSe
+    yang diregangkan secara tegangan serta penghapusan pemadaman eksiton gelap dalam monolayer WSe
     <sub>
      2
     </sub>
-    monolayers.
+    .
    </p>
   </sec>
   <sec id="Sec2" sec-type="results">
    <title>
-    Results
+    Keputusan
    </title>
    <sec id="Sec3">
     <title>
-     TCE-mismatch induced strain
+     Regangan yang disebabkan oleh ketidakpadanan TCE
     </title>
     <p id="Par6">
-     Owing to the high growth temperatures used to synthesize TMDCs, the TCE mismatch between the substrate and the 2D semiconductor can be utilized to control the strain in the synthesized 2D material, as shown schematically in Fig.
+     Disebabkan oleh suhu pertumbuhan yang tinggi yang digunakan untuk mensintesis TMDCs, ketidakpadanan TCE antara substrat dan semikonduktor 2D boleh digunakan untuk mengawal regangan dalam bahan 2D yang disintesis, seperti yang ditunjukkan secara skematik dalam Rajah
      <xref ref-type="fig" rid="Fig1">
       1
      </xref>
-     . The theoretical upper limit for the strain, assuming no relaxation, can be calculated using the difference in lattice constant of the substrate and 2D semiconductor at room temperature and synthesis temperature:
+     <sup/>
+     . Had atas teori untuk regangan, dengan mengandaikan tiada relaksasi, boleh dikira menggunakan perbezaan dalam pemalar kekisi substrat dan semikonduktor 2D pada suhu bilik dan suhu sintesis:
      <disp-formula id="Equ1">
       <label>
        1
       </label>
       <alternatives>
-       <mml:math display="block" id="Equ1_Math">
-        <mml:mi>
+       <math display="block" id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          ε
-        </mml:mi>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi mathvariant="normal">
+            </mn>
+            <mi mathvariant="normal">
              D
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:msub>
-             <mml:mrow>
-              <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>
                T
-              </mml:mi>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mi mathvariant="normal">
+              </mi>
+             </mrow>
+             <mrow>
+              <mi mathvariant="normal">
                g
-              </mml:mi>
-             </mml:mrow>
-            </mml:msub>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+              </mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfenced>
+          <mo>
            -
-          </mml:mo>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mo>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi mathvariant="normal">
+            </mn>
+            <mi mathvariant="normal">
              D
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi mathvariant="normal">
+            </mn>
+            <mi mathvariant="normal">
              D
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-        </mml:mfrac>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+        </mfrac>
+        <mo>
          -
-        </mml:mo>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              Sub
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:msub>
-             <mml:mrow>
-              <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>
                T
-              </mml:mi>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mi mathvariant="normal">
+              </mi>
+             </mrow>
+             <mrow>
+              <mi mathvariant="normal">
                g
-              </mml:mi>
-             </mml:mrow>
-            </mml:msub>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+              </mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfenced>
+          <mo>
            -
-          </mml:mo>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mo>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              Sub
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              Sub
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-        </mml:mfrac>
-       </mml:math>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+        </mfrac>
+       </math>
        <tex-math id="Equ1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1210,210 +1211,208 @@
 				\setlength{\oddsidemargin}{-69pt}
 				\begin{document}$$\varepsilon \left( {{T_{\rm{g}}}} \right) = \frac{{{a_{2{\rm{D}}}}\left( {{T_{\rm{g}}}} \right) - {a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}} - \frac{{{a_{{\rm{Sub}}}}\left( {{T_{\rm{g}}}} \right) - {a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}$$\end{document}
        </tex-math>
-       <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2017_516_Article_Equ1.gif"/>
+       <graphic href="41467_2017_516_Article_Equ1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </disp-formula>
-     where
+     di mana
      <italic>
       a
      </italic>
      <sub>
       2D
      </sub>
-     is the in-plane lattice constant for the 2D material being grown,
+     adalah pemalar kekisi dalam satah untuk bahan 2D yang sedang tumbuh,
      <italic>
       a
      </italic>
      <sub>
       Sub
      </sub>
-     is the in-plane lattice constant of the substrate, and
+     adalah pemalar kekisi dalam satah substrat, dan
      <italic>
       T
      </italic>
      <sub>
       g
      </sub>
-     is the growth temperature. More generally, this can be calculated using the temperature dependent thermal expansion coefficient for the 2D material (
+     adalah suhu pertumbuhan. Secara amnya, ini boleh dikira menggunakan pekali pengembangan haba yang bergantung kepada suhu untuk bahan 2D (
      <italic>
       α
      </italic>
      <sub>
       2D
      </sub>
-     ) and substrate (
+     ) dan substrat (
      <italic>
       α
      </italic>
      <sub>
       Sub
      </sub>
-     ) according to:
+     ) mengikut:
      <disp-formula id="Equ2">
       <label>
        2
       </label>
       <alternatives>
-       <mml:math display="block" id="Equ2_Math">
-        <mml:mi>
+       <math display="block" id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          ε
-        </mml:mi>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:munderover accent="false" accentunder="false">
-         <mml:mrow>
-          <mml:mo>
+        </mo>
+        <munderover accent="false" accentunder="false">
+         <mrow>
+          <mo>
            ∫
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mo>
+         </mrow>
+         <mrow>
+          <mn>
            25
-          </mml:mn>
-          <mml:msup>
-           <mml:mrow>
-            <mml:mspace width="0.3em"/>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo>
+          </mn>
+          <msup>
+           <mrow>
+            <mspace width="0.3em"/>
+           </mrow>
+           <mrow>
+            <mo>
              ∘
-            </mml:mo>
-           </mml:mrow>
-          </mml:msup>
-          <mml:mi mathvariant="normal">
+            </mo>
+           </mrow>
+          </msup>
+          <mi mathvariant="normal">
            C
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:munderover>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
-           α
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
-           2
-          </mml:mn>
-          <mml:mi mathvariant="normal">
-           D
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:mi>
-           T
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mi mathvariant="normal">
-         d
-        </mml:mi>
-        <mml:mi>
-         T
-        </mml:mi>
-        <mml:mo>
-         -
-        </mml:mo>
-        <mml:munderover accent="false" accentunder="false">
-         <mml:mrow>
-          <mml:mo>
-           ∫
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
-           25
-          </mml:mn>
-          <mml:msup>
-           <mml:mrow>
-            <mml:mspace width="0.3em"/>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo>
-             ∘
-            </mml:mo>
-           </mml:mrow>
-          </mml:msup>
-          <mml:mi mathvariant="normal">
-           C
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <msub>
+          <mrow>
+           <mi>
+            α
+           </mi>
+          </mrow>
+          <mrow>
+           <mn>
+            2
+           </mn>
+           <mi mathvariant="normal">
+            D
+           </mi>
+          </mrow>
+         </msub>
+         <mfenced close=")" open="(" separators="">
+          <mrow>
+           <mi>
+            T
+           </mi>
+          </mrow>
+         </mfenced>
+         <mi mathvariant="normal">
+          d
+         </mi>
+         <mi>
+          T
+         </mi>
+         <mo>
+          -
+         </mo>
+         <munderover accent="false" accentunder="false">
+          <mrow>
+           <mo>
+            ∫
+           </mo>
+          </mrow>
+          <mrow>
+           <mn>
+            25
+           </mn>
+           <msup>
+            <mrow>
+             <mspace width="0.3em"/>
+            </mrow>
+            <mrow>
+             <mo>
+              ∘
+             </mo>
+            </mrow>
+           </msup>
+           <mi mathvariant="normal">
+            C
+           </mi>
+          </mrow>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>
+              T
+             </mi>
+            </mrow>
+            <mrow>
+             <mi mathvariant="normal">
+              g
+             </mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <msub>
+           <mrow>
+            <mi>
+             α
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
+             Sub
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
-             g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:munderover>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
-           α
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
-           Sub
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:mi>
+            </mi>
+           </mrow>
+          </mfenced>
+          <mi mathvariant="normal">
+           d
+          </mi>
+          <mi>
            T
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mi mathvariant="normal">
-         d
-        </mml:mi>
-        <mml:mi>
-         T
-        </mml:mi>
-       </mml:math>
-       <tex-math id="Equ2_TeX">
-        \documentclass[12pt]{minimal}
+          </mi>
+         </munderover>
+         <tex-math id="Equ2_TeX">
+          \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
 				\usepackage{wasysym}
 				\usepackage{amsfonts}
@@ -1423,72 +1422,73 @@
 				\usepackage{upgreek}
 				\setlength{\oddsidemargin}{-69pt}
 				\begin{document}$$\varepsilon \left( {{T_{\rm{g}}}} \right) = \mathop {\int}\limits_{25\,^\circ {\rm{C}}}^{{T_{\rm{g}}}} {{\alpha _{2{\rm{D}}}}\left( T \right){\rm{d}}T} - \mathop {\int}\limits_{25\,^\circ {\rm{C}}}^{{T_{\rm{g}}}} {{\alpha _{{\rm{Sub}}}}\left( T \right){\rm{d}}T}$$\end{document}
-       </tex-math>
-       <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2017_516_Article_Equ2.gif"/>
+         </tex-math>
+         <graphic href="41467_2017_516_Article_Equ2.gif" mime-subtype="GIF" specific-use="web"/>
+        </munderover>
+       </math>
+       <fig id="Fig1" position="float">
+        <label>
+         Rajah 1
+        </label>
+        <caption xml:lang="en">
+         <p>
+          Pertumbuhan WSe
+          <sub>
+           2
+          </sub>
+          yang direka bentuk regangan menggunakan ketidakpadanan TCE. Skematik proses di mana regangan direalisasikan semasa pertumbuhan bahan 2D melalui ketidakpadanan dalam pekali pengembangan haba substrat dan TMDC.
+          <bold>
+           a
+          </bold>
+          Regangan tegangan dicapai apabila TCE substrat kurang daripada bahan 2D,
+          <bold>
+           b
+          </bold>
+          sampel yang relaks dicapai apabila TCE substrat dan bahan 2D sepadan, dan
+          <bold>
+           c
+          </bold>
+          regangan mampatan dicapai apabila TCE substrat lebih besar daripada bahan 2D
+         </p>
+        </caption>
+        <graphic href="MediaObjects/41467_2017_516_Fig1_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
+       </fig>
       </alternatives>
      </disp-formula>
-     <fig id="Fig1" position="float">
-      <label>
-       Fig. 1
-      </label>
-      <caption xml:lang="en">
-       <p>
-        Strain-engineered growth of WSe
-        <sub>
-         2
-        </sub>
-        using TCE-mismatch. Schematic of the process through which strain is realized during the growth of 2D materials via mismatch in substrate and TMDC thermal expansion coefficient.
-        <bold>
-         a
-        </bold>
-        Tensile strain is achieved when the TCE of the substrate is less than that of the 2D material,
-        <bold>
-         b
-        </bold>
-        relaxed samples are achieved when the TCE of the substrate and 2D material match, and
-        <bold>
-         c
-        </bold>
-        compressive strain is achieved when the TCE of the substrate is greater than that of the 2D material
-       </p>
-      </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig1_HTML.jpg"/>
-     </fig>
     </p>
     <p id="Par7">
-     To retain the strain generated from TCE-mismatch, the bonding between the 2D layer and the substrate must be sufficiently strong and corrugated to maintain the nonslip condition that transmits strain to the layer. Although one expects strains of this magnitude to arise during epitaxial growth, it is difficult to see how a similar strain can arise for films bound by van der Waals forces to an amorphous substrate. Experimentally, the corrugation in the film must be large enough to retain the strain upon cooling. To estimate the magnitude of the corrugation necessary to sustain the strain, we analyzed a 2D Frenkel–Kontorova model
+     Untuk mengekalkan regangan yang dihasilkan daripada ketidakpadanan TCE, ikatan antara lapisan 2D dan substrat mesti cukup kuat dan beralun untuk mengekalkan keadaan tidak tergelincir yang memindahkan regangan ke lapisan tersebut. Walaupun seseorang menjangkakan regangan sebesar ini timbul semasa pertumbuhan epitaksial, sukar untuk melihat bagaimana regangan serupa boleh timbul untuk filem yang terikat oleh daya van der Waals kepada substrat amorfus. Secara eksperimen, alunan dalam filem mesti cukup besar untuk mengekalkan regangan semasa penyejukan. Untuk menganggarkan magnitud alunan yang diperlukan untuk mengekalkan regangan, kami menganalisis model 2D Frenkel–Kontorova, yang ditunjukkan dalam Nota Tambahan
+     <xref ref-type="supplementary-material" rid="MOESM1">
+      1
+     </xref>
+     dan Rajah Tambahan
+     <xref ref-type="supplementary-material" rid="MOESM1">
+      1
+     </xref>
      <sup>
       <xref ref-type="bibr" rid="CR16">
        16
       </xref>
      </sup>
-     , shown in Supplementary Note
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      1
-     </xref>
-     and Supplementary Fig.
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      1
-     </xref>
-     . This model suggests that atomic binding energy variations of as little as 14 meV over the range of the unit cell are capable of retaining strains of the magnitude of those observed experimentally. This variation is ~ 1% of a typical covalent bond strength, and very near to the typical strength of a van der Waals bond. Though a more detailed theory needs to be developed, especially to understand the surface chemistry immediately prior to growth to determine the nature of the bonding, this simple analysis suggests that thermal-expansion mismatch can strain a film, even in the case of weak binding between the film and the substrate. It should be noted that in a previous study, local heating of MoS
+     . Model ini mencadangkan bahawa variasi tenaga ikatan atom sekecil 14 meV dalam julat sel unit mampu mengekalkan regangan sebesar yang diperhatikan secara eksperimen. Variasi ini adalah ~ 1% daripada kekuatan ikatan kovalen tipikal, dan sangat hampir dengan kekuatan tipikal ikatan van der Waals. Walaupun teori yang lebih terperinci perlu dibangunkan, terutamanya untuk memahami kimia permukaan sejurus sebelum pertumbuhan untuk menentukan sifat ikatan, analisis ringkas ini mencadangkan bahawa ketidakpadanan pengembangan terma boleh meregangkan filem, walaupun dalam kes ikatan lemah antara filem dan substrat. Perlu diambil perhatian bahawa dalam kajian terdahulu, pemanasan setempat MoS
      <sub>
       2
      </sub>
-     using a laser was used to generate strains of up to 0.2% arising from the TCE-mismatch of MoS
+     menggunakan laser telah digunakan untuk menghasilkan regangan sehingga 0.2% yang timbul daripada ketidakpadanan TCE MoS
      <sub>
       2
      </sub>
-     with the substrate
+     dengan substrat
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
       </xref>
      </sup>
-     . Although this method does not generate built-in strains (strain is released once the laser is turned off), it suggests that the MoS
+     . Walaupun kaedah ini tidak menghasilkan regangan terbina dalam (regangan dilepaskan sebaik sahaja laser dimatikan), ia mencadangkan bahawa ikatan MoS
      <sub>
       2
      </sub>
-     -substrate bonding is strong enough to enable TCE-mismatched induced strain engineering
+     -substrat cukup kuat untuk membolehkan kejuruteraan regangan yang disebabkan oleh ketidakpadanan TCE
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
@@ -1497,15 +1497,15 @@
      .
     </p>
     <p id="Par8">
-     To demonstrate strain-engineered CVD growth of WSe
+     Untuk menunjukkan pertumbuhan CVD yang direka bentuk dengan regangan bagi WSe
      <sub>
       2
      </sub>
-     , four substrates were chosen, which have a range of TCEs. Fused silica and aluminum nitride (AlN) have a TCE of 0.55 and 5.5 ppm, respectively, much smaller than that of WSe
+     , empat substrat telah dipilih, yang mempunyai julat TCE. Silika terfusi dan nitrida aluminium (AlN) mempunyai TCE sebanyak 0.55 dan 5.5 ppm, masing-masing, jauh lebih kecil daripada WSe
      <sub>
       2
      </sub>
-     (9.5 ± 3.2 ppm), and would be expected to induce tensile strain
+     (9.5 ± 3.2 ppm), dan dijangka akan menyebabkan regangan tegangan
      <sup>
       <xref ref-type="bibr" rid="CR3">
        3
@@ -1526,16 +1526,16 @@
       <xref ref-type="bibr" rid="CR21">
        21
       </xref>
-      –
+      ,
       <xref ref-type="bibr" rid="CR22">
        22
       </xref>
      </sup>
-     . In contrast, sapphire has a TCE closely matched to WSe
+     . Sebaliknya, nilam mempunyai TCE yang hampir sama dengan WSe
      <sub>
       2
      </sub>
-     and would be expected to produce relaxed samples and strontium titanate (STO) with a TCE of 12 ppm should yield compressively strained samples
+     dan dijangka menghasilkan sampel yang relaks dan strontium titanate (STO) dengan TCE sebanyak 12 ppm sepatutnya menghasilkan sampel yang mengalami regangan mampatan
      <sup>
       <xref ref-type="bibr" rid="CR20">
        20
@@ -1549,113 +1549,114 @@
        24
       </xref>
      </sup>
-     . The sample was rapidly quenched after growth to limit relaxation in the WSe
+     . Sampel tersebut telah disejukkan dengan cepat selepas pertumbuhan untuk mengehadkan relaksasi dalam WSe
      <sub>
       2
      </sub>
-     . It is important to note that the rapid quenching process was found to be important in maintaining the presence of strain, and delay of the quenching step can result in partial relaxation of the 2D material.
+     <sup/>
+     . Adalah penting untuk diperhatikan bahawa proses penyejukan cepat didapati penting dalam mengekalkan kehadiran regangan, dan kelewatan dalam langkah penyejukan boleh mengakibatkan relaksasi separa bahan 2D.
     </p>
    </sec>
    <sec id="Sec4">
     <title>
-     Characterization strain and material quality
+     Pencirian regangan dan kualiti bahan
     </title>
     <p id="Par9">
-     To characterize the strain present in the as-grown material, multiple characterization methods were utilized. First, electron diffraction was performed on WSe
+     Untuk mencirikan regangan yang terdapat dalam bahan yang ditumbuhkan, pelbagai kaedah pencirian telah digunakan. Pertama, difraksi elektron dilakukan pada WSe
      <sub>
       2
      </sub>
-     as-grown on SiO
+     yang ditumbuhkan pada grid TEM SiO
      <sub>
       2
      </sub>
-     TEM grids and WSe
+     dan WSe
      <sub>
       2
      </sub>
-     transferred to SiO
+     yang dipindahkan ke grid TEM SiO
      <sub>
       2
      </sub>
-     TEM grids. The resulting diffraction patterns are shown in Figs.
+     . Corak difraksi yang dihasilkan ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig2">
       2a–c
      </xref>
-     . In all TEM diffraction measurements on WSe
+     <sup/>
+     . Dalam semua pengukuran difraksi TEM pada WSe
      <sub>
       2
      </sub>
-     , the camera length and lens aberrations of the imaging systems were calibrated using polycrystalline aluminum and single crystal aluminum calibration samples (Ted Pella), and the microscope lens settings were left constant for all subsequent measurements. Corresponding images and photoluminescence (PL) spectra of the samples in Figs.
+     , panjang kamera dan aberasi lensa sistem pengimejan telah dikalibrasi menggunakan sampel kalibrasi aluminium polihablur dan aluminium kristal tunggal (Ted Pella), dan tetapan lensa mikroskop dibiarkan tetap untuk semua pengukuran seterusnya. Imej dan spektrum fotoluminesens (PL) yang sepadan dengan sampel dalam Rajah
      <xref ref-type="fig" rid="Fig2">
       2b, c
      </xref>
-     are shown in Supplementary Fig.
+     ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       2
      </xref>
-     . By comparing the lattice constant extracted from the diffraction patterns of strained (as-grown) and unstrained (transferred) WSe
+     <sup/>
+     . Dengan membandingkan pemalar kekisi yang diekstrak daripada corak difraksi WSe
      <sub>
       2
      </sub>
-     , and utilizing the center of mass for 75 diffraction spots from each pattern, we calculate that a 1.39 ± 0.28% tensile strain is present in the as-grown sample. The calculated error represents the standard deviation in lattice constant value over 75 measured diffraction spots. Raman spectrum shown in Fig.
+     yang tertekan (ditumbuhkan) dan tidak tertekan (dipindahkan), dan menggunakan pusat jisim untuk 75 titik difraksi dari setiap corak, kami mengira bahawa terdapat regangan tegangan 1.39 ± 0.28% dalam sampel yang ditumbuhkan. Ralat yang dikira mewakili sisihan piawai dalam nilai pemalar kekisi daripada 75 titik difraksi yang diukur. Spektrum Raman yang ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig2">
       2d
      </xref>
-     reveals a shift of the E’ in-plane Raman mode of 1.5 ± 0.2 cm
-     <sup>
-      −1
-     </sup>
-     between as-grown and transferred WSe
+     mendedahkan peralihan mod Raman dalam satah E’ sebanyak 1.5 ± 0.2 cm antara WSe
      <sub>
       2
      </sub>
-     . We note that the strain measured here is biaxial, not uniaxial, in contrast to mechanical bending studies and thus we do not observe splitting of the E′ mode. Therefore, the theoretically calculated value for the Grüneisen parameter (﻿
+     yang ditumbuhkan dan dipindahkan
+     <sup/>
+     . Kami perhatikan bahawa regangan yang diukur di sini adalah biaxial, bukan uniaxial, berbeza dengan kajian lenturan mekanikal dan oleh itu kami tidak memerhatikan pemisahan mod E′. Oleh itu, nilai parameter Grüneisen yang dikira secara teori (﻿
      <italic>
       χ
      </italic>
-     ﻿) of WSe
+     ﻿) WSe
      <sub>
       2
      </sub>
-     is used to calculate the expected peak shift according to:
+     digunakan untuk mengira peralihan puncak yang dijangka mengikut:
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math">
-        <mml:mi>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          ω
-        </mml:mi>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:mi>
+        </mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <mi>
            ε
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <msub>
+         <mrow>
+          <mi>
            ω
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mn>
+         </mrow>
+        </msub>
+        <mo>
          +
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          χ
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          ε
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1668,10 +1669,10 @@
 				\setlength{\oddsidemargin}{-69pt}
 				\begin{document}$$\omega \left( \varepsilon \right) = {\omega _0} + {\rm{\chi}}\varepsilon$$\end{document}
        </tex-math>
-       <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2017_516_Article_IEq1.gif"/>
+       <inline-graphic href="41467_2017_516_Article_IEq1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </inline-formula>
-     , which is consistent with the approximately 1% tensile strain measured via diffraction
+     , yang konsisten dengan regangan tegangan kira-kira 1% yang diukur melalui difraksi
      <sup>
       <xref ref-type="bibr" rid="CR25">
        25
@@ -1680,95 +1681,93 @@
       <xref ref-type="bibr" rid="CR26">
        26
       </xref>
-      –
+      ,
       <xref ref-type="bibr" rid="CR27">
        27
       </xref>
      </sup>
-     . It should also be noted that after transfer the E’ mode shows no shift relative to samples prepared either by exfoliation or as-grown on sapphire. High resolution Raman mapping was performed and is shown in Figs.
+     . Perlu juga diperhatikan bahawa selepas pemindahan, mod E’ tidak menunjukkan peralihan relatif kepada sampel yang disediakan sama ada melalui pengelupasan atau ditumbuhkan pada nilam. Pemetaan Raman resolusi tinggi telah dilakukan dan ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig2">
       2e, f
      </xref>
-     for WSe
+     untuk kristal WSe
      <sub>
       2
      </sub>
-     crystals as-grown on fused silica and transferred to a new fused silica substrate, respectively. We observe a uniform Raman shift throughout the full WSe
+     yang ditumbuhkan pada silika terfusi dan dipindahkan ke substrat silika terfusi baru, masing-masing. Kami memerhatikan peralihan Raman yang seragam di seluruh domain WSe
      <sub>
       2
      </sub>
-     domain for both samples indicating that the strain is uniformly distributed within the sample on the scale of the Raman spot size. In addition, PL and atomic force microscopy images of as-grown WSe
+     untuk kedua-dua sampel yang menunjukkan bahawa regangan diedarkan secara seragam dalam sampel pada skala saiz titik Raman. Di samping itu, imej PL dan mikroskopi daya atom WSe
      <sub>
       2
      </sub>
-     on fused silica are shown in Supplementary Fig.
+     yang ditumbuhkan pada silika terfusi ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       3
      </xref>
+     <sup/>
      .
      <fig id="Fig2" position="float">
       <label>
-       Fig. 2
+       Rajah 2
       </label>
       <caption xml:lang="en">
        <p>
-        Transmission electron microscopy images and Raman spectroscopy of monolayer WSe
+        Imej mikroskopi elektron transmisi dan spektroskopi Raman monolayer WSe
         <sub>
          2
         </sub>
+        <sup/>
         .
         <bold>
          a
         </bold>
-        Overlay of diffraction spots for as-grown and transferred monolayer WSe
+        Tindanan titik difraksi untuk monolayer WSe
         <sub>
          2
         </sub>
-        , showing a 1.39 ± 0.28% strain in samples grown directly on the TEM membrane.
+        yang ditumbuhkan dan dipindahkan, menunjukkan regangan 1.39 ± 0.28% dalam sampel yang ditumbuhkan terus pada membran TEM.
         <italic>
-         Scale bar
+         Bar skala
         </italic>
-        is 10 nm
-        <sup>
-         −1
-        </sup>
+        adalah 10 nm
+        <sup/>
         .
         <bold>
          b
         </bold>
-        Electron diffraction patterns of a tensile strained WSe
+        Corak difraksi elektron monolayer WSe
         <sub>
          2
         </sub>
-        monolayer grown directly on an 8 nm SiO
+        yang tertekan tegangan yang ditumbuhkan terus pada membran TEM SiO
         <sub>
          2
         </sub>
-        TEM membrane and
+        8 nm dan
         <bold>
          c
         </bold>
-        a WSe
+        monolayer WSe
         <sub>
          2
         </sub>
-        monolayer transferred to the same thickness membrane.
+        yang dipindahkan ke membran ketebalan yang sama.
         <italic>
-         Scale bar
+         Bar skala
         </italic>
-        is 10 nm
-        <sup>
-         −1
-        </sup>
+        adalah 10 nm
+        <sup/>
         .
         <bold>
          d
         </bold>
-        Raman spectra of WSe
+        Spektrum Raman monolayer WSe
         <sub>
          2
         </sub>
-        monolayers grown on various substrates.
+        yang ditumbuhkan pada pelbagai substrat.
         <bold>
          e
         </bold>
@@ -1776,49 +1775,48 @@
         <bold>
          f
         </bold>
-        Raman mapping of E’ peak position for a (
+        Pemetaan Raman kedudukan puncak E’ untuk (
         <bold>
          e
         </bold>
-        ) tensile strained WSe
+        ) monolayer WSe
         <sub>
          2
         </sub>
-        monolayer as-grown on fused silica and a (
+        yang tertekan tegangan yang ditumbuhkan pada silika terfusi dan (
         <bold>
          f
         </bold>
-        ) WSe
+        ) monolayer WSe
         <sub>
          2
         </sub>
-        monolayer transferred to release strain; data are plotted using the same false color scheme.
+        yang dipindahkan untuk melepaskan regangan; data diplot menggunakan skema warna palsu yang sama.
         <italic>
-         Scale bar
+         Bar skala
         </italic>
-        is 20 μm, data range is 250.5 to 247.0 cm
-        <sup>
-         -1﻿
-        </sup>
+        adalah 20 μm, julat data adalah 250.5 hingga 247.0 c
+        <sup/>
+        .
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig2_HTML.jpg"/>
+      <graphic href="MediaObjects/41467_2017_516_Fig2_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par10">
-     PL measurements were employed to measure the bandgap as a function of strain. Figure
+     Pengukuran PL digunakan untuk mengukur jurang tenaga sebagai fungsi regangan. Rajah
      <xref ref-type="fig" rid="Fig3">
       3a
      </xref>
-     shows PL spectra of samples grown on all substrates investigated in this work as well as an exfoliated reference. There is a large spectral shift of 120 meV between samples grown on fused silica with near zero TCE and STO, which has the highest TCE of all substrates investigated in this work. Figure
+     menunjukkan spektrum PL sampel yang ditanam pada semua substrat yang disiasat dalam kajian ini serta rujukan yang dieksfoliasi. Terdapat peralihan spektrum besar sebanyak 120 meV antara sampel yang ditanam pada silika terfusi dengan TCE hampir sifar dan STO, yang mempunyai TCE tertinggi daripada semua substrat yang disiasat dalam kajian ini. Rajah
      <xref ref-type="fig" rid="Fig3">
       3b
      </xref>
-     shows the estimated strain from the PL peak shift as a function of predicted strain in WSe
+     menunjukkan anggaran regangan daripada peralihan puncak PL sebagai fungsi regangan yang diramalkan dalam WSe
      <sub>
       2
      </sub>
-     , vs. the lattice mismatch between the substrate and TMDC lattice constant. Strain values are determined from the experimentally measured PL peak position (measurement error was calculated using the standard deviation of strain measured from fifteen different crystals) and theoretically calculated bandgap as a function of strain extracted from refs
+     , berbanding ketidakpadanan kekisi antara substrat dan pemalar kekisi TMDC. Nilai regangan ditentukan daripada kedudukan puncak PL yang diukur secara eksperimen (ralat pengukuran dikira menggunakan sisihan piawai regangan yang diukur daripada lima belas kristal yang berbeza) dan jurang tenaga yang dikira secara teori sebagai fungsi regangan yang diekstrak daripada rujukan
      <sup>
       <xref ref-type="bibr" rid="CR3">
        3
@@ -1828,108 +1826,98 @@
        27
       </xref>
      </sup>
-     . It is important to note that we utilized the difference in peak position relative to an unstrained sample to eliminate effects from absolute bandgap error relative to theoretical calculations. We performed an analysis of the expected strain due to lattice parameter misfit (Supplementary Table
+     . Adalah penting untuk diperhatikan bahawa kami menggunakan perbezaan dalam kedudukan puncak berbanding sampel yang tidak tertekan untuk menghapuskan kesan daripada ralat jurang tenaga mutlak berbanding pengiraan teori. Kami melakukan analisis terhadap regangan yang dijangka disebabkan oleh ketidakpadanan parameter kekisi (Jadual Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
-     and Supplementary Note
+     dan Nota Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       2
      </xref>
-     ) to rule out the influence of epitaxial strain between the substrate and WSe
+     ) untuk menolak pengaruh regangan epitaxial antara substrat dan WSe
      <sub>
       2
      </sub>
-     . From this calculation, the expected strain from the lattice mismatch shows the opposite trend as compared with what we observe experimentally. We find that our experimentally realized strain per ΔTCE of −0.10 ± 0.01% per ppm K
-     <sup>
-      −1
-     </sup>
-     is in excellent agreement with the theoretical value of −0.09% per ppm K
-     <sup>
-      −1
-     </sup>
-     . To verify that the substrate does not affect the PL peak shape or position of monolayer WSe
+     <sup/>
+     . Daripada pengiraan ini, regangan yang dijangka daripada ketidakpadanan kekisi menunjukkan trend yang bertentangan berbanding dengan apa yang kami perhatikan secara eksperimen. Kami mendapati bahawa regangan yang direalisasikan secara eksperimen kami bagi setiap ΔTCE sebanyak −0.10 ± 0.01% setiap ppm K adalah dalam persetujuan yang sangat baik dengan nilai teori sebanyak −0.09% setiap ppm K
+     <sup/>
+     . Untuk mengesahkan bahawa substrat tidak mempengaruhi bentuk atau kedudukan puncak PL lapisan tunggal WSe
      <sub>
       2
      </sub>
-     , samples were transferred to the four substrates used in this study (Supplementary Fig.
+     , sampel dipindahkan ke empat substrat yang digunakan dalam kajian ini (Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       4
      </xref>
-     ) and no shift of the PL peak was observed. The impact of growth temperature to tune the strain was also studied using fused silica as the substrate. Figure
+     ) dan tiada peralihan puncak PL diperhatikan. Kesan suhu pertumbuhan untuk menala regangan juga dikaji menggunakan silika terfusi sebagai substrat. Rajah
      <xref ref-type="fig" rid="Fig3">
       3c
      </xref>
-     shows the tensile strain in monolayer WSe
+     menunjukkan regangan tegangan dalam lapisan tunggal WSe
      <sub>
       2
      </sub>
-     grown at different temperatures, estimated using PL peak position. We are able to tune the strain from 0.94 ± 0.06% to 0.67 ± 0.05% as the growth temperature is changed from 900 to 673 °C. PL spectra corresponding to Fig.
+     yang ditanam pada suhu yang berbeza, dianggarkan menggunakan kedudukan puncak PL. Kami dapat menala regangan dari 0.94 ± 0.06% kepada 0.67 ± 0.05% apabila suhu pertumbuhan diubah dari 900 hingga 673 °C. Spektrum PL yang sepadan dengan Rajah
      <xref ref-type="fig" rid="Fig3">
       3c
      </xref>
-     is shown in Supplementary Fig.
+     ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       5
      </xref>
+     <sup/>
      .
      <fig id="Fig3" position="float">
       <label>
-       Fig. 3
+       Rajah 3
       </label>
       <caption xml:lang="en">
        <p>
-        Strain engineering of 2D materials.
+        Kejuruteraan regangan bahan 2D.
         <bold>
          a
         </bold>
-        PL spectra for monolayer WSe
+        Spektrum PL untuk lapisan tunggal WSe
         <sub>
          2
         </sub>
-        as-grown on substrates with a range of thermal coefficient of expansion mismatches.
+        yang ditanam pada substrat dengan pelbagai ketidakpadanan pekali pengembangan terma.
         <bold>
          b
         </bold>
-        Estimated strain that can be achieved in 2D materials based on the mismatch between the substrate and TMDC thermal coefficient of expansion; data points show measured strain for substrates with a range of thermal expansion coefficient mismatch;
+        Anggaran regangan yang boleh dicapai dalam bahan 2D berdasarkan ketidakpadanan antara substrat dan pekali pengembangan terma TMDC; titik data menunjukkan regangan yang diukur untuk substrat dengan pelbagai ketidakpadanan pekali pengembangan terma;
         <italic>
-         dashed gray lines
+         garis kelabu putus-putus
         </italic>
-        are based on TCE values for WSe
+        adalah berdasarkan nilai TCE untuk WSe
         <sub>
          2
         </sub>
-        obtained from refs
-        <sup>
-         <xref ref-type="bibr" rid="CR21">
-          21
-         </xref>
-         ,
-         <xref ref-type="bibr" rid="CR22">
-          22
-         </xref>
-        </sup>
-        ,
+        yang diperoleh daripada rujukan,
         <italic>
-         dashed black line
+         garis hitam putus-putus
         </italic>
-        shows fit to experimental data.
+        menunjukkan padanan kepada data eksperimen.
         <bold>
          c
         </bold>
-        Estimated strain realized in WSe
+        Anggaran regangan yang direalisasikan dalam WSe
         <sub>
          2
         </sub>
-        as-grown on fused silica at various substrate temperatures;
+        yang ditanam pada silika terfusi pada pelbagai suhu substrat;
         <italic>
-         dashed gray lines
+         garis kelabu putus-putus
         </italic>
-        are based on TCE values for WSe
+        adalah berdasarkan nilai TCE untuk WSe
         <sub>
          2
         </sub>
-        obtained from refs
+        yang diperoleh daripada rujukan,
+        <italic>
+         garis hitam putus-putus
+        </italic>
+        menunjukkan padanan kepada data eksperimen. Bar ralat menunjukkan sisihan piawai regangan, diukur ke atas lima belas sampel
         <sup>
          <xref ref-type="bibr" rid="CR21">
           21
@@ -1938,43 +1926,48 @@
          <xref ref-type="bibr" rid="CR22">
           22
          </xref>
+         <xref ref-type="bibr" rid="CR21">
+          21
+         </xref>
+         ,
+         <xref ref-type="bibr" rid="CR22">
+          22
+         </xref>
         </sup>
-        ,
-        <italic>
-         dashed black line
-        </italic>
-        shows fit to experimental data. Error bars indicate standard deviation of strain, measured over fifteen samples
+        .
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig3_HTML.jpg"/>
+      <graphic href="MediaObjects/41467_2017_516_Fig3_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
    </sec>
    <sec id="Sec5">
     <title>
-     Tensile strain engineering of mono- and bilayer WSe
+     Kejuruteraan regangan tegangan mono- dan bilayer WSe
      <sub>
       2
      </sub>
     </title>
     <p id="Par11">
-     Calibrated PL measurements were used to provide a gauge of material quality. We find that strained WSe
+     Pengukuran PL yang dikalibrasi digunakan untuk memberikan ukuran kualiti bahan. Kami mendapati bahawa monolayer WSe
      <sub>
       2
      </sub>
-     monolayers as-grown on fused silica show comparable PL intensity to exfoliated WSe
+     yang tertekan yang ditanam pada silika terfusi menunjukkan intensiti PL yang setanding dengan WSe
      <sub>
       2
      </sub>
-     , demonstrating that strain engineering of 2D materials can be achieved without compromising material performance. Specifically, as exfoliated samples show a typical quantum yield (QY) of 2.3 ± 0.4%, while samples grown on fused silica show a typical QY of 1.9 ± 0.6%. Upon transfer, the strain within the as-grown material is released and its emission peak shifts to 1.65 eV, closely matching that of exfoliated samples, as shown in Fig.
+     yang dieksfoliasi, menunjukkan bahawa kejuruteraan regangan bahan 2D boleh dicapai tanpa menjejaskan prestasi bahan. Khususnya, sampel yang dieksfoliasi menunjukkan hasil kuantum (QY) tipikal sebanyak 2.3 ± 0.4%, manakala sampel yang ditanam pada silika terfusi menunjukkan QY tipikal sebanyak 1.9 ± 0.6%. Selepas pemindahan, regangan dalam bahan yang ditanam dilepaskan dan puncak emisinya beralih kepada 1.65 eV, hampir sepadan dengan sampel yang dieksfoliasi, seperti yang ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig4">
       4a
      </xref>
-     . In addition to emission, the absorption spectrum of the as-grown monolayer was measured and is shown in Fig.
+     <sup/>
+     . Selain daripada emisi, spektrum penyerapan monolayer yang ditanam juga diukur dan ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig4">
       4b
      </xref>
-     . The absorption spectra clearly shows that the A and B exciton resonances are red-shifted with the presence of tensile strain, and are consistent with the observed shift in the emission. Interestingly, the absorption of the C exciton peak shows no shift between the as-grown and exfoliated samples, which is consistent with previously reported mechanical bending experiments on exfoliated monolayers, although it should be noted that in these experiments the strain was uniaxial
+     <sup/>
+     . Spektrum penyerapan jelas menunjukkan bahawa resonans eksiton A dan B beralih merah dengan kehadiran regangan tegangan, dan konsisten dengan peralihan yang diperhatikan dalam emisi. Menariknya, penyerapan puncak eksiton C tidak menunjukkan peralihan antara sampel yang ditanam dan dieksfoliasi, yang konsisten dengan eksperimen lenturan mekanikal yang dilaporkan sebelum ini pada monolayer yang dieksfoliasi, walaupun perlu diingat bahawa dalam eksperimen ini regangan adalah uniaxial
      <sup>
       <xref ref-type="bibr" rid="CR28">
        28
@@ -1983,132 +1976,143 @@
      .
      <fig id="Fig4" position="float">
       <label>
-       Fig. 4
+       Rajah 4
       </label>
       <caption xml:lang="en">
        <p>
-        Photoluminescence of strain-engineered monolayer and bilayer WSe
+        Fotoluminesens monolayer dan bilayer WSe
         <sub>
          2
         </sub>
+        yang direka bentuk regangan
+        <sup/>
         .
         <bold>
          a
         </bold>
-        Photoluminescence spectra of as-grown and transferred monolayer WSe
+        Spektrum fotoluminesens monolayer WSe
         <sub>
          2
         </sub>
-        as well as exfoliated reference. Inset shows normalized spectra.
+        yang ditanam dan dipindahkan serta rujukan yang dieksfoliasi. Inset menunjukkan spektrum yang dinormalisasi.
         <bold>
          b
         </bold>
-        Absorption spectra of as-grown and exfoliated monolayer WSe
+        Spektrum penyerapan monolayer WSe
         <sub>
          2
         </sub>
+        yang ditanam dan dieksfoliasi
+        <sup/>
         .
         <bold>
          c
         </bold>
-        Photoluminescence spectra of as-grown and transferred bilayer WSe
+        Spektrum fotoluminesens bilayer WSe
         <sub>
          2
         </sub>
-        as well as exfoliated reference; inset shows normalized PL spectra of as-grown and transferred bilayer WSe
+        yang ditanam dan dipindahkan serta rujukan yang dieksfoliasi; inset menunjukkan spektrum PL yang dinormalisasi bagi bilayer WSe
         <sub>
          2
         </sub>
+        yang ditanam dan dipindahkan
+        <sup/>
         .
         <bold>
          d
         </bold>
-        Absorption spectra of as-grown and exfoliated bilayer WSe
+        Spektrum penyerapan bilayer WSe
         <sub>
          2
         </sub>
+        yang ditanam dan dieksfoliasi
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig4_HTML.jpg"/>
+      <graphic href="MediaObjects/41467_2017_516_Fig4_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par12">
-     More interestingly, it has been previously demonstrated using bending experiments that under the application of a uniaxial strain of ~ 1.5%, bilayer WSe
+     Lebih menarik lagi, ia telah ditunjukkan sebelum ini menggunakan eksperimen lenturan bahawa di bawah aplikasi regangan uniaxial sebanyak ~ 1.5%, bilayer WSe
      <sub>
       2
      </sub>
-     undergoes an indirect-to-direct bandgap transition
+     mengalami peralihan jalur tenaga tidak langsung ke langsung
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . This effect is caused by an increase in the energy level of the indirect valley at the Σ point as well as a corresponding decrease in the energy level of the direct valley at the K point
+     . Kesan ini disebabkan oleh peningkatan tahap tenaga lembah tidak langsung di titik Σ serta penurunan tahap tenaga lembah langsung di titik K
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . While it is important to note these results are obtained under uniaxial strain, similar trends between uniaxial and biaxial strain have been observed in theoretical studies on other 2D material systems
+     . Walaupun penting untuk diperhatikan bahawa hasil ini diperoleh di bawah regangan uniaxial, trend serupa antara regangan uniaxial dan biaxial telah diperhatikan dalam kajian teori pada sistem bahan 2D yang lain
      <sup>
       <xref ref-type="bibr" rid="CR29">
        29
       </xref>
      </sup>
-     . Figure
+     . Rajah
      <xref ref-type="fig" rid="Fig4">
       4c
      </xref>
-     depicts the PL spectra of as-grown, exfoliated and transferred bilayer WSe
+     menggambarkan spektrum PL bagi bilayer WSe
      <sub>
       2
      </sub>
-     . In the as-grown strained bilayer, we observe a single sharp PL peak, as oppose to a broader spectrum corresponding to emission from both the indirect and direct bandgaps observed in the unstrained exfoliated and transferred samples. Moreover, the intensity of the PL is reduced by approximately 50 times upon transfer and resultant release of tensile strain as shown in Fig.
+     yang ditumbuhkan, dieksfoliasi dan dipindahkan
+     <sup/>
+     . Dalam bilayer yang ditumbuhkan dengan regangan, kami memerhatikan satu puncak PL yang tajam, berbanding spektrum yang lebih luas yang sepadan dengan pancaran dari jalur tenaga tidak langsung dan langsung yang diperhatikan dalam sampel yang dieksfoliasi dan dipindahkan tanpa regangan. Selain itu, intensiti PL dikurangkan kira-kira 50 kali ganda selepas pemindahan dan pelepasan regangan tegangan seperti yang ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig4">
       4c
      </xref>
-     . This phenomenon can possibly be attributed to the optical transition from indirect-to-direct in bilayer WSe
+     <sup/>
+     . Fenomena ini mungkin boleh dikaitkan dengan peralihan optik dari tidak langsung ke langsung dalam bilayer WSe
      <sub>
       2
      </sub>
-     in the presence of tensile strain. This is in good agreement with previous reports on the indirect-to-direct optical transition of WSe
+     dengan kehadiran regangan tegangan. Ini adalah selaras dengan laporan terdahulu mengenai peralihan optik tidak langsung ke langsung WSe
      <sub>
       2
      </sub>
-     through bending experiments, although these previous studies utilized uniaxial strain
+     melalui eksperimen lenturan, walaupun kajian terdahulu ini menggunakan regangan uniaxial
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . The normalized PL spectra for bilayer WSe
+     . Spektrum PL yang dinormalisasi untuk bilayer WSe
      <sub>
       2
      </sub>
-     grown on fused silica after transfer, as well as unstrained samples grown on sapphire and prepared by exfoliation, are shown in Supplementary Fig.
+     yang ditumbuhkan di atas silika terfusi selepas pemindahan, serta sampel tanpa regangan yang ditumbuhkan di atas nilam dan disediakan melalui eksfoliasi, ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       6
      </xref>
-     and show a very similar spectral shape. Absorption of WSe
+     dan menunjukkan bentuk spektrum yang sangat serupa. Penyerapan sampel bilayer WSe
      <sub>
       2
      </sub>
-     bilayer samples was also measured and is shown in Fig.
+     juga diukur dan ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig4">
       4d
      </xref>
+     <sup/>
      .
     </p>
     <p id="Par13">
-     To further characterize WSe
+     Untuk mencirikan monolayer WSe
      <sub>
       2
      </sub>
-     monolayers, we performed low-temperature PL measurements. Numerous studies have experimentally observed that the PL of monolayer WSe
+     dengan lebih lanjut, kami melakukan pengukuran PL pada suhu rendah. Banyak kajian telah memerhatikan secara eksperimen bahawa PL monolayer WSe
      <sub>
       2
      </sub>
-     is quenched at reduced temperatures. This behavior is unusual for a direct bandgap semiconductor and has been attributed to the formation of dark excitons with an energy level ~ 30 meV below the bright state
+     terpadam pada suhu yang dikurangkan. Tingkah laku ini adalah luar biasa untuk semikonduktor jalur lebar langsung dan telah dikaitkan dengan pembentukan eksiton gelap dengan tahap tenaga ~ 30 meV di bawah keadaan terang
      <sup>
       <xref ref-type="bibr" rid="CR30">
        30
@@ -2118,11 +2122,11 @@
        31
       </xref>
      </sup>
-     . It has been hypothesized that at low temperatures the bright exciton is allowed to relax to the lower energy level resulting in a reduction of the PL QY. Conversely, both theoretical and experimental studies have suggested that unstrained monolayer WSe
+     . Telah dihipotesiskan bahawa pada suhu rendah eksiton terang dibenarkan untuk berehat ke tahap tenaga yang lebih rendah yang mengakibatkan pengurangan PL QY. Sebaliknya, kajian teori dan eksperimen telah mencadangkan bahawa monolayer WSe
      <sub>
       2
      </sub>
-     is an indirect-gap semiconductor, with a small (&lt; 3kT) energy difference between the indirect and direct gaps
+     yang tidak tertekan adalah semikonduktor jurang tidak langsung, dengan perbezaan tenaga kecil (&lt; 3kT) antara jurang tidak langsung dan langsung
      <sup>
       <xref ref-type="bibr" rid="CR32">
        32
@@ -2132,103 +2136,112 @@
        33
       </xref>
      </sup>
-     . Upon cooling of exfoliated monolayer WSe
+     . Apabila penyejukan sampel monolayer WSe
      <sub>
       2
      </sub>
-     samples, we observe results similar to what has been previously reported as shown in the inset of Fig.
+     yang dieksfoliasi, kami memerhatikan hasil yang serupa dengan apa yang telah dilaporkan sebelum ini seperti yang ditunjukkan dalam inset Rajah
      <xref ref-type="fig" rid="Fig5">
       5a
      </xref>
-     , which is a reduction in PL emission at low temperatures. However, for the case of tensile strained monolayer WSe
+     , iaitu pengurangan dalam pelepasan PL pada suhu rendah. Walau bagaimanapun, untuk kes monolayer WSe
      <sub>
       2
      </sub>
-     as-grown on fused silica we observe the opposite trend (Fig.
+     yang tertekan tegangan yang ditumbuhkan pada silika terfusi, kami memerhatikan trend yang bertentangan (Rajah
      <xref ref-type="fig" rid="Fig5">
       5
      </xref>
-     ). As the temperature is reduced from 300 to 6 K the PL intensity increases by over an order of magnitude, resulting in a final PL QY of 14% as shown in Fig.
+     ). Apabila suhu dikurangkan dari 300 ke 6 K, intensiti PL meningkat lebih dari satu peringkat magnitud, menghasilkan PL QY akhir sebanyak 14% seperti yang ditunjukkan dalam Rajah
      <xref ref-type="fig" rid="Fig5">
       5d
      </xref>
-     . The nature of the physical mechanism for the dramatic difference in the temperature-dependent behavior can be directly attributed to band structure modification due to the presence of strain. However, it remains unclear if this is due to an indirect-to-direct bandgap transition or an increase in the energy level of the dark state.
+     <sup/>
+     . Sifat mekanisme fizikal untuk perbezaan dramatik dalam tingkah laku bergantung suhu boleh dikaitkan secara langsung dengan pengubahsuaian struktur jalur disebabkan oleh kehadiran tegangan. Walau bagaimanapun, masih tidak jelas sama ada ini disebabkan oleh peralihan jalur tidak langsung ke langsung atau peningkatan dalam tahap tenaga keadaan gelap.
      <fig id="Fig5" position="float">
       <label>
-       Fig. 5
+       Rajah 5
       </label>
       <caption xml:lang="en">
        <p>
-        Low-temperature photoluminescence of strain-engineered monolayer WSe
+        Fotoluminesens suhu rendah monolayer WSe
         <sub>
          2
         </sub>
+        yang direka bentuk tegangan
+        <sup/>
         .
         <bold>
          a
         </bold>
-        Temperature dependent photoluminescence spectra of as-grown monolayer WSe
+        Spektrum fotoluminesens bergantung suhu monolayer WSe
         <sub>
          2
         </sub>
-        (tensile strained), inset shows the same measurement on an exfoliated monolayer WSe
+        yang ditumbuhkan (tertekan tegangan), inset menunjukkan pengukuran yang sama pada sampel monolayer WSe
         <sub>
          2
         </sub>
-        sample.
+        yang dieksfoliasi.
         <bold>
          b
         </bold>
-        Photoluminescence spectra of as-grown (tensile strained) WSe
+        Spektrum fotoluminesens WSe
         <sub>
          2
         </sub>
-        and exfoliated WSe
+        yang ditumbuhkan (tertekan tegangan) dan WSe
         <sub>
          2
         </sub>
-        measured at 6 K, inset shows normalized spectra.
+        yang dieksfoliasi diukur pada 6 K, inset menunjukkan spektrum yang dinormalisasi.
         <bold>
          c
         </bold>
-        Two dimensional plots of photoluminescence spectra and intensity of as-grown (tensile strained) monolayer WSe
+        Plot dua dimensi spektrum fotoluminesens dan intensiti monolayer WSe
         <sub>
          2
         </sub>
+        yang ditumbuhkan (tertekan tegangan)
+        <sup/>
         .
         <bold>
          d
         </bold>
-        Temperature dependence of the PL QY for as-grown (tensile strained), and exfoliated WSe
+        Kebergantungan suhu PL QY untuk WSe
         <sub>
          2
         </sub>
-        as a function of temperature
+        yang ditumbuhkan (tertekan tegangan), dan WSe
+        <sub>
+         2
+        </sub>
+        yang dieksfoliasi sebagai fungsi suhu
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig5_HTML.jpg"/>
+      <graphic href="MediaObjects/41467_2017_516_Fig5_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
    </sec>
   </sec>
   <sec id="Sec6" sec-type="discussion">
    <title>
-    Discussion
+    Perbincangan
    </title>
    <p id="Par14">
-    In summary, we have demonstrated controlled and stable strain engineering of 2D materials by growth, realized through TCE mismatch between the substrate and 2D material. The demonstrated strain engineering allows for dramatic modulation of the physical properties of 2D materials. Using WSe
+    Sebagai kesimpulan, kami telah menunjukkan kejuruteraan regangan terkawal dan stabil bagi bahan 2D melalui pertumbuhan, direalisasikan melalui ketidakpadanan TCE antara substrat dan bahan 2D. Kejuruteraan regangan yang ditunjukkan membolehkan modulasi dramatik sifat fizikal bahan 2D. Menggunakan WSe
     <sub>
      2
     </sub>
-    as a model system, we have achieved a strain induced indirect-to-direct optical transition in directly grown WSe
+    sebagai sistem model, kami telah mencapai peralihan optik tidak langsung ke langsung yang disebabkan oleh regangan dalam bilayer WSe
     <sub>
      2
     </sub>
-    bilayer, resulting in an amplification of the PL intensity by over fifty times. We have also shown tunable PL emission of WSe
+    yang ditumbuhkan secara langsung, menghasilkan penguatan intensiti PL lebih daripada lima puluh kali. Kami juga telah menunjukkan pelepasan PL yang boleh ditala bagi monolayer WSe
     <sub>
      2
     </sub>
-    monolayer, whereas maintaining its high performance. Notably, in the monolayer case under tensile strain, we observed increasing luminescence at reduced temperatures, in stark contrast with what has been reported in the unstrained exfoliated material, suggesting that strain can be utilized to brighten the dark exciton. This practical route for the direct realization of strain engineering in 2D materials can allow for the characterization of device properties as a function of strain as well as enable optical measurements that are not accessible to samples strained by physical bending or stretching. Our work depicts that biaxial strains of 1% tensile to 0.2% compressive can be obtained by using readily achievable differences in the thermal expansion coefficients by choosing an appropriate growth substrate. By expanding upon this method, it may be possible to obtain uniaxial strain via growth on substrates with anisotropic thermal expansion coefficients or obtain significantly higher strain values via growth on piezoelectric substrates
+    , sambil mengekalkan prestasi tingginya. Terutama, dalam kes monolayer di bawah regangan tegangan, kami memerhatikan peningkatan luminescence pada suhu yang dikurangkan, sangat berbeza dengan apa yang telah dilaporkan dalam bahan yang tidak diregangkan yang dieksfoliasi, mencadangkan bahawa regangan boleh digunakan untuk mencerahkan eksiton gelap. Laluan praktikal ini untuk merealisasikan kejuruteraan regangan secara langsung dalam bahan 2D boleh membolehkan pencirian sifat peranti sebagai fungsi regangan serta membolehkan pengukuran optik yang tidak dapat diakses oleh sampel yang diregangkan melalui lenturan atau peregangan fizikal. Kerja kami menggambarkan bahawa regangan biaxial dari 1% tegangan hingga 0.2% mampatan boleh diperoleh dengan menggunakan perbezaan yang mudah dicapai dalam pekali pengembangan terma dengan memilih substrat pertumbuhan yang sesuai. Dengan mengembangkan kaedah ini, mungkin boleh mendapatkan regangan uniaxial melalui pertumbuhan pada substrat dengan pekali pengembangan terma anisotropik atau mendapatkan nilai regangan yang lebih tinggi dengan ketara melalui pertumbuhan pada substrat piezoelektrik
     <sup>
      <xref ref-type="bibr" rid="CR34">
       34
@@ -2243,44 +2256,46 @@
   </sec>
   <sec id="Sec7" sec-type="materials|methods">
    <title>
-    Methods
+    Kaedah
    </title>
    <sec id="Sec8">
     <title>
-     Material growth
+     Pertumbuhan bahan
     </title>
     <p id="Par15">
      WSe
      <sub>
       2
      </sub>
-     was grown on several substrates with varying thermal expansion coefficients using CVD. Specifically, growth was performed on fused silica (amorphous), aluminum nitride (c-plane), Sapphire (c-plane), or strontium titanate (&lt;100&gt;); all substrates were electronic grade and have a root mean square surface roughness of &lt;10 Å. Substrates were first cleaned by sonication in acetone and isopropyl alcohol for 10 min. The growth was carried out using a two-heating-zone furnace (DaePoong Industry, 50602); a schematic of the growth setup is shown in Supplementary Fig.
+     ditumbuhkan pada beberapa substrat dengan pekali pengembangan terma yang berbeza menggunakan CVD. Secara khusus, pertumbuhan dilakukan pada silika terfusi (amorf), nitrida aluminium (c-pesawat), Sapphire (c-pesawat), atau strontium titanate (&lt;100&gt;); semua substrat adalah gred elektronik dan mempunyai kekasaran permukaan akar min kuasa dua &lt;10 Å. Substrat pertama kali dibersihkan dengan sonikasi dalam aseton dan isopropil alkohol selama 10 minit. Pertumbuhan dilakukan menggunakan relau dua zon pemanasan (DaePoong Industry, 50602); skema susunan pertumbuhan ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       7
      </xref>
-     . The cleaned substrates were loaded into the downstream zone, and a ceramic boat containing mixture of WO
+     <sup/>
+     . Substrat yang telah dibersihkan dimuatkan ke dalam zon hilir, dan sebuah bot seramik yang mengandungi campuran WO
      <sub>
       3
      </sub>
-     and potassiu﻿m bromide (KBr) was then placed next to the substrates. KBr was mixed with WO
+     dan kalium bromida (KBr) kemudian diletakkan di sebelah substrat. KBr dicampur dengan WO
      <sub>
       3
      </sub>
-     at a ratio of 1:2, with the KBr acting as a promoter for the growth. This is similar to methods described in ref.
+     pada nisbah 1:2, dengan KBr bertindak sebagai promoter untuk pertumbuhan. Ini serupa dengan kaedah yang diterangkan dalam ruj.
      <sup>
       <xref ref-type="bibr" rid="CR36">
        36
       </xref>
      </sup>
-     . However, we found that several salts can be used and the choice of promoter has a significant role in determining the ultimate sample morphology (this is further discussed in the
+     . Walau bagaimanapun, kami mendapati bahawa beberapa garam boleh digunakan dan pilihan promoter mempunyai peranan penting dalam menentukan morfologi sampel akhir (ini dibincangkan lebih lanjut dalam
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
+      Kaedah Tambahan
      </xref>
-     ). It should be noted that regardless of the promoter used, the strain present in the sample was unaffected as shown in Supplementary Fig.
+     ). Perlu diingat bahawa tanpa mengira promoter yang digunakan, ketegangan yang terdapat dalam sampel tidak terjejas seperti yang ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       8
      </xref>
-     . A ceramic boat containing 500 mg Se powder was placed in the center of the upstream zone. After loading, the quartz tube was evacuated and Ar was introduced at 60 sccm resulting in a pressure of 2.6 Torr. The temperature of upstream zone was then ramped to 100 °C and the downstream furnace was subsequently ramped to a setpoint of 825 °C. The set point of the upstream zone was adjusted such that the residual heat from the downstream zone results in vaporization of Se. Once the temperature of downstream furnace was stabilized, hydrogen was introduced at a flow rate of 40 sccm (total pressure of 3 Torr). This initiates the growth as the presence of hydrogen is required to decompose and vaporize WO
+     <sup/>
+     . Sebuah bot seramik yang mengandungi 500 mg serbuk Se diletakkan di tengah zon hulu. Selepas memuatkan, tiub kuarza dikosongkan dan Ar diperkenalkan pada 60 sccm menghasilkan tekanan 2.6 Torr. Suhu zon hulu kemudian dinaikkan kepada 100 °C dan relau hilir kemudiannya dinaikkan kepada setpoint 825 °C. Setpoint zon hulu disesuaikan supaya haba sisa dari zon hilir menghasilkan pengewapan Se. Setelah suhu relau hilir stabil, hidrogen diperkenalkan pada kadar aliran 40 sccm (tekanan keseluruhan 3 Torr). Ini memulakan pertumbuhan kerana kehadiran hidrogen diperlukan untuk menguraikan dan mengewapkan WO
      <sub>
       x
      </sub>
@@ -2289,15 +2304,15 @@
        37
       </xref>
      </sup>
-     . The growth time used was 15 min. Once the growth is complete, hydrogen flow was stopped, and the furnace was opened to rapidly cool the sample. The influence of the H
+     . Masa pertumbuhan yang digunakan adalah 15 minit. Setelah pertumbuhan selesai, aliran hidrogen dihentikan, dan relau dibuka untuk menyejukkan sampel dengan cepat. Pengaruh nisbah H
      <sub>
       2
      </sub>
-     /Ar ratio, growth time and growth pressure is discussed in the
+     /Ar, masa pertumbuhan dan tekanan pertumbuhan dibincangkan dalam
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
+      Kaedah Tambahan
      </xref>
-     and are shown in Supplementary Figs
+     dan ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       9
      </xref>
@@ -2305,98 +2320,86 @@
      <xref ref-type="supplementary-material" rid="MOESM1">
       11
      </xref>
-     . Optical microscope images of samples grown on various substrates is shown in Supplementary Fig.
+     <sup/>
+     . Imej mikroskop optik sampel yang ditumbuhkan pada pelbagai substrat ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       12
      </xref>
-     . Specific growth conditions were tuned to optimize the PL QY of the as-grown samples and to either promote growth of bilayer or monolayer domains (discussed in
+     <sup/>
+     . Keadaan pertumbuhan khusus disesuaikan untuk mengoptimumkan PL QY sampel yang ditumbuhkan dan untuk sama ada mempromosikan pertumbuhan domain bilayer atau monolayer (dibincangkan dalam
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
+      Kaedah Tambahan
      </xref>
-     ). It should be noted that for growths where the substrate temperature was varied the WO
+     ). Perlu diingat bahawa untuk pertumbuhan di mana suhu substrat diubah, bot WO
      <sub>
       3
      </sub>
-     /KBr boat was placed in the center of the first heating zone and the Se boat was placed at the edge of the first heating zone. The substrates were placed in the center of the second heating zone. The position of Se boat was adjusted to control the temperature. Transfer of grown WSe
+     /KBr diletakkan di tengah zon pemanasan pertama dan bot Se diletakkan di tepi zon pemanasan pertama. Substrat diletakkan di tengah zon pemanasan kedua. Kedudukan bot Se disesuaikan untuk mengawal suhu. Pemindahan WSe
      <sub>
       2
      </sub>
-     is done using a HF based wet transfer technique with PMMA as the transfer medium using the specific procedure described in ref.
+     yang ditumbuhkan dilakukan menggunakan teknik pemindahan basah berasaskan HF dengan PMMA sebagai medium pemindahan menggunakan prosedur khusus yang diterangkan dalam ruj.
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
      </sup>
-     . The electrical performance of CVD WSe
+     . Prestasi elektrik WSe
      <sub>
       2
      </sub>
-     grown on fused silica and transferred to Si/SiO
+     CVD yang ditumbuhkan pada silika terfusi dan dipindahkan ke Si/SiO
      <sub>
       2
      </sub>
-     is also compared to that of exfoliated samples, and is shown in Supplementary Fig.
+     juga dibandingkan dengan sampel yang dikelupas, dan ditunjukkan dalam Rajah Tambahan
      <xref ref-type="supplementary-material" rid="MOESM1">
       13
      </xref>
+     <sup/>
      .
     </p>
    </sec>
    <sec id="Sec9">
     <title>
-     Transmission electron microscopy
+     Mikroskop elektron transmisi
     </title>
     <p id="Par16">
-     WSe
+     Monolayer WSe
      <sub>
       2
      </sub>
-     monolayers were directly grown and transferred on 8 nm thick SiO
+     telah ditumbuhkan dan dipindahkan secara langsung pada membran SiO
      <sub>
       2
      </sub>
-     membranes (Ted Pella) for electron diffraction measurements in order to directly measure the lattice constant of the strained and unstrained samples, respectively. Electron diffraction measurements were performed at the National Center for Electron Microscopy at LBNL using a FEI Titan 60–300 microscope operated at 80 kV with parallel beam illumination.
+     setebal 8 nm (Ted Pella) untuk pengukuran difraksi elektron bagi mengukur pemalar kekisi sampel yang tertekan dan tidak tertekan secara langsung. Pengukuran difraksi elektron dilakukan di Pusat Nasional untuk Mikroskopi Elektron di LBNL menggunakan mikroskop FEI Titan 60–300 yang dioperasikan pada 80 kV dengan pencahayaan pancaran selari.
     </p>
    </sec>
    <sec id="Sec10">
     <title>
-     Optical characterization
+     Pencirian optik
     </title>
     <p id="Par17">
-     The PL data presented in this work was obtained using a custom built micro-PL instrument described in detail in ref.
+     Data PL yang dibentangkan dalam kerja ini diperoleh menggunakan instrumen mikro-PL yang dibina khas seperti yang diterangkan secara terperinci dalam rujukan
      <sup>
       <xref ref-type="bibr" rid="CR1">
        1
       </xref>
      </sup>
-     . In brief, measurements were performed using the continuous wave 514.5 nm line of an Ar
-     <sup>
-      +
-     </sup>
-     laser (Lexel 95) and the laser power was adjusted using neutral density filters. The laser was focused on the sample using an 80 × objective lens (NA = 0.9). The PL signal was measured using the same objective lens, passed through a 550 nm dielectric longpass filter, dispersed by a
+     . Secara ringkas, pengukuran dilakukan menggunakan gelombang berterusan 514.5 nm garis laser Ar (Lexel 95) dan kuasa laser diselaraskan menggunakan penapis ketumpatan neutral. Laser difokuskan pada sampel menggunakan lensa objektif 80 × (NA = 0.9). Isyarat PL diukur menggunakan lensa objektif yang sama, melalui penapis longpass dielektrik 550 nm, disebarkan oleh spektrometer
      <italic>
       f
      </italic>
-     = 340 mm spectrometer with a 150 g mm
-     <sup>
-      −1
-     </sup>
-     grating, and detected using by an Si CCD camera (Andor iDus BEX2-DD). Prior to each measurement the CCD background was obtained and subsequently subtracted from the PL acquisition. The sensitivity of the instrument as a function of wavelength (instrument function) was determined through measurement of a virtual Lambertian blackbody source under the objective, created by imaging the illumination from a temperature stabilized lamp (ThorLabs SLS201) on a diffuse reflector (Spectralon). The system efficiency was determined by measuring the response of the excitation laser focused onto a diffuse reflector (Spectralon), with the 550 nm longpass filter removed. The measured external quantum efficiency was converted to QY using sample absorption at the pump wavelength and the fraction of light, which is able to escape the sample (1/4
+     = 340 mm dengan grating 150 g mm, dan dikesan menggunakan kamera CCD Si (Andor iDus BEX2-DD). Sebelum setiap pengukuran, latar belakang CCD diperoleh dan kemudiannya ditolak daripada pemerolehan PL. Kepekaan instrumen sebagai fungsi panjang gelombang (fungsi instrumen) ditentukan melalui pengukuran sumber badan hitam Lambertian maya di bawah objektif, yang dicipta dengan menggambarkan pencahayaan dari lampu yang distabilkan suhu (ThorLabs SLS201) pada pemantul meresap (Spectralon). Kecekapan sistem ditentukan dengan mengukur tindak balas laser pengujaan yang difokuskan pada pemantul meresap (Spectralon), dengan penapis longpass 550 nm dikeluarkan. Kecekapan kuantum luaran yang diukur ditukar kepada QY menggunakan penyerapan sampel pada panjang gelombang pam dan pecahan cahaya, yang mampu melarikan diri dari sampel (1/4
      <italic>
       n
      </italic>
-     <sup>
-      2
-     </sup>
-     , where
+     , di mana
      <italic>
       n
      </italic>
-     is the refractive index of the medium). All measurements shown in this work were performed at an incident power of 1.5 W cm
-     <sup>
-      −2
-     </sup>
-     (corresponding to a laser power of 200 nW). This laser power is significantly below the onset of biexcitonic recombination in WSe
+     adalah indeks biasan medium). Semua pengukuran yang ditunjukkan dalam kerja ini dilakukan pada kuasa insiden 1.5 W cm (bersamaan dengan kuasa laser 200 nW). Kuasa laser ini adalah jauh di bawah permulaan rekombinasi biexcitonic dalam WSe
      <sub>
       2
      </sub>
@@ -2405,19 +2408,20 @@
        38
       </xref>
      </sup>
-     . Low temperature measurements were performed using a long working distance 50 × objective lens in a micro-cryostat (Janis) with an infrasil window. The procedure described previously was used to calculate the sample PL efficiency. PL imaging was performed on the samples to determine their uniformity. Measurements were performed using a florescence microscopy setup using a 470 nm light emitting diode as the excitation source and a CCD detector (Andor Luca). Raman measurements and high-resolution mapping were performed to characterize the strain in the WSe
+     . Pengukuran suhu rendah dilakukan menggunakan lensa objektif jarak kerja panjang 50 × dalam mikro-cryostat (Janis) dengan tingkap infrasil. Prosedur yang diterangkan sebelum ini digunakan untuk mengira kecekapan PL sampel. Pengimejan PL dilakukan pada sampel untuk menentukan keseragamannya. Pengukuran dilakukan menggunakan tetapan mikroskopi pendarfluor menggunakan diod pemancar cahaya 470 nm sebagai sumber pengujaan dan pengesan CCD (Andor Luca). Pengukuran Raman dan pemetaan resolusi tinggi dilakukan untuk mencirikan ketegangan dalam WSe
      <sub>
       2
      </sub>
-     . Raman spectra were obtained using a WITec Alpha 300RA equipped with a piezo electric scanning stage. The sample was excited using the 532 nm line of a frequency-doubled Nd:YAG laser as the excitation source and focused on the sample using a 100 × objective.
+     <sup/>
+     . Spektrum Raman diperoleh menggunakan WITec Alpha 300RA yang dilengkapi dengan pentas pengimbasan piezo elektrik. Sampel digerakkan menggunakan garis 532 nm laser Nd:YAG berganda frekuensi sebagai sumber pengujaan dan difokuskan pada sampel menggunakan objektif 100 ×.
     </p>
    </sec>
    <sec id="Sec11">
     <title>
-     Data availability
+     Ketersediaan data
     </title>
     <p id="Par18">
-     The data that support the findings of this study are available from the corresponding author on request.
+     Data yang menyokong penemuan kajian ini boleh didapati daripada penulis yang berkenaan atas permintaan.
     </p>
    </sec>
   </sec>
@@ -2425,28 +2429,28 @@
  <back>
   <ack>
    <title>
-    Acknowledgements
+    Ucapan Terima Kasih
    </title>
    <p>
-    The authors would like to thank Ian S. Winter for providing them with his elastic constants code that interfaces with VASP. Materials growth, characterization, and modeling were supported by the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division under contract no. DE-AC02-05CH11231 within the Electronic Materials Program (KC1201). Electron Microscopy was performed at the Molecular Foundry which is supported by the Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.
+    Para penulis ingin mengucapkan terima kasih kepada Ian S. Winter kerana menyediakan kod pemalar elastiknya yang berinteraksi dengan VASP. Pertumbuhan bahan, pencirian, dan pemodelan disokong oleh Jabatan Tenaga A.S., Pejabat Sains, Pejabat Sains Asas Tenaga, Bahagian Sains dan Kejuruteraan Bahan di bawah kontrak no. DE-AC02-05CH11231 dalam Program Bahan Elektronik (KC1201). Mikroskop Elektron dilakukan di Molecular Foundry yang disokong oleh Pejabat Sains, Pejabat Sains Asas Tenaga, Jabatan Tenaga A.S. di bawah Kontrak No. DE-AC02-05CH11231.
    </p>
   </ack>
   <sec sec-type="author-contribution">
    <title>
-    Author contributions
+    Sumbangan pengarang
    </title>
    <p>
-    G.H.A., M.A. and A.J. conceived the idea for the project and designed the experiments. G.H.A. performed the synthesis of WSe
+    G.H.A., M.A. dan A.J. mencetuskan idea untuk projek dan merancang eksperimen. G.H.A. menjalankan sintesis WSe
     <sub>
      2
     </sub>
-    . G.H.A., M.A. and D.-H.L. carried out the optical characterizations. H.R. and A.M.M. performed electron diffraction measurements. J.P.M. and D.C.C. performed modeling and simulations. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. and A.J. analyzed the data. G.H.A., M.A. and A.J. wrote the manuscript. All authors discussed the results and commented on the manuscript.
+    . G.H.A., M.A. dan D.-H.L. menjalankan pencirian optik. H.R. dan A.M.M. menjalankan pengukuran pembelauan elektron. J.P.M. dan D.C.C. menjalankan pemodelan dan simulasi. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. dan A.J. menganalisis data. G.H.A., M.A. dan A.J. menulis manuskrip. Semua pengarang membincangkan hasil dan memberi komen pada manuskrip.
    </p>
   </sec>
   <sec sec-type="ethics-statement">
    <sec id="FPar1" sec-type="COI-statement">
     <title>
-     Competing interests
+     Kepentingan bersaing
     </title>
     <p id="Par19">
      The authors declare no competing financial interests.
@@ -2455,7 +2459,7 @@
   </sec>
   <ref-list id="Bib1">
    <title>
-    References
+    Rujukan
    </title>
    <ref-list>
     <ref id="CR1">
@@ -4443,7 +4447,7 @@
    <app id="App1" specific-use="web-only">
     <sec id="Sec12">
      <title>
-      Electronic supplementary material
+      Bahan tambahan elektronik
      </title>
      <p id="Par20">
       <supplementary-material content-type="local-data" id="MOESM1" xlink:title="Electronic supplementary material">
@@ -4461,7 +4465,7 @@
   </app-group>
   <notes notes-type="ESMHint">
    <title>
-    Electronic supplementary material
+    Bahan tambahan elektronik
    </title>
    <p>
     <bold>
