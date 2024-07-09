@@ -191,6 +191,14 @@ or pipeline) parameterized.
           <a href="10X1038_s41467-017-00516-5/10X1038_s41467-017-00516-5_hin.xml">News</a>
           <a href="10X1038_s41467-017-00516-5/10X1038_s41467-017-00516-5_kor.xml">Contact</a>
           <a href="10X1038_s41467-017-00516-5/10X1038_s41467-017-00516-5_deu.xml">About</a>
+          <button class="dropbtn" onclick="dropDown()">Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="lang-dropdown">
+            <a href="#" id="spa">Link 1</a>
+            <a href="#" id="kor">Link 2</a>
+            <a href="#" id="zho1">Link 3</a>
+          </div>
         </div>
 
         <xsl:apply-templates/>

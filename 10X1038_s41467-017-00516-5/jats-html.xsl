@@ -162,6 +162,8 @@ or pipeline) parameterized.
   
   <xsl:param name="transform" select="'jats-html.xsl'"/>
 
+  <xsl:include href="dropdown.xsl"/>
+
   <xsl:param name="css" select="'../jats-preview.css'"/>
   
   <xsl:param name="report-warnings" select="'no'"/>
@@ -192,7 +194,7 @@ or pipeline) parameterized.
           <a href="10X1038_s41467-017-00516-5_kor.xml">Contact</a>
           <a href="10X1038_s41467-017-00516-5_deu.xml">About</a>
         </div>
-
+        <xsl:call-template name="lang-dropdown"/>
         <xsl:apply-templates/>
       </body>
     </html>
