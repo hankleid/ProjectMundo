@@ -188,7 +188,7 @@ or pipeline) parameterized.
       <!-- HTML header -->
       <xsl:call-template name="make-html-header"/>
       <body>
-        <call:template name="navbar"/>
+        <xsl:call-template name="navbar"/>
         <xsl:apply-templates/>
       </body>
     </html>
