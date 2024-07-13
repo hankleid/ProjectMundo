@@ -3,8 +3,8 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style/jats-preview.css"/>
-    <body>
-      <a href="index.html">Article</a>
-    </body>
   </head>
+  <body>
+    <a href="index.html">Article</a>
+  </body>
 </html>
