@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="style/index.xsl"?>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="jats-preview.css"/>
     <body>
       <a href="index.html">Article</a>
     </body>
