@@ -164,7 +164,7 @@ or pipeline) parameterized.
 
   <xsl:include href="navigation.xsl"/>
 
-  <xsl:param name="css" select="'jats-preview.css'"/>
+  <xsl:param name="css" select="'../../style/jats-preview.css'"/>
   
   <xsl:param name="report-warnings" select="'no'"/>
   
@@ -187,15 +187,14 @@ or pipeline) parameterized.
     <html>
       <!-- HTML header -->
       <xsl:call-template name="make-html-header"/>
-      <body>
+      <body onload="configureDropdownLinks('10X1038_s41467-017-00516-5')">
         <div id="nav-placeholder"></div>
+        <xsl:apply-templates/>
         <script>
-          $(function(){
-            $("#nav-placeholder").load("navigation.html");
+          $.get("../../style/navigation.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
           });
         </script>
-        <!-- <xsl:call-template name="navbar"/> -->
-        <xsl:apply-templates/>
       </body>
     </html>
   </xsl:template>
@@ -203,7 +202,8 @@ or pipeline) parameterized.
 
   <xsl:template name="make-html-header">
     <head>
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
+      <script type="text/javascript" src="../../js/webscript.js"></script>
       <title>
       Project Mundo
       <script type="text/javascript"

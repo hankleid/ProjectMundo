@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../../style/jats-preview.css"/>
+    <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../../js/webscript.js"></script>
+  </head>
+  <body onload="configureDropdownLinks('index')">
+    <div id="nav-placeholder"></div>
+    <div class="articles-index">
+      <!-- do this in the doctor's office -->
+      <a href="10X1038_s41467-017-00516-5.xml">
+        Article
+      </a>
+    </div>
+    <script>
+      $.get("../../style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
-const langs = require('./lang.json');
-console.log(langs);
+// const langs = require('./lang.json');
+// console.log(langs);
 
 function launch() {
     // (onload function for main index)
@@ -8,20 +8,27 @@ function launch() {
     return;
 }
 
-/*  */
-function generateIndex() {
-    // param: lang
-    // generate links to all the dois in the lang specified
-    // elements should have id = doi; data-lang = lang
-    return;
-}
 
 /*  */
-function retrieveArticle() {
+function configureDropdownLinks(doi) {
     // params: doi, lang
     // called from index or another article page
     // configure the dropdown langs to have data-doi = doi
-    return;
+    console.log(document);
+    let dropdown = document.getElementById("lang-dropdown");
+    console.log(dropdown);
+    let els = dropdown.getElementsByTagName("*");
+    for (let i = 0; i < els.length; i++) {
+        let newlink = "";
+        if (doi === "index") {
+            newlink = "/lang/" + els[i].getAttribute("id") + "/index.html";
+        }
+        else {
+            newlink = "/lang/" + els[i].getAttribute("id") + "/" + doi + ".xml";
+        }
+        els[i].setAttribute("href", newlink);
+        console.log(newlink); // debugging
+    }
 }
 
 /* When the user clicks on the button, 
