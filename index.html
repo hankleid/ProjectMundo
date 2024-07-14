@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style/jats-preview.css"/>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="nav-placeholder"></div>
+    <script>
+      $.get("style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+    </script>
+
+    <p>
+      <a href="index.html">Article</a>
+    </p>
+  </body>
+</html>

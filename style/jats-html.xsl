@@ -188,7 +188,13 @@ or pipeline) parameterized.
       <!-- HTML header -->
       <xsl:call-template name="make-html-header"/>
       <body>
-        <xsl:call-template name="navbar"/>
+        <div id="nav-placeholder"></div>
+        <script>
+          $(function(){
+            $("#nav-placeholder").load("navigation.html");
+          });
+        </script>
+        <!-- <xsl:call-template name="navbar"/> -->
         <xsl:apply-templates/>
       </body>
     </html>
@@ -197,6 +203,7 @@ or pipeline) parameterized.
 
   <xsl:template name="make-html-header">
     <head>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
       <title>
       Project Mundo
       <script type="text/javascript"
