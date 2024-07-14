@@ -3,7 +3,7 @@
    <xsl:include href="navigation.xsl"/>
    <xsl:output method="html"/>
 
-   <xsl:template match="body">
-        <xsl:call-template name="navbar"/>
+   <xsl:template match="navbar">
+      <xsl:call-template name="navbar"/>
    </xsl:template>
 </xsl:transform>

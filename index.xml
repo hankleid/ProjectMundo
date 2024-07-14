@@ -5,6 +5,9 @@
     <link rel="stylesheet" type="text/css" href="style/jats-preview.css"/>
   </head>
   <body>
-    <a href="index.html">Article</a>
+    <navbar></navbar>
+    <p>
+      <a href="index.html">Article</a>
+    </p>
   </body>
 </html>
