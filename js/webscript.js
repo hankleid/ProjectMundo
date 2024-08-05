@@ -1,22 +1,20 @@
-// const langs = require('./lang.json');
-// console.log(langs);
-
-function launch() {
-    // (onload function for main index)
-    // populate the dropdown menu with correct languages
-    // generateIndex
-    return;
-}
-
-
-/*  */
-function configureDropdownLinks(doi) {
+function configureDropdown(doi, lang) {
     // params: doi, lang
     // called from index or another article page
     // configure the dropdown langs to have data-doi = doi
-    console.log(document);
+    // update the dropdown button with the current language
+
+    console.log(lang)
+    fetch('/lang.json')
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(data) {
+            let dropdown_button = document.getElementById("btn-dropdown");
+            dropdown_button.textContent = data.codes[lang].name;
+        });
+
     let dropdown = document.getElementById("lang-dropdown");
-    console.log(dropdown);
     let els = dropdown.getElementsByTagName("*");
     for (let i = 0; i < els.length; i++) {
         let newlink = "";
@@ -24,10 +22,9 @@ function configureDropdownLinks(doi) {
             newlink = "/lang/" + els[i].getAttribute("id") + "/index.html";
         }
         else {
-            newlink = "/lang/" + els[i].getAttribute("id") + "/" + doi + ".xml";
+            newlink = "/lang/" + els[i].getAttribute("id") + "/" + doi;
         }
         els[i].setAttribute("href", newlink);
-        console.log(newlink); // debugging
     }
 }
 

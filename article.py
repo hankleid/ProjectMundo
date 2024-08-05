@@ -22,7 +22,7 @@ def get_article(doi):
 
     data = BeautifulSoup(r.content, features="xml")
     # Enter correct XSLT style information.
-    data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>', features="xml"))
+    data.contents[0].replace_with(BeautifulSoup('<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>', features="xml"))
     # Remove the API response portion of the XML.
     data.response.replace_with(data.records.article)
 
@@ -87,7 +87,6 @@ def parse_par(this_par):
 
     this_par.clear()
     this_par.extend(new_par.p.contents)
-    # return new_par.p
 
 def translate(xml, tl, language, delay=False):
     # translates the chunk in place.
@@ -118,9 +117,6 @@ def translate_article(xml, tl, language):
     for p in body.find_all('p'):
         parse_par(p)
 
-        # formatted_p = parse_par(p)
-        # p.clear()
-        # p.extend(formatted_p.contents)
 
     # Translate the article title and abstract.
     # Translate the body.
@@ -133,10 +129,13 @@ def translate_article(xml, tl, language):
           
     for _ in to_translate:
         for xml in _:
-            translate(xml,tl,language,delay=False)
+            translate(xml,tl,language,delay=True)
 
 
-# I/O FUNCTIONS 
+#################################
+######### I/O FUNCTIONS #########
+##### XML EDITING FUNCTIONS ##### 
+#################################
             
 def load_langs():
     return json.load(open('lang.json'))
@@ -158,5 +157,18 @@ def filename_from_DOI(xml=None, doi=None, language=None):
         codes = load_langs()
         filename += f"_{codes[language]}"
 
-    return filename
+    return str_strip(filename)
+
+def change_graphic_dir(xml):
+    dir = f"/MediaObjects/{filename_from_DOI(xml=xml)}"
+
+    graphics = [graphic for graphic in xml.find_all('graphic') if 'MediaObjects' in graphic['href']]
+    for graphic in graphics:
+        curr_dir = graphic['href']
+        fn = curr_dir[curr_dir.rindex('/'):]
+        graphic['href'] = (dir+fn).replace("\n","").replace(" ","")
+
+def str_strip(string):
+    return string.replace("\n","").strip()
+
 

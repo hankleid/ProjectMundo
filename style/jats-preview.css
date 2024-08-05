@@ -105,6 +105,17 @@ body { margin-left: 8%;
   display: block;
 }
 
+div.articles-index {
+  padding-top: 32px;
+  font-size: 24;
+  font-family: sans-serif;
+}
+
+div.articles-index a {
+  display: block;
+  line-height: 50px;
+}
+
 div.front, div.footer { }
 
 .back, .body { font-family: sans-serif }

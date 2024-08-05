@@ -187,11 +187,11 @@ or pipeline) parameterized.
     <html>
       <!-- HTML header -->
       <xsl:call-template name="make-html-header"/>
-      <body onload="configureDropdownLinks('10X1038_s41467-017-00516-5')">
+      <body onload="configureDropdown(window.location.pathname.split('/').pop(), window.location.pathname.substring(window.location.pathname.indexOf('lang')+5, window.location.pathname.indexOf('lang')+8))">
         <div id="nav-placeholder"></div>
         <xsl:apply-templates/>
         <script>
-          $.get("../../style/navigation.html", function(data){
+          $.get("/style/navigation.html", function(data){
             $("#nav-placeholder").replaceWith(data);
           });
         </script>
