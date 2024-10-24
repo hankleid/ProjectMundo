@@ -1,19 +1,83 @@
 from openai import OpenAI
 import tiktoken
+from typing import Union as u
+import os
+import base64
+from io import BytesIO
+from PIL import Image
 
 class Translator():
-  def __init__(self):
-    self.model = "gpt-4o"
-    self.encoding = tiktoken.encoding_for_model(self.model)
-    self.api_key_location = "../keys/openai_key.txt"
-    self.client = OpenAI(api_key=self.api_key())
+  def __init__(self, model):
+    self.name = model
+    if model == "gpt":
+      self.model = "gpt-4o-2024-08-06"
+      self.api_key_location = "../keys/openai_key.txt"
+      self.use_tokens = True
+      self.client = OpenAI(api_key=self.api_key())
+    elif model == "llama":
+      self.model = "llama3.1-405b"
+      self.api_key_location = "../keys/llama_key.txt"
+      self.use_tokens = False
+      self.client = OpenAI(api_key=self.api_key(), base_url="https://api.llama-api.com")
+    else:
+      raise ValueError('Invalid model. Available models: "gpt", "llama".')
+
+    if self.use_tokens:
+      self.encoding = tiktoken.encoding_for_model(self.model)
     self.token_count = 0
+    self.context = ""
+    self.use_context = False
+    self.temp = 0
+    self.images = [] # image encodings
+    self.reset()
 
   def clear_tokens(self):
     self.token_count = 0
 
+  def reset(self):
+    self.first = True
+    self.saved_convo = [
+      {"role": "system", "content": "You are a translator for scientific articles."}
+    ]
+    self.images = []
+    self.clear_tokens()
+
   def count_tokens(self):
     return self.token_count
+  
+  def _load_text(self, path):
+    with open(path, "r") as f:
+      try:
+        lines = f.readlines()
+        return ''.join(lines)
+      except:
+        print("Article not found!")
+
+  def load_article(self, path):
+    self.context = self._load_text(path)
+
+  def generate_qs(self, num_qs, path, prompt, figs=False):
+    article = self._load_text(path)
+    prompt += f"'{article}"
+
+    if figs:
+      response = self.chat_prompt_with_figures(text_prompt=prompt)
+    else:
+      response = self.chat_prompt(prompt)
+    i = response.find("{") # start of the xml object
+    j = response.rindex("}")+1 # end of the xml object
+    return response[i:j]
+
+  def get_name_from_xml(self, xmlstring):
+    a = xmlstring
+    try:
+      header = a[a.find("<"):a.find(">")]
+      if header.find(" ") != -1:
+        return header[1:header.find(" ")]
+      else:
+        return header[1:]
+    except:
+      return "nothing"
 
   def api_key(self):
     # read api_key from local file
@@ -22,17 +86,79 @@ class Translator():
   
   def num_tokens(self, text):
     # returns the number of tokens that corresponds to the text
-    return len(self.encoding.encode(text))
+    if self.use_tokens:
+      return len(self.encoding.encode(text))
+    else:
+      return 0
+    
+  def upload_images(self, doi):
+    img_folder = f"MediaObjects/{doi}/"
+    try:
+      img_files = [img_folder+fn for fn in os.listdir(img_folder) if fn[-3:] == "png" or fn[-3:] == "jpg"]
+    except:
+      print("No figures.")
+      return []
+    
+    img_encodings = []
+
+    for img_path in img_files:
+        with Image.open(img_path) as img:
+            width, height = img.size
+            max_dim = max(width, height)
+            if max_dim > 512:
+                scale_factor = 512 / max_dim
+                new_width = int(width * scale_factor)
+                new_height = int(height * scale_factor)
+                img = img.resize((new_width, new_height))
+
+            buffered = BytesIO()
+            img.save(buffered, format="PNG")
+            img_str = base64.b64encode(buffered.getvalue()).decode("utf-8")
+            img_encodings.append(img_str)
+    
+    self.images = img_encodings
 
   def chat_prompt(self, prompt):
     # returns the result of a GPT chat prompt
     response = self.client.chat.completions.create(
       model=self.model,
-      temperature=0,
-      messages=[{"role": "user", "content": prompt}]
+      temperature=self.temp,
+      messages=self.saved_convo + [{"role": "user", "content": prompt}]
     )
     ret = response.choices[0].message.content
-    token_price = self.num_tokens(prompt) + self.num_tokens(ret)
+
+    token_price = sum([self.num_tokens(prompt), self.num_tokens(ret)] + [self.num_tokens(d["content"]) for d in self.saved_convo])
+    print(f"Exchange complete. Price: {token_price} tokens.")
+    self.token_count += token_price
+    return ret
+  
+  def chat_prompt_with_figures(self, text_prompt, doi=None):
+    if doi: # doi has to be the formatted doi
+      self.upload_images(doi)
+
+    text_count = ""+text_prompt
+    messages = self.saved_convo + [
+        {
+          "role": "user", "content":
+            [
+              {"type": "text", "text": text_prompt}
+            ]
+        }
+      ]
+    for img in self.images:
+      img_prompt = {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img}"}}
+      messages[1]["content"].append(img_prompt)
+      text_count += img
+
+
+    response = self.client.chat.completions.create(
+      model=self.model,
+      temperature=self.temp,
+      messages=messages
+      )
+    ret = response.choices[0].message.content
+
+    token_price = sum([self.num_tokens(text_count), self.num_tokens(ret)] + [self.num_tokens(d["content"]) for d in self.saved_convo])
     print(f"Exchange complete. Price: {token_price} tokens.")
     self.token_count += token_price
     return ret
@@ -42,10 +168,66 @@ class Translator():
     prompt = f"The following phrase is an exerpt from a scientific article. If this phrase is in {language} already, just return the sentence without changing it. Otherwise, please translate the phrase into {language}: {text}"
     return self.chat_prompt(prompt)
 
-  def translate_xml(self, xml, language):
-    # returns the (string of) an xml object after translating its contents into any language.
-    prompt = f"The following xml object represents a section of a scientific article. For the entire article (including titles), please translate all content between tags into {language}. Please keep all of the xml tags in the correct positions. Do not omit any section of the xml. Do not translate the word 'Fig'. The format of the response should be the translated xml object.{xml}"
+  def translate_xml(self, xml: u[str,list], language):
+    # returns the (string of) an xml object or list of xml objects after translating its contents into any language.
+    intro, outro = "", ""
+    is_list = isinstance(xml, list)
+    if is_list:
+      num_xml = len(xml)
+      intro += f"This following Python list contains {num_xml} sections of a scientific article, each section represented by an xml object. For each of the {num_xml} xml objects,"
+      outro += f"The format of the response must be a Python list of length {num_xml}, where each element is the translated xml object. Here is the list:"
+    else: # single xml.
+      intro += "The following xml object represents a section of a scientific article. For the entire section,"
+      outro += "The format of the response should be the translated xml object. Here is the object:"
+      
+    instructions = f"please translate all content between tags into {language}. Please keep all of the xml tags in the correct positions. Do not omit any section of the xml. Do not translate the word 'Fig'. Do not cut sentences short and include all symbols."
+    if self.use_context:
+      if self.first:
+        prompt = f"In the next messages, you will receive sections of a scientific article to translate into {language}. Here is the full scientific article; please use this as context to help the translation. The article: {self.context}"
+        self.saved_convo += [{"role": "user", "content": f"{prompt}"},
+                            {"role": "assistant", "content": f"{self.chat_prompt(prompt)}"}]
+        self.first = False
+      prompt = f"Thank you. {intro} {instructions} Please use the entire article provided earlier for context. {outro} {xml}"
+    else:
+      prompt = f"{intro} {instructions} {outro} {xml}"
+    
     response = self.chat_prompt(prompt)
-    i = response.find("<") # start of the xml object
-    j = response.rindex(">")+1 # end of the xml object
+
+    if not is_list:
+      i = response.find("<") # start of the xml object
+      j = response.rindex(">")+1 # end of the xml object
+      return response[i:j]
+    else:
+      translated = []
+      a, currname = response, self.get_name_from_xml(response)
+      
+      while a.find(f"</{currname}>") != -1:
+          k = a.find("<")
+          l = a.find(f"</{currname}>") + len(f"</{currname}>")
+          translated.append(a[k:l])
+          a = a[l:]
+          currname = self.get_name_from_xml(a)
+
+      print(len(translated))
+      return translated
+    
+  def translate_qs(self, lang, path):
+    # translates a json file of questions into lang
+    qs = self._load_text(path)
+    prompt = f"The following JSON comprises a list of questions about an academic journal article. Please translate the questions and options into {lang}. Do not translate the keys of the JSON. Please return the translated JSON. Here is the JSON to translate: {qs}"
+
+    response = self.chat_prompt(prompt)
+    i = response.find("{") # start of the xml object
+    j = response.rindex("}")+1 # end of the xml object
+    return response[i:j]
+  
+  def quiz_translation(self, lang, article_path, qs_path):
+    # tries to answer questions about translated article
+    article = self._load_text(article_path)
+    qs = self._load_text(qs_path)
+    prompt = f"Please read the following scientific journal article, which has been translated into {lang}. Then answer the questions based on your understanding. Report your answers as a JSON where the keys are the question numbers and the values are your letter answers. Here is the article: {article}\n\n and here are the questions: {qs}"
+
+    response = self.chat_prompt(prompt)
+    i = response.find("{") # start of the xml object
+    j = response.rindex("}")+1 # end of the xml object
     return response[i:j]

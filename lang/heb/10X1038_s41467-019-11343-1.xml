@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" specific-use="web-only" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -91,7 +91,7 @@
    </article-categories>
    <title-group>
     <article-title xml:lang="en">
-     Fotónica de diamante diseñada inversamente
+     פוטוניקה יהלומית בעיצוב הפוך
     </article-title>
    </title-group>
    <contrib-group>
@@ -525,21 +525,17 @@
     </license>
    </permissions>
    <abstract id="Abs1" xml:lang="en">
-    <abstract id="Abs1" xml:lang="en">
-     <title>
-      Resumen
-     </title>
-     <p id="Par1">
-      El diamante alberga centros de color ópticamente activos con gran potencial en computación cuántica, redes y detección. La realización de tales aplicaciones depende de la integración de centros de color en circuitos fotónicos. Sin embargo, los experimentos actuales de óptica cuántica en diamante están restringidos a dispositivos individuales y pocos emisores cuánticos debido a que las limitaciones de fabricación restringen las funcionalidades de los dispositivos, lo que impide la integración de centros de color en circuitos fotónicos. En este trabajo, utilizamos métodos de diseño inverso para superar las limitaciones de los métodos de nanofabricación de diamante de vanguardia y fabricar dispositivos de diamante compactos y robustos con especificaciones únicas. Nuestro método de diseño aprovecha técnicas avanzadas de optimización para buscar en todo el espacio de parámetros diseños de dispositivos fabricables. Demostramos experimentalmente interfaces fotónicas de espacio libre diseñadas inversamente, así como su integración escalable con dos dispositivos muy diferentes: cavidades de cristal fotónico clásicas y divisores de guía de onda diseñados inversamente. La capacidad de integración de múltiples dispositivos y el rendimiento de nuestra plataforma de diamante diseñada inversamente representan un avance crítico hacia los circuitos ópticos cuánticos integrados en diamante.
-     </p>
-    </abstract>
+    <title>
+     תקציר
+    </title>
+    <p id="Par1">
+     יהלום מכיל מרכזי צבע פעילים אופטית עם הבטחה גדולה בחישוב קוונטי, רשתות וחישה. מימוש יישומים כאלה מותנה בשילוב מרכזי צבע במעגלים פוטוניים. עם זאת, ניסויים נוכחיים באופטיקה קוונטית ביהלום מוגבלים למכשירים בודדים ומעט פולטות קוונטיות בגלל מגבלות ייצור שמגבילות את תפקודיות המכשירים, ובכך מונעות מעגלים פוטוניים משולבים עם מרכזי צבע. בעבודה זו, אנו משתמשים בשיטות עיצוב הפוכות כדי להתגבר על מגבלות של שיטות ייצור ננו-יהלום מתקדמות ולייצר מכשירי יהלום קומפקטיים ועמידים עם מפרטים ייחודיים. שיטת העיצוב שלנו מנצלת טכניקות אופטימיזציה מתקדמות כדי לחפש את כל מרחב הפרמטרים עבור עיצובים של מכשירים שניתן לייצר. אנו מדגימים באופן ניסיוני ממשקים פוטוניים בעיצוב הפוך בחלל חופשי וכן את שילובם הניתן להרחבה עם שני מכשירים שונים מאוד: חללי גביש פוטוניים קלאסיים ומפצלי גלים בעיצוב הפוך. יכולת השילוב הרב-מכשירית והביצועים של פלטפורמת היהלום בעיצוב הפוך שלנו מייצגים התקדמות קריטית לקראת מעגלים אופטיים קוונטיים משולבים ביהלום.
+    </p>
    </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" xml:lang="en">
-    <abstract abstract-type="ShortSummary" id="Abs2" xml:lang="es">
-     <p id="Par2">
-      Los experimentos actuales de óptica cuántica con diamantes están restringidos a dispositivos individuales y pocos emisores cuánticos debido a las limitaciones de fabricación. Aquí, los autores utilizan el diseño inverso para superar las limitaciones de los métodos de nanofabricación de diamantes y fabricar dispositivos de diamante compactos y robustos con especificaciones únicas.
-     </p>
-    </abstract>
+    <p id="Par2">
+     Current diamond quantum optics experiments are restricted to single devices and few quantum emitters due to fabrication constraints. Here, the authors utilize inverse design to overcome constraints of diamond nanofabrication methods and fabricate compact and robust diamond devices with unique specifications.
+    </p>
    </abstract>
    <kwd-group kwd-group-type="hierarchical" vocab="FoR" vocab-identifier="ANZSRC 2008">
     <kwd content-type="term" vocab-term-identifier="02">
@@ -837,93 +833,236 @@
  </front>
  <body>
   <sec id="Sec1" sec-type="introduction">
-   <sec id="Sec1" sec-type="introduction">
+   <title>
+    מבוא
+   </title>
+   <p id="Par3">
+    ליהלום יש תכונות חומר מצוינות לאופטיקה קוונטית, אופטומכניקה ואופטיקה לא ליניארית
+    <sup>
+     <xref ref-type="bibr" rid="CR1">
+      1
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR2">
+      2
+     </xref>
+     <xref ref-type="bibr" rid="CR3">
+      3
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR4">
+      4
+     </xref>
+     <xref ref-type="bibr" rid="CR5">
+      5
+     </xref>
+    </sup>
+    . עניין מיוחד הוא במגוון המרכזים הצבעוניים שיהלום מארח, שחלקם מציגים זמני קוהרנטיות ארוכים מאוד
+    <sup>
+     <xref ref-type="bibr" rid="CR1">
+      1
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR6">
+      6
+     </xref>
+    </sup>
+    . פיתוח מעגלים פוטוניים מיהלום התגלה כנתיב מבטיח ליישום רשתות קוונטיות אופטיות, מחשבים קוונטיים וחיישנים קוונטיים
+    <sup>
+     <xref ref-type="bibr" rid="CR7">
+      7
+     </xref>
+     <xref ref-type="bibr" rid="CR8">
+      8
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR9">
+      9
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR10">
+      10
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR11">
+      11
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR12">
+      12
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR13">
+      13
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR14">
+      14
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR15">
+      15
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR16">
+      16
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR17">
+      17
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR18">
+      18
+     </xref>
+     <xref ref-type="bibr" rid="CR19">
+      19
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR20">
+      20
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR21">
+      21
+     </xref>
+     <xref ref-type="bibr" rid="CR22">
+      22
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR23">
+      23
+     </xref>
+    </sup>
+    . עם זאת, אתגר מרכזי באופטיקה קוונטית מיהלום הוא היעדר סרטים דקים באיכות גבוהה של יהלום, שכן ייצור יהלום בדרגת אלקטרוניקה ניתן להשגה רק בהומואפיטקסיה, ותהליכי דילול אינם ניתנים לשחזור מספיק לייצור חללים פוטוניים
+    <sup>
+     <xref ref-type="bibr" rid="CR24">
+      24
+     </xref>
+    </sup>
+    . כתוצאה מכך, אופטיקה קוונטית של חללים מיהלום מתקדמת מסתמכת על חריטה בזווית של יהלום בתפזורת
+    <sup>
+     <xref ref-type="bibr" rid="CR24">
+      24
+     </xref>
+    </sup>
+    . טכניקה זו מובילה באופן טבעי לחתכים משולשים עם גיאומטריות מוגבלות מאוד, המגבילות את עיצוב המכשיר ואת הפונקציונליות שלו. פיתוחים אחרונים בעיבוד יהלום המבוססים על חריטה כמעט איזוטרופית (ראו הערה משלימה
+    <xref ref-type="supplementary-material" rid="MOESM1">
+     1
+    </xref>
+    ודמויות משלימות
+    <xref ref-type="supplementary-material" rid="MOESM1">
+     1
+    </xref>
+    ו-
+    <xref ref-type="supplementary-material" rid="MOESM1">
+     2
+    </xref>
+    ) מאפשרים ייצור ממברנות יהלום עם חתכים מלבניים וממדים משתנים מיהלום בתפזורת. למרות שחתכים מלבניים הם צעד משמעותי לקראת מעגלים משולבים מיהלום, טכניקת ייצור זו מגיעה עם מגבלות גיאומטריות משלה, כגון מגבלות על טווח הגדלים של תכונות שניתן לייצר, הנובעות מקורלציה חזקה בין עומק החריטה ההתחלתי ושטח הסרט הדק התחתון. עיצובים פוטוניים מסורתיים שאינם מתחשבים במגבלות הייצור אינם מסוגלים לנצל באופן מלא את טכניקת הייצור החדשה הזו
+    <sup>
+     <xref ref-type="bibr" rid="CR25">
+      25
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR26">
+      26
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR27">
+      27
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR28">
+      28
+     </xref>
+    </sup>
+    .
+   </p>
+   <p id="Par4">
+    בעבודה זו, אנו מתגברים על אתגרי הייצור והעיצוב הללו על ידי שימוש בשיטות עיצוב הפוכות. בננופוטוניקה של סיליקון, שיטות אלו זכו לאחרונה לתשומת לב רבה בזכות עיצובן היעיל של מכשירים עם ביצועים מעולים על פני עיצובים קונבנציונליים
+    <sup>
+     <xref ref-type="bibr" rid="CR29">
+      29
+     </xref>
+    </sup>
+    . טכניקת אופטימיזציה זו מחפשת בכל מרחב הפרמטרים של מכשירים שניתן לייצר, ובכך מגיעה לפתרונות שלא היו נגישים בעבר לטכניקות עיצוב מסורתיות
+    <sup>
+     <xref ref-type="bibr" rid="CR30">
+      30
+     </xref>
+    </sup>
+    . אנו מציגים את הפוטנציאל של טכניקות עיצוב הפוכות למעגלים משולבים מיהלום על ידי עיצוב וייצור מספר מכשירים: מצמד אנכי קומפקטי, רכיב חיוני למערכות פוטוניות קוונטיות בקנה מידה גדול, ומעגל קטן המורכב ממצמדים אנכיים בעיצוב הפוך ומפצלי גלים הפועלים כממשקים לשני ננו-רזונאטורים. המצמד האנכי בעיצוב הפוך שלנו עומד במגבלות הייצור של יהלום ומציג ביצועים טובים יותר מממשקי חלל חופשי נפוצים. המכשירים שיוצרו מראים התאמה מצוינת עם סימולציות הן מבחינת ביצועים והן מבחינת תפוקה. בדוגמה השנייה, אנו מדגימים את שילובו של מצמד אנכי כזה במעגל פוטוני מיהלום המורכב משני רזונאטורים של קרן ננו המחוברים באמצעות מפצלי גלים בעיצוב הפוך - תצורה שיכולה לשמש לשזירת שני פולטנים קוונטיים המשובצים בתוך רזונאטורים כאלה.
+   </p>
+  </sec>
+  <sec id="Sec2" sec-type="results">
+   <title>
+    תוצאות
+   </title>
+   <sec id="Sec3">
     <title>
-     Introducción
+     עיצוב הפוך של מכשירים ננופוטוניים ביהלום
     </title>
-    <p id="Par3">
-     El diamante tiene excelentes propiedades materiales para óptica cuántica, optomecánica y óptica no lineal
+    <p id="Par5">
+     בפוטוניקה, מצמדי סריג משמשים לעיתים קרובות כממשקי חלל חופשי אופטיים
      <sup>
-      <xref ref-type="bibr" rid="CR1">
-       1
+      <xref ref-type="bibr" rid="CR31">
+       31
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR2">
-       2
-      </xref>
-      <xref ref-type="bibr" rid="CR3">
-       3
+      <xref ref-type="bibr" rid="CR32">
+       32
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR4">
-       4
+      <xref ref-type="bibr" rid="CR33">
+       33
       </xref>
-      <xref ref-type="bibr" rid="CR5">
-       5
+      ,
+      <xref ref-type="bibr" rid="CR34">
+       34
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR35">
+       35
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR36">
+       36
       </xref>
      </sup>
-     . De particular interés es la variedad de centros de color que alberga el diamante, algunos de los cuales exhiben tiempos de coherencia muy largos
+     . כדי להשיג יעילות צימוד גבוהה, עיצובים כאלה משתמשים בדרך כלל באסימטריה לאורך ציר
+     <italic>
+      z
+     </italic>
+     , למשל, באמצעות חריטות חלקיות או ערימות חומרים עם מקדמי שבירה משתנים
      <sup>
-      <xref ref-type="bibr" rid="CR1">
-       1
+      <xref ref-type="bibr" rid="CR31">
+       31
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR6">
-       6
+      <xref ref-type="bibr" rid="CR32">
+       32
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR36">
+       36
+      </xref>
+      <xref ref-type="bibr" rid="CR32">
+       32
       </xref>
      </sup>
-     . El desarrollo de circuitos fotónicos de diamante ha surgido como una ruta prometedora para implementar redes ópticas cuánticas, computadoras cuánticas y sensores cuánticos
+     . באופטיקה קוונטית מיהלום, רבות מהגישות הללו אינן ניתנות ליישום מכיוון שפלטפורמות יהלום בסרט דק על מצע סיליקה אינן תומכות בניסויים מתקדמים באופטיקה קוונטית
      <sup>
-      <xref ref-type="bibr" rid="CR7">
-       7
-      </xref>
-      <xref ref-type="bibr" rid="CR8">
-       8
+      <xref ref-type="bibr" rid="CR33">
+       33
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR9">
-       9
+      <xref ref-type="bibr" rid="CR34">
+       34
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR10">
-       10
+      <xref ref-type="bibr" rid="CR35">
+       35
       </xref>
-      ,
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR12">
-       12
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR13">
-       13
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR14">
-       14
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR15">
-       15
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR16">
-       16
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR17">
-       17
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR18">
-       18
-      </xref>
-      <xref ref-type="bibr" rid="CR19">
-       19
-      </xref>
-      ,
       <xref ref-type="bibr" rid="CR20">
        20
       </xref>
@@ -931,502 +1070,340 @@
       <xref ref-type="bibr" rid="CR21">
        21
       </xref>
-      <xref ref-type="bibr" rid="CR22">
-       22
-      </xref>
       ,
-      <xref ref-type="bibr" rid="CR23">
-       23
-      </xref>
-     </sup>
-     . Sin embargo, un desafío importante en la fotónica cuántica de diamante es la falta de películas delgadas de diamante de alta calidad, ya que la producción de diamante de grado electrónico solo se puede lograr en homoepitaxia, y los procesos de adelgazamiento no son lo suficientemente repetibles para la fabricación de cavidades de cristal fotónico
-     <sup>
       <xref ref-type="bibr" rid="CR24">
        24
       </xref>
      </sup>
-     . Como resultado, la fotónica cuántica de cavidades de diamante de última generación se basa en el grabado en ángulo de diamante a granel
+     . גישות דומות עם מבנים היברידיים, כגון ממברנות גאליום פוספיד (GaP) על יהלום, מציעות פלטפורמה למצמדי סריג יעילים
      <sup>
-      <xref ref-type="bibr" rid="CR24">
-       24
+      <xref ref-type="bibr" rid="CR37">
+       37
       </xref>
      </sup>
-     . Esta técnica naturalmente conduce a secciones transversales triangulares con geometrías fuertemente restringidas, lo que limita el diseño y la funcionalidad del dispositivo. Los desarrollos recientes en el procesamiento de diamante basados en el grabado cuasi-isotrópico (ver Nota Suplementaria
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      1
+     . עם זאת, השדה האופטי מוגבל בממברנת ה-GaP ולכן פולטנים ביהלום מצומדים לשדה רק באופן מתפשט.
+    </p>
+    <p id="Par6">
+     פתרון מעשי לאתגרי הייצור והעיצוב הללו הם חריצים (Fig.
+     <xref ref-type="fig" rid="Fig1">
+      1a
      </xref>
-     y Figuras Suplementarias
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      1
-     </xref>
-     y
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      2
-     </xref>
-     ) permiten la producción de membranas de diamante con secciones transversales rectangulares y dimensiones variables a partir de diamante a granel. Aunque las secciones transversales rectangulares son un gran paso hacia los circuitos integrados de diamante, esta técnica de fabricación viene con sus propias restricciones geométricas, como limitaciones en el rango de tamaños de características fabricables, que se originan en una fuerte correlación entre la profundidad inicial del grabado y el área de la película delgada socavada. Los diseños fotónicos tradicionales que no tienen en cuenta las restricciones de fabricación no pueden aprovechar al máximo esta nueva técnica de fabricación
+     ), שהם הפרעה לגל-מנחה עם יעילות פיזור של ≈1%
      <sup>
-      <xref ref-type="bibr" rid="CR25">
-       25
+      <xref ref-type="bibr" rid="CR20">
+       20
+      </xref>
+     </sup>
+     . בעבודתנו, אנו מפתחים מצמד אנכי בעיצוב הפוך (Fig.
+     <xref ref-type="fig" rid="Fig1">
+      1b
+     </xref>
+     ) ומשתמשים בחריץ להשוואה בסיסית. למצמדים יש שטח של 1.0 × 1.0 μm והם מצומדים ישירות לגל-מנחה ברוחב 400 nm ללא קטע מתחדד, מה שמבטיח קומפקטיות. כפי שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig1">
+      1c
+     </xref>
+     , יעילות השיא המדומה של המצמד (אדום) והחריץ (ירוק) הם ≈25% ו-≈1%, בהתאמה. יתר על כן, אנו ממטבים את המצמד האנכי לצימוד האור בין המצב הבסיסי של חלל חופשי TEM
+     <sub>
+      00
+     </sub>
+     לבין המצב הבסיסי TE של הגל-מנחה. אפילו עבור מצמדי סריג קונבנציונליים בפלטפורמות פוטוניקה בשלות, הצימוד הסלקטיבי למצב TEM
+     <sub>
+      00
+     </sub>
+     הוא אתגר מרשים
+     <sup>
+      <xref ref-type="bibr" rid="CR20">
+       20
+      </xref>
+      <xref ref-type="bibr" rid="CR31">
+       31
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR26">
-       26
+      <xref ref-type="bibr" rid="CR32">
+       32
+      </xref>
+     </sup>
+     . יעילות הצימוד המקסימלית התיאורטית של המצמדים שלנו היא 50%, בשל הסימטריה לאורך ציר
+     <italic>
+      z
+     </italic>
+     של המכשירים שלנו (כלומר, המבנה יצמד אור בכיוון +/−
+     <italic>
+      z
+     </italic>
+     באופן שווה).
+     <fig id="Fig1" position="float">
+      <label>
+       Fig. 1
+      </label>
+      <caption xml:lang="en">
+       <p>
+        עיצוב הפוך של ממשקים ננופוטוניים יעילים. מיקרוגרף אלקטרונים סורק של
+        <bold>
+         a
+        </bold>
+        חריץ ו-
+        <bold>
+         b
+        </bold>
+        מצמד אנכי שעוצב הפוך עם שדות מדומים המוצגים באדום.
+        <bold>
+         c
+        </bold>
+        ביצועים מדומים של המצמד האנכי (אדום) והחריץ (ירוק).
+        <bold>
+         d
+        </bold>
+        הגדרת עיצוב, כאשר האזור האפור מציין את אזור העיצוב.
+        <bold>
+         e
+        </bold>
+        יעילות חיבור במהלך אופטימיזציית העיצוב; תוספות מאיירות שלבים שונים של אופטימיזציה. הירידה הקטנה בביצועים מעבר ל-200 איטרציות של אופטימיזציה מתרחשת כאשר מוטלות מגבלות ייצור.
+        <bold>
+         f
+        </bold>
+        עיצוב המכשיר הסופי לאחר אופטימיזציה
+       </p>
+      </caption>
+      <graphic href="/MediaObjects/10X1038_s41467-019-11343-1/41467_2019_11343_Fig1_HTML.png" mime-subtype="PNG" specific-use="web"/>
+     </fig>
+    </p>
+    <p id="Par7">
+     בעיות עיצוב הפוכות בפוטוניקה מוגדרות על ידי סימולציה אלקטרומגנטית, אזור עיצוב ודמות מטרה לאופטימיזציה. תנאי ההתחלה של הסימולציה עבור מצמדים אנכיים מוצגים ב-Fig.
+     <xref ref-type="fig" rid="Fig1">
+      1d
+     </xref>
+     <sup/>
+     . קרן גאוסית הנופלת אנכית יוצרת את המקור הקרינתי וממוקמת מעל אזור העיצוב של 1.0 × 1.0 μm המוצג באפור. משמאל לאזור העיצוב ישנם שני מוטות תמיכה שחורים לתליית העיצוב, ומימין יש גל-מנחה שחור לפלט. החלק של האור הנכנס המצומד למצב הבסיסי TE של הגל-מנחה משמש כדמות המטרה וממקסם במהלך תהליך האופטימיזציה שלנו (מפורט ב-ref. ). יעילות הצימוד במהלך האופטימיזציה מוצגת ב-Fig.
+     <xref ref-type="fig" rid="Fig1">
+      1e
+     </xref>
+     <sup>
+      <xref ref-type="bibr" rid="CR38">
+       38
+      </xref>
+     </sup>
+     . בתחילת האופטימיזציה, כל ערך של פרמיטיביות בין זה של אוויר ויהלום מותר, מה שמוביל למבנה רציף המוצג בתמונה השמאלית ביותר. לאחר מספר איטרציות, מבנה זה מתפרק, ובמקרה זה הפרמיטיביות היא של אוויר או יהלום. מבנה דיסקרטי זה ממוטב עוד יותר תוך הטלת עונש בהדרגה על תכונות שאינן ניתנות לייצור
+     <sup>
+      <xref ref-type="bibr" rid="CR39">
+       39
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR27">
-       27
+      <xref ref-type="bibr" rid="CR40">
+       40
       </xref>
-      ,
-      <xref ref-type="bibr" rid="CR28">
-       28
+     </sup>
+     . כתוצאה מכך, יעילות הצימוד באורך גל של 737 nm (קו אפס-פונון של מרכז צבע סיליקון-ואקנסי) מגיעה לשיא בערך של ≈27.5%, אשר לאחר מכן יורדת ל-≈25% כדי לעמוד במגבלות הייצור
+     <sup>
+      <xref ref-type="bibr" rid="CR40">
+       40
       </xref>
      </sup>
      .
     </p>
-    <p id="Par4">
-     En este trabajo, superamos estos desafíos de fabricación y diseño empleando métodos de diseño inverso. En la nanofotónica de silicio, estos métodos han atraído recientemente una considerable atención por su diseño eficiente de dispositivos con un rendimiento superior sobre los diseños convencionales
-     <sup>
-      <xref ref-type="bibr" rid="CR29">
-       29
-      </xref>
-     </sup>
-     . Esta técnica de optimización busca en todo el espacio de parámetros de dispositivos fabricables, llegando así a soluciones previamente inaccesibles para las técnicas de diseño tradicionales
-     <sup>
-      <xref ref-type="bibr" rid="CR30">
-       30
-      </xref>
-     </sup>
-     . Demostramos el potencial de las técnicas de diseño inverso para circuitos integrados de diamante diseñando y fabricando varios dispositivos: un acoplador vertical compacto, un componente esencial para sistemas fotónicos cuánticos a gran escala, y un pequeño circuito que consiste en acopladores verticales diseñados inversamente y divisores de guía de onda que actúan como interfaces para dos nanoresonadores. Nuestro acoplador vertical diseñado inversamente se adhiere a las restricciones de fabricación de diamante y supera a las interfaces de espacio libre comúnmente utilizadas. Los dispositivos fabricados muestran una excelente concordancia con las simulaciones tanto en términos de rendimiento como de rendimiento. En el segundo ejemplo, ilustramos la integración de dicho acoplador vertical en un circuito fotónico de diamante que consiste en dos resonadores de nanoviga conectados a través de divisores de guía de onda diseñados inversamente, una configuración que podría usarse para entrelazar dos emisores cuánticos incrustados dentro de tales resonadores.
+   </sec>
+   <sec id="Sec4">
+    <title>
+     איפיון של מחברים אנכיים ביהלום
+    </title>
+    <p id="Par8">
+     כדי לאפיין את יעילות הצימוד של המחברים האנכיים, אנו מודדים את המכשיר המוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2a, b
+     </xref>
+     , במבט מלמעלה ומהצד, בהתאמה. תמונת מיקרוסקופ אופטי של אותה מבנה, המוצגת ב-Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2c
+     </xref>
+     , מראה באופן איכותי את הביצועים הגבוהים של המחברים האנכיים. אנו מאפיינים את התלות בקיטוב של המחברים האנכיים על ידי סריקת הקיטוב של קרן הלייזר הנכנסת (Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2d
+     </xref>
+     ). ההפחתה פי חמישה בעוצמה המועברת כאשר מסובבים את הקיטוב ב-
+     <inline-formula id="IEq1">
+      <alternatives>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>
+           π
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
+           2
+          </mn>
+         </mrow>
+        </mfrac>
+       </math>
+       <tex-math id="IEq1_TeX">
+        \documentclass[12pt]{minimal}
+                \usepackage{amsmath}
+                \usepackage{wasysym}
+                \usepackage{amsfonts}
+                \usepackage{amssymb}
+                \usepackage{amsbsy}
+                \usepackage{mathrsfs}
+                \usepackage{upgreek}
+                \setlength{\oddsidemargin}{-69pt}
+                \begin{document}$$\frac{\pi }{2}$$\end{document}
+       </tex-math>
+       <inline-graphic href="41467_2019_11343_Article_IEq1.gif" mime-subtype="GIF" specific-use="web"/>
+      </alternatives>
+     </inline-formula>
+     תואמת היטב לתוצאות הסימולציה שלנו (קו כחול ב-Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2d
+     </xref>
+     ) ומהווה עדות ניסיונית לצימוד מצוין למצב TEM
+     <sub>
+      00
+     </sub>
+     מקוטב ליניארית. ב-Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2e
+     </xref>
+     , אנו מציגים את היעילות שנקבעה ניסיונית של המחברים האנכיים, שאנו משיגים על ידי צימוד לייזר טיונבל רציף מסוג Ti:Sapphire למבנים בתוך קריוסטט באמצעות עדשה אובייקטיבית של 0.9 NA. לאחר מכן אנו אוספים את הקרן המוצמדת החוצה עם סיב שומר קיטוב במצב יחיד (PMF, נקודות נתונים שחורות) וסיב רב-מצבי (MMF, נקודות נתונים אדומות). התוצאות הניסיוניות מראות יעילות שיא של ≈21% עבור PMF ו-≈26.5% עבור MMF, עם ביצועים רחבי פס של &gt;70 nm (PMF) ו-&gt;90 nm (MMF). ההבדל הקטן בין המדידות עם PMF ו-MMF מציע שאנו מצמדים ביעילות רבה מאוד ממצב הגל חזרה למצב החופשי הבסיסי TEM
+     <sub>
+      00
+     </sub>
+     <sup/>
+     . יתר על כן, הסימולציה הנומרית (קו כחול) תואמת היטב לתוצאות הניסיוניות.
+     <fig id="Fig2" position="float">
+      <label>
+       Fig. 2
+      </label>
+      <caption xml:lang="en">
+       <p>
+        מצמדים אנכיים שעוצבו הפוך.
+        <bold>
+         a
+        </bold>
+        מיקרוגרף אלקטרונים סורק של שני מצמדים אנכיים המחוברים על ידי גל-מנחה. מכשיר זה משמש לאפיון היעילות של המצמדים האנכיים.
+        <bold>
+         b
+        </bold>
+        מבט צד של המצמד האנכי, המראה את החיתוך של המבנה בזווית של 85°.
+        <bold>
+         c
+        </bold>
+        תמונת מיקרוסקופ אופטי כאשר מתמקדים בקרן גאוס על המצמד בצד שמאל (כניסה) ומגלים את האור המועבר מהמצמד בצד ימין (יציאה).
+        <bold>
+         d
+        </bold>
+        סריקת קיטוב מראה שהמצמדים האנכיים מתחברים באופן מועדף לקרן גאוס עם קיטוב מאונך לקרן הננו. תלות הקיטוב המדומה, המוצגת כקו כחול, תואמת היטב לנתונים הנמדדים (ריבועים אדומים).
+        <bold>
+         e
+        </bold>
+        יעילות של מצמד אנכי יחיד, היעילויות המקסימליות הן ≈21% עבור סיבים שומרים על קיטוב במצב יחיד (PMF, שחור) ו-≈26.5% עבור סיבים מרובי מצבים (MMF, אדום). תוצאות סימולציה מספרית מוצגות כקו כחול.
+        <bold>
+         f
+        </bold>
+        ספקטרום העברה של 15 מכשירים שונים באמצעות מקור סופר-רצף. הקו השחור המוצק מתאים לערך הממוצע והאזור המוצל באדום מתאים לסטיית התקן
+       </p>
+      </caption>
+      <graphic href="/MediaObjects/10X1038_s41467-019-11343-1/41467_2019_11343_Fig2_HTML.png" mime-subtype="PNG" specific-use="web"/>
+     </fig>
+    </p>
+    <p id="Par9">
+     הטלת מגבלות ייצור, כגון גדלים מינימליים של תכונות, על אופטימיזציית העיצוב מבטיחה לא רק תפוקה גבוהה של ייצור אלא גם ביצועים יציבים, כפי שאנו מדגימים ב-Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2f
+     </xref>
+     <sup/>
+     . כאן, אנו מציגים ספקטרום העברה של 15 מכשירים שונים שנרכשו עם מקור סופר-רציף. במהלך הניסויים הגבנו את עצמנו בכוונה ליישור גס כדי לאשר את היציבות לאי-שלמות ביישור. תוצאת הניתוח שלנו מוצגת ב-Fig.
+     <xref ref-type="fig" rid="Fig2">
+      2f
+     </xref>
+     , שם הקו השחור המוצק הוא הערך הממוצע של כל המחברים והאזור המוצל באדום מציין את סטיית התקן (SD) באורך גל נתון. יתר על כן, היעילות הממוצעת של 30 מכשירים שיוצרו במינונים שונים היא 24.2%.
     </p>
    </sec>
-  </sec>
-  <sec id="Sec2" sec-type="results">
-   <sec id="Sec2" sec-type="results">
+   <sec id="Sec5">
     <title>
-     Resultados
+     ממשקים אופטיים קוונטיים ביהלום
     </title>
-    <sec id="Sec3">
-     <title>
-      Diseño inverso de dispositivos nanofotónicos de diamante
-     </title>
-     <p id="Par5">
-      En fotónica, los acopladores de rejilla se utilizan frecuentemente como interfaces ópticas de espacio libre
-      <sup>
-       <xref ref-type="bibr" rid="CR31">
-        31
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR32">
-        32
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR33">
-        33
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR34">
-        34
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR35">
-        35
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR36">
-        36
-       </xref>
-      </sup>
-      . Para lograr altas eficiencias de acoplamiento, dichos diseños típicamente utilizan asimetría a lo largo del eje
-      <italic>
-       z
-      </italic>
-      , por ejemplo, mediante grabados parciales o pilas de materiales con índices de refracción variables
-      <sup>
-       <xref ref-type="bibr" rid="CR31">
-        31
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR32">
-        32
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR36">
-        36
-       </xref>
-       <xref ref-type="bibr" rid="CR32">
-        32
-       </xref>
-      </sup>
-      . En la fotónica cuántica de diamante, muchos de estos enfoques no pueden emplearse porque las plataformas actuales de diamante en película delgada sobre sustrato de sílice no soportan experimentos de óptica cuántica de última generación
-      <sup>
-       <xref ref-type="bibr" rid="CR33">
-        33
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR34">
-        34
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR35">
-        35
-       </xref>
-       <xref ref-type="bibr" rid="CR20">
-        20
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR21">
-        21
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR24">
-        24
-       </xref>
-      </sup>
-      . Enfoques similares con estructuras híbridas, como membranas de fosfuro de galio (GaP) sobre diamante, ofrecen una plataforma para acopladores de rejilla eficientes
-      <sup>
-       <xref ref-type="bibr" rid="CR37">
-        37
-       </xref>
-      </sup>
-      . Sin embargo, el campo óptico está confinado en la membrana de GaP y, en consecuencia, los emisores en diamante se acoplan solo de manera evanescente al campo.
-     </p>
-     <p id="Par6">
-      Una solución práctica a estos desafíos de fabricación y diseño son las muescas (Fig.
-      <xref ref-type="fig" rid="Fig1">
-       1a
-      </xref>
-      ), que son una perturbación a una guía de onda con una eficiencia de dispersión de ≈1%
-      <sup>
-       <xref ref-type="bibr" rid="CR20">
-        20
-       </xref>
-      </sup>
-      . En nuestro trabajo, desarrollamos un acoplador vertical de diseño inverso (Fig.
-      <xref ref-type="fig" rid="Fig1">
-       1b
-      </xref>
-      ) y usamos la muesca para una comparación de referencia. Los acopladores tienen una huella de 1.0 × 1.0 μm y se acoplan directamente a una guía de onda de 400 nm de ancho sin una sección de estrechamiento, asegurando compacidad. Como se muestra en la Fig.
-      <xref ref-type="fig" rid="Fig1">
-       1c
-      </xref>
-      , las eficiencias máximas simuladas del acoplador (rojo) y la muesca (verde) son ≈25% y ≈1%, respectivamente. Además, optimizamos el acoplador vertical para acoplar la luz entre el modo fundamental de espacio libre TEM
-      <sub>
-       00
-      </sub>
-      y el modo fundamental TE de la guía de onda. Incluso para acopladores de rejilla convencionales en plataformas fotónicas maduras, el acoplamiento selectivo al modo TEM
-      <sub>
-       00
-      </sub>
-      es un desafío formidable
-      <sup>
-       <xref ref-type="bibr" rid="CR20">
-        20
-       </xref>
-       <xref ref-type="bibr" rid="CR31">
-        31
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR32">
-        32
-       </xref>
-      </sup>
-      . La eficiencia máxima teórica de acoplamiento de nuestros acopladores es del 50%, debido a la simetría a lo largo del eje
-      <italic>
-       z
-      </italic>
-      de nuestros dispositivos (es decir, la estructura acoplará la luz en la dirección +/−
-      <italic>
-       z
-      </italic>
-      de manera equitativa).
-      <fig id="Fig1" position="float">
-       <label>
-        Fig. 1
-       </label>
-       <caption xml:lang="en">
-        <p>
-         Diseño inverso de interfaces nanofotónicas eficientes. Micrografía electrónica de barrido de
-         <bold>
-          a
-         </bold>
-         una muesca y
-         <bold>
-          b
-         </bold>
-         un acoplador vertical de diseño inverso con campos simulados superpuestos en rojo.
-         <bold>
-          c
-         </bold>
-         Rendimiento simulado del acoplador vertical (rojo) y la muesca (verde).
-         <bold>
-          d
-         </bold>
-         Configuración de diseño, donde el área gris indica el área de diseño.
-         <bold>
-          e
-         </bold>
-         Eficiencia de acoplamiento durante la optimización del diseño; los recuadros ilustran diferentes fases de optimización. La pequeña caída en el rendimiento más allá de 200 iteraciones de optimización ocurre cuando se imponen restricciones de fabricación.
-         <bold>
-          f
-         </bold>
-         Diseño final del dispositivo después de la optimización
-        </p>
-       </caption>
-       <graphic href="MediaObjects/41467_2019_11343_Fig1_HTML.png" mime-subtype="PNG" specific-use="web"/>
-      </fig>
-     </p>
-     <p id="Par7">
-      Los problemas de diseño inverso en fotónica se definen por una simulación electromagnética, una región de diseño y una figura de mérito a optimizar. Las condiciones iniciales de la simulación para acopladores verticales se muestran en la Fig.
-      <xref ref-type="fig" rid="Fig1">
-       1d
-      </xref>
-      <sup/>
-      . Un haz gaussiano incidente verticalmente forma la fuente radiativa y se centra sobre la región de diseño de 1.0 × 1.0 μm mostrada en gris. A la izquierda de la región de diseño hay dos barras de soporte negras para suspender el diseño, y a la derecha hay una guía de onda de salida negra. La fracción de luz incidente acoplada en el modo fundamental TE de la guía de onda sirve como la figura de mérito y se maximiza durante nuestro proceso de optimización (detallado en ref. ). La eficiencia de acoplamiento durante la optimización se muestra en la Fig.
-      <xref ref-type="fig" rid="Fig1">
-       1e
-      </xref>
-      <sup>
-       <xref ref-type="bibr" rid="CR38">
-        38
-       </xref>
-      </sup>
-      . Al inicio de la optimización, se permite cualquier valor de permitividad entre el del aire y el del diamante, lo que resulta en una estructura continua mostrada en el recuadro más a la izquierda. Después de varias iteraciones, esta estructura se discretiza, en cuyo caso la permitividad es la del aire o del diamante. Esta estructura discreta se optimiza aún más mientras se impone gradualmente una penalización en las características no fabricables
-      <sup>
-       <xref ref-type="bibr" rid="CR39">
-        39
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR40">
-        40
-       </xref>
-      </sup>
-      . Como resultado, la eficiencia de acoplamiento a una longitud de onda de 737 nm (línea de cero fonones del centro de color de vacantes de silicio) alcanza un valor máximo de ≈27.5%, que luego disminuye a ≈25% para cumplir con las restricciones de fabricación
-      <sup>
-       <xref ref-type="bibr" rid="CR40">
-        40
-       </xref>
-      </sup>
-      .
-     </p>
-    </sec>
-    <sec id="Sec4">
-     <title>
-      Caracterización de acopladores verticales de diamante
-     </title>
-     <p id="Par8">
-      Para caracterizar la eficiencia de acoplamiento de los acopladores verticales, medimos el dispositivo mostrado en la Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2a, b
-      </xref>
-      , en vista superior y lateral, respectivamente. Una imagen de microscopio óptico de la misma estructura, presentada en la Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2c
-      </xref>
-      , muestra cualitativamente el alto rendimiento de los acopladores verticales. Caracterizamos la dependencia de la polarización de los acopladores verticales barriendo la polarización del haz láser de entrada (Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2d
-      </xref>
-      ). La reducción observada de cinco veces en la potencia transmitida al rotar la polarización en
-      <inline-formula id="IEq1">
-       <alternatives>
-        <math id="IEq1_Math">
-         <mfrac>
-          <mrow>
-           <mi>
-            π
-           </mi>
-          </mrow>
-          <mrow>
-           <mn>
-            2
-           </mn>
-          </mrow>
-         </mfrac>
-        </math>
-        <tex-math id="IEq1_TeX">
-         \documentclass[12pt]{minimal}
-				\usepackage{amsmath}
-				\usepackage{wasysym}
-				\usepackage{amsfonts}
-				\usepackage{amssymb}
-				\usepackage{amsbsy}
-				\usepackage{mathrsfs}
-				\usepackage{upgreek}
-				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$\frac{\pi }{2}$$\end{document}
-        </tex-math>
-        <inline-graphic href="41467_2019_11343_Article_IEq1.gif" mime-subtype="GIF" specific-use="web"/>
-       </alternatives>
-      </inline-formula>
-      corresponde bien a nuestros resultados simulados (línea azul en la Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2d
-      </xref>
-      ) y es evidencia experimental de un excelente acoplamiento a un modo TEM
-      <sub>
-       00
-      </sub>
-      linealmente polarizado. En la Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2e
-      </xref>
-      , presentamos eficiencias determinadas experimentalmente de los acopladores verticales, que adquirimos acoplando un láser de onda continua sintonizable Ti:Sapphire a las estructuras en un criostato usando un objetivo de 0.9 NA. Luego recogemos el haz desacoplado con una fibra de modo único que mantiene la polarización (PMF, puntos de datos negros) y una fibra multimodo (MMF, puntos de datos rojos). Los resultados experimentales muestran eficiencias máximas de ≈21% para PMF y ≈26.5% para MMF, con un rendimiento de banda ancha de &gt;70 nm (PMF) y &gt;90 nm (MMF). La pequeña discrepancia entre las mediciones con PMF y MMF sugiere que acoplamos muy eficientemente del modo de la guía de onda de vuelta al modo fundamental de espacio libre TEM
-      <sub>
-       00
-      </sub>
-      <sup/>
-      . Además, la simulación numérica (línea azul) concuerda bien con los resultados experimentales.
-      <fig id="Fig2" position="float">
-       <label>
-        Fig. 2
-       </label>
-       <caption xml:lang="en">
-        <p>
-         Acopladores verticales de diseño inverso.
-         <bold>
-          a
-         </bold>
-         Micrografía electrónica de barrido de dos acopladores verticales conectados por una guía de onda. Este dispositivo se utiliza para caracterizar la eficiencia de los acopladores verticales.
-         <bold>
-          b
-         </bold>
-         Vista lateral del acoplador vertical, mostrando el socavado de la estructura en un ángulo de 85°.
-         <bold>
-          c
-         </bold>
-         Imagen de microscopio óptico al enfocar un haz gaussiano en el acoplador de la izquierda (entrada) y detectar la luz transmitida desde el acoplador de la derecha (salida).
-         <bold>
-          d
-         </bold>
-         El escaneo de polarización muestra que los acopladores verticales se acoplan preferentemente a un haz gaussiano con una polarización perpendicular a la nanoguía. La dependencia de la polarización simulada, mostrada como una línea azul, está en buen acuerdo con los datos medidos (cuadrados rojos).
-         <bold>
-          e
-         </bold>
-         Eficiencia de un solo acoplador vertical, las eficiencias máximas son ≈21% para fibras de modo único que mantienen la polarización (PMF, negro) y ≈26.5% para fibras multimodo (MMF, rojo). Los resultados de la simulación numérica se muestran como una línea azul.
-         <bold>
-          f
-         </bold>
-         Espectros de transmisión de 15 dispositivos diferentes usando una fuente de supercontinuo. La línea negra sólida corresponde al valor medio y el área sombreada en rojo corresponde a la desviación estándar
-        </p>
-       </caption>
-       <graphic href="MediaObjects/41467_2019_11343_Fig2_HTML.png" mime-subtype="PNG" specific-use="web"/>
-      </fig>
-     </p>
-     <p id="Par9">
-      Imponer restricciones de fabricación, como tamaños mínimos de características, en la optimización del diseño garantiza no solo un alto rendimiento de fabricación sino también un rendimiento robusto, como demostramos en la Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2f
-      </xref>
-      <sup/>
-      . Aquí, superponemos espectros de transmisión de 15 dispositivos diferentes adquiridos con una fuente de supercontinuo. Durante los experimentos, nos restringimos intencionalmente a una alineación gruesa para confirmar la robustez ante imperfecciones de alineación. El resultado de nuestro análisis se muestra en la Fig.
-      <xref ref-type="fig" rid="Fig2">
-       2f
-      </xref>
-      , donde la línea negra sólida es el valor medio de todos los acopladores y el área sombreada en rojo indica la desviación estándar (SD) a una longitud de onda dada. Además, la eficiencia promedio de 30 dispositivos fabricados con varias dosis es del 24.2%.
-     </p>
-    </sec>
-    <sec id="Sec5">
-     <title>
-      Interfaces ópticas cuánticas de diamante
-     </title>
-     <p id="Par10">
-      El acoplador vertical presentado en este trabajo proporciona una solución compacta, robusta y eficiente para interfaces de espacio libre en electrodinámica cuántica de cavidades. En particular, nuestro diseño está optimizado para ser compatible con la fabricación simultánea de resonadores de alto
-      <italic>
-       Q
-      </italic>
-      /
-      <italic>
-       V
-      </italic>
-      para experimentos de óptica cuántica, ya que evitamos pasos de fabricación adicionales que podrían impactar el rendimiento del resonador. En esta sección, por lo tanto, investigamos el acoplamiento a los modos de resonadores nanofotónicos, que se utilizan en óptica cuántica para mejorar las interacciones luz-materia y facilitar la integración eficiente de emisores cuánticos en circuitos ópticos. Estudiamos cavidades de cristal fotónico (PhC) de nanoguía, que albergan un modo TE como se muestra en la Fig.
-      <xref ref-type="fig" rid="Fig3">
-       3a, b
-      </xref>
-      <sup>
-       <xref ref-type="bibr" rid="CR31">
-        31
-       </xref>
-       ,
-       <xref ref-type="bibr" rid="CR32">
-        32
-       </xref>
-       <xref ref-type="bibr" rid="CR41">
-        41
-       </xref>
-      </sup>
-      . Con una fuente de luz de supercontinuo adquirimos los espectros de transmisión mostrados en la Fig.
-      <xref ref-type="fig" rid="Fig3">
-       3c
-      </xref>
-      acoplando un haz láser de espacio libre en el modo fundamental TE de la nanoguía y posteriormente en los modos PhC. Los datos en rojo corresponden al dispositivo con acopladores verticales, mientras que el espectro negro corresponde a una cavidad con muescas como la interfaz de espacio libre para la misma potencia de entrada y tiempo de integración. Las tasas de conteo del dispositivo con muescas como interfaz son más de dos órdenes de magnitud menores, para lo cual compensamos integrando diez veces más (datos en verde). Al comparar las resonancias de la cavidad (flechas azules), encontramos un aumento de más de 550 veces en los conteos del acoplador vertical sobre el dispositivo de muesca para factores de calidad comparables (
-      <italic>
-       Q
-      </italic>
-      ≈ 4000). Este resultado coincide bien con el aumento de 625 veces que esperamos de las simulaciones. Esta mejora en las eficiencias de acoplamiento permite tiempos experimentales dramáticamente reducidos (en algunos casos de semanas a minutos de integración de fotones), abriendo así oportunidades para experimentos a mayor escala. En la Fig.
-      <xref ref-type="fig" rid="Fig3">
-       3d
-      </xref>
-      presentamos espectros, donde acoplamos la luz láser directamente a la cavidad y optimizamos la alineación para recolectar el máximo de conteos del acoplador vertical (rojo) y la muesca (verde). A partir de esta medición, podemos concluir que la eficiencia de extracción de luz acoplada del modo de la cavidad a la guía de onda es ≈24 veces mayor para un acoplador vertical que para una muesca, lo que concuerda bien con el experimento de transmisión.
-      <fig id="Fig3" position="float">
-       <label>
-        Fig. 3
-       </label>
-       <caption xml:lang="en">
-        <p>
-         Nanoguías rectangulares suspendidas de diamante con interfaces ópticas. Micrografías electrónicas de barrido de cavidades de cristal fotónico de nanoguía en
-         <bold>
-          a
-         </bold>
-         con acopladores verticales de diseño inverso y en
-         <bold>
-          b
-         </bold>
-         con muescas como interfaces para acoplamiento de entrada y salida. Los campos dentro de las cavidades se representan en rojo.
-         <bold>
-          c
-         </bold>
-         Mediciones de transmisión utilizando una fuente de luz de supercontinuo. El espectro rojo corresponde al dispositivo de acoplador en
-         <bold>
-          a
-         </bold>
-         , los espectros negro y verde al dispositivo de muesca en
-         <bold>
-          b
-         </bold>
-         <sup/>
-         . Los espectros están desplazados para una mejor visualización y las resonancias de la cavidad están indicadas por flechas azules.
-         <bold>
-          d
-         </bold>
-         Espectros adquiridos acoplando una fuente de luz de supercontinuo directamente a la cavidad y saliendo a través de un acoplador vertical (línea roja) o una muesca (línea verde). El recuadro corresponde a los datos dentro del cuadro gris
-        </p>
-       </caption>
-       <graphic href="MediaObjects/41467_2019_11343_Fig" mime-subtype="PNG" specific-use="web"/>
-      </fig>
-     </p>
-    </sec>
-   </sec>
-  </sec>
-  <sec id="Sec8" sec-type="discussion">
-   <sec id="Sec8" sec-type="discussion">
-    <title>
-     Discusión
-    </title>
-    <p id="Par13">
-     En resumen, empleamos métodos de diseño inverso basados en optimización para superar las limitaciones de la nanofabricación de diamantes de vanguardia y desarrollar bloques de construcción eficientes para circuitos nanofotónicos de diamante
+    <p id="Par10">
+     המחבר האנכי המוצג בעבודה זו מספק פתרון קומפקטי, יציב ויעיל לממשקים חופשיים בחלל באלקטרודינמיקה קוונטית של חללים. במיוחד, העיצוב שלנו מותאם להיות תואם לייצור סימולטני של תהודות בעלות
+     <italic>
+      Q
+     </italic>
+     /
+     <italic>
+      V
+     </italic>
+     גבוהות לניסויי אופטיקה קוונטית, שכן אנו נמנעים מצעדי ייצור נוספים שיכולים להשפיע על ביצועי התהודה. בסעיף זה, אנו חוקרים לכן צימוד למצבים של תהודות ננופוטוניות, המשמשות באופטיקה קוונטית לשיפור אינטראקציות אור-חומר ולהקל על שילוב יעיל של פולטות קוונטיות במעגלים אופטיים. אנו חוקרים חללים של גביש פוטוני (PhC) של קרן ננו, המכילים מצב TE כפי שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig3">
+      3a, b
+     </xref>
      <sup>
-      <xref ref-type="bibr" rid="CR51">
-       51
+      <xref ref-type="bibr" rid="CR31">
+       31
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR32">
+       32
+      </xref>
+      <xref ref-type="bibr" rid="CR41">
+       41
       </xref>
      </sup>
-     . En acopladores ópticos de espacio libre y en un pequeño circuito fotónico de diamante, logramos las propiedades cruciales de alta eficiencia, compacidad y robustez. Este trabajo ahora permite circuitos cuánticos más complejos, donde las soluciones compactas para una variedad de componentes de dispositivos como formadores de pulsos, árboles divisores, retardos de fase y convertidores de modos son críticas. Así, este progreso sienta las bases para escalar a redes cuánticas más grandes con espines incrustados en nodos cuánticos. Además, los métodos de diseño inverso pueden aplicarse a otras plataformas de materiales prometedoras que albergan emisores cuánticos y tienen protocolos de fabricación desafiantes, como el carburo de silicio y el ortovanadato de itrio
+     . עם מקור אור סופר-רציף אנו רוכשים את ספקטרום ההעברה המוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig3">
+      3c
+     </xref>
+     על ידי צימוד קרן לייזר חופשית למצב הבסיסי TE של קרן הננו ולאחר מכן למצב PhC. הנתונים באדום מתאימים למכשיר עם מחברים אנכיים, בעוד שהספקטרום השחור מתייחס לחלל עם חריצים כממשק חופשי בחלל עבור אותה עוצמת כניסה וזמן אינטגרציה. שיעורי הספירה של המכשיר עם חריצים כממשק הם יותר משני סדרי גודל קטנים יותר, עבורם אנו מפצים על ידי אינטגרציה פי עשרה יותר (נתונים בירוק). כאשר משווים את תהודות החלל (חצים כחולים), אנו מוצאים עלייה של &gt;550 פעמים בספירות של המחבר האנכי על פני מכשיר החריץ עבור גורמי איכות דומים (
+     <italic>
+      Q
+     </italic>
+     ≈ 4000). תוצאה זו תואמת היטב לשיפור פי 625 שאנו מצפים מהסימולציות. שיפור זה ביעילות הצימוד מאפשר זמני ניסוי מופחתים באופן דרמטי (במקרים מסוימים משבועות לדקות של אינטגרציית פוטונים), ובכך פותח הזדמנויות לניסויים בקנה מידה גדול יותר. ב-Fig.
+     <xref ref-type="fig" rid="Fig3">
+      3d
+     </xref>
+     אנו מציגים ספקטרום, שבו אנו מצמדים את אור הלייזר ישירות לחלל ומבצעים אופטימיזציה ליישור כדי לאסוף את מספר הספירות המרבי מהמחבר האנכי (אדום) ומהחריץ (ירוק). ממדידה זו, אנו יכולים להסיק כי יעילות החילוץ של צימוד האור ממצב החלל למצב הגל היא ≈24 פעמים גדולה יותר עבור מחבר אנכי מאשר עבור חריץ, מה שתואם היטב לניסוי ההעברה.
+     <fig id="Fig3" position="float">
+      <label>
+       Fig. 3
+      </label>
+      <caption xml:lang="en">
+       <p>
+        קרני ננו יהלום מלבניות תלויות עם ממשקים אופטיים. מיקרוגרפים של אלקטרונים סורקים של חללי גביש פוטוני בקרן ננו ב-
+        <bold>
+         a
+        </bold>
+        עם מצמדים אנכיים שעוצבו הפוך וב-
+        <bold>
+         b
+        </bold>
+        עם חריצים כממשקים לחיבור וניתוק. שדות בתוך החללים מוצגים באדום.
+        <bold>
+         c
+        </bold>
+        מדידות העברה באמצעות מקור סופר-רצף. הספקטרום האדום מתאים למכשיר המצמד ב-
+        <bold>
+         a
+        </bold>
+        , הספקטרום השחור והירוק למכשיר החריץ ב-
+        <bold>
+         b
+        </bold>
+        . הספקטרום מוזזים לשיפור הוויזואליזציה והתהודות של החלל מצוינות על ידי חצים כחולים.
+        <bold>
+         d
+        </bold>
+        ספקטרום שנרכש על ידי חיבור מקור סופר-רצף ישירות לחלל ויציאה דרך מצמד אנכי (קו אדום) או חריץ (קו ירוק). התוספת מתאימה לנתונים בתוך התיבה האפורה
+       </p>
+      </caption>
+      <graphic href="/MediaObjects/10X1038_s41467-019-11343-1/41467_2019_11343_Fig3_HTML.png" mime-subtype="PNG" specific-use="web"/>
+     </fig>
+    </p>
+   </sec>
+   <sec id="Sec6">
+    <title>
+     מעגל פוטוני בעיצוב הפוך ביהלום
+    </title>
+    <p id="Par11">
+     ליישומים בטכנולוגיות קוונטיות, יש לחבר הרבה צמתים כדי להתרחב מקיוביטים בודדים למערכים גדולים ומחוברים של קיוביטים
      <sup>
-      <xref ref-type="bibr" rid="CR52">
-       52
-      </xref>
-      <xref ref-type="bibr" rid="CR53">
-       53
-      </xref>
       <xref ref-type="bibr" rid="CR8">
        8
       </xref>
@@ -1435,44 +1412,279 @@
        10
       </xref>
       ,
-      <xref ref-type="bibr" rid="CR54">
-       54
+      <xref ref-type="bibr" rid="CR18">
+       18
       </xref>
-      <xref ref-type="bibr" rid="CR6">
-       6
+     </sup>
+     . זה דורש את העירור של פולטות במספר חללים, את ההתערבות של הפליטה שלהם על מפצלי קרן, ולאחר מכן את האיסוף והזיהוי היעיל של פוטונים. עם זאת, עד כה, אלמנטים כמו מפצלי גל היוו אתגר משמעותי בפוטוניקה של יהלום תלוי, שכן ייצור מתקדם באמצעות חריטה בזווית אינו תומך בשינויים בגיאומטריית המכשיר. לעומת זאת, כפי שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig4">
+      4a
+     </xref>
+     , אנו יכולים לייצר מעגל רעיוני המורכב משלושה רכיבים עם גיאומטריות שונות לחלוטין: מחברים אנכיים, מפצלי גל, וחללים של קרן ננו PhC. המכשיר מתוכנן להפריע להעברה של שני חללים של קרן ננו PhC במפצל גל בעיצוב הפוך עם יחס פיצול של 50:50 ויעילות סימולציה של 95%. אנו מתייחסים לחללים בנפרד או בו זמנית על ידי עירור מלמעלה עם מקור סופר-רציף ממוקד ישירות על החללים, כפי שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig4">
+      4b
+     </xref>
+     <sup/>
+     . התהודות של שתי הקרניים מוסטות בפחות מ-1 nm בגלל פגמי ייצור. אנו מכוונים את שני החללים לתוך ומחוץ לתהודה באמצעות עיבוי גז, כפי שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig4">
+      4c
+     </xref>
+     <sup/>
+     . השוואת המשרעת של החלל בתהודה ומחוץ לה מציעה התערבות בונה, מה שמצביע על כך שהחללים הם בערך באותו פאזה ויש להם את אותו קיטוב. עם מעגל רעיוני זה, אנו מראים שעיצוב הפוך יכול להתגבר על מגבלות הפוטוניקה הקלאסית ומאפשר ניסויים באופטיקה קוונטית בקנה מידה גדול על שבב. בהרחבת עבודה זו, אנו יכולים להגדיל את הקומפקטיות על ידי שילוב מספר פונקציות למכשיר יחיד, לעצב מעגלים למיקומים שרירותיים של פולטות, להבטיח התאמת פאזה בין מסלולים שונים של המעגלים, ולבצע אופטימיזציה לרוחבי פס ספציפיים. פלטפורמה כזו יכולה אז לנצל את הסקלביליות שמציעים מרכזי הצבע של יהלום: השתלה מבוקרת של מרכזי צבע באיכות גבוהה והרחבה לא הומוגנית קטנה, שניתן להתגבר עליה באמצעות פליטת רמאן מוגברת בחלל או כוונון מתחים
+     <sup>
+      <xref ref-type="bibr" rid="CR42">
+       42
       </xref>
-      <xref ref-type="bibr" rid="CR55">
-       55
+      ,
+      <xref ref-type="bibr" rid="CR43">
+       43
       </xref>
-      <xref ref-type="bibr" rid="CR56">
-       56
+      <xref ref-type="bibr" rid="CR44">
+       44
+      </xref>
+      <xref ref-type="bibr" rid="CR17">
+       17
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR20">
+       20
+      </xref>
+      <xref ref-type="bibr" rid="CR45">
+       45
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR46">
+       46
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR47">
+       47
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR48">
+       48
       </xref>
      </sup>
      .
+     <fig id="Fig4" position="float">
+      <label>
+       Fig. 4
+      </label>
+      <caption xml:lang="en">
+       <p>
+        חיבור מצמדי גריד עם מעגל פוטוני יהלום.
+        <bold>
+         a
+        </bold>
+        מעגל פוטוני יהלום, שיכול לשמש לשזירת שני פולטנים בתוך שני החללים. המעגל מורכב ממצמד גריד, ואחריו מפצל גל-מנחה ושני תהודות, שהפלטים שלהם משולבים מחדש במפצל גל-מנחה ומחוברים מחוץ לשבב דרך מצמד גריד.
+        <bold>
+         b
+        </bold>
+        ספקטרום של קרני הננו מהמכשיר המוצג ב-
+        <bold>
+         a
+        </bold>
+        . נתונים ירוקים, שחורים ואדומים מתאימים לקרן הננו העליונה, לשתיהן ולקרן הננו התחתונה, בהתאמה.
+        <bold>
+         c
+        </bold>
+        הדגמה שחללים עם היסט תדר שנגרם מייצור יכולים להיות מכוונים לתהודה באמצעות כיוון גז; סרגל הצבעים מתאים לספירות מנורמלות
+       </p>
+      </caption>
+      <graphic href="/MediaObjects/10X1038_s41467-019-11343-1/41467_2019_11343_Fig4_HTML.png" mime-subtype="PNG" specific-use="web"/>
+     </fig>
     </p>
    </sec>
+   <sec id="Sec7">
+    <title>
+     ממשקים יעילים במיוחד בין חלל חופשי לגלי
+    </title>
+    <p id="Par12">
+     בסופו של דבר, יישום של רשתות קוונטיות סקלביליות דורש יעילות של אבני בניין קרוב לאחדות. ניתן להשיג יעילות של &gt;90% עם מחברים סיביים, שיש להם את החיסרון של טביעות רגל גדולות משמעותית. כדי להשיג יעילות דומה, אנו מצמצמים את מגבלות הייצור לגדלים של 60 nm, מגדילים את גודל נקודת הלייזר, את טביעת הרגל של המכשיר, ואת רוחב הגל. זה מאפשר לנו לשפר את היעילות הסימולציה ל-44.7%. עם זאת, מכשירים סימטריים אנכית, כמו שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig5">
+      5a
+     </xref>
+     לא יכולים לעלות על יעילות של 50%. לשיפורים נוספים, אנו מטילים את קרן הלייזר הנכנסת ב-10° ושוברים את הסימטריה לאורך ציר
+     <italic>
+      z
+     </italic>
+     של המחברים באמצעות חריטה חלקית
+     <sup>
+      <xref ref-type="bibr" rid="CR49">
+       49
+      </xref>
+      <xref ref-type="bibr" rid="CR32">
+       32
+      </xref>
+     </sup>
+     . ב-Fig.
+     <xref ref-type="fig" rid="Fig5">
+      5b
+     </xref>
+     , אנו מראים מכשירי יהלום על SiO
+     <sub>
+      2
+     </sub>
+     עם יעילות של 51.0%. מכשירים כאלה יכולים להיות מושגים באמצעות ייצור סרט דק של יהלום על SiO
+     <sub>
+      2
+     </sub>
+     או טכניקות של הרמה והנחה והם מסלול מבטיח למגוון יישומים, כולל סכמות שזירה למרחקים ארוכים ואופטיקה לא ליניארית. מכשירים תלויים באוויר (Fig.
+     <xref ref-type="fig" rid="Fig5">
+      5c
+     </xref>
+     ) יש להם ניגודיות אינדקס שבירה גדולה יותר ומראים יעילות של עד 67.9%. בנוסף, שימוש במחזירי אור אחוריים כפי שמוצג ב-Fig.
+     <xref ref-type="fig" rid="Fig5">
+      5d
+     </xref>
+     , e מביא ליעילות של 72.4% ו-86.6%, עבור יהלום על SiO
+     <sub>
+      2
+     </sub>
+     ומבנים תלויים, בהתאמה. המרחק של מחזיר האור האחורי למחבר (400 nm ו-650 nm) קצר משמעותית מחבילת הגל של הפוטון ומותאם להתאים את הפאזה בין הפוטונים המוחזרים והמוצמדים ישירות. ממצאים אלה מעודדים לפיתוח ממשקים פוטוניים חופשיים בחלל יעילים וקומפקטיים כחלופה למחברים סיביים ליישומים פוטוניים קוונטיים ברמת הפוטון הבודד. יתר על כן, ניסויים רבים ידרשו נהיגה אופטית של פולטות בודדות כדי לפצות על הרחבת הספקטרום שלהן באמצעות תהליכי רמאן
+     <sup>
+      <xref ref-type="bibr" rid="CR5">
+       5
+      </xref>
+      <xref ref-type="bibr" rid="CR50">
+       50
+      </xref>
+      <xref ref-type="bibr" rid="CR31">
+       31
+      </xref>
+      <xref ref-type="bibr" rid="CR17">
+       17
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR20">
+       20
+      </xref>
+     </sup>
+     . כתובת אישית זו קלה יותר ליישום בתצורות צימוד חופשיות בחלל מאשר עם מחברים סיביים רבים בתוך קריוסטט. יעילות גבוהה וקומפקטיות יהיו קריטיות בניסויים אלה, שכן הפסדים יהיו הגורם המגביל. לכן, עיצוב הפוך צפוי לשחק תפקיד מרכזי בפיתוח מעגלים פוטוניים כאלה
+     <sup>
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+     </sup>
+     .
+     <fig id="Fig5" position="float">
+      <label>
+       Fig. 5
+      </label>
+      <caption xml:lang="en">
+       <p>
+        עיצובים למצמדים אנכיים בעלי יעילות גבוהה.
+        <bold>
+         a
+        </bold>
+        מצמד סימטרי אנכית תלוי באוויר. מצמדים אסימטריים אנכית המשתמשים בחיתוך חלקי עם קרן לייזר נופלת בזווית (10°): מצמד אנכי
+        <bold>
+         b
+        </bold>
+        על SiO
+        <sub>
+         2
+        </sub>
+        ,
+        <bold>
+         c
+        </bold>
+        תלוי באוויר,
+        <bold>
+         d
+        </bold>
+        על SiO
+        <sub>
+         2
+        </sub>
+        עם מחזיר אחורי מאלומיניום, ו-
+        <bold>
+         e
+        </bold>
+        תלוי באוויר עם מחזיר אחורי מאלומיניום.
+        <bold>
+         f
+        </bold>
+        יעילויות מדומות של המכשירים המוצגים ב-
+        <bold>
+         a
+        </bold>
+        –
+        <bold>
+         e
+        </bold>
+        : 44.7, 51.0, 67.9, 72.4, ו-86.6%
+       </p>
+      </caption>
+      <graphic href="/MediaObjects/10X1038_s41467-019-11343-1/41467_2019_11343_Fig5_HTML.png" mime-subtype="PNG" specific-use="web"/>
+     </fig>
+    </p>
+   </sec>
+  </sec>
+  <sec id="Sec8" sec-type="discussion">
+   <title>
+    דיון
+   </title>
+   <p id="Par13">
+    לסיכום, אנו משתמשים בשיטות עיצוב הפוכות מבוססות אופטימיזציה כדי להתגבר על המגבלות של ייצור ננו-יהלום מתקדם ולפתח אבני בניין יעילות למעגלים ננופוטוניים של יהלום
+    <sup>
+     <xref ref-type="bibr" rid="CR51">
+      51
+     </xref>
+    </sup>
+    . במחברים חופשיים בחלל אופטיים ובמעגל ננופוטוני קטן של יהלום אנו משיגים את התכונות הקריטיות של יעילות גבוהה, קומפקטיות ויציבות. עבודה זו מאפשרת כעת מעגלים קוונטיים מורכבים יותר, שבהם פתרונות קומפקטיים למגוון רכיבי מכשירים כמו מעצבי פולסים, עצי מפצלים, עיכובי פאזה וממירים מצבים הם קריטיים. לכן, התקדמות זו מניחה את היסודות להתרחבות לרשתות קוונטיות גדולות יותר עם ספינים המשובצים בצמתים קוונטיים. בנוסף, שיטות עיצוב הפוכות יכולות להיות מיושמות על פלטפורמות חומר מבטיחות אחרות שמארחות פולטות קוונטיות ויש להן פרוטוקולי ייצור מאתגרים, כמו קרביד סיליקון ואורתוונאדאט של איטריום
+    <sup>
+     <xref ref-type="bibr" rid="CR52">
+      52
+     </xref>
+     <xref ref-type="bibr" rid="CR53">
+      53
+     </xref>
+     <xref ref-type="bibr" rid="CR8">
+      8
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR10">
+      10
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR54">
+      54
+     </xref>
+     <xref ref-type="bibr" rid="CR6">
+      6
+     </xref>
+     <xref ref-type="bibr" rid="CR55">
+      55
+     </xref>
+     <xref ref-type="bibr" rid="CR56">
+      56
+     </xref>
+    </sup>
+    .
+   </p>
   </sec>
  </body>
  <back>
   <ack>
    <title>
-    Acknowledgements
+    תודות
    </title>
    <p>
-    We acknowledge the help of Usha Raghuram and Elmer Enriquez with RIE. This work is financially supported by Army Research Office (ARO) (award no. W911NF1310309), Air Force Office of Scientific Research (AFOSR) MURI Center for Attojoule Nano-Optoelectronics (award no. FA9550-17-1-0002), National Science Foundation (NSF) Division Of Electrical, Communications Cyber Systems (ECCS) (award no. 1838976), and Gordon and Betty Moore Foundation; C.D. acknowledges support from the Andreas Bechtolsheim Stanford Graduate Fellowship and the Microsoft Research Ph.D Fellowship. K.Y.Y. and M.R. acknowledge support from the Nano- and Quantum Science and Engineering Postdoctoral Fellowship. D.M.L. acknowledges support from the Fong Stanford Graduate Fellowship. D.M.L. and A.E.R. acknowledge support from the National Defense Science and Engineering Graduate (NDSEG) Fellowship Program, sponsored by the Air Force Research Laboratory (AFRL), the Office of Naval Research (ONR) and the Army Research Office (ARO). D.V. acknowledges funding from FWO and European Unions Horizon 2020 research and innovation program under the Marie Sklodowska-Curie grant agreement No. 665501. We thank Google for providing computational resources on the Google Cloud Platform. Part of this work was performed at the Stanford Nanofabrication Facility (SNF) and the Stanford Nano Shared Facilities (SNSF), supported by the National Science Foundation under award ECCS-1542152.
+    אנו מודים לעזרתם של אושה רגוראם ואלמר אנריקז עם RIE. עבודה זו נתמכת כלכלית על ידי משרד המחקר של הצבא (ARO) (מספר פרס W911NF1310309), משרד המחקר המדעי של חיל האוויר (AFOSR) מרכז MURI לאופטואלקטרוניקה ננו-אטוג'ול (מספר פרס FA9550-17-1-0002), הקרן הלאומית למדע (NSF) חטיבת מערכות חשמל, תקשורת וסייבר (ECCS) (מספר פרס 1838976), וקרן גורדון ובטי מור; C.D. מודה לתמיכה ממלגת הבוגר של אנדריאס בכטולסהיים בסטנפורד ומלגת הדוקטורט של מיקרוסופט. K.Y.Y. ו-M.R. מודים לתמיכה ממלגת הפוסט-דוקטורט למדעים והנדסה ננו-וקוונטיים. D.M.L. מודה לתמיכה ממלגת הבוגר של פונג בסטנפורד. D.M.L. ו-A.E.R. מודים לתמיכה מתוכנית המלגות לבוגרי מדע והנדסה לאומית (NDSEG), בחסות מעבדת המחקר של חיל האוויר (AFRL), משרד המחקר הימי (ONR) ומשרד המחקר של הצבא (ARO). D.V. מודה למימון מ-FWO ותוכנית המחקר והחדשנות של האיחוד האירופי הורייזון 2020 תחת הסכם מענק מארי סקודובסקה-קירי מספר 665501. אנו מודים לגוגל על מתן משאבים חישוביים בפלטפורמת הענן של גוגל. חלק מעבודה זו בוצע במתקן הננופבריקציה של סטנפורד (SNF) ובמתקנים הננו-משותפים של סטנפורד (SNSF), בתמיכת הקרן הלאומית למדע תחת פרס ECCS-1542152.
    </p>
   </ack>
   <sec sec-type="author-contribution">
    <title>
-    Author contributions
+    תרומות המחברים
    </title>
    <p>
-    C.D. and J.V. conceived and designed the experiment. C.D. developed the fabrication techniques, fabricated the sample, and measured and analyzed the data. D.V., N.V.S., C.D., and L.S. conducted inverse design optimization of photonic components. K.Y.Y., D.M.L., and A.Y.P. contributed to the sample fabrication. A.E.R. and S.S. contributed to optical measurements. J.L.Z., M.R., and K.G.L. provided expertize. J.V. supervised the project. All authors participated in the discussion, understanding of the results, and the preparation of the manuscript.
+    C.D. ו-J.V. הגו ותכננו את הניסוי. C.D. פיתח את טכניקות הייצור, ייצר את הדגימה, ומדד וניתח את הנתונים. D.V., N.V.S., C.D., ו-L.S. ביצעו אופטימיזציה של עיצוב הפוך של רכיבים פוטוניים. K.Y.Y., D.M.L., ו-A.Y.P. תרמו לייצור הדגימה. A.E.R. ו-S.S. תרמו למדידות אופטיות. J.L.Z., M.R., ו-K.G.L. סיפקו מומחיות. J.V. פיקח על הפרויקט. כל המחברים השתתפו בדיון, הבנת התוצאות, והכנת כתב היד.
    </p>
   </sec>
   <sec sec-type="data-availability">
    <title>
-    Data availability
+    זמינות הנתונים
    </title>
    <p>
     The data sets generated during and/or analyzed during this study are available from the corresponding authors on request.
@@ -1481,7 +1693,7 @@
   <sec sec-type="ethics-statement">
    <sec id="FPar1" sec-type="COI-statement">
     <title>
-     Competing interests
+     אינטרסים מתחרים
     </title>
     <p id="Par14">
      The authors declare no competing interests.
@@ -1490,7 +1702,7 @@
   </sec>
   <ref-list id="Bib1">
    <title>
-    References
+    מקורות
    </title>
    <ref-list>
     <ref id="CR1">
@@ -4300,7 +4512,7 @@
    <app id="App1" specific-use="web-only">
     <sec id="Sec9">
      <title>
-      Supplementary information
+      מידע משלים
      </title>
      <p id="Par15">
       <supplementary-material content-type="local-data" id="MOESM1" xlink:title="Supplementary information">
@@ -4327,7 +4539,7 @@
   </app-group>
   <notes notes-type="ESMHint">
    <title>
-    Supplementary information
+    מידע משלים
    </title>
    <p>
     <bold>

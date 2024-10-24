@@ -76,7 +76,7 @@ def update_index_files():
         with open(f"lang/{code}/index.html", "w+") as f:
             f.write(html.prettify())
 
-
+update_langs_dict()
 update_dropdown_langs()
 update_index_files()
 

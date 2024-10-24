@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" specific-use="web-only" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -61,7 +61,7 @@
    </article-categories>
    <title-group>
     <article-title xml:lang="en">
-     이차원 물질의 변형 공학적 성장
+     Deformationsstyret vækst af todimensionale materialer
     </article-title>
    </title-group>
    <contrib-group>
@@ -517,18 +517,18 @@
    </permissions>
    <abstract id="Abs1" xml:lang="en">
     <title>
-     초록
+     Resumé
     </title>
     <p id="Par1">
-     반도체에 변형을 가하는 것은 밴드 구조를 제어된 방식으로 수정할 수 있게 합니다. 이 원리는 고성능 트랜지스터에서 고체 레이저에 이르는 장치 제조에 사용됩니다. 전통적으로 변형은 격자 불일치 기판에서의 성장을 통해 달성됩니다. 2차원(2D) 반도체의 경우, 일반적으로 기판과 상관적으로 상호작용하지 않기 때문에 이는 실현 불가능합니다. 여기서 우리는 기판과 반도체 간의 열팽창 계수 불일치를 이용하여 합성 중 2D 반도체의 제어된 변형 엔지니어링을 시연합니다. WSe
+     Anvendelsen af spænding på halvledere muliggør kontrolleret modifikation af deres båndstruktur. Dette princip anvendes til fremstilling af enheder, der spænder fra højtydende transistorer til faststoflasere. Traditionelt opnås spænding typisk via vækst på substrater med gitter-mismatch. For todimensionale (2D) halvledere er dette ikke muligt, da de typisk ikke interagerer epitaksialt med substratet. Her demonstrerer vi kontrolleret spændingsstyring af 2D halvledere under syntese ved at udnytte forskellen i termisk ekspansionskoefficient mellem substratet og halvlederen. Ved at bruge WSe
      <sub>
       2
      </sub>
-     를 모델 시스템으로 사용하여, 서로 다른 열팽창 계수를 가진 기판에서 1% 인장에서 0.2% 압축까지 안정적인 내장 변형을 시연합니다. 그 결과, 변형에 의해 간접 밴드갭에서 직접 밴드갭으로의 전환과 이중층 및 단일층 WSe
+     som et modelsystem, demonstrerer vi stabile indbyggede spændinger, der spænder fra 1% træk til 0,2% tryk på substrater med forskellige termiske ekspansionskoefficienter. Som følge heraf observerer vi en dramatisk modulation af båndstrukturen, manifesteret ved en spændingsdrevet indirekte-til-direkte båndgabsovergang og oplysning af den mørke exciton i henholdsvis dobbeltlag og enkeltlag WSe
      <sub>
       2
      </sub>
-     에서 어두운 엑시톤의 밝아짐으로 나타나는 밴드 구조의 극적인 변조를 관찰합니다. 여기서 개발된 성장 방법은 2D 재료를 기반으로 한 더 정교한 장치 설계의 유연성을 가능하게 할 것입니다.
+     . Den her udviklede vækstmetode bør muliggøre fleksibilitet i designet af mere sofistikerede enheder baseret på 2D materialer.
     </p>
    </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" specific-use="web-only" xml:lang="en">
@@ -823,10 +823,10 @@
  <body>
   <sec id="Sec1" sec-type="introduction">
    <title>
-    소개
+    Introduktion
    </title>
    <p id="Par3">
-    이차원(2D) 전이 금속 칼코겐화물(TMDCs)은 광전자공학 및 10nm 이하 트랜지스터에 대한 잠재적 응용 가능성으로 인해 집중적인 연구의 대상이 되어 왔습니다
+    To-dimensionelle (2D) overgangsmetal dichalcogenider (TMDC'er) har været genstand for fokuseret forskning på grund af deres potentielle anvendelser i optoelektronik og sub 10 nm transistorer
     <sup>
      <xref ref-type="bibr" rid="CR1">
       1
@@ -836,15 +836,15 @@
       2
      </xref>
     </sup>
-    . MoS
+    . Den primære tiltrækning ved TMDC'er som MoS
     <sub>
      2
     </sub>
-    와 WSe
+    og WSe
     <sub>
      2
     </sub>
-    와 같은 TMDCs의 주요 매력은 자연적으로 종결된 표면으로, 표면 매달린 결합에 대한 걱정 없이 원자 한계까지 축소할 수 있다는 점입니다. 더욱이, 많은 2D 재료에서 단층 한계에서 여러 가지 바람직한 특성이 나타나며, 그 중 가장 주목할 만한 것은 직접 밴드갭의 존재입니다. 박리된 2D TMDCs의 기계적 굽힘을 기반으로 한 많은 연구가 유연한 기판에서 수행되었으며, 이러한 새로운 종류의 재료의 특성을 조정할 수 있음을 보여주었습니다
+    for begge anvendelser er deres naturligt terminerede overflade, som gør det muligt at skalere dem ned til det atomare niveau uden bekymring for overfladehængende bindinger. Desuden fremkommer der i mange 2D-materialer en række ønskværdige egenskaber ved monolaggrænsen, hvoraf den mest bemærkelsesværdige er tilstedeværelsen af et direkte båndgab. Mange studier baseret på mekanisk bøjning af eksfolierede 2D TMDC'er er blevet udført på fleksible substrater, og de har vist, at anvendelse af strain kan justere egenskaberne af denne nye klasse af materialer
     <sup>
      <xref ref-type="bibr" rid="CR3">
       3
@@ -862,24 +862,24 @@
       6
      </xref>
     </sup>
-    . 예를 들어, 다층 WSe
+    . For eksempel er det blevet demonstreret, at i flerlags WSe
     <sub>
      2
     </sub>
-    , 특히 명목상 간접 밴드갭을 가진 이중층 WSe
+    , især i nominelt indirekte-gap bilag WSe
     <sub>
      2
     </sub>
-    에서 인장 변형을 가하면 간접 밴드갭에서 직접 밴드갭으로의 전환이 발생할 수 있음이 입증되었습니다
+    , kan anvendelse af trækspænding resultere i en overgang fra et indirekte til et direkte båndgab
     <sup>
      <xref ref-type="bibr" rid="CR7">
       7
      </xref>
     </sup>
-    . 그러나 TMDCs에서 변형의 효과에 대한 연구는 샘플의 기계적 굽힘에 국한되어 있으며, 내장된 인장 및 압축 변형을 직접 실현할 수 있는 기술은 아직 없습니다.
+    . Dog har studier af effekterne af strain i TMDC'er været begrænset til mekanisk bøjning af prøver, og der er endnu ikke en teknik, der direkte kan realisere indbyggede træk- og trykspændinger.
    </p>
    <p id="Par4">
-    전통적으로 반도체의 스트레인 엔지니어링은 고성능 장치의 전자 밴드 구조를 조정하기 위해 활용되어 왔으며, 가장 주목할 만한 것은 인터밸리 산란을 줄이고, Si 트랜지스터의 이동성을 증가시키며, III-V 반도체 레이저에서 홀 유효 질량을 줄이는 것입니다
+    Traditionelt er spændingsengineering af halvledere blevet udnyttet til at justere den elektroniske båndstruktur af højtydende enheder, hvoraf det mest bemærkelsesværdige er at reducere intervalley-spredning, øge mobiliteten i Si-transistorer og reducere hullets effektive masse i III–V halvlederlasere
     <sup>
      <xref ref-type="bibr" rid="CR8">
       8
@@ -889,13 +889,13 @@
       9
      </xref>
     </sup>
-    . 제어된 격자 상수 불일치가 있는 에피택셜 기판에서의 성장은 일반적으로 3차원 반도체에서 내장된 스트레인을 설정하는 데 사용되었습니다
+    . Vækst på epitaksiale substrater med en kontrolleret gitterkonstant mismatch er typisk blevet anvendt til at etablere indbygget spænding i tredimensionelle halvledere
     <sup>
      <xref ref-type="bibr" rid="CR10">
       10
      </xref>
     </sup>
-    . 그러나 2D 재료와 기판 간의 상대적으로 약한 상호작용으로 인해, 이 확립된 스트레인 엔지니어링 방법은 TMDCs의 스트레인 엔지니어링된 성장을 위해 적용될 가능성이 낮습니다. 따라서 실용적인 기판에서 대면적 스트레인 TMDCs를 개발하는 경로가 매우 바람직합니다. 대면적 TMDCs를 실현하기 위한 상당한 연구 노력이 이루어졌으며, 대부분의 노력은 화학 기상 증착(CVD)에 집중되었습니다
+    . Dog, på grund af den relativt svage interaktion mellem 2D-materialer og substrater, er denne etablerede metode til spændingsengineering sandsynligvis ikke anvendelig til spændingsengineeret vækst af TMDC'er. Derfor er en vej mod udvikling af store områder af spændingspåvirkede TMDC'er på et praktisk substrat meget ønskværdig. Betydelige forskningsindsatser er blevet gjort for at realisere store områder af TMDC'er, hvor størstedelen af indsatsen fokuserer på kemisk dampaflejring (CVD)
     <sup>
      <xref ref-type="bibr" rid="CR11">
       11
@@ -909,7 +909,7 @@
       13
      </xref>
     </sup>
-    . 흥미롭게도, 2D 재료의 CVD 성장을 사용하는 여러 연구에서 합성된 샘플에서 명백한 스트레인이 보고되었습니다
+    . Interessant nok har en række studier, der anvender CVD-vækst af 2D-materialer, rapporteret tilsyneladende spænding i de syntetiserede prøver
     <sup>
      <xref ref-type="bibr" rid="CR14">
       14
@@ -919,43 +919,43 @@
       15
      </xref>
     </sup>
-    . 그러나 제어 가능한 내장 스트레인을 가진 고품질 2D 재료의 성장은 실현되지 않았습니다. 따라서 저온 광학 측정 및 전기적 성능과 같은 기계적 굽힘 실험을 통해 탐색하기 어려운 특성은 아직 탐구되지 않았습니다.
+    . Dog er vækst af høj-kvalitets 2D-materialer med kontrollerbar indbygget spænding ikke blevet realiseret. Derfor er egenskaber, der er svære at undersøge via mekaniske bøjningseksperimenter, såsom lavtemperatur optiske målinger og elektrisk ydeevne, endnu ikke blevet udforsket.
    </p>
    <p id="Par5">
-    이 연구에서 우리는 TMDC와 성장 기판 간의 열 팽창 계수(TCE) 불일치를 이용하여 CVD 성장을 통해 2D 재료의 변형 공학을 직접적으로 시연하면서 동시에 높은 재료 품질을 유지하는 방법을 보여줍니다. 전자 회절을 통해 직접 전자 현미경(TEM) 창에 성장된 변형된 단층을 명확하게 정량화합니다. WSe
+    I dette arbejde demonstrerer vi spændingsstyring af 2D-materialer direkte via CVD-vækst, mens vi samtidig opretholder høj materialekvalitet, ved at udnytte forskellen i termisk udvidelseskoefficient (TCE) mellem TMDC og vækstsubstratet. Elektrondiffraktion af spændte monolag, der er vokset direkte på transmissionselektronmikroskopi (TEM) vinduer, anvendes til utvetydigt at kvantificere spænding. Ved at bruge WSe
     <sub>
      2
     </sub>
-    를 모델 시스템으로 사용하여, 단단한 기판 위에서 큰 영역에 걸쳐 인장(~1%) 및 압축(0.2%) 변형된 2D 반도체를 얻을 수 있음을 보여줍니다. 또한, WSe
+    som et modelsystem viser vi, at det er muligt at opnå både trækspændte (~ 1%) og trykspændte (0,2%) 2D-halvledere over store områder på stive substrater. Desuden viser vi i WSe
     <sub>
      2
     </sub>
-    모델 시스템에서 인장 변형된 WSe
+    modelsystemet en indirekte-til-direkte optisk overgang i trækspændte WSe
     <sub>
      2
     </sub>
-    이중층에서 간접-직접 광학 전이를 보여주며, WSe
+    dobbeltlag samt fjernelse af mørk exciton slukning i WSe
     <sub>
      2
     </sub>
-    단층에서 어두운 엑시톤 소멸이 제거됨을 보여줍니다.
+    monolag.
    </p>
   </sec>
   <sec id="Sec2" sec-type="results">
    <title>
-    결과
+    Resultater
    </title>
    <sec id="Sec3">
     <title>
-     TCE-불일치로 인한 변형
+     TCE-mismatch induceret spænding
     </title>
     <p id="Par6">
-     TMDCs를 합성하는 데 사용되는 높은 성장 온도로 인해 기판과 2D 반도체 간의 TCE 불일치를 이용하여 합성된 2D 재료의 변형을 제어할 수 있습니다. 이는 도식적으로 Fig.
+     På grund af de høje væksttemperaturer, der anvendes til at syntetisere TMDC'er, kan TCE-mismatchen mellem substratet og 2D-halvlederen udnyttes til at kontrollere spændingen i det syntetiserede 2D-materiale, som vist skematisk i Fig.
      <xref ref-type="fig" rid="Fig1">
       1
      </xref>
      <sup/>
-     에 나타나 있습니다. 이론적인 변형의 상한값은 이완이 없다고 가정할 때, 실온과 합성 온도에서 기판과 2D 반도체의 격자 상수 차이를 사용하여 계산할 수 있습니다:
+     . Den teoretiske øvre grænse for spændingen, forudsat ingen afslapning, kan beregnes ved hjælp af forskellen i gitterkonstanten for substratet og 2D-halvlederen ved stuetemperatur og syntesetemperatur:
      <disp-formula id="Equ1">
       <label>
        1
@@ -1209,47 +1209,47 @@
 				\usepackage{mathrsfs}
 				\usepackage{upgreek}
 				\setlength{\oddsidemargin}{-69pt}
-				\begin{document}$$\varepsilon \left( {{T_{\rm{g}}}} \right) = \frac{{{a_{2{\rm{D}}}}\left( {{T_{\rm{g}}}} \right) - {a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}} - \frac{{{a_{{\rm{Sub}}}}\left( {{T_{\rm{g}}}} \right) - {a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \ right)}}$$\end{document}
+				\begin{document}$$\varepsilon \left( {{T_{\rm{g}}}} \right) = \frac{{{a_{2{\rm{D}}}}\left( {{T_{\rm{g}}}} \right) - {a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}} - \frac{{{a_{{\rm{Sub}}}}\left( {{T_{\rm{g}}}} \right) - {a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}$$\end{document}
        </tex-math>
        <graphic href="41467_2017_516_Article_Equ1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </disp-formula>
-     여기서
+     hvor
      <italic>
       a
      </italic>
      <sub>
       2D
      </sub>
-     는 성장 중인 2D 재료의 평면 내 격자 상수이고,
+     er gitterkonstanten i planet for det 2D-materiale, der vokser,
      <italic>
       a
      </italic>
      <sub>
       Sub
      </sub>
-     는 기판의 평면 내 격자 상수이며,
+     er gitterkonstanten i planet for substratet, og
      <italic>
       T
      </italic>
      <sub>
       g
      </sub>
-     는 성장 온도입니다. 보다 일반적으로, 이는 2D 재료(
+     er væksttemperaturen. Mere generelt kan dette beregnes ved hjælp af den temperaturafhængige termiske ekspansionskoefficient for 2D-materialet (
      <italic>
       α
      </italic>
      <sub>
       2D
      </sub>
-     )와 기판(
+     ) og substratet (
      <italic>
       α
      </italic>
      <sub>
       Sub
      </sub>
-     )의 온도 의존적 열팽창 계수를 사용하여 다음과 같이 계산할 수 있습니다:
+     ) i henhold til:
      <disp-formula id="Equ2">
       <label>
        2
@@ -1434,34 +1434,34 @@
       </label>
       <caption xml:lang="en">
        <p>
-        TCE 불일치를 이용한 WSe
+        Deformationsstyret vækst af WSe
         <sub>
          2
         </sub>
-        의 변형 엔지니어링 성장. 기판과 TMDC 열팽창 계수의 불일치를 통해 2D 재료의 성장 중에 변형이 실현되는 과정을 도식적으로 나타낸 것입니다.
+        ved brug af TCE-mismatch. Skematisk fremstilling af processen, hvorigennem deformation realiseres under væksten af 2D-materialer via mismatch i substratets og TMDC's termiske ekspansionskoefficient.
         <bold>
          a
         </bold>
-        기판의 TCE가 2D 재료보다 작을 때 인장 변형이 실현되며,
+        Trækdeformation opnås, når TCE for substratet er mindre end for 2D-materialet,
         <bold>
          b
         </bold>
-        기판과 2D 재료의 TCE가 일치할 때 이완된 샘플이 실현되며,
+        afslappede prøver opnås, når TCE for substratet og 2D-materialet matcher, og
         <bold>
          c
         </bold>
-        기판의 TCE가 2D 재료보다 클 때 압축 변형이 실현됩니다.
+        trykdeformation opnås, når TCE for substratet er større end for 2D-materialet
        </p>
       </caption>
-      <graphic href="MediaObjects/41467_2017_516_Fig1_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig1_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par7">
-     TCE-불일치로 인해 생성된 변형을 유지하려면, 2D 층과 기판 사이의 결합이 충분히 강하고 주름져서 변형을 층에 전달하는 미끄럼 방지 조건을 유지해야 합니다. 이러한 크기의 변형이 에피택셜 성장 중에 발생할 것으로 예상되지만, 반데르발스 힘에 의해 비정질 기판에 결합된 필름에서 유사한 변형이 어떻게 발생할 수 있는지는 이해하기 어렵습니다. 실험적으로, 필름의 주름은 냉각 시 변형을 유지할 수 있을 만큼 충분히 커야 합니다. 변형을 유지하기 위해 필요한 주름의 크기를 추정하기 위해, 우리는 보충 자료 노트
+     For at bevare den spænding, der genereres fra TCE-mismatch, skal bindingen mellem 2D-laget og substratet være tilstrækkelig stærk og bølget til at opretholde den nonslip-betingelse, der overfører spænding til laget. Selvom man forventer, at spændinger af denne størrelsesorden opstår under epitaksial vækst, er det svært at se, hvordan en lignende spænding kan opstå for film bundet af van der Waals-kræfter til et amorft substrat. Eksperimentelt skal bølgningen i filmen være stor nok til at bevare spændingen ved afkøling. For at estimere størrelsen af den nødvendige bølgning for at opretholde spændingen analyserede vi en 2D Frenkel–Kontorova-model, vist i Supplementary Note
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
-     및 보충 그림
+     og Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
@@ -1470,21 +1470,25 @@
        16
       </xref>
      </sup>
-     에 나와 있는 2D Frenkel–Kontorova 모델을 분석했습니다. 이 모델은 단위 셀 범위 내에서 14 meV 정도의 원자 결합 에너지 변동이 실험적으로 관찰된 크기의 변형을 유지할 수 있음을 시사합니다. 이 변동은 일반적인 공유 결합 강도의 약 1%이며, 반데르발스 결합의 일반적인 강도에 매우 가깝습니다. 더 자세한 이론이 개발되어야 하며, 특히 성장 직전에 표면 화학을 이해하여 결합의 성질을 결정해야 하지만, 이 간단한 분석은 필름과 기판 사이의 결합이 약한 경우에도 열팽창 불일치가 필름에 변형을 줄 수 있음을 시사합니다. 이전 연구에서 레이저를 사용하여 MoS
+     . Denne model antyder, at variationer i atomar bindingsenergi på så lidt som 14 meV over enhedscellens område er i stand til at bevare spændinger af den størrelsesorden, der er observeret eksperimentelt. Denne variation er ~ 1% af en typisk kovalent bindingsstyrke og meget tæt på den typiske styrke af en van der Waals-binding. Selvom en mere detaljeret teori skal udvikles, især for at forstå overfladekemien umiddelbart før vækst for at bestemme arten af bindingen, antyder denne enkle analyse, at termisk ekspansionsmismatch kan spænde en film, selv i tilfælde af svag binding mellem filmen og substratet. Det skal bemærkes, at i en tidligere undersøgelse blev lokal opvarmning af MoS
      <sub>
       2
      </sub>
-     의 국부 가열을 통해 기판과의 TCE-불일치로 인해 최대 0.2%의 변형을 생성한 바 있습니다
+     ved hjælp af en laser brugt til at generere spændinger på op til 0,2% som følge af TCE-mismatch af MoS
+     <sub>
+      2
+     </sub>
+     med substratet
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
       </xref>
      </sup>
-     . 이 방법은 내장된 변형을 생성하지는 않지만(레이저가 꺼지면 변형이 해제됨), MoS
+     . Selvom denne metode ikke genererer indbyggede spændinger (spændingen frigives, når laseren slukkes), antyder den, at MoS
      <sub>
       2
      </sub>
-     -기판 결합이 TCE-불일치 유도 변형 엔지니어링을 가능하게 할 만큼 충분히 강하다는 것을 시사합니다
+     -substratbindingen er stærk nok til at muliggøre TCE-mismatch-induceret spændingsdesign
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
@@ -1493,15 +1497,15 @@
      .
     </p>
     <p id="Par8">
-     WSe
+     For at demonstrere spændingsstyret CVD-vækst af WSe
      <sub>
       2
      </sub>
-     의 변형 엔지니어링된 CVD 성장을 입증하기 위해, TCE 범위를 가진 네 가지 기판이 선택되었습니다. 융합 실리카와 질화 알루미늄(AlN)은 각각 0.55 및 5.5 ppm의 TCE를 가지며, 이는 WSe
+     , blev fire substrater valgt, som har en række TCE'er. Fused silica og aluminium nitride (AlN) har en TCE på henholdsvis 0,55 og 5,5 ppm, meget mindre end WSe
      <sub>
       2
      </sub>
-     (9.5 ± 3.2 ppm)보다 훨씬 작아 인장 변형을 유도할 것으로 예상됩니다
+     (9,5 ± 3,2 ppm), og forventes at inducere trækspænding
      <sup>
       <xref ref-type="bibr" rid="CR3">
        3
@@ -1527,11 +1531,11 @@
        22
       </xref>
      </sup>
-     . 반면, 사파이어는 WSe
+     . I kontrast har safir en TCE, der er tæt på WSe
      <sub>
       2
      </sub>
-     와 거의 일치하는 TCE를 가지고 있어 이완된 샘플을 생성할 것으로 예상되며, 12 ppm의 TCE를 가진 스트론튬 타이타네이트(STO)는 압축 변형된 샘플을 생성할 것으로 예상됩니다
+     , og forventes at producere afslappede prøver, og strontium titanate (STO) med en TCE på 12 ppm bør give kompressivt spændte prøver
      <sup>
       <xref ref-type="bibr" rid="CR20">
        20
@@ -1545,81 +1549,75 @@
        24
       </xref>
      </sup>
-     . 샘플은 WSe
+     . Prøven blev hurtigt afkølet efter vækst for at begrænse afslapning i WSe
      <sub>
       2
      </sub>
-     의 이완을 제한하기 위해 성장 후 신속하게 냉각되었습니다
      <sup/>
-     . 신속한 냉각 과정이 변형의 존재를 유지하는 데 중요하며, 냉각 단계의 지연은 2D 물질의 부분적인 이완을 초래할 수 있음을 주목하는 것이 중요합니다.
+     . Det er vigtigt at bemærke, at den hurtige afkølingsproces blev fundet vigtig for at opretholde tilstedeværelsen af spænding, og forsinkelse af afkølingstrinnet kan resultere i delvis afslapning af 2D-materialet.
     </p>
    </sec>
    <sec id="Sec4">
     <title>
-     특성화 변형 및 재료 품질
+     Karakterisering af deformation og materialekvalitet
     </title>
     <p id="Par9">
-     성장된 재료에 존재하는 변형을 특성화하기 위해 여러 특성화 방법이 사용되었습니다. 먼저, SiO
+     For at karakterisere den spænding, der er til stede i det som-voksede materiale, blev flere karakteriseringsmetoder anvendt. Først blev elektrondiffraktion udført på WSe
      <sub>
       2
      </sub>
-     TEM 그리드에서 성장된 WSe
+     som-vokset på SiO
      <sub>
       2
      </sub>
-     와 SiO
+     TEM-gitre og WSe
      <sub>
       2
      </sub>
-     TEM 그리드로 전이된 WSe
+     overført til SiO
      <sub>
       2
      </sub>
-     에 대해 전자 회절을 수행했습니다. 결과적인 회절 패턴은 그림
+     TEM-gitre. De resulterende diffraktionsmønstre er vist i Fig.
      <xref ref-type="fig" rid="Fig2">
       2a–c
      </xref>
-     에 나타나 있습니다. WSe
+     <sup/>
+     . I alle TEM-diffraktionsmålinger på WSe
      <sub>
       2
      </sub>
-     에 대한 모든 TEM 회절 측정에서, 카메라 길이와 이미징 시스템의 렌즈 수차는 다결정 알루미늄과 단결정 알루미늄 교정 샘플(Ted Pella)을 사용하여 교정되었으며, 이후 모든 측정을 위해 현미경 렌즈 설정은 일정하게 유지되었습니다. 그림
+     blev kameralængden og linseaberrationerne i billedsystemerne kalibreret ved hjælp af polykrystallinsk aluminium og enkeltkrystal aluminium kalibreringsprøver (Ted Pella), og mikroskoplinsens indstillinger blev holdt konstante for alle efterfølgende målinger. Tilsvarende billeder og fotoluminescens (PL) spektre af prøverne i Fig.
      <xref ref-type="fig" rid="Fig2">
       2b, c
      </xref>
-     의 샘플에 대한 해당 이미지와 광발광(PL) 스펙트럼은 보충 그림
+     er vist i Supplerende Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       2
      </xref>
-     에 나타나 있습니다. 변형된(성장된) WSe
+     <sup/>
+     . Ved at sammenligne gitterkonstanten udtrukket fra diffraktionsmønstrene af spændt (som-vokset) og uspændt (overført) WSe
      <sub>
       2
      </sub>
-     와 변형되지 않은(전이된) WSe
-     <sub>
-      2
-     </sub>
-     의 회절 패턴에서 추출된 격자 상수를 비교하고, 각 패턴에서 75개의 회절 점의 질량 중심을 이용하여, 우리는 성장된 샘플에 1.39 ± 0.28%의 인장 변형이 존재함을 계산했습니다. 계산된 오류는 75개의 측정된 회절 점에서 격자 상수 값의 표준 편차를 나타냅니다. 그림
+     , og ved at anvende tyngdepunktet for 75 diffraktionspletter fra hvert mønster, beregner vi, at der er en 1,39 ± 0,28% trækspænding til stede i den som-voksede prøve. Den beregnede fejl repræsenterer standardafvigelsen i gitterkonstantværdien over 75 målte diffraktionspletter. Raman-spektret vist i Fig.
      <xref ref-type="fig" rid="Fig2">
       2d
      </xref>
-     에 나타난 라만 스펙트럼은 성장된 WSe
+     afslører en forskydning af E’ in-plane Raman-mode på 1,5 ± 0,2 cm mellem som-vokset og overført WSe
      <sub>
       2
      </sub>
-     와 전이된 WSe
-     <sub>
-      2
-     </sub>
-     사이의 E’ 평면 라만 모드의 1.5 ± 0.2 cm의 이동을 보여줍니다. 여기서 측정된 변형은 기계적 굽힘 연구와는 달리 단축 변형이 아닌 이축 변형임을 주목해야 하며, 따라서 E′ 모드의 분열을 관찰하지 않습니다. 따라서 WSe
-     <sub>
-      2
-     </sub>
-     의 그뤼네이젠 매개변수(﻿
+     <sup/>
+     . Vi bemærker, at den her målte spænding er biaxial, ikke uniaxial, i modsætning til mekaniske bøjningstudier, og derfor observerer vi ikke en opsplitning af E′-moden. Derfor anvendes den teoretisk beregnede værdi for Grüneisen-parameteren (﻿
      <italic>
       χ
      </italic>
-     ﻿)에 대한 이론적으로 계산된 값을 사용하여 다음과 같이 예상되는 피크 이동을 계산합니다:
+     ﻿) for WSe
+     <sub>
+      2
+     </sub>
+     til at beregne den forventede topforskydning i henhold til:
      <inline-formula id="IEq1">
       <alternatives>
        <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1673,7 +1671,7 @@
        <inline-graphic href="41467_2017_516_Article_IEq1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </inline-formula>
-     , 이는 회절을 통해 측정된 약 1%의 인장 변형과 일치합니다
+     , hvilket er i overensstemmelse med den cirka 1% trækspænding målt via diffraktion
      <sup>
       <xref ref-type="bibr" rid="CR25">
        25
@@ -1687,98 +1685,91 @@
        27
       </xref>
      </sup>
-     . 또한 전이 후 E’ 모드는 박리 또는 사파이어에서 성장된 샘플과 비교하여 이동이 없음을 주목해야 합니다. 고해상도 라만 매핑이 수행되었으며, 이는 각각 융합 실리카에서 성장된 WSe
-     <sub>
-      2
-     </sub>
-     결정과 새로운 융합 실리카 기판으로 전이된 WSe
-     <sub>
-      2
-     </sub>
-     결정에 대해 그림
+     . Det skal også bemærkes, at efter overførsel viser E’ moden ingen forskydning i forhold til prøver forberedt enten ved eksfoliering eller som-vokset på safir. Højopløsnings Raman-kortlægning blev udført og er vist i Fig.
      <xref ref-type="fig" rid="Fig2">
       2e, f
      </xref>
-     에 나타나 있습니다. 우리는 두 샘플 모두에서 전체 WSe
+     for WSe
      <sub>
       2
      </sub>
-     도메인에 걸쳐 균일한 라만 이동을 관찰하여, 변형이 라만 스팟 크기 규모에서 샘플 내에 균일하게 분포되어 있음을 나타냅니다. 또한, 융합 실리카에서 성장된 WSe
+     krystaller som-vokset på smeltet silica og overført til et nyt smeltet silica substrat, henholdsvis. Vi observerer en ensartet Raman-forskydning gennem hele WSe
      <sub>
       2
      </sub>
-     의 PL 및 원자력 현미경 이미지가 보충 그림
+     -domænet for begge prøver, hvilket indikerer, at spændingen er jævnt fordelt inden for prøven på skalaen af Raman-pletstørrelsen. Derudover er PL og atomkraftmikroskopi billeder af som-vokset WSe
+     <sub>
+      2
+     </sub>
+     på smeltet silica vist i Supplerende Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       3
      </xref>
-     에 나타나 있습니다.
+     <sup/>
+     .
      <fig id="Fig2" position="float">
       <label>
-       그림 2
+       Fig. 2
       </label>
       <caption xml:lang="en">
        <p>
-        단층 WSe
+        Transmissionselektronmikroskopi billeder og Raman spektroskopi af monolag WSe
         <sub>
          2
         </sub>
-        의 투과 전자 현미경 이미지 및 라만 분광법.
+        .
         <bold>
          a
         </bold>
-        성장된 단층 WSe
+        Overlejring af diffraktionspletter for som-vokset og overført monolag WSe
         <sub>
          2
         </sub>
-        와 전이된 단층 WSe
-        <sub>
-         2
-        </sub>
-        의 회절 점 오버레이, TEM 멤브레인에서 직접 성장된 샘플에서 1.39 ± 0.28%의 변형을 보여줍니다.
+        , der viser en 1,39 ± 0,28% strain i prøver dyrket direkte på TEM-membranen.
         <italic>
-         스케일 바
+         Skalabjælke
         </italic>
-        는 10 nm
+        er 10 nm
         <sup>
          −1
         </sup>
-        입니다.
+        .
         <bold>
          b
         </bold>
-        8 nm SiO
+        Elektrondiffraktionsmønstre af et trækbelastet WSe
         <sub>
          2
         </sub>
-        TEM 멤브레인에서 직접 성장된 인장 변형 WSe
+        monolag dyrket direkte på en 8 nm SiO
         <sub>
          2
         </sub>
-        단층의 전자 회절 패턴 및
+        TEM-membran og
         <bold>
          c
         </bold>
-        동일한 두께의 멤브레인으로 전이된 WSe
+        et WSe
         <sub>
          2
         </sub>
-        단층.
+        monolag overført til den samme tykkelse membran.
         <italic>
-         스케일 바
+         Skalabjælke
         </italic>
-        는 10 nm
+        er 10 nm
         <sup>
          −1
         </sup>
-        입니다.
+        .
         <bold>
          d
         </bold>
-        다양한 기판에서 성장된 WSe
+        Raman spektre af WSe
         <sub>
          2
         </sub>
-        단층의 라만 스펙트럼.
+        monolag dyrket på forskellige substrater.
         <bold>
          e
         </bold>
@@ -1786,111 +1777,126 @@
         <bold>
          f
         </bold>
-        융합 실리카에서 성장된 인장 변형 WSe
-        <sub>
-         2
-        </sub>
-        단층(
+        Raman kortlægning af E’ top position for en (
         <bold>
          e
         </bold>
-        )과 변형을 해제하기 위해 전이된 WSe
+        ) trækbelastet WSe
         <sub>
          2
         </sub>
-        단층(
+        monolag som-vokset på smeltet silica og en (
         <bold>
          f
         </bold>
-        )의 E’ 피크 위치에 대한 라만 매핑; 데이터는 동일한 가짜 색상 스킴을 사용하여 플로팅됩니다.
+        ) WSe
+        <sub>
+         2
+        </sub>
+        monolag overført for at frigive strain; data er plottet ved hjælp af det samme falske farveskema.
         <italic>
-         스케일 바
+         Skalabjælke
         </italic>
-        는 20 μm, 데이터 범위는 250.5에서 247.0 cm
+        er 20 μm, dataområde er 250,5 til 247,0 cm
         <sup>
          -1﻿
         </sup>
-        입니다
        </p>
       </caption>
-      <graphic href="MediaObjects/41467_2017_516_Fig2_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig2_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par10">
-     PL 측정을 사용하여 변형에 따른 밴드갭을 측정했습니다. 그림
+     PL-målinger blev anvendt til at måle båndgabet som en funktion af strain. Figur
      <xref ref-type="fig" rid="Fig3">
       3a
      </xref>
-     는 이 연구에서 조사한 모든 기판에서 성장한 샘플과 박리된 참조 샘플의 PL 스펙트럼을 보여줍니다. 융합 실리카에서 성장한 샘플과 이 연구에서 조사한 모든 기판 중 가장 높은 TCE를 가진 STO 사이에는 120 meV의 큰 스펙트럼 이동이 있습니다. 그림
+     viser PL-spektre af prøver dyrket på alle substrater undersøgt i dette arbejde samt en eksfolieret reference. Der er et stort spektralt skift på 120 meV mellem prøver dyrket på smeltet silica med næsten nul TCE og STO, som har den højeste TCE af alle substrater undersøgt i dette arbejde. Figur
      <xref ref-type="fig" rid="Fig3">
       3b
      </xref>
-     는 WSe
+     viser den estimerede strain fra PL-topskiftet som en funktion af forudsagt strain i WSe
      <sub>
       2
      </sub>
-     의 예측된 변형에 따른 PL 피크 이동에서 추정된 변형을 기판과 TMDC 격자 상수 사이의 격자 불일치에 대해 보여줍니다. 변형 값은 실험적으로 측정된 PL 피크 위치(측정 오류는 15개의 다른 결정에서 측정된 변형의 표준 편차를 사용하여 계산됨)와 변형에 따른 이론적으로 계산된 밴드갭에서 결정됩니다. 우리는 이론적 계산에 대한 절대 밴드갭 오류의 영향을 제거하기 위해 비변형 샘플에 대한 피크 위치의 차이를 사용했습니다. 기판과 WSe
-     <sub>
-      2
-     </sub>
-     사이의 에피택셜 변형의 영향을 배제하기 위해 격자 매개변수 불일치로 인한 예상 변형을 분석했습니다(보충 표
+     , vs. gittermisforholdet mellem substratet og TMDC-gitterkonstanten. Strain-værdier bestemmes ud fra den eksperimentelt målte PL-topposition (målefejl blev beregnet ved hjælp af standardafvigelsen af strain målt fra femten forskellige krystaller) og teoretisk beregnet båndgab som en funktion af strain udtrukket fra ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR3">
+       3
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR27">
+       27
+      </xref>
+     </sup>
+     . Det er vigtigt at bemærke, at vi anvendte forskellen i topposition i forhold til en ustrakt prøve for at eliminere effekter fra absolut båndgabfejl i forhold til teoretiske beregninger. Vi udførte en analyse af den forventede strain på grund af gitterparameter misfit (Supplerende Tabel
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
-     및 보충 노트
+     og Supplerende Note
      <xref ref-type="supplementary-material" rid="MOESM1">
       2
      </xref>
-     ). 이 계산에서 격자 불일치로 인한 예상 변형은 실험적으로 관찰된 것과 반대의 경향을 보입니다. 우리는 ΔTCE당 −0.10 ± 0.01% ppm K당 실험적으로 실현된 변형이 이론적 값인 −0.09% ppm K당과 매우 잘 일치함을 발견했습니다. 기판이 단층 WSe
+     ) for at udelukke indflydelsen af epitaksial strain mellem substratet og WSe
      <sub>
       2
      </sub>
-     의 PL 피크 모양이나 위치에 영향을 미치지 않는지 확인하기 위해 이 연구에서 사용된 네 개의 기판에 샘플을 전사했으며(보충 그림
+     <sup/>
+     . Fra denne beregning viser den forventede strain fra gittermisforholdet den modsatte tendens sammenlignet med, hvad vi observerer eksperimentelt. Vi finder, at vores eksperimentelt realiserede strain pr. ΔTCE på −0,10 ± 0,01% pr. ppm K er i fremragende overensstemmelse med den teoretiske værdi på −0,09% pr. ppm K
+     <sup/>
+     . For at verificere, at substratet ikke påvirker PL-topformen eller positionen af monolag WSe
+     <sub>
+      2
+     </sub>
+     , blev prøver overført til de fire substrater, der blev brugt i denne undersøgelse (Supplerende Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       4
      </xref>
-     ), PL 피크의 이동은 관찰되지 않았습니다. 성장 온도가 변형을 조정하는 데 미치는 영향도 융합 실리카를 기판으로 사용하여 연구했습니다. 그림
+     ) og der blev ikke observeret noget skift af PL-toppen. Indvirkningen af væksttemperaturen for at justere strain blev også undersøgt ved hjælp af smeltet silica som substrat. Figur
      <xref ref-type="fig" rid="Fig3">
       3c
      </xref>
-     는 PL 피크 위치를 사용하여 추정된 다양한 온도에서 성장한 단층 WSe
+     viser den trækstrain i monolag WSe
      <sub>
       2
      </sub>
-     의 인장 변형을 보여줍니다. 우리는 성장 온도를 900에서 673 °C로 변경함에 따라 변형을 0.94 ± 0.06%에서 0.67 ± 0.05%로 조정할 수 있습니다. 그림
+     dyrket ved forskellige temperaturer, estimeret ved hjælp af PL-topposition. Vi er i stand til at justere strain fra 0,94 ± 0,06% til 0,67 ± 0,05% når væksttemperaturen ændres fra 900 til 673 °C. PL-spektre svarende til Fig.
      <xref ref-type="fig" rid="Fig3">
       3c
      </xref>
-     에 해당하는 PL 스펙트럼은 보충 그림
+     er vist i Supplerende Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       5
      </xref>
-     에 표시되어 있습니다
      <sup/>
      .
      <fig id="Fig3" position="float">
       <label>
-       그림 3
+       Fig. 3
       </label>
       <caption xml:lang="en">
        <p>
-        2D 재료의 변형 엔지니어링.
+        Deformationsteknik af 2D-materialer.
         <bold>
          a
         </bold>
-        다양한 열팽창 계수 불일치를 가진 기판에서 성장한 단층 WSe
+        PL-spektre for monolag WSe
         <sub>
          2
         </sub>
-        의 PL 스펙트럼.
+        som-vokset på substrater med en række termiske udvidelseskoefficient mismatches.
         <bold>
          b
         </bold>
-        기판과 TMDC 열팽창 계수 사이의 불일치에 기반하여 2D 재료에서 달성할 수 있는 추정 변형; 데이터 포인트는 다양한 열팽창 계수 불일치를 가진 기판에 대해 측정된 변형을 보여줍니다;
+        Estimeret deformation, der kan opnås i 2D-materialer baseret på mismatch mellem substratet og TMDC termiske udvidelseskoefficient; datapunkter viser målt deformation for substrater med en række termiske udvidelseskoefficient mismatches;
         <italic>
-         회색 점선
+         stiplede grå linjer
         </italic>
-        은 refs
+        er baseret på TCE-værdier for WSe
+        <sub>
+         2
+        </sub>
+        opnået fra ref
         <sup>
          <xref ref-type="bibr" rid="CR21">
           21
@@ -1900,27 +1906,27 @@
           22
          </xref>
         </sup>
-        에서 얻은 WSe
-        <sub>
-         2
-        </sub>
-        의 TCE 값을 기반으로 합니다,
+        ,
         <italic>
-         검은색 점선
+         stiplet sort linje
         </italic>
-        은 실험 데이터에 맞춘 것입니다.
+        viser tilpasning til eksperimentelle data.
         <bold>
          c
         </bold>
-        다양한 기판 온도에서 융합 실리카에서 성장한 WSe
+        Estimeret deformation realiseret i WSe
         <sub>
          2
         </sub>
-        에서 실현된 추정 변형;
+        som-vokset på smeltet silica ved forskellige substrattemperaturer;
         <italic>
-         회색 점선
+         stiplede grå linjer
         </italic>
-        은 refs
+        er baseret på TCE-værdier for WSe
+        <sub>
+         2
+        </sub>
+        opnået fra ref
         <sup>
          <xref ref-type="bibr" rid="CR21">
           21
@@ -1930,49 +1936,44 @@
           22
          </xref>
         </sup>
-        에서 얻은 WSe
-        <sub>
-         2
-        </sub>
-        의 TCE 값을 기반으로 합니다,
+        ,
         <italic>
-         검은색 점선
+         stiplet sort linje
         </italic>
-        은 실험 데이터에 맞춘 것입니다. 오류 막대는 15개의 샘플에서 측정된 변형의 표준 편차를 나타냅니다
+        viser tilpasning til eksperimentelle data. Fejlstolper angiver standardafvigelse af deformation, målt over femten prøver
        </p>
       </caption>
-      <graphic href="MediaObjects/41467_2017_516_Fig3_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig3_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
    </sec>
    <sec id="Sec5">
     <title>
-     단층 및 이중층 WSe
+     Trækspændingsingeniørarbejde af mono- og dobbeltlag WSe
      <sub>
       2
      </sub>
-     의 인장 변형 공학
     </title>
     <p id="Par11">
-     보정된 PL 측정을 사용하여 재료 품질을 평가했습니다. 우리는 융합 실리카에서 성장한 변형된 WSe
+     Kalibrerede PL-målinger blev brugt til at give en indikator for materialekvalitet. Vi finder, at spændte WSe
      <sub>
       2
      </sub>
-     단층이 박리된 WSe
+     -monolag, som er vokset på smeltet silica, viser sammenlignelig PL-intensitet med eksfolieret WSe
      <sub>
       2
      </sub>
-     와 비교할 만한 PL 강도를 보인다는 것을 발견했으며, 이는 2D 재료의 변형 공학이 재료 성능을 저하시키지 않고도 달성될 수 있음을 보여줍니다. 구체적으로, 박리된 샘플은 일반적인 양자 효율(QY)이 2.3 ± 0.4%인 반면, 융합 실리카에서 성장한 샘플은 일반적인 QY가 1.9 ± 0.6%를 보입니다. 전이 후, 성장된 재료 내의 변형이 해제되고 방출 피크가 1.65 eV로 이동하여 박리된 샘플과 거의 일치하게 됩니다. 이는 Fig.
+     , hvilket demonstrerer, at spændingsstyring af 2D-materialer kan opnås uden at gå på kompromis med materialets ydeevne. Specifikt viser eksfolierede prøver en typisk kvanteudbytte (QY) på 2,3 ± 0,4%, mens prøver dyrket på smeltet silica viser en typisk QY på 1,9 ± 0,6%. Ved overførsel frigives spændingen i det som-voksede materiale, og dets emissionspeak skifter til 1,65 eV, hvilket tæt matcher det for eksfolierede prøver, som vist i Fig.
      <xref ref-type="fig" rid="Fig4">
       4a
      </xref>
      <sup/>
-     에 나타나 있습니다. 방출 외에도, 성장된 단층의 흡수 스펙트럼이 측정되었으며 Fig.
+     . Ud over emission blev absorptionsspektret af det som-voksede monolag målt og er vist i Fig.
      <xref ref-type="fig" rid="Fig4">
       4b
      </xref>
      <sup/>
-     에 나타나 있습니다. 흡수 스펙트럼은 A 및 B 엑시톤 공명이 인장 변형의 존재로 인해 적색 이동되었음을 명확히 보여주며, 이는 관찰된 방출 이동과 일치합니다. 흥미롭게도, C 엑시톤 피크의 흡수는 성장된 샘플과 박리된 샘플 간에 이동이 없으며, 이는 박리된 단층에 대한 이전의 기계적 굽힘 실험과 일치하지만, 이 실험에서는 변형이 단축적이었다는 점을 주목해야 합니다
+     . Absorptionsspektret viser tydeligt, at A- og B-excitonresonanserne er rødskiftede med tilstedeværelsen af trækspænding og er i overensstemmelse med den observerede forskydning i emissionen. Interessant nok viser absorptionen af C-excitonpeaken ingen forskydning mellem de som-voksede og eksfolierede prøver, hvilket er i overensstemmelse med tidligere rapporterede mekaniske bøjningseksperimenter på eksfolierede monolag, selvom det skal bemærkes, at i disse eksperimenter var spændingen uniaxial
      <sup>
       <xref ref-type="bibr" rid="CR28">
        28
@@ -1981,159 +1982,135 @@
      .
      <fig id="Fig4" position="float">
       <label>
-       그림 4
+       Fig. 4
       </label>
       <caption xml:lang="en">
        <p>
-        변형 공학된 단층 및 이중층 WSe
+        Fotoluminescens af spændings-ingeniøreret monolag og bilag WSe
         <sub>
          2
         </sub>
-        의 광발광.
+        .
         <bold>
          a
         </bold>
-        성장된 단층 WSe
+        Fotoluminescensspektre af som-vokset og overført monolag WSe
         <sub>
          2
         </sub>
-        와 전이된 단층 WSe
-        <sub>
-         2
-        </sub>
-        및 박리된 참조의 광발광 스펙트럼. 삽입된 그림은 정규화된 스펙트럼을 보여줍니다.
+        samt eksfolieret reference. Indsæt viser normaliserede spektre.
         <bold>
          b
         </bold>
-        성장된 단층 WSe
+        Absorptionsspektre af som-vokset og eksfolieret monolag WSe
         <sub>
          2
         </sub>
-        와 박리된 단층 WSe
-        <sub>
-         2
-        </sub>
-        의 흡수 스펙트럼.
+        .
         <bold>
          c
         </bold>
-        성장된 이중층 WSe
+        Fotoluminescensspektre af som-vokset og overført bilag WSe
         <sub>
          2
         </sub>
-        와 전이된 이중층 WSe
+        samt eksfolieret reference; indsæt viser normaliserede PL-spektre af som-vokset og overført bilag WSe
         <sub>
          2
         </sub>
-        및 박리된 참조의 광발광 스펙트럼; 삽입된 그림은 성장된 이중층 WSe
-        <sub>
-         2
-        </sub>
-        와 전이된 이중층 WSe
-        <sub>
-         2
-        </sub>
-        의 정규화된 PL 스펙트럼을 보여줍니다.
+        .
         <bold>
          d
         </bold>
-        성장된 이중층 WSe
+        Absorptionsspektre af som-vokset og eksfolieret bilag WSe
         <sub>
          2
         </sub>
-        와 박리된 이중층 WSe
-        <sub>
-         2
-        </sub>
-        의 흡수 스펙트럼
        </p>
       </caption>
-      <graphic href="MediaObjects/41467_2017_516_Fig4_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig4_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par12">
-     더 흥미롭게도, 이전에 굽힘 실험을 통해 단축 변형률 약 1.5%를 적용하면 이중층 WSe
+     Mere interessant er det tidligere blevet demonstreret ved hjælp af bøjningseksperimenter, at under anvendelse af en uniaxial strain på ~ 1,5%, gennemgår bilag WSe
      <sub>
       2
      </sub>
-     가 간접 밴드갭에서 직접 밴드갭으로 전이한다는 것이 입증되었습니다
+     en indirekte-til-direkte båndgab overgang
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . 이 효과는 Σ 지점에서 간접 밸리의 에너지 수준이 증가하고 K 지점에서 직접 밸리의 에너지 수준이 감소함에 따라 발생합니다
+     . Denne effekt skyldes en stigning i energiniveauet for den indirekte dal ved Σ-punktet samt et tilsvarende fald i energiniveauet for den direkte dal ved K-punktet
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . 이러한 결과는 단축 변형률 하에서 얻어진 것이지만, 이축 변형률과 단축 변형률 사이의 유사한 경향이 다른 2D 물질 시스템에 대한 이론적 연구에서 관찰되었습니다
+     . Mens det er vigtigt at bemærke, at disse resultater er opnået under uniaxial strain, er lignende tendenser mellem uniaxial og biaxial strain blevet observeret i teoretiske studier på andre 2D-materialesystemer
      <sup>
       <xref ref-type="bibr" rid="CR29">
        29
       </xref>
      </sup>
-     . 그림
+     . Figur
      <xref ref-type="fig" rid="Fig4">
       4c
      </xref>
-     는 성장된 상태, 박리된 상태 및 전이된 이중층 WSe
+     viser PL-spektret af som-vokset, eksfolieret og overført bilag WSe
      <sub>
       2
      </sub>
-     의 PL 스펙트럼을 보여줍니다
      <sup/>
-     . 성장된 변형된 이중층에서는 단일 날카로운 PL 피크가 관찰되며, 이는 변형되지 않은 박리 및 전이된 샘플에서 관찰된 간접 및 직접 밴드갭에서의 방출에 해당하는 넓은 스펙트럼과 대조됩니다. 또한, 그림
+     . I det som-voksede spændte bilag observerer vi en enkelt skarp PL-top, i modsætning til et bredere spektrum svarende til emission fra både de indirekte og direkte båndgab observeret i de uspændte eksfolierede og overførte prøver. Desuden reduceres intensiteten af PL med cirka 50 gange ved overførsel og den resulterende frigivelse af trækspænding som vist i Fig.
      <xref ref-type="fig" rid="Fig4">
       4c
      </xref>
-     에서 보여지듯이, 전이 및 그에 따른 인장 변형 해제 후 PL 강도는 약 50배 감소합니다
      <sup/>
-     . 이 현상은 인장 변형이 있는 상태에서 이중층 WSe
+     . Dette fænomen kan muligvis tilskrives den optiske overgang fra indirekte-til-direkte i bilag WSe
      <sub>
       2
      </sub>
-     의 간접에서 직접으로의 광학 전이에 기인할 수 있습니다. 이는 이전의 단축 변형률을 이용한 굽힘 실험을 통한 WSe
+     i nærvær af trækspænding. Dette er i god overensstemmelse med tidligere rapporter om den indirekte-til-direkte optiske overgang af WSe
      <sub>
       2
      </sub>
-     의 간접에서 직접으로의 광학 전이에 대한 보고와 잘 일치합니다
+     gennem bøjningseksperimenter, selvom disse tidligere studier anvendte uniaxial strain
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . 전이 후 융합 실리카에서 성장된 이중층 WSe
+     . De normaliserede PL-spektre for bilag WSe
      <sub>
       2
      </sub>
-     의 정규화된 PL 스펙트럼과 사파이어에서 성장되고 박리된 변형되지 않은 샘플은 보충 그림
+     dyrket på smeltet silica efter overførsel, samt uspændte prøver dyrket på safir og forberedt ved eksfoliering, er vist i Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       6
      </xref>
-     에 나타나 있으며 매우 유사한 스펙트럼 형태를 보여줍니다. WSe
+     og viser en meget lignende spektral form. Absorptionen af WSe
      <sub>
       2
      </sub>
-     이중층 샘플의 흡수도 측정되었으며 그림
+     bilagprøver blev også målt og er vist i Fig.
      <xref ref-type="fig" rid="Fig4">
       4d
      </xref>
-     에 나타나 있습니다
      <sup/>
      .
     </p>
     <p id="Par13">
-     WSe
+     For at karakterisere WSe
      <sub>
       2
      </sub>
-     단층을 더 잘 특성화하기 위해 저온 PL 측정을 수행했습니다. 많은 연구에서 WSe
+     monolag yderligere, udførte vi lavtemperatur PL-målinger. Talrige studier har eksperimentelt observeret, at PL af monolag WSe
      <sub>
       2
      </sub>
-     단층의 PL이 온도가 낮아지면 소멸된다는 것을 실험적으로 관찰했습니다. 이러한 현상은 직접 밴드갭 반도체에서는 드문 일이며, 밝은 상태보다 약 30 meV 낮은 에너지 수준을 가진 어두운 엑시톤의 형성에 기인한다고 합니다
+     er slukket ved reducerede temperaturer. Denne adfærd er usædvanlig for en direkte båndgab halvleder og er blevet tilskrevet dannelsen af mørke excitoner med et energiniveau ~ 30 meV under den lyse tilstand
      <sup>
       <xref ref-type="bibr" rid="CR30">
        30
@@ -2143,11 +2120,11 @@
        31
       </xref>
      </sup>
-     . 저온에서는 밝은 엑시톤이 더 낮은 에너지 수준으로 이완되어 PL QY가 감소한다고 가정되었습니다. 반면에, 이론적 및 실험적 연구 모두에서 비변형 WSe
+     . Det er blevet hypotetiseret, at ved lave temperaturer tillades den lyse exciton at slappe af til det lavere energiniveau, hvilket resulterer i en reduktion af PL QY. Omvendt har både teoretiske og eksperimentelle studier foreslået, at ubelastet monolag WSe
      <sub>
       2
      </sub>
-     단층이 간접 밴드갭 반도체이며, 간접 갭과 직접 갭 사이의 에너지 차이가 작다는 것을 제안했습니다(&lt; 3kT)
+     er en indirekte-gab halvleder, med en lille (&lt; 3kT) energiforskel mellem de indirekte og direkte gab
      <sup>
       <xref ref-type="bibr" rid="CR32">
        32
@@ -2157,103 +2134,104 @@
        33
       </xref>
      </sup>
-     . 박리된 WSe
+     . Ved afkøling af eksfolierede monolag WSe
      <sub>
       2
      </sub>
-     단층 샘플을 냉각할 때, 우리는 이전에 보고된 것과 유사한 결과를 관찰했으며, 이는 저온에서 PL 방출이 감소하는 것을 보여줍니다(Fig.
+     prøver observerer vi resultater, der ligner det, der tidligere er rapporteret, som vist i indlægget af Fig.
      <xref ref-type="fig" rid="Fig5">
       5a
      </xref>
-     의 삽화 참조). 그러나 융합 실리카에서 성장한 인장 변형된 WSe
+     , hvilket er en reduktion i PL-emission ved lave temperaturer. Men i tilfælde af trækbelastet monolag WSe
      <sub>
       2
      </sub>
-     단층의 경우, 우리는 반대의 경향을 관찰했습니다(Fig.
+     som dyrket på smeltet silica observerer vi den modsatte tendens (Fig.
      <xref ref-type="fig" rid="Fig5">
       5
      </xref>
-     ). 온도가 300K에서 6K로 감소함에 따라 PL 강도가 10배 이상 증가하여 최종 PL QY가 14%에 도달했습니다(Fig.
+     ). Når temperaturen reduceres fra 300 til 6 K, øges PL-intensiteten med over en størrelsesorden, hvilket resulterer i en endelig PL QY på 14% som vist i Fig.
      <xref ref-type="fig" rid="Fig5">
       5d
      </xref>
-     참조). 온도 의존적 행동의 극적인 차이에 대한 물리적 메커니즘의 본질은 변형의 존재로 인한 밴드 구조 수정에 직접적으로 기인할 수 있습니다. 그러나 이것이 간접-직접 밴드갭 전이 때문인지 아니면 어두운 상태의 에너지 수준 증가 때문인지는 불분명합니다.
+     <sup/>
+     . Naturen af den fysiske mekanisme for den dramatiske forskel i den temperaturafhængige adfærd kan direkte tilskrives båndstrukturmodifikation på grund af tilstedeværelsen af spænding. Det er dog stadig uklart, om dette skyldes en indirekte-til-direkte båndgab overgang eller en stigning i energiniveauet af den mørke tilstand.
      <fig id="Fig5" position="float">
       <label>
-       그림 5
+       Fig. 5
       </label>
       <caption xml:lang="en">
        <p>
-        변형이 가해진 단층 WSe
+        Lavtemperatur fotoluminescens af spændings-ingeniøreret monolag WSe
         <sub>
          2
         </sub>
-        의 저온 광발광.
+        .
         <bold>
          a
         </bold>
-        성장된 단층 WSe
+        Temperaturafhængige fotoluminescensspektre af som-vokset monolag WSe
         <sub>
          2
         </sub>
-        (인장 변형)의 온도 의존적 광발광 스펙트럼, 삽화는 박리된 단층 WSe
+        (trækspændt), indsat viser den samme måling på en eksfolieret monolag WSe
         <sub>
          2
         </sub>
-        샘플에서 동일한 측정을 보여줍니다.
+        prøve.
         <bold>
          b
         </bold>
-        6K에서 측정된 성장된 (인장 변형) WSe
+        Fotoluminescensspektre af som-vokset (trækspændt) WSe
         <sub>
          2
         </sub>
-        와 박리된 WSe
+        og eksfolieret WSe
         <sub>
          2
         </sub>
-        의 광발광 스펙트럼, 삽화는 정규화된 스펙트럼을 보여줍니다.
+        målt ved 6 K, indsat viser normaliserede spektre.
         <bold>
          c
         </bold>
-        성장된 (인장 변형) 단층 WSe
+        Todimensionale plot af fotoluminescensspektre og intensitet af som-vokset (trækspændt) monolag WSe
         <sub>
          2
         </sub>
-        의 광발광 스펙트럼과 강도의 2차원 플롯.
+        .
         <bold>
          d
         </bold>
-        성장된 (인장 변형) 및 박리된 WSe
+        Temperaturafhængighed af PL QY for som-vokset (trækspændt) og eksfolieret WSe
         <sub>
          2
         </sub>
-        의 온도에 따른 PL QY의 온도 의존성
+        som en funktion af temperaturen
        </p>
       </caption>
-      <graphic href="MediaObjects/41467_2017_516_Fig5_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig5_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
    </sec>
   </sec>
   <sec id="Sec6" sec-type="discussion">
    <title>
-    토론
+    Diskussion
    </title>
    <p id="Par14">
-    요약하자면, 우리는 기판과 2D 물질 간의 TCE 불일치를 통해 성장에 의해 제어되고 안정적인 2D 물질의 변형 공학을 입증했습니다. 입증된 변형 공학은 2D 물질의 물리적 특성을 극적으로 조절할 수 있게 합니다. WSe
+    Sammenfattende har vi demonstreret kontrolleret og stabil spændingsstyring af 2D-materialer ved vækst, realiseret gennem TCE-mismatch mellem substratet og 2D-materialet. Den demonstrerede spændingsstyring muliggør dramatisk modulation af de fysiske egenskaber af 2D-materialer. Ved at bruge WSe
     <sub>
      2
     </sub>
-    를 모델 시스템으로 사용하여, 직접 성장한 WSe
+    som et modelsystem har vi opnået en spændingsinduceret indirekte-til-direkte optisk overgang i direkte dyrket WSe
     <sub>
      2
     </sub>
-    이중층에서 변형에 의해 유도된 간접-직접 광학 전이를 달성하여 PL 강도가 50배 이상 증폭되는 결과를 얻었습니다. 또한, WSe
+    dobbeltlag, hvilket resulterer i en forstærkning af PL-intensiteten med over halvtreds gange. Vi har også vist justerbar PL-emission af WSe
     <sub>
      2
     </sub>
-    단층의 조절 가능한 PL 방출을 보여주었으며, 높은 성능을 유지했습니다. 특히, 인장 변형 하의 단층 경우, 낮은 온도에서 발광이 증가하는 것을 관찰했으며, 이는 변형되지 않은 박리된 물질에서 보고된 것과는 현저히 대조적이며, 변형을 이용하여 어두운 엑시톤을 밝힐 수 있음을 시사합니다. 2D 물질에서 변형 공학을 직접 실현하는 이 실용적인 방법은 변형의 함수로서 장치 특성을 특성화할 수 있게 하며, 물리적 굽힘이나 스트레칭에 의해 변형된 샘플에서는 접근할 수 없는 광학 측정을 가능하게 합니다. 우리의 연구는 적절한 성장 기판을 선택함으로써 쉽게 달성할 수 있는 열팽창 계수의 차이를 이용하여 1% 인장에서 0.2% 압축의 이축 변형을 얻을 수 있음을 보여줍니다. 이 방법을 확장함으로써, 이방성 열팽창 계수를 가진 기판에서의 성장을 통해 단축 변형을 얻거나, 압전 기판에서의 성장을 통해 훨씬 더 높은 변형 값을 얻을 수 있을 것입니다
+    enkeltlag, mens vi opretholder dets høje ydeevne. Bemærkelsesværdigt er det, at vi i enkeltlags-tilfældet under trækspænding observerede stigende luminescens ved reducerede temperaturer, i skarp kontrast til hvad der er rapporteret i det ubelastede eksfolierede materiale, hvilket antyder, at spænding kan bruges til at oplyse den mørke exciton. Denne praktiske metode til direkte realisering af spændingsstyring i 2D-materialer kan muliggøre karakterisering af enhedens egenskaber som en funktion af spænding samt muliggøre optiske målinger, der ikke er tilgængelige for prøver belastet ved fysisk bøjning eller strækning. Vores arbejde viser, at biaxiale spændinger fra 1% træk til 0,2% kompression kan opnås ved at bruge let opnåelige forskelle i de termiske udvidelseskoefficienter ved at vælge et passende vækstsubstrat. Ved at udvide denne metode kan det være muligt at opnå uniaxial spænding via vækst på substrater med anisotrope termiske udvidelseskoefficienter eller opnå betydeligt højere spændingsværdier via vækst på piezoelektriske substrater
     <sup>
      <xref ref-type="bibr" rid="CR34">
       34
@@ -2268,64 +2246,63 @@
   </sec>
   <sec id="Sec7" sec-type="materials|methods">
    <title>
-    방법
+    Metoder
    </title>
    <sec id="Sec8">
     <title>
-     재료 성장
+     Materialevækst
     </title>
     <p id="Par15">
      WSe
      <sub>
       2
      </sub>
-     는 CVD를 사용하여 다양한 열팽창 계수를 가진 여러 기판에서 성장되었습니다. 구체적으로, 성장은 융합 실리카(비정질), 질화 알루미늄(c-면), 사파이어(c-면) 또는 티탄산 스트론튬(&lt;100&gt;)에서 수행되었습니다. 모든 기판은 전자 등급이며, 루트 평균 제곱 표면 거칠기가 &lt;10 Å입니다. 기판은 먼저 아세톤과 이소프로필 알코올에서 10분 동안 초음파 세척으로 청소되었습니다. 성장은 이중 가열 구역로(DaePoong Industry, 50602)를 사용하여 수행되었으며, 성장 설정의 개략도는 보충 그림
+     blev dyrket på flere substrater med varierende termiske udvidelseskoefficienter ved hjælp af CVD. Specifikt blev væksten udført på smeltet silica (amorft), aluminium nitride (c-plan), safir (c-plan) eller strontium titanate (&lt;100&gt;); alle substrater var af elektronisk kvalitet og har en rodmiddelkvadratisk overfladeruhed på &lt;10 Å. Substraterne blev først rengjort ved sonikering i acetone og isopropylalkohol i 10 min. Væksten blev udført ved hjælp af en to-opvarmningszone ovn (DaePoong Industry, 50602); et skematisk diagram af vækstopsætningen er vist i Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       7
      </xref>
      <sup/>
-     에 나와 있습니다. 청소된 기판은 하류 구역에 로드되었고, WO
+     . De rengjorte substrater blev indlæst i den nedstrøms zone, og en keramisk båd indeholdende en blanding af WO
      <sub>
       3
      </sub>
-     와 브롬화 칼륨(KBr) 혼합물을 포함하는 세라믹 보트가 기판 옆에 배치되었습니다. KBr은 WO
+     og kaliumbromid (KBr) blev derefter placeret ved siden af substraterne. KBr blev blandet med WO
      <sub>
       3
      </sub>
-     와 1:2 비율로 혼합되었으며, KBr은 성장을 촉진하는 역할을 합니다. 이는 참조
+     i et forhold på 1:2, hvor KBr fungerer som en promotor for væksten. Dette ligner metoder beskrevet i ref.
      <sup>
       <xref ref-type="bibr" rid="CR36">
        36
       </xref>
      </sup>
-     에 설명된 방법과 유사합니다. 그러나 우리는 여러 염을 사용할 수 있으며, 촉진제의 선택이 최종 샘플 형태를 결정하는 데 중요한 역할을 한다는 것을 발견했습니다(이는
+     . Dog fandt vi, at flere salte kan bruges, og valget af promotor har en betydelig rolle i at bestemme den endelige prøve morfologi (dette diskuteres yderligere i de
      <xref ref-type="supplementary-material" rid="MOESM1">
-      보충 방법
+      Supplerende Metoder
      </xref>
-     에서 더 논의됩니다). 사용된 촉진제와 관계없이 샘플에 존재하는 변형은 보충 그림
+     ). Det skal bemærkes, at uanset hvilken promotor der blev brugt, var den tilstedeværende spænding i prøven upåvirket som vist i Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       8
      </xref>
      <sup/>
-     에 나와 있는 것처럼 영향을 받지 않았음을 주목해야 합니다. 500 mg의 Se 분말을 포함하는 세라믹 보트가 상류 구역의 중앙에 배치되었습니다. 로딩 후, 석영 튜브가 배기되고 Ar이 60 sccm으로 도입되어 2.6 Torr의 압력이 형성되었습니다. 상류 구역의 온도는 100 °C로 상승되었고, 하류 구역의 온도는 825 °C의 설정점으로 상승되었습니다. 상류 구역의 설정점은 하류 구역의 잔여 열이 Se의 기화로 이어지도록 조정되었습니다. 하류 구역의 온도가 안정화되면, 수소가 40 sccm의 유량(총 압력 3 Torr)으로 도입됩니다. 이는 수소가 WO
+     . En keramisk båd indeholdende 500 mg Se-pulver blev placeret i midten af den opstrøms zone. Efter indlæsning blev kvartsrøret evakueret, og Ar blev introduceret ved 60 sccm, hvilket resulterede i et tryk på 2,6 Torr. Temperaturen i den opstrøms zone blev derefter hævet til 100 °C, og den nedstrøms ovn blev efterfølgende hævet til et indstillet punkt på 825 °C. Det indstillede punkt for den opstrøms zone blev justeret, så den resterende varme fra den nedstrøms zone resulterer i fordampning af Se. Når temperaturen i den nedstrøms ovn var stabiliseret, blev der introduceret hydrogen ved en strømningshastighed på 40 sccm (totaltryk på 3 Torr). Dette initierer væksten, da tilstedeværelsen af hydrogen er nødvendig for at nedbryde og fordampe WO
      <sub>
       x
      </sub>
-     를 분해하고 기화시키는 데 필요하기 때문에 성장을 시작합니다
      <sup>
       <xref ref-type="bibr" rid="CR37">
        37
       </xref>
      </sup>
-     . 사용된 성장 시간은 15분이었습니다. 성장이 완료되면, 수소 유량이 중지되고, 샘플을 빠르게 냉각하기 위해 노가 열립니다. H
+     . Den anvendte væksttid var 15 min. Når væksten er fuldført, blev hydrogenstrømmen stoppet, og ovnen blev åbnet for hurtigt at afkøle prøven. Indflydelsen af H
      <sub>
       2
      </sub>
-     /Ar 비율, 성장 시간 및 성장 압력의 영향은
+     /Ar-forholdet, væksttid og væksttryk diskuteres i de
      <xref ref-type="supplementary-material" rid="MOESM1">
-      보충 방법
+      Supplerende Metoder
      </xref>
-     에서 논의되며, 보충 그림
+     og vises i Supplementary Figs
      <xref ref-type="supplementary-material" rid="MOESM1">
       9
      </xref>
@@ -2334,85 +2311,85 @@
       11
      </xref>
      <sup/>
-     에 나와 있습니다. 다양한 기판에서 성장한 샘플의 광학 현미경 이미지는 보충 그림
+     . Optiske mikroskopbilleder af prøver dyrket på forskellige substrater er vist i Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       12
      </xref>
      <sup/>
-     에 나와 있습니다. 특정 성장 조건은 성장된 샘플의 PL QY를 최적화하고 이중층 또는 단일층 도메인의 성장을 촉진하도록 조정되었습니다(이는
+     . Specifikke vækstbetingelser blev justeret for at optimere PL QY af de som-dyrkede prøver og for enten at fremme væksten af dobbeltlags- eller enkeltlagsdomæner (diskuteret i
      <xref ref-type="supplementary-material" rid="MOESM1">
-      보충 방법
+      Supplerende Metoder
      </xref>
-     에서 논의됩니다). 기판 온도가 변동된 성장을 위해 WO
+     ). Det skal bemærkes, at for vækster, hvor substratets temperatur blev varieret, blev WO
      <sub>
       3
      </sub>
-     /KBr 보트는 첫 번째 가열 구역의 중앙에 배치되었고, Se 보트는 첫 번째 가열 구역의 가장자리에 배치되었습니다. 기판은 두 번째 가열 구역의 중앙에 배치되었습니다. Se 보트의 위치는 온도를 조절하기 위해 조정되었습니다. 성장된 WSe
+     /KBr-båden placeret i midten af den første opvarmningszone, og Se-båden blev placeret ved kanten af den første opvarmningszone. Substraterne blev placeret i midten af den anden opvarmningszone. Positionen af Se-båden blev justeret for at kontrollere temperaturen. Overførsel af dyrket WSe
      <sub>
       2
      </sub>
-     의 전이는 PMMA를 전이 매체로 사용하는 HF 기반의 습식 전이 기술을 사용하여 수행되며, 참조
+     udføres ved hjælp af en HF-baseret våd overførselsteknik med PMMA som overførselsmedium ved hjælp af den specifikke procedure beskrevet i ref.
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
      </sup>
-     에 설명된 특정 절차를 따릅니다. 융합 실리카에서 성장된 CVD WSe
+     . Den elektriske ydeevne af CVD WSe
      <sub>
       2
      </sub>
-     의 전기적 성능은 Si/SiO
+     dyrket på smeltet silica og overført til Si/SiO
      <sub>
       2
      </sub>
-     로 전이된 것과 박리된 샘플의 성능과 비교되며, 보충 그림
+     sammenlignes også med den for eksfolierede prøver, og er vist i Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       13
      </xref>
      <sup/>
-     에 나와 있습니다.
+     .
     </p>
    </sec>
    <sec id="Sec9">
     <title>
-     투과 전자 현미경
+     Transmissionselektronmikroskopi
     </title>
     <p id="Par16">
      WSe
      <sub>
       2
      </sub>
-     단일층은 각각 변형된 샘플과 변형되지 않은 샘플의 격자 상수를 직접 측정하기 위해 전자 회절 측정을 위해 8 nm 두께의 SiO
+     -monolag blev direkte dyrket og overført på 8 nm tykke SiO
      <sub>
       2
      </sub>
-     막(테드 펠라) 위에 직접 성장 및 전사되었습니다. 전자 회절 측정은 평행 빔 조명으로 80 kV에서 작동하는 FEI Titan 60–300 현미경을 사용하여 LBNL의 국립 전자 현미경 센터에서 수행되었습니다.
+     -membraner (Ted Pella) til elektron-diffraktionsmålinger for direkte at måle gitterkonstanten af de spændte og uspændte prøver, henholdsvis. Elektron-diffraktionsmålinger blev udført ved National Center for Electron Microscopy ved LBNL ved hjælp af et FEI Titan 60–300 mikroskop, der blev betjent ved 80 kV med parallel strålebelysning.
     </p>
    </sec>
    <sec id="Sec10">
     <title>
-     광학 특성화
+     Optisk karakterisering
     </title>
     <p id="Par17">
-     이 연구에서 제시된 PL 데이터는 ref.
+     De PL-data, der præsenteres i dette arbejde, blev opnået ved hjælp af et specialbygget mikro-PL-instrument beskrevet i detaljer i ref.
      <sup>
       <xref ref-type="bibr" rid="CR1">
        1
       </xref>
      </sup>
-     에 자세히 설명된 맞춤형 마이크로-PL 장비를 사용하여 얻었습니다. 간단히 말해, 측정은 Ar 레이저(Lexel 95)의 연속파 514.5 nm 라인을 사용하여 수행되었으며, 레이저 출력은 중성 밀도 필터를 사용하여 조정되었습니다. 레이저는 80 × 대물렌즈(NA = 0.9)를 사용하여 샘플에 초점을 맞췄습니다. PL 신호는 동일한 대물렌즈를 사용하여 측정되었고, 550 nm 유전체 롱패스 필터를 통과한 후, 150 g mm 회절격자를 가진
+     . Kort sagt blev målingerne udført ved hjælp af den kontinuerlige bølge 514,5 nm linje af en Ar-laser (Lexel 95), og laserstyrken blev justeret ved hjælp af neutrale densitetsfiltre. Laseren blev fokuseret på prøven ved hjælp af en 80 × objektivlinse (NA = 0,9). PL-signalet blev målt ved hjælp af den samme objektivlinse, passeret gennem et 550 nm dielektrisk longpass-filter, spredt af en
      <italic>
       f
      </italic>
-     = 340 mm 분광기로 분산되어 Si CCD 카메라(Andor iDus BEX2-DD)로 감지되었습니다. 각 측정 전에 CCD 배경이 얻어졌고, 이후 PL 획득에서 차감되었습니다. 파장에 따른 장비의 민감도(장비 함수)는 온도 안정화 램프(ThorLabs SLS201)에서 확산 반사체(Spectralon)에 이미징된 조명을 통해 생성된 가상 램버시안 흑체 소스를 측정하여 결정되었습니다. 시스템 효율성은 550 nm 롱패스 필터를 제거한 상태에서 확산 반사체(Spectralon)에 초점을 맞춘 여기 레이저의 응답을 측정하여 결정되었습니다. 측정된 외부 양자 효율은 펌프 파장에서의 샘플 흡수와 샘플에서 탈출할 수 있는 빛의 비율(1/4
+     = 340 mm spektrometer med et 150 g mm gitter, og detekteret ved hjælp af et Si CCD-kamera (Andor iDus BEX2-DD). Før hver måling blev CCD-baggrunden opnået og efterfølgende trukket fra PL-optagelsen. Instrumentets følsomhed som en funktion af bølgelængde (instrumentfunktion) blev bestemt gennem måling af en virtuel Lambertian sortlegeme kilde under objektivet, skabt ved at afbilde belysningen fra en temperaturstabiliseret lampe (ThorLabs SLS201) på en diffus reflektor (Spectralon). Systemets effektivitet blev bestemt ved at måle responsen af excitationslaseren fokuseret på en diffus reflektor (Spectralon), med 550 nm longpass-filteret fjernet. Den målte eksterne kvanteeffektivitet blev konverteret til QY ved hjælp af prøveabsorption ved pumpens bølgelængde og fraktionen af lys, der er i stand til at undslippe prøven (1/4
      <italic>
       n
      </italic>
-     , 여기서
+     , hvor
      <italic>
       n
      </italic>
-     은 매질의 굴절률)을 사용하여 QY로 변환되었습니다. 이 연구에서 보여준 모든 측정은 1.5 W cm의 입사 전력(200 nW의 레이저 출력에 해당)에서 수행되었습니다. 이 레이저 출력은 WSe
+     er brydningsindekset for mediet). Alle målinger vist i dette arbejde blev udført ved en indfaldende effekt på 1,5 W cm (svarende til en lasereffekt på 200 nW). Denne lasereffekt er betydeligt under begyndelsen af biexcitonisk rekombination i WSe
      <sub>
       2
      </sub>
@@ -2421,20 +2398,20 @@
        38
       </xref>
      </sup>
-     에서의 이중 여기 재결합의 시작점보다 상당히 낮습니다. 저온 측정은 인프라실 창이 있는 마이크로-크라이오스탯(Janis)에서 긴 작업 거리 50 × 대물렌즈를 사용하여 수행되었습니다. 이전에 설명된 절차를 사용하여 샘플 PL 효율을 계산했습니다. 샘플의 균일성을 확인하기 위해 PL 이미징이 수행되었습니다. 측정은 470 nm 발광 다이오드를 여기 소스로 사용하고 CCD 검출기(Andor Luca)를 사용하는 형광 현미경 설정을 사용하여 수행되었습니다. WSe
+     . Lavtemperaturmålinger blev udført ved hjælp af en lang arbejdsafstand 50 × objektivlinse i en mikro-cryostat (Janis) med et infrasil-vindue. Den tidligere beskrevne procedure blev brugt til at beregne prøve-PL-effektiviteten. PL-afbildning blev udført på prøverne for at bestemme deres ensartethed. Målinger blev udført ved hjælp af et fluorescensmikroskopi-setup ved hjælp af en 470 nm lysdiode som excitationskilde og en CCD-detektor (Andor Luca). Raman-målinger og højopløsningskortlægning blev udført for at karakterisere spændingen i WSe
      <sub>
       2
      </sub>
      <sup/>
-     의 변형을 특성화하기 위해 라만 측정 및 고해상도 매핑이 수행되었습니다. 라만 스펙트럼은 피에조 전기 스캐닝 스테이지가 장착된 WITec Alpha 300RA를 사용하여 얻었습니다. 샘플은 532 nm 라인의 주파수 이중화 Nd:YAG 레이저를 여기 소스로 사용하여 여기되었고, 100 × 대물렌즈를 사용하여 샘플에 초점을 맞췄습니다.
+     . Raman-spektre blev opnået ved hjælp af en WITec Alpha 300RA udstyret med en piezoelektrisk scanningsplatform. Prøven blev exciteret ved hjælp af 532 nm linjen af en frekvensfordoblet Nd:YAG-laser som excitationskilde og fokuseret på prøven ved hjælp af en 100 × objektiv.
     </p>
    </sec>
    <sec id="Sec11">
     <title>
-     데이터 가용성
+     Tilgængelighed af data
     </title>
     <p id="Par18">
-     이 연구의 결과를 뒷받침하는 데이터는 요청 시 교신 저자로부터 제공됩니다.
+     De data, der understøtter resultaterne af denne undersøgelse, er tilgængelige fra den korresponderende forfatter efter anmodning.
     </p>
    </sec>
   </sec>
@@ -2442,28 +2419,28 @@
  <back>
   <ack>
    <title>
-    감사의 글
+    Anerkendelser
    </title>
    <p>
-    저자들은 VASP와 인터페이스하는 그의 탄성 상수 코드를 제공해 준 Ian S. Winter에게 감사의 뜻을 전하고자 합니다. 재료 성장, 특성화 및 모델링은 미국 에너지부 과학국 기초 에너지 과학국 재료 과학 및 공학 부서의 전자 재료 프로그램(KC1201) 내 계약 번호 DE-AC02-05CH11231에 따라 지원받았습니다. 전자 현미경 분석은 미국 에너지부 과학국 기초 에너지 과학국의 지원을 받는 Molecular Foundry에서 수행되었습니다. 계약 번호는 DE-AC02-05CH11231입니다.
+    Forfatterne vil gerne takke Ian S. Winter for at give dem hans elastiske konstantkode, der interagerer med VASP. Materialevækst, karakterisering og modellering blev støttet af det amerikanske energiministerium, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division under kontrakt nr. DE-AC02-05CH11231 inden for Electronic Materials Program (KC1201). Elektronmikroskopi blev udført på Molecular Foundry, som er støttet af Office of Science, Office of Basic Energy Sciences, af det amerikanske energiministerium under kontrakt nr. DE-AC02-05CH11231.
    </p>
   </ack>
   <sec sec-type="author-contribution">
    <title>
-    저자 기여
+    Forfatterbidrag
    </title>
    <p>
-    G.H.A., M.A. 및 A.J.는 프로젝트 아이디어를 구상하고 실험을 설계했습니다. G.H.A.는 WSe
+    G.H.A., M.A. og A.J. udtænkte ideen til projektet og designede eksperimenterne. G.H.A. udførte syntesen af WSe
     <sub>
      2
     </sub>
-    의 합성을 수행했습니다. G.H.A., M.A. 및 D.-H.L.는 광학 특성화를 수행했습니다. H.R. 및 A.M.M.는 전자 회절 측정을 수행했습니다. J.P.M. 및 D.C.C.는 모델링 및 시뮬레이션을 수행했습니다. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. 및 A.J.는 데이터를 분석했습니다. G.H.A., M.A. 및 A.J.는 원고를 작성했습니다. 모든 저자는 결과를 논의하고 원고에 대해 의견을 제시했습니다.
+    . G.H.A., M.A. og D.-H.L. udførte de optiske karakteriseringer. H.R. og A.M.M. udførte elektron diffraktionsmålinger. J.P.M. og D.C.C. udførte modellering og simuleringer. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. og A.J. analyserede dataene. G.H.A., M.A. og A.J. skrev manuskriptet. Alle forfattere diskuterede resultaterne og kommenterede på manuskriptet.
    </p>
   </sec>
   <sec sec-type="ethics-statement">
    <sec id="FPar1" sec-type="COI-statement">
     <title>
-     경쟁 이해관계
+     Konkurrerende interesser
     </title>
     <p id="Par19">
      The authors declare no competing financial interests.
@@ -2472,7 +2449,7 @@
   </sec>
   <ref-list id="Bib1">
    <title>
-    참고 문헌
+    Referencer
    </title>
    <ref-list>
     <ref id="CR1">
@@ -4460,7 +4437,7 @@
    <app id="App1" specific-use="web-only">
     <sec id="Sec12">
      <title>
-      전자 보충 자료
+      Elektronisk supplerende materiale
      </title>
      <p id="Par20">
       <supplementary-material content-type="local-data" id="MOESM1" xlink:title="Electronic supplementary material">
@@ -4478,7 +4455,7 @@
   </app-group>
   <notes notes-type="ESMHint">
    <title>
-    전자 보충 자료
+    Elektronisk supplerende materiale
    </title>
    <p>
     <bold>

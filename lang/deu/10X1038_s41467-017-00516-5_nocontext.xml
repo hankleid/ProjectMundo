@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="jats-html.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" specific-use="web-only" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -61,7 +61,7 @@
    </article-categories>
    <title-group>
     <article-title xml:lang="en">
-     Strain-engineered growth of two-dimensional materials
+     Spannungsoptimiertes Wachstum zweidimensionaler Materialien
     </article-title>
    </title-group>
    <contrib-group>
@@ -517,18 +517,18 @@
    </permissions>
    <abstract id="Abs1" xml:lang="en">
     <title>
-     Abstract
+     Zusammenfassung
     </title>
     <p id="Par1">
-     The application of strain to semiconductors allows for controlled modification of their band structure. This principle is employed for the manufacturing of devices ranging from high-performance transistors to solid-state lasers. Traditionally, strain is typically achieved via growth on lattice-mismatched substrates. For two-dimensional (2D) semiconductors, this is not feasible as they typically do not interact epitaxially with the substrate. Here, we demonstrate controlled strain engineering of 2D semiconductors during synthesis by utilizing the thermal coefficient of expansion mismatch between the substrate and semiconductor. Using WSe
+     Die Anwendung von Dehnung auf Halbleiter ermöglicht eine kontrollierte Modifikation ihrer Bandstruktur. Dieses Prinzip wird bei der Herstellung von Geräten eingesetzt, die von Hochleistungstransistoren bis zu Festkörperlasern reichen. Traditionell wird Dehnung typischerweise durch Wachstum auf substraten mit Gitterfehlanpassung erreicht. Für zweidimensionale (2D) Halbleiter ist dies nicht machbar, da sie typischerweise nicht epitaktisch mit dem Substrat interagieren. Hier demonstrieren wir die kontrollierte Spannungssteuerung von 2D-Halbleitern während der Synthese durch Nutzung des Unterschieds im thermischen Ausdehnungskoeffizienten zwischen Substrat und Halbleiter. Mit WSe
      <sub>
       2
      </sub>
-     as a model system, we demonstrate stable built-in strains ranging from 1% tensile to 0.2% compressive on substrates with different thermal coefficient of expansion. Consequently, we observe a dramatic modulation of the band structure, manifested by a strain-driven indirect-to-direct bandgap transition and brightening of the dark exciton in bilayer and monolayer WSe
+     als Modellsystem zeigen wir stabile eingebaute Spannungen, die von 1% Zugspannung bis zu 0,2% Druckspannung auf Substraten mit unterschiedlichen thermischen Ausdehnungskoeffizienten reichen. Folglich beobachten wir eine dramatische Modulation der Bandstruktur, die sich in einem spannungsgetriebenen Übergang von einem indirekten zu einem direkten Bandabstand und einer Aufhellung des dunklen Exzitons in bilagigem und einlagigem WSe
      <sub>
       2
      </sub>
-     , respectively. The growth method developed here should enable flexibility in design of more sophisticated devices based on 2D materials.
+     manifestiert. Die hier entwickelte Wachstumsmethode sollte Flexibilität im Design anspruchsvollerer Geräte auf Basis von 2D-Materialien ermöglichen.
     </p>
    </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" specific-use="web-only" xml:lang="en">
@@ -823,10 +823,10 @@
  <body>
   <sec id="Sec1" sec-type="introduction">
    <title>
-    Introduction
+    Einleitung
    </title>
    <p id="Par3">
-    Two-dimensional (2D) transition metal dichalcogenides (TMDCs) have been the subject of focused research owing to their potential applications in optoelectronics and sub 10 nm transistors
+    Zweidimensionale (2D) Übergangsmetall-Dichalcogenide (TMDCs) sind aufgrund ihrer potenziellen Anwendungen in der Optoelektronik und in Transistoren unter 10 nm Gegenstand intensiver Forschung
     <sup>
      <xref ref-type="bibr" rid="CR1">
       1
@@ -836,15 +836,15 @@
       2
      </xref>
     </sup>
-    . The primary attraction of TMDCs such as MoS
+    . Der Hauptanziehungspunkt von TMDCs wie MoS
     <sub>
      2
     </sub>
-    and WSe
+    und WSe
     <sub>
      2
     </sub>
-    for both applications is their naturally terminated surface, which allows them to be scaled down to the atomic limit without the concern of surface dangling bonds. Furthermore, in many 2D materials, a number of desirable properties emerge at the monolayer limit, the most notable of which being the presence of a direct bandgap. Many studies based on mechanical bending of exfoliated 2D TMDCs have been conducted on flexible substrates, and they have shown that the application of strain can tune the properties of this new class of materials
+    für beide Anwendungen ist ihre natürlich terminierte Oberfläche, die es ihnen ermöglicht, bis zur atomaren Grenze skaliert zu werden, ohne dass Oberflächen-Dangling-Bonds ein Problem darstellen. Darüber hinaus treten in vielen 2D-Materialien eine Reihe wünschenswerter Eigenschaften im Monolayer-Limit auf, von denen die bemerkenswerteste das Vorhandensein einer direkten Bandlücke ist. Viele Studien basierend auf mechanischem Biegen von exfolierten 2D-TMDCs wurden auf flexiblen Substraten durchgeführt, und sie haben gezeigt, dass die Anwendung von Dehnung die Eigenschaften dieser neuen Materialklasse abstimmen kann
     <sup>
      <xref ref-type="bibr" rid="CR3">
       3
@@ -857,29 +857,29 @@
      <xref ref-type="bibr" rid="CR5">
       5
      </xref>
-     –
+     ,
      <xref ref-type="bibr" rid="CR6">
       6
      </xref>
     </sup>
-    . For example, it has been demonstrated that in multilayer WSe
+    . Zum Beispiel wurde gezeigt, dass in mehrschichtigem WSe
     <sub>
      2
     </sub>
-    , particularly in nominally indirect-gap bilayer WSe
+    , insbesondere in nominal indirekt-gapigem Doppelschicht-WSe
     <sub>
      2
     </sub>
-    , application of tensile strain can result in a transition from an indirect-to-direct bandgap
+    , die Anwendung von Zugspannung zu einem Übergang von einer indirekten zu einer direkten Bandlücke führen kann
     <sup>
      <xref ref-type="bibr" rid="CR7">
       7
      </xref>
     </sup>
-    . However, studies on the effects of strain in TMDCs have been limited to mechanical bending of samples, and there has yet to be a technique, which can directly realize built-in tensile and compressive strains.
+    . Allerdings beschränken sich Studien zu den Auswirkungen von Dehnung in TMDCs auf das mechanische Biegen von Proben, und es gibt noch keine Technik, die direkt eingebaute Zug- und Druckspannungen realisieren kann.
    </p>
    <p id="Par4">
-    Traditionally, strain engineering of semiconductors has been leveraged to tune the electronic band structure of high-performance devices, the most notable of which being to reduce intervalley scattering, increase mobility in Si transistors, and reduce the hole effective mass in III–V semiconductor lasers
+    Traditionell wurde das Strain-Engineering von Halbleitern genutzt, um die elektronische Bandstruktur von Hochleistungsgeräten zu optimieren, wobei die bemerkenswertesten Anwendungen die Reduzierung der Intervallstreuung, die Erhöhung der Mobilität in Si-Transistoren und die Verringerung der effektiven Lochmasse in III-V-Halbleiterlasern sind
     <sup>
      <xref ref-type="bibr" rid="CR8">
       8
@@ -889,13 +889,13 @@
       9
      </xref>
     </sup>
-    . Growth on epitaxial substrates with a controlled lattice constant mismatch has typically been utilized to establish built-in strain in three-dimensional semiconductors
+    . Das Wachstum auf epitaktischen Substraten mit einer kontrollierten Gitterkonstanten-Mismatch wurde typischerweise genutzt, um eingebaute Spannungen in dreidimensionalen Halbleitern zu etablieren
     <sup>
      <xref ref-type="bibr" rid="CR10">
       10
      </xref>
     </sup>
-    . However, due to the relatively weak interaction between 2D materials and substrates, this established method of strain engineering is likely not applicable for the strain-engineered growth of TMDCs. Therefore, a route toward development of large-area strained TMDCs on a practical substrate is highly desirable. Significant research efforts have been made to realize large area TMDCs, with the majority of efforts focusing on chemical vapor deposition (CVD)
+    . Aufgrund der relativ schwachen Wechselwirkung zwischen 2D-Materialien und Substraten ist diese etablierte Methode des Strain-Engineerings jedoch wahrscheinlich nicht anwendbar für das spannungsoptimierte Wachstum von TMDCs. Daher ist ein Weg zur Entwicklung großflächiger gespannter TMDCs auf einem praktischen Substrat sehr wünschenswert. Bedeutende Forschungsanstrengungen wurden unternommen, um großflächige TMDCs zu realisieren, wobei sich die Mehrheit der Bemühungen auf die chemische Gasphasenabscheidung (CVD) konzentriert
     <sup>
      <xref ref-type="bibr" rid="CR11">
       11
@@ -904,12 +904,12 @@
      <xref ref-type="bibr" rid="CR12">
       12
      </xref>
-     –
+     ,
      <xref ref-type="bibr" rid="CR13">
       13
      </xref>
     </sup>
-    . Interestingly, a number of studies employing CVD growth of 2D materials have reported apparent strain in the synthesized samples
+    . Interessanterweise haben eine Reihe von Studien, die das CVD-Wachstum von 2D-Materialien verwenden, eine offensichtliche Spannung in den synthetisierten Proben berichtet
     <sup>
      <xref ref-type="bibr" rid="CR14">
       14
@@ -919,285 +919,286 @@
       15
      </xref>
     </sup>
-    . However, growth of high-quality 2D materials with controllable built-in strain has not been realized. Hence, properties that are difficult to probe via mechanical bending experiments, such as low-temperature optical measurements and electrical performance, have yet to be explored.
+    . Allerdings wurde das Wachstum von hochwertigen 2D-Materialien mit kontrollierbarer eingebauter Spannung noch nicht realisiert. Daher müssen Eigenschaften, die schwer über mechanische Biegeexperimente zu untersuchen sind, wie z.B. optische Messungen bei niedrigen Temperaturen und elektrische Leistung, noch erforscht werden.
    </p>
    <p id="Par5">
-    In this work, we demonstrate strain engineering of 2D materials directly via CVD growth while simultaneously maintaining high material quality, by utilizing the thermal coefficient of expansion (TCE) mismatch between the TMDC and the growth substrate. Electron diffraction of strained monolayers grown directly onto transmission electron microscopy (TEM) windows is utilized to unambiguously quantify strain. Using WSe
+    In dieser Arbeit demonstrieren wir das Spannungs-Engineering von 2D-Materialien direkt über das CVD-Wachstum, während wir gleichzeitig eine hohe Materialqualität beibehalten, indem wir das thermische Ausdehnungskoeffizienten-Missverhältnis (TCE) zwischen dem TMDC und dem Wachstums-Substrat nutzen. Elektronenbeugung von direkt auf Transmissionselektronenmikroskopie (TEM) Fenstern gewachsenen, gespannten Monolagen wird verwendet, um die Spannung eindeutig zu quantifizieren. Mit WSe
     <sub>
      2
     </sub>
-    as a model system, we show that it is possible to obtain both tensile (of ~ 1%) and compressive (0.2%) strained 2D semiconductors over large areas on rigid substrates. Furthermore, in the WSe
+    als Modellsystem zeigen wir, dass es möglich ist, sowohl Zugspannungen (von ~ 1%) als auch Druckspannungen (0,2%) in 2D-Halbleitern über große Flächen auf starren Substraten zu erzielen. Darüber hinaus zeigen wir im WSe
     <sub>
      2
     </sub>
-    model system we show indirect-to-direct optical transition in tensile strained WSe
+    Modellsystem einen indirekt-zu-direkt optischen Übergang in zugbelasteten WSe
     <sub>
      2
     </sub>
-    bilayers as well as removal of dark exciton quenching in WSe
+    Doppellagen sowie die Beseitigung der Dunkel-Exziton-Löschung in WSe
     <sub>
      2
     </sub>
-    monolayers.
+    Monolagen.
    </p>
   </sec>
   <sec id="Sec2" sec-type="results">
    <title>
-    Results
+    Ergebnisse
    </title>
    <sec id="Sec3">
     <title>
-     TCE-mismatch induced strain
+     TCE-Mismatch-induzierte Dehnung
     </title>
     <p id="Par6">
-     Owing to the high growth temperatures used to synthesize TMDCs, the TCE mismatch between the substrate and the 2D semiconductor can be utilized to control the strain in the synthesized 2D material, as shown schematically in Fig.
+     Aufgrund der hohen Wachstumstemperaturen, die zur Synthese von TMDCs verwendet werden, kann das TCE-Missverhältnis zwischen dem Substrat und dem 2D-Halbleiter genutzt werden, um die Spannung im synthetisierten 2D-Material zu kontrollieren, wie schematisch in Fig.
      <xref ref-type="fig" rid="Fig1">
       1
      </xref>
-     . The theoretical upper limit for the strain, assuming no relaxation, can be calculated using the difference in lattice constant of the substrate and 2D semiconductor at room temperature and synthesis temperature:
+     <sup/>
+     gezeigt. Das theoretische obere Limit für die Spannung, unter der Annahme keiner Entspannung, kann unter Verwendung des Unterschieds in der Gitterkonstante des Substrats und des 2D-Halbleiters bei Raumtemperatur und Synthesetemperatur berechnet werden:
      <disp-formula id="Equ1">
       <label>
        1
       </label>
       <alternatives>
-       <mml:math display="block" id="Equ1_Math">
-        <mml:mi>
+       <math display="block" id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          ε
-        </mml:mi>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi mathvariant="normal">
+            </mn>
+            <mi mathvariant="normal">
              D
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:msub>
-             <mml:mrow>
-              <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>
                T
-              </mml:mi>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mi mathvariant="normal">
+              </mi>
+             </mrow>
+             <mrow>
+              <mi mathvariant="normal">
                g
-              </mml:mi>
-             </mml:mrow>
-            </mml:msub>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+              </mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfenced>
+          <mo>
            -
-          </mml:mo>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mo>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi mathvariant="normal">
+            </mn>
+            <mi mathvariant="normal">
              D
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi mathvariant="normal">
+            </mn>
+            <mi mathvariant="normal">
              D
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-        </mml:mfrac>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+        </mfrac>
+        <mo>
          -
-        </mml:mo>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              Sub
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:msub>
-             <mml:mrow>
-              <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>
                T
-              </mml:mi>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mi mathvariant="normal">
+              </mi>
+             </mrow>
+             <mrow>
+              <mi mathvariant="normal">
                g
-              </mml:mi>
-             </mml:mrow>
-            </mml:msub>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+              </mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfenced>
+          <mo>
            -
-          </mml:mo>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mo>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              Sub
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              a
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              Sub
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mfenced close=")" open="(" separators="">
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+          </msub>
+          <mfenced close=")" open="(" separators="">
+           <mrow>
+            <mn>
              25
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mspace width="0.3em"/>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mo>
+            </mn>
+            <msup>
+             <mrow>
+              <mspace width="0.3em"/>
+             </mrow>
+             <mrow>
+              <mo>
                ∘
-              </mml:mo>
-             </mml:mrow>
-            </mml:msup>
-            <mml:mi mathvariant="normal">
+              </mo>
+             </mrow>
+            </msup>
+            <mi mathvariant="normal">
              C
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-         </mml:mrow>
-        </mml:mfrac>
-       </mml:math>
+            </mi>
+           </mrow>
+          </mfenced>
+         </mrow>
+        </mfrac>
+       </math>
        <tex-math id="Equ1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1210,208 +1211,208 @@
 				\setlength{\oddsidemargin}{-69pt}
 				\begin{document}$$\varepsilon \left( {{T_{\rm{g}}}} \right) = \frac{{{a_{2{\rm{D}}}}\left( {{T_{\rm{g}}}} \right) - {a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{2{\rm{D}}}}\left( {25\,^\circ {\rm{C}}} \right)}} - \frac{{{a_{{\rm{Sub}}}}\left( {{T_{\rm{g}}}} \right) - {a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}{{{a_{{\rm{Sub}}}}\left( {25\,^\circ {\rm{C}}} \right)}}$$\end{document}
        </tex-math>
-       <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2017_516_Article_Equ1.gif"/>
+       <graphic href="41467_2017_516_Article_Equ1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </disp-formula>
-     where
+     wobei
      <italic>
       a
      </italic>
      <sub>
       2D
      </sub>
-     is the in-plane lattice constant for the 2D material being grown,
+     die in-plane Gitterkonstante für das wachsende 2D-Material ist,
      <italic>
       a
      </italic>
      <sub>
       Sub
      </sub>
-     is the in-plane lattice constant of the substrate, and
+     die in-plane Gitterkonstante des Substrats ist und
      <italic>
       T
      </italic>
      <sub>
       g
      </sub>
-     is the growth temperature. More generally, this can be calculated using the temperature dependent thermal expansion coefficient for the 2D material (
+     die Wachstumstemperatur ist. Allgemeiner kann dies unter Verwendung des temperaturabhängigen thermischen Ausdehnungskoeffizienten für das 2D-Material (
      <italic>
       α
      </italic>
      <sub>
       2D
      </sub>
-     ) and substrate (
+     ) und das Substrat (
      <italic>
       α
      </italic>
      <sub>
       Sub
      </sub>
-     ) according to:
+     ) gemäß berechnet werden:
      <disp-formula id="Equ2">
       <label>
        2
       </label>
       <alternatives>
-       <mml:math display="block" id="Equ2_Math">
-        <mml:mi>
+       <math display="block" id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          ε
-        </mml:mi>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+        </mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:munderover accent="false" accentunder="false">
-         <mml:mrow>
-          <mml:mo>
+        </mo>
+        <munderover accent="false" accentunder="false">
+         <mrow>
+          <mo>
            ∫
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mo>
+         </mrow>
+         <mrow>
+          <mn>
            25
-          </mml:mn>
-          <mml:msup>
-           <mml:mrow>
-            <mml:mspace width="0.3em"/>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo>
+          </mn>
+          <msup>
+           <mrow>
+            <mspace width="0.3em"/>
+           </mrow>
+           <mrow>
+            <mo>
              ∘
-            </mml:mo>
-           </mml:mrow>
-          </mml:msup>
-          <mml:mi mathvariant="normal">
+            </mo>
+           </mrow>
+          </msup>
+          <mi mathvariant="normal">
            C
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:munderover>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </munderover>
+        <msub>
+         <mrow>
+          <mi>
            α
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-          <mml:mi mathvariant="normal">
+          </mn>
+          <mi mathvariant="normal">
            D
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+        </msub>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <mi>
            T
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mi mathvariant="normal">
+          </mi>
+         </mrow>
+        </mfenced>
+        <mi mathvariant="normal">
          d
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          T
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          -
-        </mml:mo>
-        <mml:munderover accent="false" accentunder="false">
-         <mml:mrow>
-          <mml:mo>
+        </mo>
+        <munderover accent="false" accentunder="false">
+         <mrow>
+          <mo>
            ∫
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mo>
+         </mrow>
+         <mrow>
+          <mn>
            25
-          </mml:mn>
-          <mml:msup>
-           <mml:mrow>
-            <mml:mspace width="0.3em"/>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo>
+          </mn>
+          <msup>
+           <mrow>
+            <mspace width="0.3em"/>
+           </mrow>
+           <mrow>
+            <mo>
              ∘
-            </mml:mo>
-           </mml:mrow>
-          </mml:msup>
-          <mml:mi mathvariant="normal">
+            </mo>
+           </mrow>
+          </msup>
+          <mi mathvariant="normal">
            C
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">
              g
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:munderover>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </munderover>
+        <msub>
+         <mrow>
+          <mi>
            α
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+          </mi>
+         </mrow>
+         <mrow>
+          <mi mathvariant="normal">
            Sub
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+        </msub>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <mi>
            T
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mi mathvariant="normal">
+          </mi>
+         </mrow>
+        </mfenced>
+        <mi mathvariant="normal">
          d
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          T
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="Equ2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1424,7 +1425,7 @@
 				\setlength{\oddsidemargin}{-69pt}
 				\begin{document}$$\varepsilon \left( {{T_{\rm{g}}}} \right) = \mathop {\int}\limits_{25\,^\circ {\rm{C}}}^{{T_{\rm{g}}}} {{\alpha _{2{\rm{D}}}}\left( T \right){\rm{d}}T} - \mathop {\int}\limits_{25\,^\circ {\rm{C}}}^{{T_{\rm{g}}}} {{\alpha _{{\rm{Sub}}}}\left( T \right){\rm{d}}T}$$\end{document}
        </tex-math>
-       <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2017_516_Article_Equ2.gif"/>
+       <graphic href="41467_2017_516_Article_Equ2.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </disp-formula>
      <fig id="Fig1" position="float">
@@ -1433,62 +1434,61 @@
       </label>
       <caption xml:lang="en">
        <p>
-        Strain-engineered growth of WSe
+        Spannungsoptimiertes Wachstum von WSe
         <sub>
          2
         </sub>
-        using TCE-mismatch. Schematic of the process through which strain is realized during the growth of 2D materials via mismatch in substrate and TMDC thermal expansion coefficient.
+        unter Verwendung von TCE-Mismatch. Schematische Darstellung des Prozesses, durch den Spannung während des Wachstums von 2D-Materialien durch Mismatch im thermischen Ausdehnungskoeffizienten von Substrat und TMDC realisiert wird.
         <bold>
          a
         </bold>
-        Tensile strain is achieved when the TCE of the substrate is less than that of the 2D material,
+        Zugspannung wird erreicht, wenn der TCE des Substrats kleiner ist als der des 2D-Materials,
         <bold>
          b
         </bold>
-        relaxed samples are achieved when the TCE of the substrate and 2D material match, and
+        entspannte Proben werden erreicht, wenn der TCE des Substrats und des 2D-Materials übereinstimmen, und
         <bold>
          c
         </bold>
-        compressive strain is achieved when the TCE of the substrate is greater than that of the 2D material
+        Druckspannung wird erreicht, wenn der TCE des Substrats größer ist als der des 2D-Materials
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig1_HTML.jpg"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig1_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par7">
-     To retain the strain generated from TCE-mismatch, the bonding between the 2D layer and the substrate must be sufficiently strong and corrugated to maintain the nonslip condition that transmits strain to the layer. Although one expects strains of this magnitude to arise during epitaxial growth, it is difficult to see how a similar strain can arise for films bound by van der Waals forces to an amorphous substrate. Experimentally, the corrugation in the film must be large enough to retain the strain upon cooling. To estimate the magnitude of the corrugation necessary to sustain the strain, we analyzed a 2D Frenkel–Kontorova model
+     Um die durch TCE-Mismatch erzeugte Dehnung beizubehalten, muss die Bindung zwischen der 2D-Schicht und dem Substrat ausreichend stark und gewellt sein, um die rutschfreie Bedingung aufrechtzuerhalten, die die Dehnung auf die Schicht überträgt. Obwohl man erwartet, dass Dehnungen dieser Größenordnung während des epitaktischen Wachstums auftreten, ist es schwer vorstellbar, wie eine ähnliche Dehnung für Filme entstehen kann, die durch van-der-Waals-Kräfte an ein amorphes Substrat gebunden sind. Experimentell muss die Wellung im Film groß genug sein, um die Dehnung beim Abkühlen beizubehalten. Um die Größe der notwendigen Wellung zur Aufrechterhaltung der Dehnung abzuschätzen, analysierten wir ein 2D-Frenkel-Kontorova-Modell, das in Ergänzende Anmerkung
+     <xref ref-type="supplementary-material" rid="MOESM1">
+      1
+     </xref>
+     und Ergänzende Fig.
+     <xref ref-type="supplementary-material" rid="MOESM1">
+      1
+     </xref>
      <sup>
       <xref ref-type="bibr" rid="CR16">
        16
       </xref>
      </sup>
-     , shown in Supplementary Note
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      1
-     </xref>
-     and Supplementary Fig.
-     <xref ref-type="supplementary-material" rid="MOESM1">
-      1
-     </xref>
-     . This model suggests that atomic binding energy variations of as little as 14 meV over the range of the unit cell are capable of retaining strains of the magnitude of those observed experimentally. This variation is ~ 1% of a typical covalent bond strength, and very near to the typical strength of a van der Waals bond. Though a more detailed theory needs to be developed, especially to understand the surface chemistry immediately prior to growth to determine the nature of the bonding, this simple analysis suggests that thermal-expansion mismatch can strain a film, even in the case of weak binding between the film and the substrate. It should be noted that in a previous study, local heating of MoS
+     gezeigt wird. Dieses Modell legt nahe, dass Variationen der atomaren Bindungsenergie von nur 14 meV über den Bereich der Einheitszelle in der Lage sind, Dehnungen der Größenordnung der experimentell beobachteten zu behalten. Diese Variation beträgt ~ 1% der typischen Stärke einer kovalenten Bindung und liegt sehr nahe an der typischen Stärke einer van-der-Waals-Bindung. Obwohl eine detailliertere Theorie entwickelt werden muss, insbesondere um die Oberflächenchemie unmittelbar vor dem Wachstum zu verstehen und die Art der Bindung zu bestimmen, legt diese einfache Analyse nahe, dass ein thermischer Ausdehnungsunterschied einen Film belasten kann, selbst im Fall einer schwachen Bindung zwischen dem Film und dem Substrat. Es sollte beachtet werden, dass in einer früheren Studie die lokale Erwärmung von MoS
      <sub>
       2
      </sub>
-     using a laser was used to generate strains of up to 0.2% arising from the TCE-mismatch of MoS
+     mit einem Laser verwendet wurde, um Dehnungen von bis zu 0,2% zu erzeugen, die aus dem TCE-Mismatch von MoS
      <sub>
       2
      </sub>
-     with the substrate
+     mit dem Substrat resultieren
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
       </xref>
      </sup>
-     . Although this method does not generate built-in strains (strain is released once the laser is turned off), it suggests that the MoS
+     . Obwohl diese Methode keine eingebauten Dehnungen erzeugt (die Dehnung wird freigesetzt, sobald der Laser ausgeschaltet wird), deutet sie darauf hin, dass die MoS
      <sub>
       2
      </sub>
-     -substrate bonding is strong enough to enable TCE-mismatched induced strain engineering
+     -Substrat-Bindung stark genug ist, um TCE-Mismatch-induzierte Dehnungstechniken zu ermöglichen
      <sup>
       <xref ref-type="bibr" rid="CR17">
        17
@@ -1497,15 +1497,15 @@
      .
     </p>
     <p id="Par8">
-     To demonstrate strain-engineered CVD growth of WSe
+     Um das spannungsoptimierte CVD-Wachstum von WSe
      <sub>
       2
      </sub>
-     , four substrates were chosen, which have a range of TCEs. Fused silica and aluminum nitride (AlN) have a TCE of 0.55 and 5.5 ppm, respectively, much smaller than that of WSe
+     zu demonstrieren, wurden vier Substrate ausgewählt, die eine Bandbreite an TCEs aufweisen. Quarzglas und Aluminiumnitrid (AlN) haben einen TCE von 0,55 bzw. 5,5 ppm, was viel kleiner ist als der von WSe
      <sub>
       2
      </sub>
-     (9.5 ± 3.2 ppm), and would be expected to induce tensile strain
+     (9,5 ± 3,2 ppm), und es wird erwartet, dass sie Zugspannung induzieren
      <sup>
       <xref ref-type="bibr" rid="CR3">
        3
@@ -1526,16 +1526,16 @@
       <xref ref-type="bibr" rid="CR21">
        21
       </xref>
-      –
+      ,
       <xref ref-type="bibr" rid="CR22">
        22
       </xref>
      </sup>
-     . In contrast, sapphire has a TCE closely matched to WSe
+     . Im Gegensatz dazu hat Saphir einen TCE, der dem von WSe
      <sub>
       2
      </sub>
-     and would be expected to produce relaxed samples and strontium titanate (STO) with a TCE of 12 ppm should yield compressively strained samples
+     sehr ähnlich ist, und es wird erwartet, dass entspannte Proben entstehen, während Strontiumtitanat (STO) mit einem TCE von 12 ppm komprimiert gespannte Proben liefern sollte
      <sup>
       <xref ref-type="bibr" rid="CR20">
        20
@@ -1549,113 +1549,110 @@
        24
       </xref>
      </sup>
-     . The sample was rapidly quenched after growth to limit relaxation in the WSe
+     . Die Probe wurde nach dem Wachstum schnell abgeschreckt, um die Entspannung in WSe
      <sub>
       2
      </sub>
-     . It is important to note that the rapid quenching process was found to be important in maintaining the presence of strain, and delay of the quenching step can result in partial relaxation of the 2D material.
+     zu begrenzen
+     <sup/>
+     . Es ist wichtig zu beachten, dass der schnelle Abschreckprozess als wichtig erachtet wurde, um die Anwesenheit von Spannung aufrechtzuerhalten, und eine Verzögerung des Abschreckschritts kann zu einer teilweisen Entspannung des 2D-Materials führen.
     </p>
    </sec>
    <sec id="Sec4">
     <title>
-     Characterization strain and material quality
+     Charakterisierung von Dehnung und Materialqualität
     </title>
     <p id="Par9">
-     To characterize the strain present in the as-grown material, multiple characterization methods were utilized. First, electron diffraction was performed on WSe
+     Um die im gewachsenen Material vorhandene Dehnung zu charakterisieren, wurden mehrere Charakterisierungsmethoden eingesetzt. Zuerst wurde Elektronenbeugung an WSe
      <sub>
       2
      </sub>
-     as-grown on SiO
+     durchgeführt, das auf SiO
      <sub>
       2
      </sub>
-     TEM grids and WSe
+     -TEM-Rastern gewachsen und auf SiO
      <sub>
       2
      </sub>
-     transferred to SiO
-     <sub>
-      2
-     </sub>
-     TEM grids. The resulting diffraction patterns are shown in Figs.
+     -TEM-Raster übertragen wurde. Die resultierenden Beugungsmuster sind in den Figs.
      <xref ref-type="fig" rid="Fig2">
       2a–c
      </xref>
-     . In all TEM diffraction measurements on WSe
+     <sup/>
+     dargestellt. Bei allen TEM-Beugungsmessungen an WSe
      <sub>
       2
      </sub>
-     , the camera length and lens aberrations of the imaging systems were calibrated using polycrystalline aluminum and single crystal aluminum calibration samples (Ted Pella), and the microscope lens settings were left constant for all subsequent measurements. Corresponding images and photoluminescence (PL) spectra of the samples in Figs.
+     wurden die Kameralänge und Linsenfehler der Bildgebungssysteme mit polykristallinen Aluminium- und Einkristall-Aluminium-Kalibrierproben (Ted Pella) kalibriert, und die Mikroskoplinseneinstellungen wurden für alle nachfolgenden Messungen konstant gehalten. Entsprechende Bilder und Photolumineszenz (PL)-Spektren der Proben in den Figs.
      <xref ref-type="fig" rid="Fig2">
       2b, c
      </xref>
-     are shown in Supplementary Fig.
+     sind in der ergänzenden Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       2
      </xref>
-     . By comparing the lattice constant extracted from the diffraction patterns of strained (as-grown) and unstrained (transferred) WSe
+     <sup/>
+     gezeigt. Durch den Vergleich der aus den Beugungsmustern von gedehntem (gewachsenem) und ungedehntem (übertragenem) WSe
      <sub>
       2
      </sub>
-     , and utilizing the center of mass for 75 diffraction spots from each pattern, we calculate that a 1.39 ± 0.28% tensile strain is present in the as-grown sample. The calculated error represents the standard deviation in lattice constant value over 75 measured diffraction spots. Raman spectrum shown in Fig.
+     extrahierten Gitterkonstanten und der Nutzung des Schwerpunkts für 75 Beugungspunkte aus jedem Muster berechnen wir, dass eine Zugdehnung von 1,39 ± 0,28% im gewachsenen Muster vorhanden ist. Der berechnete Fehler repräsentiert die Standardabweichung des Gitterkonstantenwerts über 75 gemessene Beugungspunkte. Das in Fig.
      <xref ref-type="fig" rid="Fig2">
       2d
      </xref>
-     reveals a shift of the E’ in-plane Raman mode of 1.5 ± 0.2 cm
-     <sup>
-      −1
-     </sup>
-     between as-grown and transferred WSe
+     gezeigte Raman-Spektrum zeigt eine Verschiebung des E’-Raman-Modus in der Ebene von 1,5 ± 0,2 cm zwischen gewachsenem und übertragenem WSe
      <sub>
       2
      </sub>
-     . We note that the strain measured here is biaxial, not uniaxial, in contrast to mechanical bending studies and thus we do not observe splitting of the E′ mode. Therefore, the theoretically calculated value for the Grüneisen parameter (﻿
+     <sup/>
+     . Wir stellen fest, dass die hier gemessene Dehnung biaxial und nicht uniaxial ist, im Gegensatz zu mechanischen Biegestudien, und daher beobachten wir keine Aufspaltung des E′-Modus. Daher wird der theoretisch berechnete Wert für den Grüneisen-Parameter (﻿
      <italic>
       χ
      </italic>
-     ﻿) of WSe
+     ﻿) von WSe
      <sub>
       2
      </sub>
-     is used to calculate the expected peak shift according to:
+     verwendet, um die erwartete Peak-Verschiebung gemäß zu berechnen:
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math">
-        <mml:mi>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          ω
-        </mml:mi>
-        <mml:mfenced close=")" open="(" separators="">
-         <mml:mrow>
-          <mml:mi>
+        </mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <mi>
            ε
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <msub>
+         <mrow>
+          <mi>
            ω
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mn>
+         </mrow>
+        </msub>
+        <mo>
          +
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          χ
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          ε
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1668,10 +1665,10 @@
 				\setlength{\oddsidemargin}{-69pt}
 				\begin{document}$$\omega \left( \varepsilon \right) = {\omega _0} + {\rm{\chi}}\varepsilon$$\end{document}
        </tex-math>
-       <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2017_516_Article_IEq1.gif"/>
+       <inline-graphic href="41467_2017_516_Article_IEq1.gif" mime-subtype="GIF" specific-use="web"/>
       </alternatives>
      </inline-formula>
-     , which is consistent with the approximately 1% tensile strain measured via diffraction
+     , was mit der über Beugung gemessenen Zugdehnung von etwa 1% übereinstimmt
      <sup>
       <xref ref-type="bibr" rid="CR25">
        25
@@ -1680,39 +1677,40 @@
       <xref ref-type="bibr" rid="CR26">
        26
       </xref>
-      –
+      ,
       <xref ref-type="bibr" rid="CR27">
        27
       </xref>
      </sup>
-     . It should also be noted that after transfer the E’ mode shows no shift relative to samples prepared either by exfoliation or as-grown on sapphire. High resolution Raman mapping was performed and is shown in Figs.
+     . Es sollte auch beachtet werden, dass nach der Übertragung der E’-Modus keine Verschiebung im Vergleich zu Proben zeigt, die entweder durch Exfoliation oder auf Saphir gewachsen hergestellt wurden. Hochauflösende Raman-Kartierung wurde durchgeführt und ist in den Figs.
      <xref ref-type="fig" rid="Fig2">
       2e, f
      </xref>
-     for WSe
+     für WSe
      <sub>
       2
      </sub>
-     crystals as-grown on fused silica and transferred to a new fused silica substrate, respectively. We observe a uniform Raman shift throughout the full WSe
+     -Kristalle gezeigt, die auf verschmolzenem Siliziumdioxid gewachsen und auf ein neues verschmolzenes Siliziumdioxid-Substrat übertragen wurden. Wir beobachten eine gleichmäßige Raman-Verschiebung über das gesamte WSe
      <sub>
       2
      </sub>
-     domain for both samples indicating that the strain is uniformly distributed within the sample on the scale of the Raman spot size. In addition, PL and atomic force microscopy images of as-grown WSe
+     -Gebiet für beide Proben, was darauf hinweist, dass die Dehnung innerhalb der Probe gleichmäßig im Maßstab der Raman-Punktgröße verteilt ist. Zusätzlich sind PL- und Rasterkraftmikroskopiebilder von gewachsenem WSe
      <sub>
       2
      </sub>
-     on fused silica are shown in Supplementary Fig.
+     auf verschmolzenem Siliziumdioxid in der ergänzenden Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       3
      </xref>
-     .
+     <sup/>
+     gezeigt.
      <fig id="Fig2" position="float">
       <label>
        Fig. 2
       </label>
       <caption xml:lang="en">
        <p>
-        Transmission electron microscopy images and Raman spectroscopy of monolayer WSe
+        Transmissionselektronenmikroskopie-Bilder und Raman-Spektroskopie von Monolagen WSe
         <sub>
          2
         </sub>
@@ -1720,15 +1718,15 @@
         <bold>
          a
         </bold>
-        Overlay of diffraction spots for as-grown and transferred monolayer WSe
+        Überlagerung von Beugungspunkten für gewachsene und übertragene Monolagen WSe
         <sub>
          2
         </sub>
-        , showing a 1.39 ± 0.28% strain in samples grown directly on the TEM membrane.
+        , die eine Dehnung von 1,39 ± 0,28% in Proben zeigen, die direkt auf der TEM-Membran gewachsen sind.
         <italic>
-         Scale bar
+         Maßstabsbalken
         </italic>
-        is 10 nm
+        ist 10 nm
         <sup>
          −1
         </sup>
@@ -1736,27 +1734,27 @@
         <bold>
          b
         </bold>
-        Electron diffraction patterns of a tensile strained WSe
+        Elektronenbeugungsmuster einer Zug-deformierten WSe
         <sub>
          2
         </sub>
-        monolayer grown directly on an 8 nm SiO
+        -Monolage, die direkt auf einer 8 nm SiO
         <sub>
          2
         </sub>
-        TEM membrane and
+        TEM-Membran gewachsen ist, und
         <bold>
          c
         </bold>
-        a WSe
+        einer WSe
         <sub>
          2
         </sub>
-        monolayer transferred to the same thickness membrane.
+        -Monolage, die auf die gleiche Dicke der Membran übertragen wurde.
         <italic>
-         Scale bar
+         Maßstabsbalken
         </italic>
-        is 10 nm
+        ist 10 nm
         <sup>
          −1
         </sup>
@@ -1764,11 +1762,11 @@
         <bold>
          d
         </bold>
-        Raman spectra of WSe
+        Raman-Spektren von WSe
         <sub>
          2
         </sub>
-        monolayers grown on various substrates.
+        -Monolagen, die auf verschiedenen Substraten gewachsen sind.
         <bold>
          e
         </bold>
@@ -1776,15 +1774,15 @@
         <bold>
          f
         </bold>
-        Raman mapping of E’ peak position for a (
+        Raman-Mapping der E’-Peak-Position für eine (
         <bold>
          e
         </bold>
-        ) tensile strained WSe
+        ) Zug-deformierte WSe
         <sub>
          2
         </sub>
-        monolayer as-grown on fused silica and a (
+        -Monolage, die auf verschmolzenem Siliziumdioxid gewachsen ist, und eine (
         <bold>
          f
         </bold>
@@ -1792,33 +1790,33 @@
         <sub>
          2
         </sub>
-        monolayer transferred to release strain; data are plotted using the same false color scheme.
+        -Monolage, die übertragen wurde, um die Dehnung zu lösen; die Daten werden mit dem gleichen Falschfarbschema dargestellt.
         <italic>
-         Scale bar
+         Maßstabsbalken
         </italic>
-        is 20 μm, data range is 250.5 to 247.0 cm
+        ist 20 μm, Datenbereich ist 250,5 bis 247,0 cm
         <sup>
          -1﻿
         </sup>
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig2_HTML.jpg"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig2_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par10">
-     PL measurements were employed to measure the bandgap as a function of strain. Figure
+     PL-Messungen wurden verwendet, um die Bandlücke als Funktion der Dehnung zu messen. Abbildung
      <xref ref-type="fig" rid="Fig3">
       3a
      </xref>
-     shows PL spectra of samples grown on all substrates investigated in this work as well as an exfoliated reference. There is a large spectral shift of 120 meV between samples grown on fused silica with near zero TCE and STO, which has the highest TCE of all substrates investigated in this work. Figure
+     zeigt PL-Spektren von Proben, die auf allen in dieser Arbeit untersuchten Substraten sowie auf einem exfolierten Referenzsubstrat gewachsen sind. Es gibt eine große spektrale Verschiebung von 120 meV zwischen Proben, die auf Quarzglas mit nahezu null TCE und STO gewachsen sind, das den höchsten TCE aller in dieser Arbeit untersuchten Substrate aufweist. Abbildung
      <xref ref-type="fig" rid="Fig3">
       3b
      </xref>
-     shows the estimated strain from the PL peak shift as a function of predicted strain in WSe
+     zeigt die geschätzte Dehnung aus der PL-Peak-Verschiebung als Funktion der vorhergesagten Dehnung in WSe
      <sub>
       2
      </sub>
-     , vs. the lattice mismatch between the substrate and TMDC lattice constant. Strain values are determined from the experimentally measured PL peak position (measurement error was calculated using the standard deviation of strain measured from fifteen different crystals) and theoretically calculated bandgap as a function of strain extracted from refs
+     im Vergleich zum Gitterfehlanpassung zwischen dem Substrat und der TMDC-Gitterkonstante. Dehnungswerte werden aus der experimentell gemessenen PL-Peak-Position (der Messfehler wurde unter Verwendung der Standardabweichung der aus fünfzehn verschiedenen Kristallen gemessenen Dehnung berechnet) und der theoretisch berechneten Bandlücke als Funktion der Dehnung, extrahiert aus den Referenzen
      <sup>
       <xref ref-type="bibr" rid="CR3">
        3
@@ -1828,78 +1826,70 @@
        27
       </xref>
      </sup>
-     . It is important to note that we utilized the difference in peak position relative to an unstrained sample to eliminate effects from absolute bandgap error relative to theoretical calculations. We performed an analysis of the expected strain due to lattice parameter misfit (Supplementary Table
+     , bestimmt. Es ist wichtig zu beachten, dass wir die Differenz in der Peak-Position relativ zu einer ungespannten Probe genutzt haben, um Effekte von absoluten Bandlückenfehlern relativ zu theoretischen Berechnungen zu eliminieren. Wir führten eine Analyse der erwarteten Dehnung aufgrund der Fehlanpassung der Gitterparameter durch (Ergänzende Tabelle
      <xref ref-type="supplementary-material" rid="MOESM1">
       1
      </xref>
-     and Supplementary Note
+     und Ergänzende Anmerkung
      <xref ref-type="supplementary-material" rid="MOESM1">
       2
      </xref>
-     ) to rule out the influence of epitaxial strain between the substrate and WSe
+     ), um den Einfluss von epitaktischer Dehnung zwischen dem Substrat und WSe
      <sub>
       2
      </sub>
-     . From this calculation, the expected strain from the lattice mismatch shows the opposite trend as compared with what we observe experimentally. We find that our experimentally realized strain per ΔTCE of −0.10 ± 0.01% per ppm K
-     <sup>
-      −1
-     </sup>
-     is in excellent agreement with the theoretical value of −0.09% per ppm K
-     <sup>
-      −1
-     </sup>
-     . To verify that the substrate does not affect the PL peak shape or position of monolayer WSe
+     auszuschließen. Aus dieser Berechnung zeigt die erwartete Dehnung aus der Gitterfehlanpassung den entgegengesetzten Trend im Vergleich zu dem, was wir experimentell beobachten. Wir stellen fest, dass unsere experimentell realisierte Dehnung pro ΔTCE von −0,10 ± 0,01% pro ppm K in hervorragender Übereinstimmung mit dem theoretischen Wert von −0,09% pro ppm K steht. Um zu überprüfen, dass das Substrat die PL-Peak-Form oder -Position von Monolayer WSe
      <sub>
       2
      </sub>
-     , samples were transferred to the four substrates used in this study (Supplementary Fig.
+     nicht beeinflusst, wurden Proben auf die vier in dieser Studie verwendeten Substrate übertragen (Ergänzende Abbildung
      <xref ref-type="supplementary-material" rid="MOESM1">
       4
      </xref>
-     ) and no shift of the PL peak was observed. The impact of growth temperature to tune the strain was also studied using fused silica as the substrate. Figure
+     ) und es wurde keine Verschiebung des PL-Peaks beobachtet. Der Einfluss der Wachstumstemperatur zur Abstimmung der Dehnung wurde ebenfalls untersucht, wobei Quarzglas als Substrat verwendet wurde. Abbildung
      <xref ref-type="fig" rid="Fig3">
       3c
      </xref>
-     shows the tensile strain in monolayer WSe
+     zeigt die Zugdehnung in Monolayer WSe
      <sub>
       2
      </sub>
-     grown at different temperatures, estimated using PL peak position. We are able to tune the strain from 0.94 ± 0.06% to 0.67 ± 0.05% as the growth temperature is changed from 900 to 673 °C. PL spectra corresponding to Fig.
+     , die bei verschiedenen Temperaturen gewachsen ist, geschätzt unter Verwendung der PL-Peak-Position. Wir sind in der Lage, die Dehnung von 0,94 ± 0,06% auf 0,67 ± 0,05% zu variieren, wenn die Wachstumstemperatur von 900 auf 673 °C geändert wird. Die PL-Spektren, die Fig.
      <xref ref-type="fig" rid="Fig3">
       3c
      </xref>
-     is shown in Supplementary Fig.
+     entsprechen, sind in Ergänzender Abbildung
      <xref ref-type="supplementary-material" rid="MOESM1">
       5
      </xref>
-     .
+     gezeigt.
      <fig id="Fig3" position="float">
       <label>
        Fig. 3
       </label>
       <caption xml:lang="en">
        <p>
-        Strain engineering of 2D materials.
+        Spannungsengineering von 2D-Materialien.
         <bold>
          a
         </bold>
-        PL spectra for monolayer WSe
+        PL-Spektren für Monolayer WSe
         <sub>
          2
         </sub>
-        as-grown on substrates with a range of thermal coefficient of expansion mismatches.
+        , gewachsen auf Substraten mit einer Reihe von thermischen Ausdehnungskoeffizienten-Mismatches.
         <bold>
          b
         </bold>
-        Estimated strain that can be achieved in 2D materials based on the mismatch between the substrate and TMDC thermal coefficient of expansion; data points show measured strain for substrates with a range of thermal expansion coefficient mismatch;
+        Geschätzte Spannung, die in 2D-Materialien basierend auf dem Mismatch zwischen dem Substrat und dem TMDC thermischen Ausdehnungskoeffizienten erreicht werden kann; Datenpunkte zeigen gemessene Spannung für Substrate mit einer Reihe von thermischen Ausdehnungskoeffizienten-Mismatches;
         <italic>
-         dashed gray lines
+         gestrichelte graue Linien
         </italic>
-        are based on TCE values for WSe
+        basieren auf TCE-Werten für WSe
         <sub>
          2
         </sub>
-        obtained from refs
+        , die aus den Referenzen
         <sup>
          <xref ref-type="bibr" rid="CR21">
           21
@@ -1909,27 +1899,27 @@
           22
          </xref>
         </sup>
-        ,
+        erhalten wurden,
         <italic>
-         dashed black line
+         gestrichelte schwarze Linie
         </italic>
-        shows fit to experimental data.
+        zeigt Anpassung an experimentelle Daten.
         <bold>
          c
         </bold>
-        Estimated strain realized in WSe
+        Geschätzte Spannung, die in WSe
         <sub>
          2
         </sub>
-        as-grown on fused silica at various substrate temperatures;
+        realisiert wird, gewachsen auf Quarzglas bei verschiedenen Substrattemperaturen;
         <italic>
-         dashed gray lines
+         gestrichelte graue Linien
         </italic>
-        are based on TCE values for WSe
+        basieren auf TCE-Werten für WSe
         <sub>
          2
         </sub>
-        obtained from refs
+        , die aus den Referenzen
         <sup>
          <xref ref-type="bibr" rid="CR21">
           21
@@ -1939,42 +1929,44 @@
           22
          </xref>
         </sup>
-        ,
+        erhalten wurden,
         <italic>
-         dashed black line
+         gestrichelte schwarze Linie
         </italic>
-        shows fit to experimental data. Error bars indicate standard deviation of strain, measured over fifteen samples
+        zeigt Anpassung an experimentelle Daten. Fehlerbalken zeigen die Standardabweichung der Spannung, gemessen über fünfzehn Proben
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig3_HTML.jpg"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig3_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
    </sec>
    <sec id="Sec5">
     <title>
-     Tensile strain engineering of mono- and bilayer WSe
+     Zugspannungs-Engineering von Mono- und Doppelschicht WSe
      <sub>
       2
      </sub>
     </title>
     <p id="Par11">
-     Calibrated PL measurements were used to provide a gauge of material quality. We find that strained WSe
+     Kalibrierte PL-Messungen wurden verwendet, um die Materialqualität zu bewerten. Wir stellen fest, dass gedehnte WSe
      <sub>
       2
      </sub>
-     monolayers as-grown on fused silica show comparable PL intensity to exfoliated WSe
+     -Monolagen, die auf verschmolzenem Siliziumdioxid gewachsen sind, eine vergleichbare PL-Intensität wie exfoliierte WSe
      <sub>
       2
      </sub>
-     , demonstrating that strain engineering of 2D materials can be achieved without compromising material performance. Specifically, as exfoliated samples show a typical quantum yield (QY) of 2.3 ± 0.4%, while samples grown on fused silica show a typical QY of 1.9 ± 0.6%. Upon transfer, the strain within the as-grown material is released and its emission peak shifts to 1.65 eV, closely matching that of exfoliated samples, as shown in Fig.
+     zeigen, was zeigt, dass das Spannungs-Engineering von 2D-Materialien erreicht werden kann, ohne die Materialleistung zu beeinträchtigen. Insbesondere zeigen exfoliierte Proben eine typische Quantenausbeute (QY) von 2,3 ± 0,4%, während auf verschmolzenem Siliziumdioxid gewachsene Proben eine typische QY von 1,9 ± 0,6% aufweisen. Nach dem Transfer wird die Spannung im gewachsenen Material freigesetzt und sein Emissionspeak verschiebt sich auf 1,65 eV, was dem der exfoliierten Proben nahekommt, wie in Fig.
      <xref ref-type="fig" rid="Fig4">
       4a
      </xref>
-     . In addition to emission, the absorption spectrum of the as-grown monolayer was measured and is shown in Fig.
+     <sup/>
+     gezeigt. Zusätzlich zur Emission wurde das Absorptionsspektrum der gewachsenen Monolage gemessen und ist in Fig.
      <xref ref-type="fig" rid="Fig4">
       4b
      </xref>
-     . The absorption spectra clearly shows that the A and B exciton resonances are red-shifted with the presence of tensile strain, and are consistent with the observed shift in the emission. Interestingly, the absorption of the C exciton peak shows no shift between the as-grown and exfoliated samples, which is consistent with previously reported mechanical bending experiments on exfoliated monolayers, although it should be noted that in these experiments the strain was uniaxial
+     <sup/>
+     dargestellt. Die Absorptionsspektren zeigen deutlich, dass die A- und B-Exzitonresonanzen mit der Anwesenheit von Zugspannung rotverschoben sind und mit der beobachteten Verschiebung in der Emission übereinstimmen. Interessanterweise zeigt die Absorption des C-Exzitonpeaks keine Verschiebung zwischen den gewachsenen und exfoliierten Proben, was mit zuvor berichteten mechanischen Biegeexperimenten an exfoliierten Monolagen übereinstimmt, obwohl angemerkt werden sollte, dass in diesen Experimenten die Spannung uniaxial war
      <sup>
       <xref ref-type="bibr" rid="CR28">
        28
@@ -1987,7 +1979,7 @@
       </label>
       <caption xml:lang="en">
        <p>
-        Photoluminescence of strain-engineered monolayer and bilayer WSe
+        Photolumineszenz von spannungsoptimiertem Monolayer und Bilayer WSe
         <sub>
          2
         </sub>
@@ -1995,15 +1987,15 @@
         <bold>
          a
         </bold>
-        Photoluminescence spectra of as-grown and transferred monolayer WSe
+        Photolumineszenzspektren von gewachsenem und transferiertem Monolayer WSe
         <sub>
          2
         </sub>
-        as well as exfoliated reference. Inset shows normalized spectra.
+        sowie exfoliertem Referenzmaterial. Das Inset zeigt normalisierte Spektren.
         <bold>
          b
         </bold>
-        Absorption spectra of as-grown and exfoliated monolayer WSe
+        Absorptionsspektren von gewachsenem und exfoliertem Monolayer WSe
         <sub>
          2
         </sub>
@@ -2011,11 +2003,11 @@
         <bold>
          c
         </bold>
-        Photoluminescence spectra of as-grown and transferred bilayer WSe
+        Photolumineszenzspektren von gewachsenem und transferiertem Bilayer WSe
         <sub>
          2
         </sub>
-        as well as exfoliated reference; inset shows normalized PL spectra of as-grown and transferred bilayer WSe
+        sowie exfoliertem Referenzmaterial; das Inset zeigt normalisierte PL-Spektren von gewachsenem und transferiertem Bilayer WSe
         <sub>
          2
         </sub>
@@ -2023,92 +2015,95 @@
         <bold>
          d
         </bold>
-        Absorption spectra of as-grown and exfoliated bilayer WSe
+        Absorptionsspektren von gewachsenem und exfoliertem Bilayer WSe
         <sub>
          2
         </sub>
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig4_HTML.jpg"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig4_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
     <p id="Par12">
-     More interestingly, it has been previously demonstrated using bending experiments that under the application of a uniaxial strain of ~ 1.5%, bilayer WSe
+     Interessanterweise wurde zuvor durch Biegeexperimente gezeigt, dass bei der Anwendung einer uniaxialen Dehnung von ~ 1,5% ein bilagiges WSe
      <sub>
       2
      </sub>
-     undergoes an indirect-to-direct bandgap transition
+     einen Übergang von einem indirekten zu einem direkten Bandabstand durchläuft
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . This effect is caused by an increase in the energy level of the indirect valley at the Σ point as well as a corresponding decrease in the energy level of the direct valley at the K point
+     . Dieser Effekt wird durch eine Erhöhung des Energieniveaus des indirekten Tals am Σ-Punkt sowie eine entsprechende Abnahme des Energieniveaus des direkten Tals am K-Punkt verursacht
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . While it is important to note these results are obtained under uniaxial strain, similar trends between uniaxial and biaxial strain have been observed in theoretical studies on other 2D material systems
+     . Während es wichtig ist zu beachten, dass diese Ergebnisse unter uniaxialer Dehnung erzielt wurden, wurden ähnliche Trends zwischen uniaxialer und biaxialer Dehnung in theoretischen Studien zu anderen 2D-Materialsystemen beobachtet
      <sup>
       <xref ref-type="bibr" rid="CR29">
        29
       </xref>
      </sup>
-     . Figure
+     . Abbildung
      <xref ref-type="fig" rid="Fig4">
       4c
      </xref>
-     depicts the PL spectra of as-grown, exfoliated and transferred bilayer WSe
+     zeigt die PL-Spektren von gewachsenem, exfoliertem und transferiertem bilagigem WSe
      <sub>
       2
      </sub>
-     . In the as-grown strained bilayer, we observe a single sharp PL peak, as oppose to a broader spectrum corresponding to emission from both the indirect and direct bandgaps observed in the unstrained exfoliated and transferred samples. Moreover, the intensity of the PL is reduced by approximately 50 times upon transfer and resultant release of tensile strain as shown in Fig.
+     <sup/>
+     . Im gewachsenen, gedehnten Bilayer beobachten wir einen einzelnen scharfen PL-Peak, im Gegensatz zu einem breiteren Spektrum, das der Emission sowohl aus den indirekten als auch den direkten Bandabständen entspricht, die in den ungespannten, exfolierten und transferierten Proben beobachtet werden. Darüber hinaus wird die Intensität des PL bei der Übertragung und der resultierenden Freisetzung der Zugspannung um etwa das 50-fache reduziert, wie in Abb.
      <xref ref-type="fig" rid="Fig4">
       4c
      </xref>
-     . This phenomenon can possibly be attributed to the optical transition from indirect-to-direct in bilayer WSe
+     <sup/>
+     gezeigt. Dieses Phänomen kann möglicherweise der optischen Transition von indirekt zu direkt in bilagigem WSe
      <sub>
       2
      </sub>
-     in the presence of tensile strain. This is in good agreement with previous reports on the indirect-to-direct optical transition of WSe
+     in Anwesenheit von Zugspannung zugeschrieben werden. Dies stimmt gut mit früheren Berichten über die indirekt-zu-direkt optische Transition von WSe
      <sub>
       2
      </sub>
-     through bending experiments, although these previous studies utilized uniaxial strain
+     durch Biegeexperimente überein, obwohl diese früheren Studien uniaxiale Dehnung verwendeten
      <sup>
       <xref ref-type="bibr" rid="CR7">
        7
       </xref>
      </sup>
-     . The normalized PL spectra for bilayer WSe
+     . Die normalisierten PL-Spektren für bilagiges WSe
      <sub>
       2
      </sub>
-     grown on fused silica after transfer, as well as unstrained samples grown on sapphire and prepared by exfoliation, are shown in Supplementary Fig.
+     , das auf verschmolzenem Siliziumdioxid nach dem Transfer gewachsen ist, sowie ungespannte Proben, die auf Saphir gewachsen und durch Exfoliation hergestellt wurden, sind in der ergänzenden Abb.
      <xref ref-type="supplementary-material" rid="MOESM1">
       6
      </xref>
-     and show a very similar spectral shape. Absorption of WSe
+     gezeigt und zeigen eine sehr ähnliche spektrale Form. Die Absorption von WSe
      <sub>
       2
      </sub>
-     bilayer samples was also measured and is shown in Fig.
+     -Bilayer-Proben wurde ebenfalls gemessen und ist in Abb.
      <xref ref-type="fig" rid="Fig4">
       4d
      </xref>
-     .
+     <sup/>
+     dargestellt.
     </p>
     <p id="Par13">
-     To further characterize WSe
+     Um WSe
      <sub>
       2
      </sub>
-     monolayers, we performed low-temperature PL measurements. Numerous studies have experimentally observed that the PL of monolayer WSe
+     -Monolagen weiter zu charakterisieren, führten wir PL-Messungen bei niedrigen Temperaturen durch. Zahlreiche Studien haben experimentell beobachtet, dass die PL von WSe
      <sub>
       2
      </sub>
-     is quenched at reduced temperatures. This behavior is unusual for a direct bandgap semiconductor and has been attributed to the formation of dark excitons with an energy level ~ 30 meV below the bright state
+     -Monolagen bei reduzierten Temperaturen abgeschwächt wird. Dieses Verhalten ist ungewöhnlich für einen direkten Bandlücken-Halbleiter und wurde der Bildung von dunklen Exzitonen zugeschrieben, deren Energieniveau ~ 30 meV unter dem hellen Zustand liegt
      <sup>
       <xref ref-type="bibr" rid="CR30">
        30
@@ -2118,11 +2113,11 @@
        31
       </xref>
      </sup>
-     . It has been hypothesized that at low temperatures the bright exciton is allowed to relax to the lower energy level resulting in a reduction of the PL QY. Conversely, both theoretical and experimental studies have suggested that unstrained monolayer WSe
+     . Es wurde die Hypothese aufgestellt, dass bei niedrigen Temperaturen der helle Exziton in das niedrigere Energieniveau relaxieren kann, was zu einer Reduktion der PL-QY führt. Im Gegensatz dazu haben sowohl theoretische als auch experimentelle Studien vorgeschlagen, dass ungespannte WSe
      <sub>
       2
      </sub>
-     is an indirect-gap semiconductor, with a small (&lt; 3kT) energy difference between the indirect and direct gaps
+     -Monolagen Halbleiter mit indirekter Bandlücke sind, mit einem kleinen (&lt; 3kT) Energieunterschied zwischen den indirekten und direkten Lücken
      <sup>
       <xref ref-type="bibr" rid="CR32">
        32
@@ -2132,34 +2127,36 @@
        33
       </xref>
      </sup>
-     . Upon cooling of exfoliated monolayer WSe
+     . Beim Abkühlen von exfolierten WSe
      <sub>
       2
      </sub>
-     samples, we observe results similar to what has been previously reported as shown in the inset of Fig.
+     -Monolagenproben beobachten wir Ergebnisse, die ähnlich sind wie zuvor berichtet, wie im Inset von Fig.
      <xref ref-type="fig" rid="Fig5">
       5a
      </xref>
-     , which is a reduction in PL emission at low temperatures. However, for the case of tensile strained monolayer WSe
+     gezeigt, was eine Reduktion der PL-Emission bei niedrigen Temperaturen ist. Im Gegensatz dazu beobachten wir bei der Zugspannung von WSe
      <sub>
       2
      </sub>
-     as-grown on fused silica we observe the opposite trend (Fig.
+     -Monolagen, die auf verschmolzenem Siliziumdioxid gewachsen sind, den entgegengesetzten Trend (Fig.
      <xref ref-type="fig" rid="Fig5">
       5
      </xref>
-     ). As the temperature is reduced from 300 to 6 K the PL intensity increases by over an order of magnitude, resulting in a final PL QY of 14% as shown in Fig.
+     ). Wenn die Temperatur von 300 auf 6 K reduziert wird, steigt die PL-Intensität um mehr als eine Größenordnung, was zu einer endgültigen PL-QY von 14% führt, wie in Fig.
      <xref ref-type="fig" rid="Fig5">
       5d
      </xref>
-     . The nature of the physical mechanism for the dramatic difference in the temperature-dependent behavior can be directly attributed to band structure modification due to the presence of strain. However, it remains unclear if this is due to an indirect-to-direct bandgap transition or an increase in the energy level of the dark state.
+     gezeigt
+     <sup/>
+     . Die Natur des physikalischen Mechanismus für den dramatischen Unterschied im temperaturabhängigen Verhalten kann direkt der Modifikation der Bandstruktur aufgrund der Anwesenheit von Spannung zugeschrieben werden. Es bleibt jedoch unklar, ob dies auf einen Übergang von einer indirekten zu einer direkten Bandlücke oder auf eine Erhöhung des Energieniveaus des dunklen Zustands zurückzuführen ist.
      <fig id="Fig5" position="float">
       <label>
        Fig. 5
       </label>
       <caption xml:lang="en">
        <p>
-        Low-temperature photoluminescence of strain-engineered monolayer WSe
+        Niedertemperatur-Photolumineszenz von spannungsoptimiertem Monolayer WSe
         <sub>
          2
         </sub>
@@ -2167,31 +2164,31 @@
         <bold>
          a
         </bold>
-        Temperature dependent photoluminescence spectra of as-grown monolayer WSe
+        Temperaturabhängige Photolumineszenzspektren von gewachsenem Monolayer WSe
         <sub>
          2
         </sub>
-        (tensile strained), inset shows the same measurement on an exfoliated monolayer WSe
+        (Zugspannung), das Inset zeigt die gleiche Messung an einer exfolierten Monolayer WSe
         <sub>
          2
         </sub>
-        sample.
+        -Probe.
         <bold>
          b
         </bold>
-        Photoluminescence spectra of as-grown (tensile strained) WSe
+        Photolumineszenzspektren von gewachsenem (Zugspannung) WSe
         <sub>
          2
         </sub>
-        and exfoliated WSe
+        und exfoliertem WSe
         <sub>
          2
         </sub>
-        measured at 6 K, inset shows normalized spectra.
+        , gemessen bei 6 K, das Inset zeigt normalisierte Spektren.
         <bold>
          c
         </bold>
-        Two dimensional plots of photoluminescence spectra and intensity of as-grown (tensile strained) monolayer WSe
+        Zweidimensionale Darstellungen der Photolumineszenzspektren und Intensität von gewachsenem (Zugspannung) Monolayer WSe
         <sub>
          2
         </sub>
@@ -2199,36 +2196,36 @@
         <bold>
          d
         </bold>
-        Temperature dependence of the PL QY for as-grown (tensile strained), and exfoliated WSe
+        Temperaturabhängigkeit der PL QY für gewachsenes (Zugspannung) und exfoliertes WSe
         <sub>
          2
         </sub>
-        as a function of temperature
+        in Abhängigkeit von der Temperatur
        </p>
       </caption>
-      <graphic mime-subtype="JPEG" specific-use="web" xlink:href="MediaObjects/41467_2017_516_Fig5_HTML.jpg"/>
+      <graphic href="/MediaObjects/10X1038_s41467-017-00516-5/41467_2017_516_Fig5_HTML.jpg" mime-subtype="JPEG" specific-use="web"/>
      </fig>
     </p>
    </sec>
   </sec>
   <sec id="Sec6" sec-type="discussion">
    <title>
-    Discussion
+    Diskussion
    </title>
    <p id="Par14">
-    In summary, we have demonstrated controlled and stable strain engineering of 2D materials by growth, realized through TCE mismatch between the substrate and 2D material. The demonstrated strain engineering allows for dramatic modulation of the physical properties of 2D materials. Using WSe
+    Zusammenfassend haben wir eine kontrollierte und stabile Spannungssteuerung von 2D-Materialien durch Wachstum demonstriert, realisiert durch TCE-Mismatch zwischen dem Substrat und dem 2D-Material. Die demonstrierte Spannungssteuerung ermöglicht eine dramatische Modulation der physikalischen Eigenschaften von 2D-Materialien. Mit WSe
     <sub>
      2
     </sub>
-    as a model system, we have achieved a strain induced indirect-to-direct optical transition in directly grown WSe
+    als Modellsystem haben wir einen spannungsinduzierten indirekt-zu-direkt optischen Übergang in direkt gewachsenem WSe
     <sub>
      2
     </sub>
-    bilayer, resulting in an amplification of the PL intensity by over fifty times. We have also shown tunable PL emission of WSe
+    -Doppelschicht erreicht, was zu einer Verstärkung der PL-Intensität um mehr als das Fünfzigfache führt. Wir haben auch eine einstellbare PL-Emission von WSe
     <sub>
      2
     </sub>
-    monolayer, whereas maintaining its high performance. Notably, in the monolayer case under tensile strain, we observed increasing luminescence at reduced temperatures, in stark contrast with what has been reported in the unstrained exfoliated material, suggesting that strain can be utilized to brighten the dark exciton. This practical route for the direct realization of strain engineering in 2D materials can allow for the characterization of device properties as a function of strain as well as enable optical measurements that are not accessible to samples strained by physical bending or stretching. Our work depicts that biaxial strains of 1% tensile to 0.2% compressive can be obtained by using readily achievable differences in the thermal expansion coefficients by choosing an appropriate growth substrate. By expanding upon this method, it may be possible to obtain uniaxial strain via growth on substrates with anisotropic thermal expansion coefficients or obtain significantly higher strain values via growth on piezoelectric substrates
+    -Monoschicht gezeigt, während ihre hohe Leistung beibehalten wird. Bemerkenswerterweise beobachteten wir im Fall der Monoschicht unter Zugspannung eine zunehmende Lumineszenz bei reduzierten Temperaturen, im krassen Gegensatz zu dem, was in dem ungespannten exfolierten Material berichtet wurde, was darauf hindeutet, dass Spannung genutzt werden kann, um das dunkle Exziton aufzuhellen. Dieser praktische Weg zur direkten Realisierung der Spannungssteuerung in 2D-Materialien kann die Charakterisierung von Geräteeigenschaften als Funktion der Spannung ermöglichen sowie optische Messungen, die bei Proben, die durch physisches Biegen oder Strecken gespannt werden, nicht zugänglich sind. Unsere Arbeit zeigt, dass biaxiale Spannungen von 1% Zug bis 0,2% Druck durch die Verwendung von leicht erreichbaren Unterschieden in den thermischen Ausdehnungskoeffizienten durch die Wahl eines geeigneten Wachstumssubstrats erzielt werden können. Durch die Erweiterung dieser Methode könnte es möglich sein, uniaxiale Spannung durch Wachstum auf Substraten mit anisotropen thermischen Ausdehnungskoeffizienten zu erhalten oder signifikant höhere Spannungswerte durch Wachstum auf piezoelektrischen Substraten zu erreichen
     <sup>
      <xref ref-type="bibr" rid="CR34">
       34
@@ -2243,61 +2240,64 @@
   </sec>
   <sec id="Sec7" sec-type="materials|methods">
    <title>
-    Methods
+    Methoden
    </title>
    <sec id="Sec8">
     <title>
-     Material growth
+     Materialwachstum
     </title>
     <p id="Par15">
      WSe
      <sub>
       2
      </sub>
-     was grown on several substrates with varying thermal expansion coefficients using CVD. Specifically, growth was performed on fused silica (amorphous), aluminum nitride (c-plane), Sapphire (c-plane), or strontium titanate (&lt;100&gt;); all substrates were electronic grade and have a root mean square surface roughness of &lt;10 Å. Substrates were first cleaned by sonication in acetone and isopropyl alcohol for 10 min. The growth was carried out using a two-heating-zone furnace (DaePoong Industry, 50602); a schematic of the growth setup is shown in Supplementary Fig.
+     wurde auf mehreren Substraten mit unterschiedlichen thermischen Ausdehnungskoeffizienten mittels CVD gezüchtet. Insbesondere wurde das Wachstum auf Quarzglas (amorph), Aluminiumnitrid (c-Ebene), Saphir (c-Ebene) oder Strontiumtitanat (&lt;100&gt;) durchgeführt; alle Substrate waren in elektronischer Qualität und hatten eine mittlere quadratische Oberflächenrauheit von &lt;10 Å. Die Substrate wurden zunächst durch Ultraschallreinigung in Aceton und Isopropylalkohol für 10 Minuten gereinigt. Das Wachstum wurde mit einem Zweizonen-Heizofen (DaePoong Industry, 50602) durchgeführt; ein schematisches Diagramm des Wachstumsaufbaus ist in Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       7
      </xref>
-     . The cleaned substrates were loaded into the downstream zone, and a ceramic boat containing mixture of WO
+     <sup/>
+     gezeigt. Die gereinigten Substrate wurden in die Abwärtszone geladen, und ein Keramikboot mit einer Mischung aus WO
      <sub>
       3
      </sub>
-     and potassiu﻿m bromide (KBr) was then placed next to the substrates. KBr was mixed with WO
+     und Kaliumbromid (KBr) wurde dann neben den Substraten platziert. KBr wurde im Verhältnis 1:2 mit WO
      <sub>
       3
      </sub>
-     at a ratio of 1:2, with the KBr acting as a promoter for the growth. This is similar to methods described in ref.
+     gemischt, wobei KBr als Promotor für das Wachstum fungiert. Dies ähnelt den in Ref.
      <sup>
       <xref ref-type="bibr" rid="CR36">
        36
       </xref>
      </sup>
-     . However, we found that several salts can be used and the choice of promoter has a significant role in determining the ultimate sample morphology (this is further discussed in the
+     beschriebenen Methoden. Wir stellten jedoch fest, dass mehrere Salze verwendet werden können und die Wahl des Promotors eine bedeutende Rolle bei der Bestimmung der endgültigen Probenmorphologie spielt (dies wird weiter in den
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
+      ergänzenden Methoden
      </xref>
-     ). It should be noted that regardless of the promoter used, the strain present in the sample was unaffected as shown in Supplementary Fig.
+     diskutiert). Es sollte beachtet werden, dass unabhängig vom verwendeten Promotor die in der Probe vorhandene Spannung unbeeinflusst blieb, wie in Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       8
      </xref>
-     . A ceramic boat containing 500 mg Se powder was placed in the center of the upstream zone. After loading, the quartz tube was evacuated and Ar was introduced at 60 sccm resulting in a pressure of 2.6 Torr. The temperature of upstream zone was then ramped to 100 °C and the downstream furnace was subsequently ramped to a setpoint of 825 °C. The set point of the upstream zone was adjusted such that the residual heat from the downstream zone results in vaporization of Se. Once the temperature of downstream furnace was stabilized, hydrogen was introduced at a flow rate of 40 sccm (total pressure of 3 Torr). This initiates the growth as the presence of hydrogen is required to decompose and vaporize WO
+     <sup/>
+     gezeigt. Ein Keramikboot mit 500 mg Se-Pulver wurde in der Mitte der Aufwärtszone platziert. Nach dem Laden wurde das Quarzrohr evakuiert und Ar bei 60 sccm eingeführt, was zu einem Druck von 2,6 Torr führte. Die Temperatur der Aufwärtszone wurde dann auf 100 °C erhöht und der Abwärtsofen anschließend auf einen Sollwert von 825 °C gebracht. Der Sollwert der Aufwärtszone wurde so angepasst, dass die Restwärme aus der Abwärtszone zur Verdampfung von Se führt. Sobald die Temperatur des Abwärtsofens stabilisiert war, wurde Wasserstoff mit einer Flussrate von 40 sccm (Gesamtdruck von 3 Torr) eingeführt. Dies initiiert das Wachstum, da die Anwesenheit von Wasserstoff erforderlich ist, um WO
      <sub>
       x
      </sub>
+     zu zersetzen und zu verdampfen
      <sup>
       <xref ref-type="bibr" rid="CR37">
        37
       </xref>
      </sup>
-     . The growth time used was 15 min. Once the growth is complete, hydrogen flow was stopped, and the furnace was opened to rapidly cool the sample. The influence of the H
+     . Die Wachstumszeit betrug 15 Minuten. Sobald das Wachstum abgeschlossen war, wurde der Wasserstofffluss gestoppt und der Ofen geöffnet, um die Probe schnell abzukühlen. Der Einfluss des H
      <sub>
       2
      </sub>
-     /Ar ratio, growth time and growth pressure is discussed in the
+     /Ar-Verhältnisses, der Wachstumszeit und des Wachstumsdrucks wird in den
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
+      ergänzenden Methoden
      </xref>
-     and are shown in Supplementary Figs
+     diskutiert und in den Supplementary Figs
      <xref ref-type="supplementary-material" rid="MOESM1">
       9
      </xref>
@@ -2305,98 +2305,86 @@
      <xref ref-type="supplementary-material" rid="MOESM1">
       11
      </xref>
-     . Optical microscope images of samples grown on various substrates is shown in Supplementary Fig.
+     <sup/>
+     gezeigt. Optische Mikroskopbilder von Proben, die auf verschiedenen Substraten gewachsen sind, sind in Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       12
      </xref>
-     . Specific growth conditions were tuned to optimize the PL QY of the as-grown samples and to either promote growth of bilayer or monolayer domains (discussed in
+     <sup/>
+     gezeigt. Spezifische Wachstumsbedingungen wurden angepasst, um die PL QY der gewachsenen Proben zu optimieren und entweder das Wachstum von Doppelschicht- oder Monoschichtdomänen zu fördern (diskutiert in den
      <xref ref-type="supplementary-material" rid="MOESM1">
-      Supplementary Methods
+      ergänzenden Methoden
      </xref>
-     ). It should be noted that for growths where the substrate temperature was varied the WO
+     ). Es sollte beachtet werden, dass bei Wachstumsprozessen, bei denen die Substrattemperatur variiert wurde, das WO
      <sub>
       3
      </sub>
-     /KBr boat was placed in the center of the first heating zone and the Se boat was placed at the edge of the first heating zone. The substrates were placed in the center of the second heating zone. The position of Se boat was adjusted to control the temperature. Transfer of grown WSe
+     /KBr-Boot in der Mitte der ersten Heizzone und das Se-Boot am Rand der ersten Heizzone platziert wurde. Die Substrate wurden in der Mitte der zweiten Heizzone platziert. Die Position des Se-Boots wurde angepasst, um die Temperatur zu kontrollieren. Der Transfer des gewachsenen WSe
      <sub>
       2
      </sub>
-     is done using a HF based wet transfer technique with PMMA as the transfer medium using the specific procedure described in ref.
+     erfolgt mittels einer HF-basierten Nassübertragungstechnik mit PMMA als Übertragungsmedium unter Verwendung des in Ref.
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
      </sup>
-     . The electrical performance of CVD WSe
+     beschriebenen spezifischen Verfahrens. Die elektrische Leistung von CVD WSe
      <sub>
       2
      </sub>
-     grown on fused silica and transferred to Si/SiO
+     , das auf Quarzglas gewachsen und auf Si/SiO
      <sub>
       2
      </sub>
-     is also compared to that of exfoliated samples, and is shown in Supplementary Fig.
+     übertragen wurde, wird auch mit der von exfolierten Proben verglichen und in Supplementary Fig.
      <xref ref-type="supplementary-material" rid="MOESM1">
       13
      </xref>
-     .
+     <sup/>
+     gezeigt.
     </p>
    </sec>
    <sec id="Sec9">
     <title>
-     Transmission electron microscopy
+     Transmissionselektronenmikroskopie
     </title>
     <p id="Par16">
      WSe
      <sub>
       2
      </sub>
-     monolayers were directly grown and transferred on 8 nm thick SiO
+     -Monolagen wurden direkt auf 8 nm dicken SiO
      <sub>
       2
      </sub>
-     membranes (Ted Pella) for electron diffraction measurements in order to directly measure the lattice constant of the strained and unstrained samples, respectively. Electron diffraction measurements were performed at the National Center for Electron Microscopy at LBNL using a FEI Titan 60–300 microscope operated at 80 kV with parallel beam illumination.
+     -Membranen (Ted Pella) gezüchtet und transferiert, um Elektronenbeugungsmessungen durchzuführen, um die Gitterkonstante der gespannten und ungespannten Proben direkt zu messen. Elektronenbeugungsmessungen wurden am National Center for Electron Microscopy am LBNL mit einem FEI Titan 60–300 Mikroskop durchgeführt, das bei 80 kV mit paralleler Strahlbeleuchtung betrieben wurde.
     </p>
    </sec>
    <sec id="Sec10">
     <title>
-     Optical characterization
+     Optische Charakterisierung
     </title>
     <p id="Par17">
-     The PL data presented in this work was obtained using a custom built micro-PL instrument described in detail in ref.
+     Die in dieser Arbeit vorgestellten PL-Daten wurden mit einem speziell angefertigten Mikro-PL-Instrument gewonnen, das ausführlich in Ref.
      <sup>
       <xref ref-type="bibr" rid="CR1">
        1
       </xref>
      </sup>
-     . In brief, measurements were performed using the continuous wave 514.5 nm line of an Ar
-     <sup>
-      +
-     </sup>
-     laser (Lexel 95) and the laser power was adjusted using neutral density filters. The laser was focused on the sample using an 80 × objective lens (NA = 0.9). The PL signal was measured using the same objective lens, passed through a 550 nm dielectric longpass filter, dispersed by a
+     beschrieben wird. Kurz gesagt, die Messungen wurden mit der kontinuierlichen Wellenlänge von 514,5 nm einer Ar-Laserlinie (Lexel 95) durchgeführt, und die Laserleistung wurde mit Neutraldichtefiltern angepasst. Der Laser wurde mit einem 80×-Objektiv (NA = 0,9) auf die Probe fokussiert. Das PL-Signal wurde mit demselben Objektiv gemessen, durch einen dielektrischen Langpassfilter von 550 nm geleitet, durch einen
      <italic>
       f
      </italic>
-     = 340 mm spectrometer with a 150 g mm
-     <sup>
-      −1
-     </sup>
-     grating, and detected using by an Si CCD camera (Andor iDus BEX2-DD). Prior to each measurement the CCD background was obtained and subsequently subtracted from the PL acquisition. The sensitivity of the instrument as a function of wavelength (instrument function) was determined through measurement of a virtual Lambertian blackbody source under the objective, created by imaging the illumination from a temperature stabilized lamp (ThorLabs SLS201) on a diffuse reflector (Spectralon). The system efficiency was determined by measuring the response of the excitation laser focused onto a diffuse reflector (Spectralon), with the 550 nm longpass filter removed. The measured external quantum efficiency was converted to QY using sample absorption at the pump wavelength and the fraction of light, which is able to escape the sample (1/4
+     = 340 mm Spektrometer mit einem 150 g/mm Gitter dispergiert und mit einer Si-CCD-Kamera (Andor iDus BEX2-DD) detektiert. Vor jeder Messung wurde der CCD-Hintergrund erfasst und anschließend von der PL-Aufnahme subtrahiert. Die Empfindlichkeit des Instruments als Funktion der Wellenlänge (Instrumentenfunktion) wurde durch Messung einer virtuellen lambertschen Schwarzkörperquelle unter dem Objektiv bestimmt, die durch Abbilden der Beleuchtung einer temperaturstabilisierten Lampe (ThorLabs SLS201) auf einen diffusen Reflektor (Spectralon) erzeugt wurde. Die Systemeffizienz wurde durch Messen der Reaktion des auf einen diffusen Reflektor (Spectralon) fokussierten Anregungslasers bestimmt, wobei der 550 nm Langpassfilter entfernt wurde. Die gemessene externe Quanteneffizienz wurde in QY umgewandelt, indem die Probenabsorption bei der Pumpwellenlänge und der Anteil des Lichts, der die Probe verlassen kann (1/4
      <italic>
       n
      </italic>
-     <sup>
-      2
-     </sup>
-     , where
+     , wobei
      <italic>
       n
      </italic>
-     is the refractive index of the medium). All measurements shown in this work were performed at an incident power of 1.5 W cm
-     <sup>
-      −2
-     </sup>
-     (corresponding to a laser power of 200 nW). This laser power is significantly below the onset of biexcitonic recombination in WSe
+     der Brechungsindex des Mediums ist), berücksichtigt wurden. Alle in dieser Arbeit gezeigten Messungen wurden bei einer einfallenden Leistung von 1,5 W/cm (entsprechend einer Laserleistung von 200 nW) durchgeführt. Diese Laserleistung liegt deutlich unterhalb des Beginns der biexcitonischen Rekombination in WSe
      <sub>
       2
      </sub>
@@ -2405,19 +2393,20 @@
        38
       </xref>
      </sup>
-     . Low temperature measurements were performed using a long working distance 50 × objective lens in a micro-cryostat (Janis) with an infrasil window. The procedure described previously was used to calculate the sample PL efficiency. PL imaging was performed on the samples to determine their uniformity. Measurements were performed using a florescence microscopy setup using a 470 nm light emitting diode as the excitation source and a CCD detector (Andor Luca). Raman measurements and high-resolution mapping were performed to characterize the strain in the WSe
+     . Tieftemperaturmessungen wurden mit einem langarbeitsdistanz 50×-Objektiv in einem Mikro-Kryostat (Janis) mit einem Infrasil-Fenster durchgeführt. Das zuvor beschriebene Verfahren wurde verwendet, um die PL-Effizienz der Probe zu berechnen. PL-Bildgebung wurde an den Proben durchgeführt, um ihre Gleichmäßigkeit zu bestimmen. Messungen wurden mit einem Fluoreszenzmikroskopie-Setup unter Verwendung einer 470 nm Licht emittierenden Diode als Anregungsquelle und einem CCD-Detektor (Andor Luca) durchgeführt. Raman-Messungen und hochauflösende Kartierungen wurden durchgeführt, um die Spannung in WSe
      <sub>
       2
      </sub>
-     . Raman spectra were obtained using a WITec Alpha 300RA equipped with a piezo electric scanning stage. The sample was excited using the 532 nm line of a frequency-doubled Nd:YAG laser as the excitation source and focused on the sample using a 100 × objective.
+     <sup/>
+     zu charakterisieren. Raman-Spektren wurden mit einem WITec Alpha 300RA, ausgestattet mit einer piezoelektrischen Scanning-Bühne, erhalten. Die Probe wurde mit der 532 nm Linie eines frequenzverdoppelten Nd:YAG-Lasers als Anregungsquelle angeregt und mit einem 100×-Objektiv auf die Probe fokussiert.
     </p>
    </sec>
    <sec id="Sec11">
     <title>
-     Data availability
+     Verfügbarkeit der Daten
     </title>
     <p id="Par18">
-     The data that support the findings of this study are available from the corresponding author on request.
+     Die Daten, die die Ergebnisse dieser Studie unterstützen, sind auf Anfrage beim korrespondierenden Autor erhältlich.
     </p>
    </sec>
   </sec>
@@ -2425,28 +2414,28 @@
  <back>
   <ack>
    <title>
-    Acknowledgements
+    Danksagungen
    </title>
    <p>
-    The authors would like to thank Ian S. Winter for providing them with his elastic constants code that interfaces with VASP. Materials growth, characterization, and modeling were supported by the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division under contract no. DE-AC02-05CH11231 within the Electronic Materials Program (KC1201). Electron Microscopy was performed at the Molecular Foundry which is supported by the Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.
+    Die Autoren möchten Ian S. Winter dafür danken, dass er ihnen seinen Code für elastische Konstanten zur Verfügung gestellt hat, der mit VASP interagiert. Materialwachstum, Charakterisierung und Modellierung wurden vom U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Materials Sciences and Engineering Division im Rahmen des Vertrags Nr. DE-AC02-05CH11231 innerhalb des Electronic Materials Program (KC1201) unterstützt. Die Elektronenmikroskopie wurde im Molecular Foundry durchgeführt, das vom Office of Science, Office of Basic Energy Sciences, des U.S. Department of Energy im Rahmen des Vertrags Nr. DE-AC02-05CH11231 unterstützt wird.
    </p>
   </ack>
   <sec sec-type="author-contribution">
    <title>
-    Author contributions
+    Autorenbeiträge
    </title>
    <p>
-    G.H.A., M.A. and A.J. conceived the idea for the project and designed the experiments. G.H.A. performed the synthesis of WSe
+    G.H.A., M.A. und A.J. entwickelten die Idee für das Projekt und entwarfen die Experimente. G.H.A. führte die Synthese von WSe
     <sub>
      2
     </sub>
-    . G.H.A., M.A. and D.-H.L. carried out the optical characterizations. H.R. and A.M.M. performed electron diffraction measurements. J.P.M. and D.C.C. performed modeling and simulations. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. and A.J. analyzed the data. G.H.A., M.A. and A.J. wrote the manuscript. All authors discussed the results and commented on the manuscript.
+    durch. G.H.A., M.A. und D.-H.L. führten die optischen Charakterisierungen durch. H.R. und A.M.M. führten Elektronenbeugungsmessungen durch. J.P.M. und D.C.C. führten Modellierungen und Simulationen durch. G.H.A., M.A., J.P.M., D.C.C., J.W.A., M.D. und A.J. analysierten die Daten. G.H.A., M.A. und A.J. schrieben das Manuskript. Alle Autoren diskutierten die Ergebnisse und kommentierten das Manuskript.
    </p>
   </sec>
   <sec sec-type="ethics-statement">
    <sec id="FPar1" sec-type="COI-statement">
     <title>
-     Competing interests
+     Interessenkonflikte
     </title>
     <p id="Par19">
      The authors declare no competing financial interests.
@@ -2455,7 +2444,7 @@
   </sec>
   <ref-list id="Bib1">
    <title>
-    References
+    Referenzen
    </title>
    <ref-list>
     <ref id="CR1">
@@ -4443,7 +4432,7 @@
    <app id="App1" specific-use="web-only">
     <sec id="Sec12">
      <title>
-      Electronic supplementary material
+      Elektronisches Zusatzmaterial
      </title>
      <p id="Par20">
       <supplementary-material content-type="local-data" id="MOESM1" xlink:title="Electronic supplementary material">
@@ -4461,7 +4450,7 @@
   </app-group>
   <notes notes-type="ESMHint">
    <title>
-    Electronic supplementary material
+    Elektronisches Zusatzmaterial
    </title>
    <p>
     <bold>
