@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-021-21624-3/deu.xml">
+    Rekonfigurierbare Photonik mit integrierten Einzelphotonendetektoren
+   </a>
+   <a href="/articles/10X1038_s41467-023-43444-3/deu.xml">
+    Ernährungsbedingte zirkadiane Rhythmen und das Risiko von Herz-Kreislauf-Erkrankungen in der prospektiven NutriNet-Santé-Kohorte
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/deu.xml">
+    Spannungsoptimiertes Wachstum zweidimensionaler Materialien
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/deu.xml">
+    Eine globale Synthese und Bewertung der Ernährung freilaufender Hauskatzen
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/deu.xml">
+    Erforschung von Mustern, die in einem Datensatz mit kontrastiver Hauptkomponentenanalyse angereichert sind
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/deu.xml">
+    Ängstliche Individuen verlagern die Emotionskontrolle vom lateralen Frontpol zur dorsolateralen präfrontalen Kortex
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/deu.xml">
+    Inverse-designte Diamant-Photonik
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'deu');}, 100);
+  </script>
+ </body>
+</html>

@@ -3,34 +3,30 @@ import os
 import json
 
 
-def update_langs_dict(langs):
-    #
-    # RE-RUN WHENEVER NEW LANGUAGES OR ARTICLES ARE ADDED. (first add the new language to the dict)
-    #
-    lang_dict = load_langs()
-    codes = [lang_dict["translation"][l] for l in langs]
 
-    for lang in codes:
-        print(lang)
+def update_catalog(dois):
+    #
+    # RE-RUN WHENEVER NEW ARTICLES ARE ADDED.
+    #
+    articles_dict = load_articles()
+    # dois = [lang_dict["translation"][l] for a in articles]
+
+    for doi in dois:
+        print(doi)
         # get all available article titles and dois
-        articles = [file for file in os.listdir(f"lang/{lang}") if file[-len(".xml"):] == ".xml"]
-        for i in range(len(articles)):
-            info = {}
-            with open(f"lang/{lang}/{str(articles[i])}", "r") as f:
-                this_data = BeautifulSoup(str(f.read()), features="xml")
-                info["doi"] = filename_from_DOI(xml=this_data)
-                info["title"] = str_strip(this_data.find("article-title").string)
-            if articles[i][:-len(".xml")] == info["doi"]:
-                # format HAS to be exactly [doi].xml to be displayed on the website.
-                articles[i] = info
+        langs = [file for file in os.listdir(f"articles/{doi}") if file[-len(".xml"):] == ".xml"]
+        for i in range(len(langs)):
+            if langs[i][:-len(".xml")] == langs[i][0:3]: # format HAS to be exactly [lang].xml to be displayed on the website.
+                with open(f"articles/{doi}/{str(langs[i])}", "r") as f:
+                    this_data = BeautifulSoup(str(f.read()), features="xml")
+                    title = str_strip(this_data.find("article-title").string)
+                    if doi in articles_dict.keys():
+                        articles_dict[doi][langs[i][0:3]] = title
+                    else:
+                        articles_dict[doi] = {langs[i][0:3]: title}
 
-        lang_dict["codes"][lang] = {
-            "name": lang_dict["codes"][lang]["name"],
-            "articles": [a for a in articles if isinstance(a,dict)]
-        }
-
-    with open("lang.json", "w+") as f:
-        json.dump(lang_dict, f, ensure_ascii=False, indent=2)
+    with open("articles.json", "w+") as f:
+        json.dump(articles_dict, f, ensure_ascii=False, indent=2)
 
 
 def update_dropdown_langs(langs):
@@ -45,7 +41,7 @@ def update_dropdown_langs(langs):
     lang_dict = load_langs()
     codes = [lang_dict["translation"][l] for l in langs]
     for code in codes:
-        dropdown.append(BeautifulSoup(f"<a href='' id='{code}'>{lang_dict['codes'][code]['name']}</a>", features="html.parser"))
+        dropdown.append(BeautifulSoup(f"<a href='' id='{code}'>{lang_dict['codes'][code]}</a>", features="html.parser"))
     
     with open("style/navigation.html", "w+") as f:
         f.write(html.prettify())
@@ -55,30 +51,37 @@ def update_index_files(langs):
     # CREATES NEW INDEX FILE FOR EACH LANGUAGE W/ TRANSLATED TITLES.
     # (currently uses the Korean index as the model)
     #
-    html = BeautifulSoup(str(open("lang/kor/index.html").read()), features="html.parser")
+    html = BeautifulSoup(str(open("index/kor.html").read()), features="html.parser")
     articles = html.find("div", {"class": "articles-index"})
     scripts = [s for s in html.find_all("script")]
 
     lang_dict = load_langs()
     codes = [lang_dict["translation"][l] for l in langs]
+    articles_dict = load_articles()
+    dois = list(articles_dict.keys())
+
     for code in codes:
         # Add links to all available articles.
         articles.clear()
-        for a in lang_dict["codes"][code]["articles"]:
-            articles.append(BeautifulSoup(f"<a href='{a['doi']}.xml'>{a['title']}</a>", features="html.parser"))
+        articles_with_lang = [doi for doi in dois if code in articles_dict[doi].keys()]
+        for a in articles_with_lang:
+            articles.append(BeautifulSoup(f"<a href='/articles/{a}/{code}.xml'>{articles_dict[a][code]}</a>", features="html.parser"))
         
         # Change the on-load script.
         script = scripts[-1]
         script.clear()
         script.append(BeautifulSoup("setTimeout(function() {configureDropdown('index', '"+code+"');}, 100);", features="html.parser"))
 
-        with open(f"lang/{code}/index.html", "w+") as f:
+        with open(f"index/{code}.html", "w+") as f:
             f.write(html.prettify())
 
 if __name__ == "__main__":
-    all_langs = list(load_langs()["translation"].keys()) # All languages.
-    langs = ["English"]
-    update_langs_dict(langs)
+    all_articles = [doi for doi in os.listdir(f"articles") if doi != ".DS_Store"]
+    all_langs = [lang for lang in load_langs()['translation'].keys()]
+
+    articles = all_articles
+    # update_catalog(articles)
+    langs = all_langs
     update_dropdown_langs(all_langs)
     update_index_files(all_langs)
 

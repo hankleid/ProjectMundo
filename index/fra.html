@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-019-14096-z/fra.xml">
+    Algorithmes récurrents heuristiques pour les machines Ising photoniques
+   </a>
+   <a href="/articles/10X1038_s41467-023-43444-3/fra.xml">
+    Rythmes circadiens alimentaires et risque de maladies cardiovasculaires dans la cohorte prospective NutriNet-Santé
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/fra.xml">
+    Croissance des matériaux bidimensionnels par ingénierie de contrainte
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/fra.xml">
+    Une synthèse et évaluation mondiale du régime alimentaire des chats domestiques en liberté
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/fra.xml">
+    Exploration des motifs enrichis dans un ensemble de données avec l'analyse en composantes principales contrastive
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/fra.xml">
+    Les individus anxieux déplacent le contrôle émotionnel du pôle frontal latéral au cortex préfrontal dorsolatéral
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/fra.xml">
+    Photonique en diamant à conception inverse
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'fra');}, 100);
+  </script>
+ </body>
+</html>

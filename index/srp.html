@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-023-43444-3/srp.xml">
+    Dijetetski cirkadijalni ritmovi i rizik od kardiovaskularnih bolesti u prospektivnoj NutriNet-Santé kohorti
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/srp.xml">
+    Rast inženjeringom napregnutih dvo-dimenzionalnih materijala
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/srp.xml">
+    Globalna sinteza i procena ishrane slobodnoživećih domaćih mačaka
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/srp.xml">
+    Istraživanje obrazaca obogaćenih u skupu podataka pomoću kontrastivne analize glavnih komponenti
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/srp.xml">
+    Anksiozni pojedinci prebacuju kontrolu emocija sa lateralnog frontalnog pola na dorzolateralni prefrontalni korteks
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/srp.xml">
+    Inverzno dizajnirana dijamantska fotonika
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'srp');}, 100);
+  </script>
+ </body>
+</html>

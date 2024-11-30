@@ -11,7 +11,7 @@ function configureDropdown(doi, lang) {
         })
         .then(function(data) {
             let dropdown_button = document.getElementById("btn-dropdown");
-            dropdown_button.textContent = data.codes[lang].name;
+            dropdown_button.textContent = data.codes[lang];
         });
 
     let dropdown = document.getElementById("lang-dropdown");
@@ -19,13 +19,16 @@ function configureDropdown(doi, lang) {
     for (let i = 0; i < els.length; i++) {
         let newlink = "";
         if (doi === "index") {
-            newlink = "/lang/" + els[i].getAttribute("id") + "/index.html";
+            newlink = "/index/" + els[i].getAttribute("id") + ".html";
         }
         else {
-            newlink = "/lang/" + els[i].getAttribute("id") + "/" + doi;
+            newlink = "/articles/" + doi + "/" + els[i].getAttribute("id") + ".xml";
         }
         els[i].setAttribute("href", newlink);
     }
+    
+    let home = document.getElementById("home");
+    home.setAttribute("href", "/index/" + lang + ".html")
 }
 
 /* When the user clicks on the button, 

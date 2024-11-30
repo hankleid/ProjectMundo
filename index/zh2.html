@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-023-43444-3/zh2.xml">
+    飲食的晝夜節律與前瞻性NutriNet-Santé隊列中的心血管疾病風險
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/zh2.xml">
+    應變工程生長二維材料
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/zh2.xml">
+    全球自由放養家貓飲食的綜合分析與評估
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/zh2.xml">
+    利用對比主成分分析探索數據集中增強的模式
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/zh2.xml">
+    焦慮個體將情緒控制從側額極轉移到背外側前額葉皮層
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/zh2.xml">
+    逆向設計的鑽石光子學
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'zh2');}, 100);
+  </script>
+ </body>
+</html>

@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-022-29976-0/ita.xml">
+    Controllo del fascio alla scala temporale dei nanosecondi con un riflettore atomico sottile
+   </a>
+   <a href="/articles/10X1038_s41467-023-43444-3/ita.xml">
+    Ritmi circadiani alimentari e rischio di malattie cardiovascolari nella coorte prospettica NutriNet-Santé
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/ita.xml">
+    Crescita ingegnerizzata a sforzo di materiali bidimensionali
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/ita.xml">
+    Una sintesi globale e valutazione della dieta dei gatti domestici liberi
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/ita.xml">
+    Esplorazione di schemi arricchiti in un dataset con l'analisi delle componenti principali contrastive
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/ita.xml">
+    Gli individui ansiosi spostano il controllo delle emozioni dal polo frontale laterale alla corteccia prefrontale dorsolaterale
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/ita.xml">
+    Fotonicadiamante a progettazione inversa
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'ita');}, 100);
+  </script>
+ </body>
+</html>

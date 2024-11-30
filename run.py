@@ -60,6 +60,8 @@ for lang in languages:
     f.write(this_data.prettify())
     f.close()
 
+    # ADD THIS ARTICLE TO THE CATALOG.
+
     tl.reset()
 
 

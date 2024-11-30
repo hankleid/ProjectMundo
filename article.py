@@ -348,6 +348,9 @@ def translate_article(xml, tl, language, split=None):
 def load_langs():
     return json.load(open('lang.json'))
 
+def load_articles():
+    return json.load(open('articles.json'))
+
 def add_mathML(xml):
     # Adds the MathML attribute for displaying equations.
     for math in xml.find_all('math'):

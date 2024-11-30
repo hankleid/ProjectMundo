@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-023-43444-3/dan.xml">
+    Diætets døgnrytmer og risiko for hjerte-kar-sygdomme i den prospektive NutriNet-Santé kohorte
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/dan.xml">
+    Strain-engineered vækst af todimensionale materialer
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/dan.xml">
+    En global syntese og vurdering af fritgående tamkatte diæt
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/dan.xml">
+    Udforskning af mønstre beriget i et datasæt med kontrastiv hovedkomponentanalyse
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/dan.xml">
+    Ængstelige individer skifter følelseskontrol fra lateral frontpol til dorsolateral præfrontal cortex
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/dan.xml">
+    Omvendt-designet diamantfotonik
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'dan');}, 100);
+  </script>
+ </body>
+</html>

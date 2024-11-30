@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-023-43444-3/rus.xml">
+    Диетические циркадные ритмы и риск сердечно-сосудистых заболеваний в проспективной когорте NutriNet-Santé
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/rus.xml">
+    Рост двумерных материалов с управляемым напряжением
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/rus.xml">
+    Глобальный синтез и оценка рациона свободно гуляющих домашних кошек
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/rus.xml">
+    Исследование обогащенных паттернов в наборе данных с помощью контрастного анализа главных компонент
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/rus.xml">
+    Тревожные индивиды переключают контроль эмоций с латерального фронтального полюса на дорсолатеральную префронтальную кору
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/rus.xml">
+    Обратное проектирование фотоники на основе алмаза
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'rus');}, 100);
+  </script>
+ </body>
+</html>

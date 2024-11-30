@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="/articles/10X1038_s41467-023-43444-3/msa.xml">
+    Ritma sirkadian pemakanan dan risiko penyakit kardiovaskular dalam kohort prospektif NutriNet-Santé
+   </a>
+   <a href="/articles/10X1038_s41467-017-00516-5/msa.xml">
+    Pertumbuhan bahan dua dimensi yang direka bentuk tegangan
+   </a>
+   <a href="/articles/10X1038_s41467-023-42766-6/msa.xml">
+    Satu sintesis dan penilaian global mengenai diet kucing domestik yang berkeliaran bebas
+   </a>
+   <a href="/articles/10X1038_s41467-018-04608-8/msa.xml">
+    Meneroka corak yang diperkaya dalam set data dengan analisis komponen utama kontras
+   </a>
+   <a href="/articles/10X1038_s41467-023-40666-3/msa.xml">
+    Individu yang cemas mengalihkan kawalan emosi dari kutub frontal lateral ke korteks prefrontal dorsolateral
+   </a>
+   <a href="/articles/10X1038_s41467-019-11343-1/msa.xml">
+    Fototonik berlian yang direka secara terbalik
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'msa');}, 100);
+  </script>
+ </body>
+</html>
