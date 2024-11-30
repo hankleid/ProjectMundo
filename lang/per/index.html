@@ -1,0 +1,45 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="10X1038_s41467-023-40666-3.xml">
+    افراد مضطرب کنترل احساسات را از قطب پیشانی جانبی به قشر پیش‌پیشانی پشتی‌جانبی منتقل می‌کنند
+   </a>
+   <a href="10X1038_s41467-018-04608-8.xml">
+    بررسی الگوهای غنی‌شده در یک مجموعه داده با تحلیل مؤلفه‌های اصلی متضاد
+   </a>
+   <a href="10X1038_s41467-017-00516-5.xml">
+    رشد مهندسی‌شده با کرنش مواد دو‌بعدی
+   </a>
+   <a href="10X1038_s41467-023-42766-6.xml">
+    یک ترکیب و ارزیابی جهانی از رژیم غذایی گربه‌های خانگی آزاد
+   </a>
+   <a href="10X1038_s41746-019-0216-8.xml">
+    تفسیر یادگیری عمیق از اکوکاردیوگرام‌ها
+   </a>
+   <a href="10X1038_s41467-019-11343-1.xml">
+    فوتونیک الماس با طراحی معکوس
+   </a>
+   <a href="10X1038_s41467-023-43444-3.xml">
+    ریتم‌های شبانه‌روزی رژیم غذایی و خطر بیماری‌های قلبی عروقی در مطالعه آینده‌نگر NutriNet-Santé
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'per');}, 100);
+  </script>
+ </body>
+</html>

@@ -64,7 +64,7 @@
    </article-categories>
    <title-group>
     <article-title xml:lang="en">
-     Descoherencia inducida gravitacionalmente vs difusión del espacio-tiempo: probando la naturaleza cuántica de la gravedad
+     Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity
     </article-title>
    </title-group>
    <contrib-group>
@@ -349,10 +349,10 @@
    </permissions>
    <abstract id="Abs1" xml:lang="en">
     <title>
-     Resumen
+     Abstract
     </title>
     <p id="Par1">
-     Consideramos dos sistemas interactuantes cuando uno se trata clásicamente mientras que el otro sistema permanece cuántico. Se ha demostrado que existe una dinámica consistente de este acoplamiento, y se ha explorado en el contexto de tratar el espacio-tiempo clásicamente. Aquí, probamos que cualquier dinámica híbrida de este tipo resulta necesariamente en la descoherencia del sistema cuántico y en una ruptura de la predictibilidad en el espacio de fases clásico. Además, demostramos que un compromiso entre la tasa de esta descoherencia y el grado de difusión inducido en el sistema clásico es una característica general de toda dinámica cuántica clásica; los tiempos de coherencia largos requieren una fuerte difusión en el espacio de fases en relación con la fuerza del acoplamiento. Aplicando la relación de compromiso a la gravedad, encontramos una relación entre la fuerza de la descoherencia inducida gravitacionalmente frente a la difusión del métrico y sus momentos conjugados. Esto proporciona una firma experimental de teorías en las que la gravedad es fundamentalmente clásica. Los límites en las tasas de descoherencia que surgen de los experimentos de interferometría actuales, combinados con mediciones precisas de masa, imponen restricciones significativas a las teorías donde la teoría clásica de la gravedad de Einstein interactúa con la materia cuántica. Encontramos que parte del espacio de parámetros de tales teorías ya está restringido, y proporcionamos figuras de mérito que pueden ser utilizadas en futuras mediciones de masa y experimentos de interferencia.
+     We consider two interacting systems when one is treated classically while the other system remains quantum. Consistent dynamics of this coupling has been shown to exist, and explored in the context of treating space-time classically. Here, we prove that any such hybrid dynamics necessarily results in decoherence of the quantum system, and a breakdown in predictability in the classical phase space. We further prove that a trade-off between the rate of this decoherence and the degree of diffusion induced in the classical system is a general feature of all classical quantum dynamics; long coherence times require strong diffusion in phase-space relative to the strength of the coupling. Applying the trade-off relation to gravity, we find a relationship between the strength of gravitationally-induced decoherence versus diffusion of the metric and its conjugate momenta. This provides an experimental signature of theories in which gravity is fundamentally classical. Bounds on decoherence rates arising from current interferometry experiments, combined with precision measurements of mass, place significant restrictions on theories where Einstein’s classical theory of gravity interacts with quantum matter. We find that part of the parameter space of such theories are already squeezed out, and provide figures of merit which can be used in future mass measurements and interference experiments.
     </p>
    </abstract>
    <abstract abstract-type="ShortSummary" id="Abs2" xml:lang="en">
@@ -761,7 +761,7 @@
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR12">
       12
      </xref>
@@ -769,7 +769,7 @@
     .
    </p>
    <p id="Par4">
-    The prevailing view has been that a quantum–classical coupling is inconsistent. Many proposals for such dynamics are not completely positive (CP), meaning they are at best an approximation and fail outside a regime of validity
+    The prevailing view has been that a quantum–classical coupling is inconsistent. Many proposals for such dynamics
     <sup>
      <xref ref-type="bibr" rid="CR13">
       13
@@ -778,6 +778,9 @@
      <xref ref-type="bibr" rid="CR14">
       14
      </xref>
+    </sup>
+    are not completely positive (CP), meaning they are at best an approximation and fail outside a regime of validity
+    <sup>
      <xref ref-type="bibr" rid="CR15">
       15
      </xref>
@@ -815,7 +818,7 @@
       <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq1.gif"/>
      </alternatives>
     </inline-formula>
-    is positive. This is the required condition used to derive the GKSL equation. If it is violated, the dynamics acting on half of an entangled state, give negative probabilities. The semi-classical Einstein’s equation, which replaces the quantum operator corresponding to the stress-energy tensor by its expectation value, is another attempt to treat the classical limit from an effective point of view, but it is non-linear in the state, leading to pathological behaviour if quantum fluctuations are of comparable magnitude to the stress-energy tensor
+    is positive. This is the required condition used to derive the GKSL equation. If it is violated, the dynamics acting on half of an entangled state, give negative probabilities. The semi-classical Einstein’s equation
     <sup>
      <xref ref-type="bibr" rid="CR17">
       17
@@ -824,10 +827,13 @@
      <xref ref-type="bibr" rid="CR18">
       18
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR19">
       19
      </xref>
+    </sup>
+    , which replaces the quantum operator corresponding to the stress-energy tensor by its expectation value, is another attempt to treat the classical limit from an effective point of view, but it is non-linear in the state, leading to pathological behaviour if quantum fluctuations are of comparable magnitude to the stress-energy tensor
+    <sup>
      <xref ref-type="bibr" rid="CR20">
       20
      </xref>
@@ -835,15 +841,7 @@
     . This is often the precise regime we would like to understand.
    </p>
    <p id="Par5">
-    However, examples of classical–quantum dynamics such as those first introduced in refs.  and studied in refs.  do not suffer from such problems and are consistent. More generally, the master equation shown in Eq. (
-    <xref ref-type="disp-formula" rid="Equ4">
-     4
-    </xref>
-    ), is linear in the state space, preserves the division of classical degrees of freedom and quantum ones, and is completely positive (CP), and preserves normalisation. This ensures that probabilities of measurement outcomes remain positive and always add to 1. The dynamics is related to the GKSL or Lindblad equation, which for bounded generators of the dynamics, is the most general Markovian dynamics for an open quantum system. More precisely, we consider dynamics which is autonomous, meaning the couplings in the theory do not depend on time. Likewise, Eq. (
-    <xref ref-type="disp-formula" rid="Equ4">
-     4
-    </xref>
-    ) is the most general Markovian classical–quantum dynamics with bounded generators
+    However, examples of classical–quantum dynamics such as those first introduced in refs.
     <sup>
      <xref ref-type="bibr" rid="CR21">
       21
@@ -852,6 +850,9 @@
      <xref ref-type="bibr" rid="CR22">
       22
      </xref>
+    </sup>
+    and studied in refs.
+    <sup>
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
@@ -871,13 +872,23 @@
      <xref ref-type="bibr" rid="CR26">
       26
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR27">
       27
      </xref>
+    </sup>
+    do not suffer from such problems and are consistent. More generally, the master equation shown in Eq. (
+    <xref ref-type="disp-formula" rid="Equ4">
+     4
+    </xref>
+    )
+    <sup>
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
+    </sup>
+    , is linear in the state space, preserves the division of classical degrees of freedom and quantum ones, and is completely positive (CP), and preserves normalisation. This ensures that probabilities of measurement outcomes remain positive and always add to 1. The dynamics is related to the GKSL or Lindblad equation
+    <sup>
      <xref ref-type="bibr" rid="CR28">
       28
      </xref>
@@ -885,6 +896,13 @@
      <xref ref-type="bibr" rid="CR29">
       29
      </xref>
+    </sup>
+    , which for bounded generators of the dynamics, is the most general Markovian dynamics for an open quantum system. More precisely, we consider dynamics which is autonomous, meaning the couplings in the theory do not depend on time. Likewise, Eq. (
+    <xref ref-type="disp-formula" rid="Equ4">
+     4
+    </xref>
+    ) is the most general Markovian classical–quantum dynamics with bounded generators
+    <sup>
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
@@ -893,7 +911,7 @@
       30
      </xref>
     </sup>
-    . Sub-classes of this master equation, along with measurement and feedback approaches, have been discussed in the context of Newtonian models of gravity and further developed into a spatially covariant framework so that Einstein gravity in the ADM formalism emerges as a limiting case
+    . Sub-classes of this master equation, along with measurement and feedback approaches, have been discussed in the context of Newtonian models of gravity
     <sup>
      <xref ref-type="bibr" rid="CR24">
       24
@@ -918,13 +936,19 @@
      <xref ref-type="bibr" rid="CR34">
       34
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR35">
       35
      </xref>
+    </sup>
+    and further developed into a spatially covariant framework so that Einstein gravity in the ADM formalism
+    <sup>
      <xref ref-type="bibr" rid="CR36">
       36
      </xref>
+    </sup>
+    emerges as a limiting case
+    <sup>
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
@@ -946,14 +970,20 @@
     .
    </p>
    <p id="Par6">
-    In this work, we move away from specific realisations of CQ dynamics, in order to discuss their common features and the experimental signatures that follow from this. An early precursor to the discussion here is the insight of Diósi, who added classical noise and quantum decoherence to the master equation of ref. , and found the noise and decoherence trade-off required for the dynamics to become completely positive. Here we prove that the phenomena found in refs.  are generic features of all CQ dynamics; the classical–quantum interaction necessarily induces decoherence on the quantum system, and there is a generic trade-off between the rate of decoherence and the amount of diffusion in the classical phase space. The stronger the interaction between the quantum system and the classical one, the greater the trade-off. One cannot have quantum systems with long-coherence times without inducing a lot of diffusion in the classical system. One can also generalise this result to a trade-off between the rate of diffusion and the strength of more general couplings to Lindblad operators, with decoherence being a special case
+    In this work, we move away from specific realisations of CQ dynamics, in order to discuss their common features and the experimental signatures that follow from this. An early precursor to the discussion here is the insight of Diósi
     <sup>
      <xref ref-type="bibr" rid="CR22">
       22
      </xref>
+    </sup>
+    , who added classical noise and quantum decoherence to the master equation of ref.
+    <sup>
      <xref ref-type="bibr" rid="CR13">
       13
      </xref>
+    </sup>
+    , and found the noise and decoherence trade-off required for the dynamics to become completely positive. Here we prove that the phenomena found in refs.
+    <sup>
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
@@ -966,7 +996,7 @@
       26
      </xref>
     </sup>
-    .
+    are generic features of all CQ dynamics; the classical–quantum interaction necessarily induces decoherence on the quantum system, and there is a generic trade-off between the rate of decoherence and the amount of diffusion in the classical phase space. The stronger the interaction between the quantum system and the classical one, the greater the trade-off. One cannot have quantum systems with long-coherence times without inducing a lot of diffusion in the classical system. One can also generalise this result to a trade-off between the rate of diffusion and the strength of more general couplings to Lindblad operators, with decoherence being a special case.
    </p>
   </sec>
   <sec id="Sec2" sec-type="results">
@@ -982,7 +1012,7 @@
     <xref ref-type="disp-formula" rid="Equ23">
      23
     </xref>
-    ), which bounds the product of diffusion coefficients and Lindblad coupling constants in terms of the strength of the CQ-interaction. It is precisely this trade-off which allows the theories considered here, to evade the no-go arguments of Feynmann, Aharonov, Eppley and Hannah and others
+    ), which bounds the product of diffusion coefficients and Lindblad coupling constants in terms of the strength of the CQ-interaction. It is precisely this trade-off which allows the theories considered here, to evade the no-go arguments of Feynmann
     <sup>
      <xref ref-type="bibr" rid="CR1">
       1
@@ -991,12 +1021,21 @@
      <xref ref-type="bibr" rid="CR2">
       2
      </xref>
+    </sup>
+    , Aharonov
+    <sup>
      <xref ref-type="bibr" rid="CR3">
       3
      </xref>
+    </sup>
+    , Eppley and Hannah
+    <sup>
      <xref ref-type="bibr" rid="CR4">
       4
      </xref>
+    </sup>
+    and others
+    <sup>
      <xref ref-type="bibr" rid="CR1">
       1
      </xref>
@@ -1008,7 +1047,7 @@
      <xref ref-type="bibr" rid="CR8">
       8
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR9">
       9
      </xref>
@@ -1052,7 +1091,7 @@
      <xref ref-type="bibr" rid="CR47">
       47
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR48">
       48
      </xref>
@@ -1074,11 +1113,7 @@
     ) and other variants we derive, quantify the amount of diffusion required to preserve any amount of coherence. If space–time curvature is treated classically, then complete positivity of the dynamics means its interaction with quantum fields necessarily results in unpredictability and gravitationally induced decoherence.
    </p>
    <p id="Par8">
-    This trade-off between the decoherence rate and diffusion provides an experimental signature, not only of models of hybrid Newtonian dynamics such as refs.  or post-quantum theories of general relativity such as refs.  but of any theory which treats gravity as being fundamentally classical. The metric and their conjugate momenta necessarily diffuse away from what Einstein’s general relativity predicts. This experimental signature squeezes classical–quantum theories of gravity from both sides: if one has shorter decoherence times for superpositions of different mass distributions, one necessarily has more diffusion of the metric and conjugate momenta. In the “Methods” subsection “Detecting gravitational diffusion” we show that the latter effect causes imprecision in measurements of mass such as those undertaken in the Cavendish experiment or in measurements of Newton’s constant “Big
-    <italic>
-     G
-    </italic>
-    "
+    This trade-off between the decoherence rate and diffusion provides an experimental signature, not only of models of hybrid Newtonian dynamics such as refs.
     <sup>
      <xref ref-type="bibr" rid="CR24">
       24
@@ -1087,6 +1122,9 @@
      <xref ref-type="bibr" rid="CR33">
       33
      </xref>
+    </sup>
+    or post-quantum theories of general relativity such as refs.
+    <sup>
      <xref ref-type="bibr" rid="CR11">
       11
      </xref>
@@ -1094,6 +1132,9 @@
      <xref ref-type="bibr" rid="CR39">
       39
      </xref>
+    </sup>
+    but of any theory which treats gravity as being fundamentally classical. The metric and their conjugate momenta necessarily diffuse away from what Einstein’s general relativity predicts. This experimental signature squeezes classical–quantum theories of gravity from both sides: if one has shorter decoherence times for superpositions of different mass distributions, one necessarily has more diffusion of the metric and conjugate momenta. In the “Methods” subsection “Detecting gravitational diffusion” we show that the latter effect causes imprecision in measurements of mass such as those undertaken in the Cavendish experiment
+    <sup>
      <xref ref-type="bibr" rid="CR49">
       49
      </xref>
@@ -1101,10 +1142,17 @@
      <xref ref-type="bibr" rid="CR50">
       50
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR51">
       51
      </xref>
+    </sup>
+    or in measurements of Newton’s constant “Big
+    <italic>
+     G
+    </italic>
+    "
+    <sup>
      <xref ref-type="bibr" rid="CR52">
       52
      </xref>
@@ -1112,7 +1160,7 @@
      <xref ref-type="bibr" rid="CR53">
       53
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR54">
       54
      </xref>
@@ -1121,7 +1169,7 @@
     <xref ref-type="disp-formula" rid="Equ44">
      42
     </xref>
-    ). In the other direction, decoherence experiments place a lower bound on the diffusion. Our estimates suggest that experimental lower bounds on the coherence time of large molecules, combined with gravitational experiments measuring the acceleration of small masses, already place strong restrictions on theories where space–time is not quantised. In the section “Physical constraints on the classicality of gravity” we show that several realisations of CQ-gravity are already ruled out, while other realisations produce enough diffusion away from general relativity to be detectable by future table-top experiments. Although the absence of such deviations from general relativity would not be as direct a confirmation of the quantum nature of gravity, such as experiments proposed in refs.  to exhibit entanglement or coherence generated by gravitons, it would effectively rule out any sensible theory that treats space–time classically. While confirmation of gravitational diffusion would suggest that space-time is fundamentally classical. Experiments to detect or bind gravitational diffusion also provide immediate-term prospects for probing the quantumness of gravity, while entanglement-based experiments will only be feasible in the long term
+    ). In the other direction, decoherence experiments place a lower bound on the diffusion. Our estimates suggest that experimental lower bounds on the coherence time of large molecules
     <sup>
      <xref ref-type="bibr" rid="CR55">
       55
@@ -1142,10 +1190,13 @@
      <xref ref-type="bibr" rid="CR59">
       59
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR60">
       60
      </xref>
+    </sup>
+    , combined with gravitational experiments measuring the acceleration of small masses
+    <sup>
      <xref ref-type="bibr" rid="CR61">
       61
      </xref>
@@ -1153,10 +1204,13 @@
      <xref ref-type="bibr" rid="CR62">
       62
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR63">
       63
      </xref>
+    </sup>
+    , already place strong restrictions on theories where space–time is not quantised. In the section “Physical constraints on the classicality of gravity” we show that several realisations of CQ-gravity are already ruled out, while other realisations produce enough diffusion away from general relativity to be detectable by future table-top experiments. Although the absence of such deviations from general relativity would not be as direct a confirmation of the quantum nature of gravity, such as experiments proposed in refs.
+    <sup>
      <xref ref-type="bibr" rid="CR64">
       64
      </xref>
@@ -1196,12 +1250,12 @@
      <xref ref-type="bibr" rid="CR73">
       73
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR74">
       74
      </xref>
     </sup>
-    .
+    to exhibit entanglement or coherence generated by gravitons, it would effectively rule out any sensible theory that treats space–time classically. While confirmation of gravitational diffusion would suggest that space-time is fundamentally classical. Experiments to detect or bind gravitational diffusion also provide immediate-term prospects for probing the quantumness of gravity, while entanglement-based experiments will only be feasible in the long term.
    </p>
    <p id="Par9">
     The outline of the remainder of this paper is as follows. In the subsection “Classical-quantum dynamics” we review the general form of the CQ master equation of classical–quantum systems as derived in refs.
@@ -1218,11 +1272,14 @@
     <italic>
      CQ-map
     </italic>
-    can be represented in a manner akin to the Kraus representation for quantum maps, with conditions for it to be completely positive and trace preserving (CPTP). We can perform a short time moment expansion of the CQ-map taking states at some initial time, to states at a later time. This gives us the CQ version of the Kramers–Moyal expansion, presented in the subsection “The CQ Kramers–Moyal expansion”. The physical meaning of the moments is given in the subsection “Physical interpretation of the moments”. Our main result is presented in the section “A trade-off between decoherence and diffusion”, where we show that there is a general trade-off between decoherence of the quantum system and diffusion in the classical system. We generalise the trade-off to the case of fields in the subsection “Trade-off in the presence of fields” and in the subsection “Physical constraints on the classicality of gravity”, we apply the inequality in the gravitational setting. The positivity constraints mean that the considerations do not depend on the specifics of the theory, only that it treats gravity classically, and is time-local. This allows us to discuss some of the observational implications of this result and we comment on the relevant figures of merit required in interference and precision mass measurements in order to constrain theories of gravity, as they are not always readily available in published reports. In addition to table-top constraints, we consider those due to cosmological observations. We then conclude with a discussion of our results. The “Methods” section collects or previews a number of technical results. Since this paper appeared on the arXiv, we have found that when the decoherence-diffusion trade-off is saturated, there are two important consequences. The first is that in the continuous class of dynamics, the quantum state remains pure, conditioned on the classical trajectory
+    can be represented in a manner akin to the Kraus representation
     <sup>
      <xref ref-type="bibr" rid="CR75">
       75
      </xref>
+    </sup>
+    for quantum maps, with conditions for it to be completely positive and trace preserving (CPTP). We can perform a short time moment expansion of the CQ-map taking states at some initial time, to states at a later time. This gives us the CQ version of the Kramers–Moyal expansion
+    <sup>
      <xref ref-type="bibr" rid="CR76">
       76
      </xref>
@@ -1230,6 +1287,9 @@
      <xref ref-type="bibr" rid="CR77">
       77
      </xref>
+    </sup>
+    , presented in the subsection “The CQ Kramers–Moyal expansion”. The physical meaning of the moments is given in the subsection “Physical interpretation of the moments”. Our main result is presented in the section “A trade-off between decoherence and diffusion”, where we show that there is a general trade-off between decoherence of the quantum system and diffusion in the classical system. We generalise the trade-off to the case of fields in the subsection “Trade-off in the presence of fields” and in the subsection “Physical constraints on the classicality of gravity”, we apply the inequality in the gravitational setting. The positivity constraints mean that the considerations do not depend on the specifics of the theory, only that it treats gravity classically, and is time-local. This allows us to discuss some of the observational implications of this result and we comment on the relevant figures of merit required in interference and precision mass measurements in order to constrain theories of gravity, as they are not always readily available in published reports. In addition to table-top constraints, we consider those due to cosmological observations. We then conclude with a discussion of our results. The “Methods” section collects or previews a number of technical results. Since this paper appeared on the arXiv, we have found that when the decoherence-diffusion trade-off is saturated, there are two important consequences. The first is that in the continuous class of dynamics, the quantum state remains pure, conditioned on the classical trajectory
+    <sup>
      <xref ref-type="bibr" rid="CR78">
       78
      </xref>
@@ -1240,13 +1300,13 @@
       39
      </xref>
     </sup>
-    . For a generic path integral of Feynman–Vernon form, one typically only knows that the dynamics are completely positive if it was derived from a CPTP master equation
+    . For a generic path integral of Feynman–Vernon form
     <sup>
      <xref ref-type="bibr" rid="CR79">
       79
      </xref>
     </sup>
-    .
+    , one typically only knows that the dynamics are completely positive if it was derived from a CPTP master equation.
    </p>
    <sec id="Sec3">
     <title>
@@ -1280,7 +1340,6 @@
      <italic>
       z
      </italic>
-     <sup/>
      . For example, we could take the classical degrees of freedom to be position and momenta in which case
      <inline-formula id="IEq3">
       <alternatives>
@@ -1354,7 +1413,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq4.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Given the Hilbert space, we denote the set of positive semi-definite operators with trace at most unity as
      <inline-formula id="IEq5">
       <alternatives>
@@ -1403,7 +1461,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq5.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Then the CQ object defining the state of the CQ system at a given time is a map
      <inline-formula id="IEq6">
       <alternatives>
@@ -1527,7 +1584,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq7.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . To put it differently, we associate to each classical degree of freedom an un-normalised density operator,
      <italic>
       ϱ
@@ -1677,7 +1733,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq10.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . An example of such a
      <italic>
       CQ-state
@@ -1738,7 +1793,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq12.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par11">
@@ -2107,11 +2161,15 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq18.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . This motivates our restriction to linear theories. We will also require the map to be Markovian on the combined classical–quantum system, which is equivalent to requiring that there is no hidden system that acts as a memory. This is natural if the interaction is taken to be fundamental, but is the assumption that one might want to remove if one thinks of the hybrid theory as an effective description. We thus take these as the minimal requirements that any fundamental classical–quantum theory must satisfy if it is to be consistent.
     </p>
     <p id="Par12">
      The most general CQ-dynamics, which maps CQ states onto themselves can be written in the form
+     <sup>
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+     </sup>
      <disp-formula id="Equ1">
       <label>
        1
@@ -2438,11 +2496,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq20.gif"/>
       </alternatives>
      </inline-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-     </sup>
      . Henceforth, we will adopt the Einstein summation convention so that we can drop ∑
      <sub>
       <italic>
@@ -2600,11 +2653,14 @@
      ) can be viewed as a generalisation of the Kraus decomposition theorem.
     </p>
     <p id="Par14">
-     In the case where the classical degrees of freedom are taken to be discrete, Poulin used the diagonal form of this map to derive the most general form of Markovian master equation for bounded operators, which is the one introduced in ref.
+     In the case where the classical degrees of freedom are taken to be discrete, Poulin
      <sup>
       <xref ref-type="bibr" rid="CR25">
        25
       </xref>
+     </sup>
+     used the diagonal form of this map to derive the most general form of Markovian master equation for bounded operators, which is the one introduced in ref.
+     <sup>
       <xref ref-type="bibr" rid="CR21">
        21
       </xref>
@@ -2709,7 +2765,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq21.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . In this case (
      <xref ref-type="disp-formula" rid="Equ1">
       1
@@ -3212,7 +3267,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq25.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Looking at the short-time expansion coefficients, by Taylor expanding in
      <italic>
       δ
@@ -4692,7 +4746,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq31.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We take the classical degrees of freedom
      <inline-formula id="IEq32">
       <alternatives>
@@ -5158,7 +5211,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq34.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . For example, in the case where
      <italic>
       d
@@ -5371,7 +5423,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq35.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . The components are then given by
      <inline-formula id="IEq36">
       <alternatives>
@@ -5548,7 +5599,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq37.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
      <inline-formula id="IEq38">
       <alternatives>
@@ -5660,9 +5710,12 @@
      <italic>
       d
      </italic>
-     components
-     <sup/>
-     .
+     <sup>
+      <italic>
+       n
+      </italic>
+     </sup>
+     components.
     </p>
     <p id="Par20">
      In terms of the components
@@ -5801,6 +5854,11 @@
       </alternatives>
      </inline-formula>
      is given by
+     <sup>
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+     </sup>
      <disp-formula id="Equ8">
       <label>
        8
@@ -6200,6 +6258,11 @@
       </alternatives>
      </disp-formula>
      and the master equation takes the form
+     <sup>
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+     </sup>
      <disp-formula id="Equ9">
       <label>
        9
@@ -7252,14 +7315,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq43.gif"/>
       </alternatives>
      </inline-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR30">
-       30
-      </xref>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-     </sup>
      . The second line describes pure quantum Lindbladian evolution described by the zeroth moments of the components
      <inline-formula id="IEq44">
       <alternatives>
@@ -8249,6 +8304,11 @@
      <italic>
       Heisenberg representation
      </italic>
+     <sup>
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+     </sup>
      for a CQ operator. If we are interested in the expectation value of phase space variables
      <inline-formula id="IEq49">
       <alternatives>
@@ -8650,11 +8710,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq51.gif"/>
       </alternatives>
      </inline-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-     </sup>
      . The force of this back-reaction is especially apparent if the equations of motion are Hamiltonian in the classical limit as in ref.
      <sup>
       <xref ref-type="bibr" rid="CR11">
@@ -9116,7 +9171,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq54.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par23">
@@ -10170,7 +10224,6 @@
      <sub>
       0
      </sub>
-     <sup/>
      . Then we can define a basis
      <inline-formula id="IEq61">
       <alternatives>
@@ -10498,7 +10551,9 @@
       b
      </italic>
      ))
-     <sup/>
+     <sup>
+      2
+     </sup>
      . For a damping/pumping process of a quantum harmonic oscillator with Hamiltonian
      <italic>
       H
@@ -10510,6 +10565,9 @@
      <italic>
       a
      </italic>
+     <sup>
+      †
+     </sup>
      <italic>
       a
      </italic>
@@ -10539,6 +10597,9 @@
      <italic>
       a
      </italic>
+     <sup>
+      †
+     </sup>
      ,
      <italic>
       a
@@ -10607,7 +10668,17 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq63.gif"/>
       </alternatives>
      </inline-formula>
-     the non-zero couplings, then standard calculations show that an initial superposition
+     the non-zero couplings, then standard calculations
+     <sup>
+      <xref ref-type="bibr" rid="CR26">
+       26
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR80">
+       80
+      </xref>
+     </sup>
+     show that an initial superposition
      <inline-formula id="IEq64">
       <alternatives>
        <mml:math id="IEq64_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10852,15 +10923,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq66.gif"/>
       </alternatives>
      </inline-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR26">
-       26
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR80">
-       80
-      </xref>
-     </sup>
      . So in this case, the Lindblad couplings not only determine the rate of decoherence but also the rate at which energy is pumped into the harmonic oscillator. In the next section, we will derive the trade-off between Lindblad couplings and the diffusion coefficients. Although we will sometimes refer to this as a trade-off between decoherence and diffusion, this terminology is only strictly appropriate for pure decoherence processes, while more generally, it is a trade-off between Lindblad couplings and diffusion coefficients.
     </p>
    </sec>
@@ -10869,19 +10931,7 @@
      A trade-off between decoherence and diffusion
     </title>
     <p id="Par26">
-     In this section, we present our main result by using positivity conditions to prove the trade-off between decoherence and diffusion seen in models such as those of refs.  are in fact a general feature of all classical-quantum interactions. We shall also generalise this, and derive a trade-off between diffusion and arbitrary Lindbladian coupling strengths. The trade-off is in relation to the strength of the dynamics and is captured by Eqs. (
-     <xref ref-type="disp-formula" rid="Equ20">
-      20
-     </xref>
-     ), (
-     <xref ref-type="disp-formula" rid="Equ23">
-      23
-     </xref>
-     ) and (
-     <xref ref-type="disp-formula" rid="Equ26">
-      26
-     </xref>
-     ). In the subsection “Trade off in the presence of fields” we extend the trade-off to the case where the classical and quantum degrees of freedom can be fields and use this to show that treating the metric as being classical necessarily results in diffusion of the gravitational field
+     In this section, we present our main result by using positivity conditions to prove the trade-off between decoherence and diffusion seen in models such as those of refs.
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
@@ -10895,7 +10945,19 @@
        26
       </xref>
      </sup>
-     .
+     are in fact a general feature of all classical-quantum interactions. We shall also generalise this, and derive a trade-off between diffusion and arbitrary Lindbladian coupling strengths. The trade-off is in relation to the strength of the dynamics and is captured by Eqs. (
+     <xref ref-type="disp-formula" rid="Equ20">
+      20
+     </xref>
+     ), (
+     <xref ref-type="disp-formula" rid="Equ23">
+      23
+     </xref>
+     ) and (
+     <xref ref-type="disp-formula" rid="Equ26">
+      26
+     </xref>
+     ). In the subsection “Trade off in the presence of fields” we extend the trade-off to the case where the classical and quantum degrees of freedom can be fields and use this to show that treating the metric as being classical necessarily results in diffusion of the gravitational field.
     </p>
     <p id="Par27">
      There are two separate possible sources for the force (or
@@ -10996,7 +11058,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq68.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We shall deal with both sources simultaneously by considering a CQ Cauchy-Schwartz inequality which arises from the positivity of
      <disp-formula id="Equ15">
       <label>
@@ -11222,7 +11283,6 @@
        μ
       </italic>
      </sub>
-     <sup/>
      . One can verify that this must be positive directly from the positivity conditions on
      <inline-formula id="IEq69">
       <alternatives>
@@ -12576,6 +12636,11 @@
      <italic>
       b
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+     </sup>
      are the components of an arbitrary vector. In this case
      <inline-formula id="IEq77">
       <alternatives>
@@ -12697,7 +12762,13 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq77.gif"/>
       </alternatives>
      </inline-formula>
-     and one can verify using CQ Pawula theorem that in order to have non-trivial back-reaction on the quantum system complete positivity demands that
+     and one can verify using CQ Pawula theorem
+     <sup>
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+     </sup>
+     that in order to have non-trivial back-reaction on the quantum system complete positivity demands that
      <inline-formula id="IEq78">
       <alternatives>
        <mml:math id="IEq78_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12753,7 +12824,13 @@
      <xref ref-type="disp-formula" rid="Equ18">
       18
      </xref>
-     ) must hold. To reach this conclusion one can insert the CQ state into the CQ Cauchy–Schwartz inequality and repeat the proof of the Pawula theorem, which must now hold once averaged over the state. By using the short-time moment expansion of
+     ) must hold. To reach this conclusion one can insert the CQ state into the CQ Cauchy–Schwartz inequality and repeat the proof of the Pawula theorem
+     <sup>
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+     </sup>
+     , which must now hold once averaged over the state. By using the short-time moment expansion of
      <inline-formula id="IEq79">
       <alternatives>
        <mml:math id="IEq79_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -13180,6 +13257,11 @@
      <italic>
       b
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+     </sup>
      vectors, (
      <xref ref-type="disp-formula" rid="Equ19">
       19
@@ -13744,15 +13826,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ21.gif"/>
       </alternatives>
      </disp-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR30">
-       30
-      </xref>
-      <xref ref-type="bibr" rid="CR30">
-       30
-      </xref>
-     </sup>
-     .
     </p>
     <p id="Par30">
      Since Eq. (
@@ -14047,7 +14120,17 @@
      <xref ref-type="disp-formula" rid="Equ20">
       20
      </xref>
-     ) places little restriction on the diffusion and Lindbladian rates appearing on the left-hand side. We already knew from refs.  that the
+     ) places little restriction on the diffusion and Lindbladian rates appearing on the left-hand side. We already knew from refs.
+     <sup>
+      <xref ref-type="bibr" rid="CR28">
+       28
+      </xref>
+      ,
+      <xref ref-type="bibr" rid="CR29">
+       29
+      </xref>
+     </sup>
+     that the
      <inline-formula id="IEq82">
       <alternatives>
        <mml:math id="IEq82_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -14696,13 +14779,6 @@
      </sub>
      ≥ 1 used in ref.
      <sup>
-      <xref ref-type="bibr" rid="CR28">
-       28
-      </xref>
-      ,
-      <xref ref-type="bibr" rid="CR29">
-       29
-      </xref>
       <xref ref-type="bibr" rid="CR22">
        22
       </xref>
@@ -15267,6 +15343,11 @@
      <italic>
       p
      </italic>
+     <sup>
+      <italic>
+       j
+      </italic>
+     </sup>
      are the conjugate momenta, and
      <italic>
       D
@@ -15316,7 +15397,6 @@
        j
       </italic>
      </sub>
-     <sup/>
      . Then the trade-off (
      <xref ref-type="disp-formula" rid="Equ23">
       23
@@ -16071,6 +16151,11 @@
       x
      </italic>
      ) and a general bounded CP map which preserves the classicality of the two systems can be written
+     <sup>
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+     </sup>
      <disp-formula id="Equ28">
       <label>
        28
@@ -16636,7 +16721,16 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ29.gif"/>
       </alternatives>
      </disp-formula>
-     meaning that Λ(
+     meaning that Λ
+     <sup>
+      <italic>
+       μ
+      </italic>
+      <italic>
+       ν
+      </italic>
+     </sup>
+     (
      <italic>
       x
      </italic>
@@ -16659,11 +16753,6 @@
      <italic>
       y
      </italic>
-     <sup>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-     </sup>
      . In the field-theoretic case, one can still perform a Kramers–Moyal expansion and find a trade-off between the coefficients
      <italic>
       D
@@ -17088,7 +17177,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq97.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Here
      <italic>
       i
@@ -17490,7 +17578,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq99.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Explicitly, we find that positivity of the dynamics is equivalent to the matrix condition
      <disp-formula id="Equ30">
       <label>
@@ -18022,7 +18109,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq101.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . As we shall see in the next section, this is a natural assumption if we want to have back-reaction which is given by a local Hamiltonian. However, one might not want to assume that the form of the Hamiltonian remains unchanged to arbitrarily small distances. With this locality assumption, Eq. (
      <xref ref-type="disp-formula" rid="Equ30">
       30
@@ -18499,7 +18585,6 @@
      <italic>
       ρ
      </italic>
-     <sup/>
      . If one allows for arbitrarily peaked mass distributions then the coupling constant trade-off of Eq. (
      <xref ref-type="disp-formula" rid="Equ31">
       31
@@ -20015,7 +20100,7 @@
      <xref ref-type="disp-formula" rid="Equ30">
       30
      </xref>
-     ) to the case of gravity. A number of classical-quantum models of Newtonian gravity have been proposed, but since the trade-offs derived in the previous section depend only on the back-reaction, or drift term, they are insensitive to the particulars of the theory. We shall consider the Newtonian, non-relativistic limit of a classical gravitational field which we reproduce in the “Methods” subsection “Newtonian limit of CQ theory”. A fuller discussion, including a derivation of the Newtonian limit starting from the covariant theories of refs.  can be found in ref.
+     ) to the case of gravity. A number of classical-quantum models of Newtonian gravity have been proposed
      <sup>
       <xref ref-type="bibr" rid="CR24">
        24
@@ -20028,10 +20113,13 @@
       <xref ref-type="bibr" rid="CR32">
        32
       </xref>
-      ,
+      –
       <xref ref-type="bibr" rid="CR33">
        33
       </xref>
+     </sup>
+     , but since the trade-offs derived in the previous section depend only on the back-reaction, or drift term, they are insensitive to the particulars of the theory. We shall consider the Newtonian, non-relativistic limit of a classical gravitational field which we reproduce in the “Methods” subsection “Newtonian limit of CQ theory”. A fuller discussion, including a derivation of the Newtonian limit starting from the covariant theories of refs.
+     <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
@@ -20039,6 +20127,9 @@
       <xref ref-type="bibr" rid="CR39">
        39
       </xref>
+     </sup>
+     can be found in ref.
+     <sup>
       <xref ref-type="bibr" rid="CR81">
        81
       </xref>
@@ -20050,7 +20141,6 @@
      <sub>
       Φ
      </sub>
-     <sup/>
      . We assume:
      <list list-type="order">
       <list-item>
@@ -20389,7 +20479,6 @@
         <italic>
          minimally coupled
         </italic>
-        <sup/>
         . This is reasonable, since in the purely classical case matter couples to the Newtonian potential and not its conjugate momenta.
        </p>
       </list-item>
@@ -21056,7 +21145,6 @@
      <sub>
       Φ
      </sub>
-     <sup/>
      . This diffusion is equivalent to adding a stochastic random process
      <italic>
       J
@@ -21976,7 +22064,7 @@
        82
       </xref>
      </sup>
-     . A higher precision calculation would involve a full simulation of CQ dynamics, for example using unravelling methods or the path integral as in ref.
+     . A higher precision calculation would involve a full simulation of CQ dynamics, for example using unravelling methods
      <sup>
       <xref ref-type="bibr" rid="CR26">
        26
@@ -21985,6 +22073,9 @@
       <xref ref-type="bibr" rid="CR78">
        78
       </xref>
+     </sup>
+     or the path integral as in ref.
+     <sup>
       <xref ref-type="bibr" rid="CR81">
        81
       </xref>
@@ -21992,7 +22083,19 @@
      . However, care should be taken, as we have found that relativistic corrections put constraints on the degree of diffusion even at low energy (J. Oppenheim and A. Russo, manuscript in preparation), and one should bear this in mind when drawing conclusions on the models presented here.
     </p>
     <p id="Par55">
-     In it was shown that there are two classes of CQ dynamics, at least in the sense that there are those with continuous trajectories in phase space and those which contain discrete jumps. For the class of continuous CQ models (see ref.  and Appendix section “Continuous master equation”), we know that
+     In
+     <sup>
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+     </sup>
+     it was shown that there are two classes of CQ dynamics, at least in the sense that there are those with continuous trajectories in phase space and those which contain discrete jumps. For the class of continuous CQ models (see ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR24">
+       24
+      </xref>
+     </sup>
+     and Appendix section “Continuous master equation”), we know that
      <italic>
       J
      </italic>
@@ -22004,19 +22107,16 @@
      <italic>
       t
      </italic>
-     ) should be described by a white noise process in time, and its statistics should be independent of the mass density of the particle
-     <sup>
-      <xref ref-type="bibr" rid="CR30">
-       30
-      </xref>
-      <xref ref-type="bibr" rid="CR24">
-       24
-      </xref>
-     </sup>
-     .
+     ) should be described by a white noise process in time, and its statistics should be independent of the mass density of the particle.
     </p>
     <p id="Par56">
-     For the discrete class (see ref.  and J. Oppenheim, “The constraints of a continuous realisation of post-quantum-classical gravity", manuscript in preparation) and “Methods” subsection “Discrete master equation”),
+     For the discrete class (see ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+     </sup>
+     and J. Oppenheim, “The constraints of a continuous realisation of post-quantum-classical gravity", manuscript in preparation) and “Methods” subsection “Discrete master equation”),
      <italic>
       J
      </italic>
@@ -22030,9 +22130,6 @@
      </italic>
      ) can involve higher order moments, and will generally be described by a jump process
      <sup>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
       <xref ref-type="bibr" rid="CR26">
        26
       </xref>
@@ -22091,7 +22188,7 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq114.gif"/>
       </alternatives>
      </inline-formula>
-     couples to Lindblad operators. It is worth noting that the discrete CQ theories considered in generically suppress higher order moments, and often we expect that we can approximate the dynamics by a Gaussian process, but this need not be the case in general
+     couples to Lindblad operators. It is worth noting that the discrete CQ theories considered in
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
@@ -22105,7 +22202,7 @@
        37
       </xref>
      </sup>
-     .
+     generically suppress higher order moments, and often we expect that we can approximate the dynamics by a Gaussian process, but this need not be the case in general.
     </p>
     <p id="Par57">
      The stochastic contribution to the Newtonian potential leads to observational consequences which can be used to experimentally test and constrain CQ theories of gravity for various choices of kernels appearing in the CQ master equation. One immediate consequence is that the variation in Newtonian potential leads to a variation of force experienced by a particle or composite mass via
@@ -22207,7 +22304,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq115.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We can also estimate the time-averaged force via
      <inline-formula id="IEq116">
       <alternatives>
@@ -22711,7 +22807,6 @@
      <italic>
       T
      </italic>
-     <sup/>
      . We will use this to estimate the variation in precision measurements of mass, such as modern versions of the Cavendish experiment for various choices of
      <inline-formula id="IEq117">
       <alternatives>
@@ -22795,7 +22890,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq117.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par58">
@@ -22806,7 +22900,6 @@
      <sub>
       0
      </sub>
-     <sup/>
      . The important point is that the decoherence rate is dominated by the background Newtonian potential Φ
      <sub>
       <italic>
@@ -23180,7 +23273,6 @@
      <sub>
       2
      </sub>
-     <sup/>
      . Equation (
      <xref ref-type="disp-formula" rid="Equ44">
       42
@@ -23210,7 +23302,6 @@
      <xref ref-type="table" rid="Tab1">
       1
      </xref>
-     <sup/>
      . The diffusion coupling strength will be characterised by the coupling constant
      <italic>
       D
@@ -23218,7 +23309,15 @@
      <sub>
       2
      </sub>
-     , which we take to be a dimension-full quantity with units kg sm, and is related to the rate of diffusion for the conjugate momenta of the Newtonian potential. We upper bound
+     , which we take to be a dimension-full quantity with units kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
+     </sup>
+     , and is related to the rate of diffusion for the conjugate momenta of the Newtonian potential. We upper bound
      <italic>
       D
      </italic>
@@ -23311,7 +23410,6 @@
        N
       </italic>
      </sub>
-     <sup/>
      . We lower bound
      <italic>
       D
@@ -23359,8 +23457,944 @@
        λ
       </italic>
      </sub>
-     <sup/>
      .
+     <table-wrap id="Tab1">
+      <label>
+       Table 1
+      </label>
+      <caption xml:lang="en">
+       <p>
+        Current experimental bounds on classical-quantum theories for different master equations and functional dependence on the diffusion coefficient
+       </p>
+      </caption>
+      <table frame="hsides" rules="groups">
+       <thead>
+        <tr>
+         <th>
+          <p>
+           Master equation
+          </p>
+         </th>
+         <th>
+          <p>
+           Diffusion kernel
+          </p>
+         </th>
+         <th>
+          <p>
+           Experimental squeeze
+          </p>
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <td>
+          <p>
+           Continuous (ultra-local, non-rel.)
+          </p>
+         </td>
+         <td>
+          <p>
+           <italic>
+            D
+           </italic>
+           <sub>
+            2
+           </sub>
+           (Φ;
+           <italic>
+            x
+           </italic>
+           ,
+           <italic>
+            y
+           </italic>
+           ) =
+           <italic>
+            D
+           </italic>
+           <sub>
+            2
+           </sub>
+           (Φ)
+           <italic>
+            δ
+           </italic>
+           (
+           <italic>
+            x
+           </italic>
+           ,
+           <italic>
+            y
+           </italic>
+           )
+           <italic>
+            D
+           </italic>
+           <sub>
+            2
+           </sub>
+           (Φ) = ∑
+           <sub>
+            <italic>
+             n
+            </italic>
+           </sub>
+           <italic>
+            c
+           </italic>
+           <sup>
+            <italic>
+             n
+            </italic>
+           </sup>
+           Φ
+           <sup>
+            <italic>
+             n
+            </italic>
+           </sup>
+          </p>
+         </td>
+         <td>
+          <p>
+           10
+           <sup>
+            −41
+           </sup>
+           <inline-formula id="IEq264">
+            <alternatives>
+             <mml:math id="IEq264_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mml:mo>
+               ≥
+              </mml:mo>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mo>
+               ≥
+              </mml:mo>
+             </mml:math>
+             <tex-math id="IEq264_TeX">
+              \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym}
+				\usepackage{amsfonts}
+				\usepackage{amssymb}
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\ge {D_2}\ge $$\end{document}
+             </tex-math>
+             <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq264.gif"/>
+            </alternatives>
+           </inline-formula>
+           10
+           <sup>
+            −9
+           </sup>
+           kg
+           <sup>
+            2
+           </sup>
+           sm
+           <sup>
+            −3
+           </sup>
+           (Eq. (
+           <xref ref-type="disp-formula" rid="Equ46">
+            44
+           </xref>
+           ))
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <p>
+           Continuous (Eq. (
+           <xref ref-type="disp-formula" rid="Equ121">
+            116
+           </xref>
+           ) or (
+           <xref ref-type="disp-formula" rid="Equ123">
+            118
+           </xref>
+           ))
+          </p>
+         </td>
+         <td>
+          <p>
+           <inline-formula id="IEq265">
+            <alternatives>
+             <mml:math id="IEq265_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+                <mml:mo>
+                 ;
+                </mml:mo>
+                <mml:mi>
+                 x
+                </mml:mi>
+                <mml:mo>
+                 ,
+                </mml:mo>
+                <mml:mi>
+                 y
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mo>
+               =
+              </mml:mo>
+              <mml:mo>
+               −
+              </mml:mo>
+              <mml:msubsup>
+               <mml:mrow>
+                <mml:mi>
+                 l
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 p
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msubsup>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mo>
+                 ∇
+                </mml:mo>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+              <mml:mi>
+               δ
+              </mml:mi>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi>
+                 x
+                </mml:mi>
+                <mml:mo>
+                 ,
+                </mml:mo>
+                <mml:mi>
+                 y
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mo>
+               =
+              </mml:mo>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mo>
+                 ∑
+                </mml:mo>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msub>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mi>
+                 c
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msup>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msup>
+             </mml:math>
+             <tex-math id="IEq265_TeX">
+              \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym}
+				\usepackage{amsfonts}
+				\usepackage{amssymb}
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{2}({{\Phi }};x,y)=-{l}_{p}^{2}{D}_{2}({{\Phi }}){\nabla }^{2}\delta (x,y){D}_{2}({{\Phi }})={\sum }_{n}{c}^{n}{{{\Phi }}}^{n}$$\end{document}
+             </tex-math>
+             <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq265.gif"/>
+            </alternatives>
+           </inline-formula>
+          </p>
+         </td>
+         <td>
+          <p>
+           <inline-formula id="IEq266">
+            <alternatives>
+             <mml:math id="IEq266_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mml:mn>
+               1
+              </mml:mn>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mn>
+                 0
+                </mml:mn>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mo>
+                 −
+                </mml:mo>
+                <mml:mn>
+                 9
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+              <mml:mo>
+               ≥
+              </mml:mo>
+              <mml:msubsup>
+               <mml:mrow>
+                <mml:mi>
+                 l
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 P
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msubsup>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mo>
+               ≥
+              </mml:mo>
+              <mml:mn>
+               1
+              </mml:mn>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mn>
+                 0
+                </mml:mn>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mo>
+                 −
+                </mml:mo>
+                <mml:mn>
+                 35
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+              <mml:mspace width="0.25em"/>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 kg
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 sm
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mo>
+                 −
+                </mml:mo>
+                <mml:mn>
+                 1
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+             </mml:math>
+             <tex-math id="IEq266_TeX">
+              \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym}
+				\usepackage{amsfonts}
+				\usepackage{amssymb}
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1{0}^{-9}\ge {l}_{\rm {{P}}}^{2}{D}_{2}\ge 1{0}^{-35}\,{\rm {k{g}}}^{2}{\rm {s{m}}}^{-1}$$\end{document}
+             </tex-math>
+             <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq266.gif"/>
+            </alternatives>
+           </inline-formula>
+           (Eq. (
+           <xref ref-type="disp-formula" rid="Equ49">
+            47
+           </xref>
+           ))
+          </p>
+         </td>
+        </tr>
+        <tr>
+         <td>
+          <p>
+           Discrete (ultra-local)
+          </p>
+         </td>
+         <td>
+          <p>
+           <inline-formula id="IEq267">
+            <alternatives>
+             <mml:math id="IEq267_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+                <mml:mo>
+                 ;
+                </mml:mo>
+                <mml:mi>
+                 x
+                </mml:mi>
+                <mml:mo>
+                 ,
+                </mml:mo>
+                <mml:mi>
+                 y
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mo>
+               =
+              </mml:mo>
+              <mml:mfrac>
+               <mml:mrow>
+                <mml:msubsup>
+                 <mml:mrow>
+                  <mml:mi>
+                   l
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mi>
+                   P
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mn>
+                   2
+                  </mml:mn>
+                 </mml:mrow>
+                </mml:msubsup>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:msub>
+                 <mml:mrow>
+                  <mml:mi>
+                   m
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mi>
+                   P
+                  </mml:mi>
+                 </mml:mrow>
+                </mml:msub>
+               </mml:mrow>
+              </mml:mfrac>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mi>
+               δ
+              </mml:mi>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi>
+                 x
+                </mml:mi>
+                <mml:mo>
+                 ,
+                </mml:mo>
+                <mml:mi>
+                 y
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mi>
+                 D
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msub>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mo>
+               =
+              </mml:mo>
+              <mml:msub>
+               <mml:mrow>
+                <mml:mo>
+                 ∑
+                </mml:mo>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msub>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mi>
+                 c
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msup>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mi mathvariant="normal">
+                 Φ
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msup>
+             </mml:math>
+             <tex-math id="IEq267_TeX">
+              \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym}
+				\usepackage{amsfonts}
+				\usepackage{amssymb}
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${D}_{2}({{\Phi }};x,y)=\frac{{l}_{P}^{2}}{{m}_{P}}{D}_{2}({{\Phi }})\delta (x,y){D}_{2}({{\Phi }})={\sum }_{n}{c}^{n}{{{\Phi }}}^{n}$$\end{document}
+             </tex-math>
+             <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq267.gif"/>
+            </alternatives>
+           </inline-formula>
+          </p>
+         </td>
+         <td>
+          <p>
+           <inline-formula id="IEq268">
+            <alternatives>
+             <mml:math id="IEq268_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mml:mn>
+               1
+              </mml:mn>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mn>
+                 0
+                </mml:mn>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mo>
+                 −
+                </mml:mo>
+                <mml:mn>
+                 1
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+              <mml:mo>
+               ≥
+              </mml:mo>
+              <mml:mfrac>
+               <mml:mrow>
+                <mml:msubsup>
+                 <mml:mrow>
+                  <mml:mi>
+                   l
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mi mathvariant="normal">
+                   P
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mn>
+                   2
+                  </mml:mn>
+                 </mml:mrow>
+                </mml:msubsup>
+                <mml:msub>
+                 <mml:mrow>
+                  <mml:mi>
+                   D
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mn>
+                   2
+                  </mml:mn>
+                 </mml:mrow>
+                </mml:msub>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:msub>
+                 <mml:mrow>
+                  <mml:mi>
+                   m
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mi mathvariant="normal">
+                   P
+                  </mml:mi>
+                 </mml:mrow>
+                </mml:msub>
+               </mml:mrow>
+              </mml:mfrac>
+              <mml:mo>
+               ≥
+              </mml:mo>
+              <mml:mn>
+               1
+              </mml:mn>
+              <mml:msup>
+               <mml:mrow>
+                <mml:mn>
+                 0
+                </mml:mn>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mo>
+                 −
+                </mml:mo>
+                <mml:mn>
+                 25
+                </mml:mn>
+               </mml:mrow>
+              </mml:msup>
+              <mml:mspace width="0.25em"/>
+              <mml:mi mathvariant="normal">
+               kg
+              </mml:mi>
+             </mml:math>
+             <tex-math id="IEq268_TeX">
+              \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym}
+				\usepackage{amsfonts}
+				\usepackage{amssymb}
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1{0}^{-1}\ge \frac{{l}_{{\rm {P}}}^{2}{D}_{2}}{{m}_{{\rm {P}}}}\ge 1{0}^{-25}\,{\rm {kg}}$$\end{document}
+             </tex-math>
+             <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq268.gif"/>
+            </alternatives>
+           </inline-formula>
+           (Eq.
+           <xref ref-type="disp-formula" rid="Equ48">
+            (46)
+           </xref>
+           )
+          </p>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <table-wrap-foot>
+       <p>
+        The diffusion coefficient is bounded from above by observed acceleration variations
+        <inline-formula id="IEq279">
+         <alternatives>
+          <mml:math id="IEq279_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mml:msubsup>
+            <mml:mrow>
+             <mml:mi>
+              σ
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi mathvariant="normal">
+              a
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mn>
+              2
+             </mml:mn>
+            </mml:mrow>
+           </mml:msubsup>
+          </mml:math>
+          <tex-math id="IEq279_TeX">
+           \documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym}
+				\usepackage{amsfonts}
+				\usepackage{amssymb}
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\sigma }_{{\rm {a}}}^{2}$$\end{document}
+          </tex-math>
+          <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq279.gif"/>
+         </alternatives>
+        </inline-formula>
+        seen in precision mass experiments via Eq. (
+        <xref ref-type="disp-formula" rid="Equ44">
+         42
+        </xref>
+        ). In all cases the master equation is assumed to saturate the bound which is used to find the lower bound the amount of diffusion on the quantum system by bounding
+        <italic>
+         D
+        </italic>
+        <sub>
+         0
+        </sub>
+        from coherence rates via Eq. (
+        <xref ref-type="disp-formula" rid="Equ45">
+         43
+        </xref>
+        ). It is seen that minimally coupled continuous models which are non-relativistic and do not create spatial correlations (we call these ultra-local) and have polynomial dependence on the Newtonian potential are ruled out, while continuous models with non-local correlations, such as the Diosi–Penrose (DP) kernel of Eq. (
+        <xref ref-type="disp-formula" rid="Equ121">
+         116
+        </xref>
+        )or the relativity inspired kernel of Eq. (
+        <xref ref-type="disp-formula" rid="Equ123">
+         118
+        </xref>
+        ), and ultra-local discrete models are less constrained. Here
+        <italic>
+         l
+        </italic>
+        <sub>
+         P
+        </sub>
+        ,
+        <italic>
+         m
+        </italic>
+        <sub>
+         P
+        </sub>
+        are the Planck length and Planck mass respectively, which are required in order for the dimensions of
+        <italic>
+         D
+        </italic>
+        <sub>
+         2
+        </sub>
+        (Φ) to be the same in all cases.
+       </p>
+      </table-wrap-foot>
+     </table-wrap>
     </p>
     <p id="Par61">
      For continuous dynamics 〈
@@ -23525,7 +24559,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq121.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . In general, the squeeze will depend on the functional choice of
      <italic>
       D
@@ -23562,7 +24595,11 @@
      <sub>
       2
      </sub>
-     ~ −∇Φ of Eq. (
+     ~ −∇
+     <sup>
+      2
+     </sup>
+     Φ of Eq. (
      <xref ref-type="disp-formula" rid="Equ123">
       118
      </xref>
@@ -23977,30 +25014,58 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq122.gif"/>
       </alternatives>
      </inline-formula>
-     integral is over all space
-     <sup/>
-     .
+     integral is over all space.
     </p>
     <p id="Par63">
      This immediately rules out continuous theories of Newtonian gravity with noise everywhere, i.e., with a diffusion coefficient independent of the Newtonian potential, since the integral will diverge. We consider the relativistic case elsewhere.
     </p>
     <p id="Par64">
-     Standard Cavendish-type classical torsion balance experiments measure accelerations of the order 10 m s over minutes Δ
+     Standard Cavendish-type classical torsion balance experiments
+     <sup>
+      <xref ref-type="bibr" rid="CR49">
+       49
+      </xref>
+     </sup>
+     measure accelerations of the order 10
+     <sup>
+      −7
+     </sup>
+     m s
+     <sup>
+      −2
+     </sup>
+     over minutes Δ
      <italic>
       T
      </italic>
-     ~ 10, so a very conservative bound is
+     ~ 10
+     <sup>
+      2
+     </sup>
+     , so a very conservative bound is
      <italic>
       σ
      </italic>
      <sub>
       a
      </sub>
-     ~ 10 m s, whilst for a kg mass
+     ~ 10
+     <sup>
+      −7
+     </sup>
+     m s
+     <sup>
+      −2
+     </sup>
+     , whilst for a kg mass
      <italic>
       N
      </italic>
-     ~ 10 and
+     ~ 10
+     <sup>
+      26
+     </sup>
+     and
      <italic>
       r
      </italic>
@@ -24009,7 +25074,11 @@
        N
       </italic>
      </sub>
-     ~ 10 m. Conservatively taking
+     ~ 10
+     <sup>
+      −15
+     </sup>
+     m. Conservatively taking
      <inline-formula id="IEq123">
       <alternatives>
        <mml:math id="IEq123_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -24095,11 +25164,17 @@
      <sub>
       2
      </sub>
-     ≤ 10 kg sm
+     ≤ 10
      <sup>
-      <xref ref-type="bibr" rid="CR49">
-       49
-      </xref>
+      −41
+     </sup>
+     kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
      </sup>
      . The decoherence rate
      <italic>
@@ -24115,7 +25190,13 @@
      <italic>
       λ
      </italic>
-     , for example, that arising from the interferometry experiment of which saw coherence in large organic fullerene molecules with total mass
+     , for example, that arising from the interferometry experiment of
+     <sup>
+      <xref ref-type="bibr" rid="CR59">
+       59
+      </xref>
+     </sup>
+     which saw coherence in large organic fullerene molecules with total mass
      <italic>
       M
      </italic>
@@ -24124,7 +25205,11 @@
        λ
       </italic>
      </sub>
-     = 10 kg over a timescale of 0.1
+     = 10
+     <sup>
+      −24
+     </sup>
+     kg over a timescale of 0.1
      <italic>
       s
      </italic>
@@ -24132,11 +25217,13 @@
      <italic>
       λ
      </italic>
-     &lt; 10 s
+     &lt; 10
      <sup>
-      <xref ref-type="bibr" rid="CR59">
-       59
-      </xref>
+      1
+     </sup>
+     s
+     <sup>
+      −1
      </sup>
      . Fullerene molecules are made up of
      <italic>
@@ -24147,7 +25234,19 @@
        λ
       </italic>
      </sub>
-     ~ 10 particles with a typical atomic size 10 m. After passing through the slits the molecule becomes delocalised in the transverse direction on the order of 10 m before being detected. Since the interference effects are due to the superposition in the transverse
+     ~ 10
+     <sup>
+      3
+     </sup>
+     particles with a typical atomic size 10
+     <sup>
+      −15
+     </sup>
+     m. After passing through the slits the molecule becomes delocalised in the transverse direction on the order of 10
+     <sup>
+      −7
+     </sup>
+     m before being detected. Since the interference effects are due to the superposition in the transverse
      <italic>
       x
      </italic>
@@ -24176,20 +25275,52 @@
        λ
       </italic>
      </sub>
-     ~ 101010
+     ~ 10
+     <sup>
+      −15
+     </sup>
+     10
+     <sup>
+      −15
+     </sup>
+     10
+     <sup>
+      −7
+     </sup>
      <italic>
       m
      </italic>
-     = 10 m, which gives
+     <sup>
+      3
+     </sup>
+     = 10
+     <sup>
+      −37
+     </sup>
+     m
+     <sup>
+      3
+     </sup>
+     , which gives
      <italic>
       D
      </italic>
      <sub>
       2
      </sub>
-     ≥ 10 kg sm, and suggests that classical–quantum theories of Newtonian gravity with ultra-local continuous noise are ruled out by experiment
-     <sup/>
-     .
+     ≥ 10
+     <sup>
+      −9
+     </sup>
+     kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
+     </sup>
+     , and suggests that classical–quantum theories of Newtonian gravity with ultra-local continuous noise are ruled out by experiment.
     </p>
     <p id="Par65">
      On the other hand, the discrete models appear less constrained due to the suppression of the noise away from the mass density. For example consider the ultra-local discrete jumping models, such as the one given in the section “Discrete master equation” which have
@@ -24478,8 +25609,14 @@
      <sub>
       2
      </sub>
-     has the units of kg sm
-     <sup/>
+     has the units of kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
+     </sup>
      . We find the squeeze on
      <italic>
       D
@@ -24776,7 +25913,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq127.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par66">
@@ -24931,7 +26067,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq128.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . The inverse Lindbladian kernel satisfying the coupling constants trade-off is to zeroeth order in Φ(
      <italic>
       x
@@ -25062,7 +26197,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq129.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We here consider higher-order terms such as those coming from the relativistic theory and in particular the diffusion kernel of Eq. (
      <xref ref-type="disp-formula" rid="Equ123">
       118
@@ -25542,7 +26676,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq132.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par68">
@@ -25565,8 +26698,7 @@
      <sub>
       2
      </sub>
-     <sup/>
-     . Some of these experiments involve millimeter-sized masses whose gravitational coupling is measured via torsional pendula, or rotating attractors
+     . Some of these experiments involve millimeter-sized masses whose gravitational coupling is measured via torsional pendula
      <sup>
       <xref ref-type="bibr" rid="CR61">
        61
@@ -25575,6 +26707,9 @@
       <xref ref-type="bibr" rid="CR62">
        62
       </xref>
+     </sup>
+     , or rotating attractors
+     <sup>
       <xref ref-type="bibr" rid="CR63">
        63
       </xref>
@@ -25588,7 +26723,7 @@
       <xref ref-type="bibr" rid="CR85">
        85
       </xref>
-      ,
+      –
       <xref ref-type="bibr" rid="CR86">
        86
       </xref>
@@ -25602,7 +26737,7 @@
       <xref ref-type="bibr" rid="CR88">
        88
       </xref>
-      ,
+      –
       <xref ref-type="bibr" rid="CR89">
        89
       </xref>
@@ -25619,7 +26754,6 @@
        λ
       </italic>
      </sub>
-     <sup/>
      .
     </p>
     <p id="Par70">
@@ -25694,7 +26828,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq133.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Our estimates (J. Oppenheim and Z. Weller-Davies, “Estimating space-time diffusion in interferometers", unpublished note) suggest that local effects from table-top experiments currently place a stronger bound on gravitational theories than LIGO currently does. In particular, unlike gravitational wave measurements, which are reasonably high-frequency events requiring extraordinarily high precision in the relative displacement of the arm length from its average, it is preferential to have a lower precision measurement, which occurs over a longer time period to allows for the diffusion in path length to build up, and with a smaller uncertainty in the average length of the arm itself. Furthermore, since the LIGO arm is kept in a vacuum, we do not expect strong bounds on discrete models where the diffusion is associated with an energy density.
     </p>
    </sec>
@@ -25729,7 +26862,7 @@
      <xref ref-type="bibr" rid="CR69">
       69
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR70">
       70
      </xref>
@@ -25742,13 +26875,13 @@
       73
      </xref>
     </sup>
-    . For these experiments, some theoretical assumptions are needed: one requires that it is only gravitons that travel between the two masses and mediate the creation of entanglement. If this is the case, then the onset of entanglement implies that gravity is not a classical field. These can be thought of as experiments that if successful, would confirm the quantum nature of gravity (although other alternatives to quantum theory are possible)
+    . For these experiments, some theoretical assumptions are needed: one requires that it is only gravitons that travel between the two masses and mediate the creation of entanglement. If this is the case, then the onset of entanglement implies that gravity is not a classical field. These can be thought of as experiments that if successful, would confirm the quantum nature of gravity (although other alternatives to quantum theory are possible
     <sup>
      <xref ref-type="bibr" rid="CR92">
       92
      </xref>
     </sup>
-    .
+    ).
    </p>
    <p id="Par72">
     Here, we come from the other direction, by supposing that gravity is instead classical, and then exploring the consequences. Theories in which gravity is fundamentally classical were thought to have been ruled out by various no-go theorems and conceptual difficulties. However, these no-go theorems are avoided if one allows for non-deterministic coupling as in
@@ -25776,7 +26909,7 @@
      <xref ref-type="bibr" rid="CR25">
       25
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR26">
       26
      </xref>
@@ -25929,7 +27062,13 @@
       <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq135.gif"/>
      </alternatives>
     </inline-formula>
-    , but the trade-off restricts one in terms of the other. Then, because of the results proven in, one can consider two classes of theory, those which are continuous realisations and whose diffusion can only depend on the gravitational degrees of freedom, and discrete theories whose diffusion can also depend directly on the matter fields. Examples of both classes of the theory are given in the “Methods” subsection “Newtonian limit of CQ theory”. Finally, one could consider theories that do not reproduce the weak field limit of General Relativity to all distances, namely we could imagine that the interaction Hamiltonian of Eq. (
+    , but the trade-off restricts one in terms of the other. Then, because of the results proven in
+    <sup>
+     <xref ref-type="bibr" rid="CR30">
+      30
+     </xref>
+    </sup>
+    , one can consider two classes of theory, those which are continuous realisations and whose diffusion can only depend on the gravitational degrees of freedom, and discrete theories whose diffusion can also depend directly on the matter fields. Examples of both classes of the theory are given in the “Methods” subsection “Newtonian limit of CQ theory”. Finally, one could consider theories that do not reproduce the weak field limit of General Relativity to all distances, namely we could imagine that the interaction Hamiltonian of Eq. (
     <xref ref-type="disp-formula" rid="Equ38">
      36
     </xref>
@@ -25996,9 +27135,6 @@
     </inline-formula>
     in some other way, for example, by making it slightly non-local, or by disallowing arbitrarily high mass densities, or by including an additional contribution such as the friction term discussed in the continuous master equation. All of these modifications would seem to violate Lorentz invariance in some way, and likely lead to observational consequences
     <sup>
-     <xref ref-type="bibr" rid="CR30">
-      30
-     </xref>
      <xref ref-type="bibr" rid="CR93">
       93
      </xref>
@@ -26012,19 +27148,14 @@
       94
      </xref>
     </sup>
-    . The increased precision and measuring time of Kibble Balances and atomic interferometers would make such measurements an ideal testing ground, both to further constrain the diffusion kernel and to look for diffusion effects, whose dependence on the test mass is outlined in the “Methods” subsection “Detecting gravitational diffusion”. Here, we have found that the resolution time Δ
-    <italic>
-     T
-    </italic>
-    over which variations of acceleration are estimated affects the strength of the bound, and it would be helpful if future experiments reported this value. Since we have found that CQ theories predict an uncertainty in mass measurements it is perhaps intriguing that different experiments to measure Newton’s constant
-    <italic>
-     G
-    </italic>
-    yield results whose relative uncertainty differs by as much as 5 × 10 m kg s, which is more than an order of magnitude larger than the average reported uncertainty
+    . The increased precision and measuring time of Kibble Balances
     <sup>
      <xref ref-type="bibr" rid="CR95">
       95
      </xref>
+    </sup>
+    and atomic interferometers
+    <sup>
      <xref ref-type="bibr" rid="CR87">
       87
      </xref>
@@ -26040,6 +27171,33 @@
      <xref ref-type="bibr" rid="CR97">
       97
      </xref>
+    </sup>
+    would make such measurements an ideal testing ground, both to further constrain the diffusion kernel and to look for diffusion effects, whose dependence on the test mass is outlined in the “Methods” subsection “Detecting gravitational diffusion”. Here, we have found that the resolution time Δ
+    <italic>
+     T
+    </italic>
+    over which variations of acceleration are estimated affects the strength of the bound, and it would be helpful if future experiments reported this value. Since we have found that CQ theories predict an uncertainty in mass measurements it is perhaps intriguing that different experiments to measure Newton’s constant
+    <italic>
+     G
+    </italic>
+    yield results whose relative uncertainty differs by as much as 5 × 10
+    <sup>
+     −4
+    </sup>
+    m
+    <sup>
+     3
+    </sup>
+    kg
+    <sup>
+     −1
+    </sup>
+    s
+    <sup>
+     −2
+    </sup>
+    , which is more than an order of magnitude larger than the average reported uncertainty
+    <sup>
      <xref ref-type="bibr" rid="CR52">
       52
      </xref>
@@ -26047,7 +27205,7 @@
      <xref ref-type="bibr" rid="CR53">
       53
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR54">
       54
      </xref>
@@ -26186,7 +27344,71 @@
       98
      </xref>
     </sup>
-    . However, these constraints are not in themselves very strong, since fundamental decoherence effects can be made arbitrarily weak. In the simplified model in the “Methods” subsection “Newtonian limit of CQ theory”, the strength of the decoherence depends on the strength of the gravitational field, thus, constraints due to heating can be suppressed, either by scaling the Lindbladian coupling constants or by having strong decoherence effects more pronounced near stronger gravitational fields such as near black holes where one expects information loss to occur. The necessity for decoherence to heat the quantum system is further weakened by the fact that the dynamics are not Markovian on the quantum fields, if one integrates out the classical degrees of freedom, space-time acts as a memory. This potentially captures some of the non-Markovian features advocated in ref. , who recognised that Markovianity is a key assumption in attempts to rule out fundamental decoherence or information loss. Here, however, we see that there is less freedom than one might imagine. If the Lindbladian coupling constants are made small to reduce direct heating, the gravitational diffusion must be large. Thus, heating constraints which place bounds on
+    . However, these constraints are not in themselves very strong, since fundamental decoherence effects can be made arbitrarily weak. In the simplified model in the “Methods” subsection “Newtonian limit of CQ theory”, the strength of the decoherence depends on the strength of the gravitational field, thus, constraints due to heating
+    <sup>
+     <xref ref-type="bibr" rid="CR98">
+      98
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR99">
+      99
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR100">
+      100
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR101">
+      101
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR102">
+      102
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR103">
+      103
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR104">
+      104
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR105">
+      105
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR106">
+      106
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR107">
+      107
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR108">
+      108
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR109">
+      109
+     </xref>
+     ,
+     <xref ref-type="bibr" rid="CR110">
+      110
+     </xref>
+     –
+     <xref ref-type="bibr" rid="CR111">
+      111
+     </xref>
+    </sup>
+    can be suppressed, either by scaling the Lindbladian coupling constants or by having strong decoherence effects more pronounced near stronger gravitational fields such as near black holes where one expects information loss to occur. The necessity for decoherence to heat the quantum system is further weakened by the fact that the dynamics are not Markovian on the quantum fields, if one integrates out the classical degrees of freedom, space-time acts as a memory. This potentially captures some of the non-Markovian features advocated in ref.
+    <sup>
+     <xref ref-type="bibr" rid="CR112">
+      112
+     </xref>
+    </sup>
+    , who recognised that Markovianity is a key assumption in attempts to rule out fundamental decoherence or information loss. Here, however, we see that there is less freedom than one might imagine. If the Lindbladian coupling constants are made small to reduce direct heating, the gravitational diffusion must be large. Thus, heating constraints which place bounds on
     <inline-formula id="IEq139">
      <alternatives>
       <mml:math id="IEq139_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -26308,67 +27530,19 @@
       <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq140.gif"/>
      </alternatives>
     </inline-formula>
+    . In
     <sup>
-     <xref ref-type="bibr" rid="CR98">
-      98
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR99">
-      99
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR100">
-      100
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR101">
-      101
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR102">
-      102
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR103">
-      103
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR104">
-      104
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR105">
-      105
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR106">
-      106
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR107">
-      107
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR108">
-      108
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR109">
-      109
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR110">
-      110
-     </xref>
-     ,
-     <xref ref-type="bibr" rid="CR111">
-      111
-     </xref>
-     <xref ref-type="bibr" rid="CR112">
-      112
+     <xref ref-type="bibr" rid="CR35">
+      35
      </xref>
     </sup>
-    . In, it was found that for the Newtonian models of ref. , large
+    , it was found that for the Newtonian models of ref.
+    <sup>
+     <xref ref-type="bibr" rid="CR33">
+      33
+     </xref>
+    </sup>
+    , large
     <inline-formula id="IEq141">
      <alternatives>
       <mml:math id="IEq141_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -26429,16 +27603,7 @@
       <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq141.gif"/>
      </alternatives>
     </inline-formula>
-    creates secondary heating which further constrain the theory experimentally. The decoherence-diffusion trade-off implies that this is a general feature of all theories which treat gravity classically
-    <sup>
-     <xref ref-type="bibr" rid="CR35">
-      35
-     </xref>
-     <xref ref-type="bibr" rid="CR33">
-      33
-     </xref>
-    </sup>
-    .
+    creates secondary heating which further constrain the theory experimentally. The decoherence-diffusion trade-off implies that this is a general feature of all theories which treat gravity classically.
    </p>
    <p id="Par78">
     While the absence of diffusion could rule out theories where gravity is fundamentally classical, the presence of such deviations, at least on short time scales, might not by itself be a confirmation of the classical nature of gravity. Such effects could instead be caused by quantum theories of gravity whose classical limit is effectively described by Oppenheim
@@ -26447,11 +27612,7 @@
       11
      </xref>
     </sup>
-    . In other words, one might expect some gravitational diffusion, because, from an effective theory point of view, one is in a regime where space-time is behaving classically. There are even claims that holographic effects could cause stochasticity in the gravitational field. However, the trade-off we have derived is a direct consequence of treating the background space-time as fundamentally classical. In a fully quantum theory of gravity, the interaction of the gravitational field with particles in a superposition of two trajectories will cause decoherence, but coherence can then be restored when the two trajectories converge. This is because the particle’s position is entangled with the gravitational field (or dressed by it), and this entanglement is erased when the different paths of the superposition converge. This is what happens when electrons interact with the electromagnetic field while passing through a diffraction grating, yet still form an interference pattern at the screen. This is a non-Markovian effect—the which-path superposition decoheres almost immediately, but this is
-    <italic>
-     false-decoherence
-    </italic>
-    so the amount of diffusion can be arbitrarily small and is unrelated to the coherence time of the superposition
+    . In other words, one might expect some gravitational diffusion, because, from an effective theory point of view, one is in a regime where space-time is behaving classically. There are even claims that holographic effects could cause stochasticity
     <sup>
      <xref ref-type="bibr" rid="CR113">
       113
@@ -26460,18 +27621,30 @@
      <xref ref-type="bibr" rid="CR114">
       114
      </xref>
-     ,
+     –
      <xref ref-type="bibr" rid="CR115">
       115
      </xref>
+    </sup>
+    in the gravitational field. However, the trade-off we have derived is a direct consequence of treating the background space-time as fundamentally classical. In a fully quantum theory of gravity, the interaction of the gravitational field with particles in a superposition of two trajectories will cause decoherence, but coherence can then be restored when the two trajectories converge. This is because the particle’s position is entangled with the gravitational field (or dressed by it), and this entanglement is erased when the different paths of the superposition converge. This is what happens when electrons interact with the electromagnetic field while passing through a diffraction grating, yet still form an interference pattern at the screen. This is a non-Markovian effect—the which-path superposition decoheres almost immediately, but this is
+    <italic>
+     false-decoherence
+    </italic>
+    <sup>
      <xref ref-type="bibr" rid="CR116">
       116
      </xref>
     </sup>
-    .
+    so the amount of diffusion can be arbitrarily small and is unrelated to the coherence time of the superposition.
    </p>
    <p id="Par79">
-    On the other hand, the trade-off we derived is a direct consequence of the positivity condition, which is a direct consequence of the Markovian assumption. In the non-Markovian theory where General Relativity is treated classically, one still expects the master equation to take the form found in, but without the matrix whose elements are
+    On the other hand, the trade-off we derived is a direct consequence of the positivity condition, which is a direct consequence of the Markovian assumption. In the non-Markovian theory where General Relativity is treated classically, one still expects the master equation to take the form found in
+    <sup>
+     <xref ref-type="bibr" rid="CR11">
+      11
+     </xref>
+    </sup>
+    , but without the matrix whose elements are
     <inline-formula id="IEq142">
      <alternatives>
       <mml:math id="IEq142_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -26513,9 +27686,6 @@
     </inline-formula>
     needing to be positive semi-definite at all times
     <sup>
-     <xref ref-type="bibr" rid="CR11">
-      11
-     </xref>
      <xref ref-type="bibr" rid="CR117">
       117
      </xref>
@@ -26524,13 +27694,13 @@
       118
      </xref>
     </sup>
-    . It would therefore be surprising, if a quantum theory of gravity predicted anything close to the level of diffusion predicted by the decoherence-vs-diffusion trade-off, as there would be no need for diffusion to explain the coherence of superpositions. The regime in which the classical–quantum theory can be regarded as an effective one is taken up in ref. , both to address the issue of false decoherence, and also to explore the regime in which the classical–quantum theory may be a useful tool to understand the back-reaction of quantum matter in space–time, such as during black-hole evaporation, and during inflation. If we instead regard the theory as describing a fundamentally classical space-time, then it follows from the decoherence-diffusion trade-off, that the diffusion is either fundamental or its source is not describable within quantum or classical mechanics (J. Oppenheim, “Post-quantum soup", unpublished note)
+    . It would therefore be surprising, if a quantum theory of gravity predicted anything close to the level of diffusion predicted by the decoherence-vs-diffusion trade-off, as there would be no need for diffusion to explain the coherence of superpositions. The regime in which the classical–quantum theory can be regarded as an effective one is taken up in ref.
     <sup>
      <xref ref-type="bibr" rid="CR119">
       119
      </xref>
     </sup>
-    .
+    , both to address the issue of false decoherence, and also to explore the regime in which the classical–quantum theory may be a useful tool to understand the back-reaction of quantum matter in space–time, such as during black-hole evaporation, and during inflation. If we instead regard the theory as describing a fundamentally classical space-time, then it follows from the decoherence-diffusion trade-off, that the diffusion is either fundamental or its source is not describable within quantum or classical mechanics (J. Oppenheim, “Post-quantum soup", unpublished note).
    </p>
   </sec>
   <sec id="Sec10" sec-type="methods">
@@ -26873,7 +28043,6 @@
      <italic>
       ν
      </italic>
-     <sup/>
      . More precisely, the eigenvalues of
      <inline-formula id="IEq145">
       <alternatives>
@@ -27151,7 +28320,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq148.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Hence we require
      <disp-formula id="Equ51">
       <label>
@@ -27324,11 +28492,15 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq149.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Since each
      <italic>
       λ
      </italic>
+     <sup>
+      <italic>
+       μ
+      </italic>
+     </sup>
      must be positive, we can also pick a different smearing function for each
      <italic>
       μ
@@ -27791,8 +28963,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ53.gif"/>
       </alternatives>
      </disp-formula>
-     <sup/>
-     .
     </p>
     <p id="Par83">
      We can then see the positivity of Eq. (
@@ -28537,7 +29707,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq152.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . This follows from the cyclicity of the trace and the fact that
      <inline-formula id="IEq153">
       <alternatives>
@@ -28776,7 +29945,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq154.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par87">
@@ -28905,7 +30073,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq155.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . By integrating parts over the phase space degrees of freedom, we find
      <disp-formula id="Equ56">
       <label>
@@ -29603,7 +30770,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq158.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
      <inline-formula id="IEq159">
       <alternatives>
@@ -30074,7 +31240,6 @@
      <sub>
       0
      </sub>
-     <sup/>
      . Furthermore, if
      <italic>
       D
@@ -30175,7 +31340,6 @@
      <italic>
       F
      </italic>
-     <sup/>
      . For example, we can first smear the local field fields over a smearing function
      <italic>
       f
@@ -30285,8 +31449,13 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq163.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
-     . In doing this we can write a CQ version of the Stinespring dilation theorem exactly and proceed along the lines of Oppenheim to show that any completely positive CQ map can be written in the form
+     . In doing this we can write a CQ version of the Stinespring dilation theorem exactly and proceed along the lines of Oppenheim
+     <sup>
+      <xref ref-type="bibr" rid="CR11">
+       11
+      </xref>
+     </sup>
+     to show that any completely positive CQ map can be written in the form
      <disp-formula id="Equ60">
       <label>
        58
@@ -30755,12 +31924,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ61.gif"/>
       </alternatives>
      </disp-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR11">
-       11
-      </xref>
-     </sup>
-     .
     </p>
     <p id="Par91">
      We shall assume that we deal with dynamics which can be written in Lindblad form, as is usually assumed in the unbounded case
@@ -33921,7 +35084,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq166.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . By the decoherence diffusion trade-off, which we derive in the next subsection, this also means that the diffusion matrix
      <inline-formula id="IEq167">
       <alternatives>
@@ -34246,7 +35408,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq168.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . This can be seen more precisely, by taking Eq. (
      <xref ref-type="disp-formula" rid="Equ61">
       59
@@ -34707,7 +35868,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq170.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . So that
      <disp-formula id="Equ68">
       <label>
@@ -35444,7 +36604,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq172.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par96">
@@ -36101,7 +37260,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq175.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
      <inline-formula id="IEq176">
       <alternatives>
@@ -36558,7 +37716,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq178.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par98">
@@ -36818,7 +37975,6 @@
      <sub>
       0
      </sub>
-     <sup/>
      . Furthermore, from Equation (
      <xref ref-type="disp-formula" rid="Equ72">
       70
@@ -37210,7 +38366,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq181.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We have to be careful, since (
      <xref ref-type="disp-formula" rid="Equ73">
       71
@@ -37696,7 +38851,13 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq184.gif"/>
       </alternatives>
      </inline-formula>
-     , which holds due to the CQ inequality derived in the derivation of the Pawula theorem, we again have a Cauchy–Schwartz inequality
+     , which holds due to the CQ inequality derived in the derivation of the Pawula theorem
+     <sup>
+      <xref ref-type="bibr" rid="CR30">
+       30
+      </xref>
+     </sup>
+     , we again have a Cauchy–Schwartz inequality
      <disp-formula id="Equ75">
       <label>
        73
@@ -37846,12 +39007,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ75.gif"/>
       </alternatives>
      </disp-formula>
-     <sup>
-      <xref ref-type="bibr" rid="CR30">
-       30
-      </xref>
-     </sup>
-     .
     </p>
     <p id="Par101">
      Choosing
@@ -39951,6 +41106,11 @@
      <italic>
       b
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+     </sup>
      (
      <italic>
       x
@@ -39959,6 +41119,11 @@
      <italic>
       b
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+     </sup>
      a constant, we arrive at the trade-off
      <disp-formula id="Equ82">
       <label>
@@ -40387,8 +41552,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ83.gif"/>
       </alternatives>
      </disp-formula>
-     <sup/>
-     .
     </p>
     <p id="Par105">
      For the Newtonian limit discussed in the main body this bounds the diffusion in terms of the total mass of the particle
@@ -40579,7 +41742,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq191.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . In this case, we find the trade-off
      <disp-formula id="Equ85">
       <label>
@@ -41340,7 +42502,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq192.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
    </sec>
@@ -42127,6 +43288,14 @@
      <italic>
       π
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+      <italic>
+       j
+      </italic>
+     </sup>
      is defined in terms of the extrinsic curvature tensor of constant
      <italic>
       t
@@ -42275,8 +43444,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ91.gif"/>
       </alternatives>
      </disp-formula>
-     <sup/>
-     .
     </p>
     <p id="Par108">
      It is useful to note that the matter densities
@@ -42336,6 +43503,14 @@
      <italic>
       T
      </italic>
+     <sup>
+      <italic>
+       μ
+      </italic>
+      <italic>
+       ν
+      </italic>
+     </sup>
      via
      <disp-formula id="Equ92">
       <label>
@@ -42480,8 +43655,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ93.gif"/>
       </alternatives>
      </disp-formula>
-     <sup/>
-     .
     </p>
     <p id="Par109">
      We here take the Newtonian limit of the gravitational field to be given by
@@ -43641,6 +44814,11 @@
      <italic>
       x
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+     </sup>
      ,
      <italic>
       p
@@ -43898,6 +45076,11 @@
      <italic>
       x
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+     </sup>
      ,
      <italic>
       p
@@ -44098,8 +45281,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ103.gif"/>
       </alternatives>
      </disp-formula>
-     <sup/>
-     .
     </p>
     <p id="Par111">
      In the classical-quantum case, we promote
@@ -44142,12 +45323,17 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq196.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . In this case Eq. (
      <xref ref-type="disp-formula" rid="Equ98">
       93
      </xref>
-     ) is the interaction Hamiltonian used in ref.  to study CQ gravity. We see from Eq. (
+     ) is the interaction Hamiltonian used in ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR24">
+       24
+      </xref>
+     </sup>
+     to study CQ gravity. We see from Eq. (
      <xref ref-type="disp-formula" rid="Equ102">
       97
      </xref>
@@ -44479,16 +45665,10 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ105.gif"/>
       </alternatives>
      </disp-formula>
-     from which the discussion at the beginning of the section “Physical constraints on the classicality of gravity” follows
-     <sup>
-      <xref ref-type="bibr" rid="CR24">
-       24
-      </xref>
-     </sup>
-     .
+     from which the discussion at the beginning of the section “Physical constraints on the classicality of gravity” follows.
     </p>
     <p id="Par112">
-     Note that the present discussion is insensitive to the details of the theory provided it satisfies Poisson’s equation on average. Nonetheless, it’s interesting that when starting from the relativistic theories of refs. , we find that the weak field limit resembles the models of Tilloy and Di´osi, which is discontinuous in Φ, rather than the continuous model of Di´osi
+     Note that the present discussion is insensitive to the details of the theory provided it satisfies Poisson’s equation on average. Nonetheless, it’s interesting that when starting from the relativistic theories of refs.
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
@@ -44497,21 +45677,39 @@
       <xref ref-type="bibr" rid="CR39">
        39
       </xref>
+     </sup>
+     , we find that the weak field limit resembles the models of Tilloy and Di´osi
+     <sup>
       <xref ref-type="bibr" rid="CR33">
        33
       </xref>
+     </sup>
+     , which is discontinuous in Φ, rather than the continuous model of Di´osi
+     <sup>
       <xref ref-type="bibr" rid="CR24">
        24
       </xref>
      </sup>
-     . This is because allows for non-zero conjugate momentum
+     . This is because
+     <sup>
+      <xref ref-type="bibr" rid="CR24">
+       24
+      </xref>
+     </sup>
+     allows for non-zero conjugate momentum
      <italic>
       π
      </italic>
      <sub>
       Φ
      </sub>
-     with the kinetic energy of a different sign, while in ref. , the momentum is set to zero via the constraint equations and gauge fixing of the lapse. The discontinuity then arises because we are operating in the
+     with the kinetic energy of a different sign, while in ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR81">
+       81
+      </xref>
+     </sup>
+     , the momentum is set to zero via the constraint equations and gauge fixing of the lapse. The discontinuity then arises because we are operating in the
      <italic>
       c
      </italic>
@@ -44519,22 +45717,19 @@
      <italic>
       ∞
      </italic>
-     limit, while in ref. , the discontinuity arises due to sourcing the Newtonian potential via a weak measurement process. We refer the reader to ref.  for details
+     limit, while in ref.
      <sup>
-      <xref ref-type="bibr" rid="CR24">
-       24
-      </xref>
-      <xref ref-type="bibr" rid="CR81">
-       81
-      </xref>
       <xref ref-type="bibr" rid="CR33">
        33
       </xref>
+     </sup>
+     , the discontinuity arises due to sourcing the Newtonian potential via a weak measurement process. We refer the reader to ref.
+     <sup>
       <xref ref-type="bibr" rid="CR81">
        81
       </xref>
      </sup>
-     .
+     for details.
     </p>
    </sec>
    <sec id="Sec19">
@@ -44542,21 +45737,30 @@
      Weak field CQ master equations
     </title>
     <p id="Par113">
-     Although the trade-off we derive does not depend on the particulars of the classical–quantum theory (provided it reproduces Newtonian gravity in the classical limit), we give two concrete examples for completeness. In ref.  we show that there are two classes of classical-quantum dynamics, one which is continuous in phase space, and one which has discrete jumps in phase space. We will give examples of each. Although they are the weak field limit of Oppenheim, it is worth stressing that taking the Newtonian limit entails certain coordinate choices and restrictions on the metric. For example, here, we have restricted ourselves to metrics of the form of Eq. (
-     <xref ref-type="disp-formula" rid="Equ94">
-      89
-     </xref>
-     ). Any gauge fixing of General Relativity which is done before deriving the master equation, is generally not equivalent to taking the master equations of Oppenheim, and then taking the appropriate limit
+     Although the trade-off we derive does not depend on the particulars of the classical–quantum theory (provided it reproduces Newtonian gravity in the classical limit), we give two concrete examples for completeness. In ref.
      <sup>
       <xref ref-type="bibr" rid="CR30">
        30
       </xref>
+     </sup>
+     we show that there are two classes of classical-quantum dynamics, one which is continuous in phase space, and one which has discrete jumps in phase space. We will give examples of each. Although they are the weak field limit of Oppenheim
+     <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
+     </sup>
+     , it is worth stressing that taking the Newtonian limit entails certain coordinate choices and restrictions on the metric. For example, here, we have restricted ourselves to metrics of the form of Eq. (
+     <xref ref-type="disp-formula" rid="Equ94">
+      89
+     </xref>
+     ). Any gauge fixing of General Relativity which is done before deriving the master equation, is generally not equivalent to taking the master equations of Oppenheim
+     <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
+     </sup>
+     , and then taking the appropriate limit
+     <sup>
       <xref ref-type="bibr" rid="CR81">
        81
       </xref>
@@ -45247,11 +46451,14 @@
        81
       </xref>
      </sup>
-     . This master equation is close to the one considered in ref. , where the decoherence and diffusion kernels are chosen to be the ones discussed in the second example of Examples of Kernels saturating the decoherence diffusion coupling constants trade-off. This is the weak field limit of the simplest realisation in ref.
+     . This master equation is close to the one considered in ref.
      <sup>
       <xref ref-type="bibr" rid="CR24">
        24
       </xref>
+     </sup>
+     , where the decoherence and diffusion kernels are chosen to be the ones discussed in the second example of Examples of Kernels saturating the decoherence diffusion coupling constants trade-off. This is the weak field limit of the simplest realisation in ref.
+     <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
@@ -45489,7 +46696,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq199.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Another natural diffusion kernel is
      <inline-formula id="IEq200">
       <alternatives>
@@ -46616,7 +47822,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq201.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We have here included
      <italic>
       ℏ
@@ -46633,6 +47838,9 @@
      <italic>
       c
      </italic>
+     <sup>
+      2
+     </sup>
      in both the exponential and in
      <inline-formula id="IEq202">
       <alternatives>
@@ -46697,7 +47905,6 @@
      <italic>
       x
      </italic>
-     <sup/>
      . This gives
      <disp-formula id="Equ110">
       <label>
@@ -47135,13 +48342,13 @@
      <italic>
       y
      </italic>
-     ) approach delta functions at short distances, but other alternatives may be possible
+     ) approach delta functions at short distances
      <sup>
       <xref ref-type="bibr" rid="CR39">
        39
       </xref>
      </sup>
-     .
+     , but other alternatives may be possible.
     </p>
     <p id="Par120">
      As a first example, we shall take the Lindbladian coupling to be Gaussian, taking
@@ -47360,16 +48567,22 @@
      <italic>
       λ
      </italic>
-     is a coupling constant that determines the strength of the Lindbladian
-     <sup/>
-     .
+     <sup>
+      <italic>
+       α
+      </italic>
+      <italic>
+       β
+      </italic>
+     </sup>
+     is a coupling constant that determines the strength of the Lindbladian.
     </p>
     <p id="Par121">
      It should be noted that with this choice of smearing function, the pure Lindbladian evolution appearing in Eq. (
      <xref ref-type="disp-formula" rid="Equ106">
       101
      </xref>
-     ) can be taken to resemble the Lindbladian part of spontaneous collapse models, except here, there is no need to think about any ad-hoc field, nor think of the collapse as being a physical process. Rather, one necessarily gets decoherence of the wave function for free, via gravitationally induced decoherenc
+     ) can be taken to resemble the Lindbladian part of spontaneous collapse models
      <sup>
       <xref ref-type="bibr" rid="CR60">
        60
@@ -47386,10 +48599,13 @@
       <xref ref-type="bibr" rid="CR124">
        124
       </xref>
-      ,
+      –
       <xref ref-type="bibr" rid="CR125">
        125
       </xref>
+     </sup>
+     , except here, there is no need to think about any ad-hoc field, nor think of the collapse as being a physical process. Rather, one necessarily gets decoherence of the wave function for free, via gravitationally induced decoherence
+     <sup>
       <xref ref-type="bibr" rid="CR11">
        11
       </xref>
@@ -47410,7 +48626,6 @@
        126
       </xref>
      </sup>
-     .
     </p>
     <p id="Par122">
      We now find the diffusion kernel
@@ -47599,7 +48814,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq204.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . In this case we find
      <disp-formula id="Equ112">
       <label>
@@ -47954,7 +49168,13 @@
      is the kernel inverse of a normalised Gaussian distribution.
     </p>
     <p id="Par123">
-     It is shown in ref. , that the inverse distribution takes the form
+     It is shown in ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR127">
+       127
+      </xref>
+     </sup>
+     , that the inverse distribution takes the form
      <disp-formula id="Equ113">
       <label>
        108
@@ -48457,13 +49677,7 @@
        d
       </italic>
      </sub>
-     )
-     <sup>
-      <xref ref-type="bibr" rid="CR127">
-       127
-      </xref>
-     </sup>
-     .
+     ).
     </p>
     <p id="Par124">
      In total then, we arrive at the expression for the
@@ -49218,11 +50432,14 @@
      </disp-formula>
     </p>
     <p id="Par127">
-     For a single Lindblad operator, this is the coupling introduced in used to reproduce a CQ master equation of gravity with a decoherence rate given by the Diosi–Penrose formula
+     For a single Lindblad operator, this is the coupling introduced in
      <sup>
       <xref ref-type="bibr" rid="CR24">
        24
       </xref>
+     </sup>
+     used to reproduce a CQ master equation of gravity with a decoherence rate given by the Diosi–Penrose formula
+     <sup>
       <xref ref-type="bibr" rid="CR128">
        128
       </xref>
@@ -49230,7 +50447,7 @@
       <xref ref-type="bibr" rid="CR129">
        129
       </xref>
-      ,
+      –
       <xref ref-type="bibr" rid="CR130">
        130
       </xref>
@@ -49742,7 +50959,6 @@
      <sub>
       0
      </sub>
-     <sup/>
      . As a consequence, we find for this specific choice of kernel that the diffusion matrix saturating the coupling constants bound in Eq. (
      <xref ref-type="disp-formula" rid="Equ31">
       31
@@ -50340,7 +51556,13 @@
      Diffeomorphism invariant kernel
     </title>
     <p id="Par130">
-     Attempts to derive the constraint algebra of a generally covariant CQ theory (and J. Oppenheim, “The constraints of a continuous realisation of post-quantum-classical gravity", manuscript in preparation), motivates the spatial diffeomorphism invariant kernel
+     Attempts to derive the constraint algebra of a generally covariant CQ theory
+     <sup>
+      <xref ref-type="bibr" rid="CR37">
+       37
+      </xref>
+     </sup>
+     (and J. Oppenheim, “The constraints of a continuous realisation of post-quantum-classical gravity", manuscript in preparation), motivates the spatial diffeomorphism invariant kernel
      <disp-formula id="Equ122">
       <label>
        117
@@ -50674,7 +51896,11 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq211.gif"/>
       </alternatives>
      </inline-formula>
-     along with the associated Green’s function of Δ but this is irrelevant for the Newtonian limit. It is however useful in removing the apparent asymmetry in the expressions below, since one must recall that the
+     along with the associated Green’s function of Δ
+     <sup>
+      (4)
+     </sup>
+     but this is irrelevant for the Newtonian limit. It is however useful in removing the apparent asymmetry in the expressions below, since one must recall that the
      <inline-formula id="IEq212">
       <alternatives>
        <mml:math id="IEq212_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -51045,13 +52271,7 @@
      <xref ref-type="disp-formula" rid="Equ121">
       116
      </xref>
-     ), but with a correction term that turns out to be important
-     <sup>
-      <xref ref-type="bibr" rid="CR37">
-       37
-      </xref>
-     </sup>
-     .
+     ), but with a correction term that turns out to be important.
     </p>
     <p id="Par131">
      Using
@@ -51522,7 +52742,6 @@
      <italic>
       x
      </italic>
-     <sup/>
      . In the weak field limit, and to 0th order in Φ(
      <italic>
       x
@@ -52019,13 +53238,13 @@
      <italic>
       x
      </italic>
-     ) can lead to a divergent energy production in the matter degrees of freedom. The latter is related to the BPS problem of anomalous heating, although it isn’t necessarily equivalent since some kernels may diverge and be well-behaved from the point of view of energy production. This is not an issue from a conceptual point of view, since the only reason we expect energy to be conserved is due to Noether’s theorem, and Noether’s theorem doesn’t apply when the evolution isn’t unitary
+     ) can lead to a divergent energy production in the matter degrees of freedom. The latter is related to the BPS problem
      <sup>
       <xref ref-type="bibr" rid="CR98">
        98
       </xref>
      </sup>
-     .
+     of anomalous heating, although it isn’t necessarily equivalent since some kernels may diverge and be well-behaved from the point of view of energy production. This is not an issue from a conceptual point of view, since the only reason we expect energy to be conserved is due to Noether’s theorem, and Noether’s theorem doesn’t apply when the evolution isn’t unitary.
     </p>
     <p id="Par134">
      In the standard BPS problem, energy production in open quantum field theory can be made small by renormalizing the Lindbladian coefficient
@@ -52468,9 +53687,25 @@
      <italic>
       π
      </italic>
+     <sup>
+      <italic>
+       i
+      </italic>
+      <italic>
+       j
+      </italic>
+     </sup>
      <italic>
       π
      </italic>
+     <sup>
+      <italic>
+       k
+      </italic>
+      <italic>
+       l
+      </italic>
+     </sup>
      (
      <italic>
       x
@@ -52676,7 +53911,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq223.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . In particular, we shall show that the decoherence rate of a mass in superposition, is given by Eq. (
      <xref ref-type="disp-formula" rid="Equ136">
       131
@@ -52785,7 +54019,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq226.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We describe the quantum state using creation and annihilation operators
      <italic>
       ψ
@@ -52798,6 +54031,9 @@
      <italic>
       ψ
      </italic>
+     <sup>
+      †
+     </sup>
      (
      <italic>
       x
@@ -52905,7 +54141,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq227.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . The mass density operator is defined via
      <inline-formula id="IEq228">
       <alternatives>
@@ -53144,7 +54379,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq229.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . We will take them to be well separated so that
      <italic>
       f
@@ -53792,7 +55026,6 @@
      <sub>
       Q
      </sub>
-     <sup/>
      . Integrating over the classical phase space in Eq. (
      <xref ref-type="disp-formula" rid="Equ9">
       9
@@ -56311,7 +57544,6 @@
      <sub>
       b
      </sub>
-     <sup/>
      . The Earth’s background potential dominates over small fluctuations in Φ due to the particles and we can approximate Eq. (
      <xref ref-type="disp-formula" rid="Equ134">
       129
@@ -58077,7 +59309,6 @@
      <sub>
       R
      </sub>
-     <sup/>
      .
     </p>
    </sec>
@@ -59177,11 +60408,13 @@
      <italic>
       M
      </italic>
+     <sup>
+      2
+     </sup>
      /
      <italic>
       V
      </italic>
-     <sup/>
      .
     </p>
     <p id="Par155">
@@ -59929,7 +61162,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq242.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par157">
@@ -60337,7 +61569,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq243.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par159">
@@ -61374,7 +62605,7 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq245.gif"/>
       </alternatives>
      </inline-formula>
-     are suppressed by an order parameter and whenever this is true we expect we can approximate the dynamics of the Newtonian potential by a Gaussian process. Whether this is the case or not, it is the second-order moment that enters into our discussion of the variance here. As such, for minimally coupled theories, the Newtonian potential will appear to be sourced by a random mass distribution
+     are suppressed by an order parameter
      <sup>
       <xref ref-type="bibr" rid="CR11">
        11
@@ -61388,7 +62619,7 @@
        37
       </xref>
      </sup>
-     .
+     and whenever this is true we expect we can approximate the dynamics of the Newtonian potential by a Gaussian process. Whether this is the case or not, it is the second-order moment that enters into our discussion of the variance here. As such, for minimally coupled theories, the Newtonian potential will appear to be sourced by a random mass distribution.
     </p>
     <p id="Par162">
      In the discrete case, a precise understanding of the effects of the diffusion beyond the Gaussian approximation involves solving the full classical-quantum dynamics, perhaps using the methods of Oppenheim et al.
@@ -61420,11 +62651,14 @@
      <xref ref-type="disp-formula" rid="Equ146">
       141
      </xref>
-     ) from manifestly diffeomorphism invariant theories, such as those of refs.
+     ) from manifestly diffeomorphism invariant theories
      <sup>
       <xref ref-type="bibr" rid="CR81">
        81
       </xref>
+     </sup>
+     , such as those of refs.
+     <sup>
       <xref ref-type="bibr" rid="CR39">
        39
       </xref>
@@ -61905,7 +63139,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq246.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . The total variation in the force’s time-averaged magnitude. The full covariance matrix for various kernels in the Newtonian limit is given in (J. Oppenheim and A. Russo, manuscript in preparation),
      <inline-formula id="IEq247">
       <alternatives>
@@ -62485,7 +63718,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq248.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Given a choice of functional form of the kernel, all that remains is the strength of the diffusion coupling, which for the translation invariant kernels we consider here takes the form of a single coupling constant
      <italic>
       D
@@ -62493,7 +63725,6 @@
      <sub>
       2
      </sub>
-     <sup/>
      . We take
      <italic>
       D
@@ -62501,9 +63732,15 @@
      <sub>
       2
      </sub>
-     to be a dimension-full quantity with units kg sm which characterises the rate of diffusion for the conjugate momenta of the Newtonian potential
-     <sup/>
-     .
+     to be a dimension-full quantity with units kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
+     </sup>
+     which characterises the rate of diffusion for the conjugate momenta of the Newtonian potential.
     </p>
     <p id="Par169">
      For a composite mass, we can approximate the mass density by summing over
@@ -62909,7 +64146,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq252.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par170">
@@ -62973,7 +64209,13 @@
      <sub>
       2
      </sub>
-     ~ Φ,
+     ~ Φ
+     <sup>
+      <italic>
+       n
+      </italic>
+     </sup>
+     ,
      <italic>
       D
      </italic>
@@ -62987,7 +64229,11 @@
      <sub>
       2
      </sub>
-     ~ ∇Φ which creates diffusion only where there is the mass density. We hereby shall only consider diffusion kernels
+     ~ ∇
+     <sup>
+      2
+     </sup>
+     Φ which creates diffusion only where there is the mass density. We hereby shall only consider diffusion kernels
      <italic>
       D
      </italic>
@@ -63006,9 +64252,7 @@
      <sub>
       b
      </sub>
-     ) where the background potential is dominant, leaving more general considerations for future work
-     <sup/>
-     .
+     ) where the background potential is dominant, leaving more general considerations for future work.
     </p>
     <p id="Par171">
      For local translation invariant dynamics for which the background Newtonian potential is dominant, for example,
@@ -63018,7 +64262,13 @@
      <sub>
       2
      </sub>
-     ~ Φ, we have 〈
+     ~ Φ
+     <sup>
+      <italic>
+       n
+      </italic>
+     </sup>
+     , we have 〈
      <italic>
       D
      </italic>
@@ -63471,8 +64721,6 @@
        <graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_Equ152.gif"/>
       </alternatives>
      </disp-formula>
-     <sup/>
-     .
     </p>
     <p id="Par172">
      To leading order, the integral in Eq. (
@@ -63487,7 +64735,15 @@
      <italic>
       j
      </italic>
-     , since nuclear scales 10 m dominate over inter-atomic scales 10 m, so that
+     , since nuclear scales 10
+     <sup>
+      −15
+     </sup>
+     m dominate over inter-atomic scales 10
+     <sup>
+      −9
+     </sup>
+     m, so that
      <inline-formula id="IEq253">
       <alternatives>
        <mml:math id="IEq253_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -63604,7 +64860,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq253.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . Approximating the mass density of the atoms as coming from their nucleus, and taking them to be spheres of constant density
      <italic>
       ρ
@@ -64238,18 +65493,38 @@
      </disp-formula>
     </p>
     <p id="Par176">
-     Standard Cavendish type classical torsion experiments measure accelerations of the order 10 m s, and we can take the time over which the acceleration is averaged to be that of minutes Δ
+     Standard Cavendish type classical torsion experiments measure accelerations of the order 10
+     <sup>
+      −7
+     </sup>
+     m s
+     <sup>
+      −2
+     </sup>
+     , and we can take the time over which the acceleration is averaged to be that of minutes Δ
      <italic>
       T
      </italic>
-     ~ 10 s, so a very conservative bound is
+     ~ 10
+     <sup>
+      2
+     </sup>
+     s, so a very conservative bound is
      <italic>
       σ
      </italic>
      <sub>
       a
      </sub>
-     ~ 10 m s, whilst
+     ~ 10
+     <sup>
+      −7
+     </sup>
+     m s
+     <sup>
+      −2
+     </sup>
+     , whilst
      <italic>
       N
      </italic>
@@ -64257,7 +65532,11 @@
      <italic>
       N
      </italic>
-     ~ 10 and
+     ~ 10
+     <sup>
+      26
+     </sup>
+     and
      <italic>
       r
      </italic>
@@ -64266,7 +65545,11 @@
        N
       </italic>
      </sub>
-     ~ 10 m. We take the background Newtonian potential to be that of the Earth and we (conservatively) take
+     ~ 10
+     <sup>
+      −15
+     </sup>
+     m. We take the background Newtonian potential to be that of the Earth and we (conservatively) take
      <italic>
       V
      </italic>
@@ -64384,8 +65667,18 @@
      <sub>
       2
      </sub>
-     ≤ 10 kg sm
-     <sup/>
+     ≤ 10
+     <sup>
+      −41
+     </sup>
+     kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
+     </sup>
      .
     </p>
     <p id="Par177">
@@ -64551,7 +65844,6 @@
        λ
       </italic>
      </sub>
-     <sup/>
      . This gives rise to the squeeze
      <disp-formula id="Equ157">
       <label>
@@ -64721,7 +66013,13 @@
      </disp-formula>
     </p>
     <p id="Par178">
-     Using the numbers from ref. , with
+     Using the numbers from ref.
+     <sup>
+      <xref ref-type="bibr" rid="CR59">
+       59
+      </xref>
+     </sup>
+     , with
      <italic>
       M
      </italic>
@@ -64730,7 +66028,11 @@
        λ
       </italic>
      </sub>
-     ~ 10 kg,
+     ~ 10
+     <sup>
+      −24
+     </sup>
+     kg,
      <italic>
       N
      </italic>
@@ -64739,7 +66041,11 @@
        λ
       </italic>
      </sub>
-     ~ 10, and
+     ~ 10
+     <sup>
+      3
+     </sup>
+     , and
      <italic>
       V
      </italic>
@@ -64748,22 +66054,60 @@
        λ
       </italic>
      </sub>
-     ~ 101010 m = 10 m,
+     ~ 10
+     <sup>
+      −15
+     </sup>
+     10
+     <sup>
+      −15
+     </sup>
+     10
+     <sup>
+      −7
+     </sup>
+     m
+     <sup>
+      3
+     </sup>
+     = 10
+     <sup>
+      −37
+     </sup>
+     m
+     <sup>
+      3
+     </sup>
+     ,
      <italic>
       λ
      </italic>
-     ~ 10 s we find that
+     ~ 10
+     <sup>
+      1
+     </sup>
+     s
+     <sup>
+      −1
+     </sup>
+     we find that
      <italic>
       D
      </italic>
      <sub>
       2
      </sub>
-     ≥ 10 kg sm
+     ≥ 10
      <sup>
-      <xref ref-type="bibr" rid="CR59">
-       59
-      </xref>
+      −9
+     </sup>
+     kg
+     <sup>
+      2
+     </sup>
+     sm
+     <sup>
+      −3
      </sup>
      . This suggests that the
      <italic>
@@ -65215,7 +66559,6 @@
      <sub>
       2
      </sub>
-     <sup/>
      . From this, we arrive at the squeeze
      <disp-formula id="Equ159">
       <label>
@@ -65510,7 +66853,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq259.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      .
     </p>
     <p id="Par181">
@@ -65668,7 +67010,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq260.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . The Lindbladian kernel saturating the coupling constants trade-off at zeroeth order in Φ(
      <italic>
       x
@@ -66074,15 +67415,31 @@
      <sub>
       a
      </sub>
-     ~ 10 m s,
+     ~ 10
+     <sup>
+      −7
+     </sup>
+     m s
+     <sup>
+      −2
+     </sup>
+     ,
      <italic>
       T
      </italic>
-     ~ 10 s,
+     ~ 10
+     <sup>
+      2
+     </sup>
+     s,
      <italic>
       N
      </italic>
-     ~ 10 and
+     ~ 10
+     <sup>
+      26
+     </sup>
+     and
      <italic>
       r
      </italic>
@@ -66091,7 +67448,11 @@
        N
       </italic>
      </sub>
-     ~ 10 m gives
+     ~ 10
+     <sup>
+      −15
+     </sup>
+     m gives
      <inline-formula id="IEq262">
       <alternatives>
        <mml:math id="IEq262_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -66180,7 +67541,6 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq262.gif"/>
       </alternatives>
      </inline-formula>
-     <sup/>
      . On the other hand, for this kernel the decoherence rate can be calculated via Eq. (
      <xref ref-type="disp-formula" rid="Equ144">
       139
@@ -66465,6 +67825,11 @@
     </p>
     <p id="Par183">
      For the numbers used in the main body of the text
+     <sup>
+      <xref ref-type="bibr" rid="CR59">
+       59
+      </xref>
+     </sup>
      <italic>
       M
      </italic>
@@ -66473,7 +67838,11 @@
        λ
       </italic>
      </sub>
-     ~ 10 kg,
+     ~ 10
+     <sup>
+      −24
+     </sup>
+     kg,
      <italic>
       N
      </italic>
@@ -66482,7 +67851,11 @@
        λ
       </italic>
      </sub>
-     ~ 10,
+     ~ 10
+     <sup>
+      3
+     </sup>
+     ,
      <italic>
       R
      </italic>
@@ -66495,11 +67868,22 @@
      <italic>
       V
      </italic>
-     = 10 m,
+     <sup>
+      1/3
+     </sup>
+     = 10
+     <sup>
+      −12
+     </sup>
+     m,
      <italic>
       λ
      </italic>
-     ~ 10 s, this yields
+     ~ 10
+     <sup>
+      1
+     </sup>
+     s, this yields
      <inline-formula id="IEq263">
       <alternatives>
        <mml:math id="IEq263_Math" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -66589,13 +67973,7 @@
        <inline-graphic mime-subtype="GIF" specific-use="web" xlink:href="41467_2023_43348_Article_IEq263.gif"/>
       </alternatives>
      </inline-formula>
-     and so this model is not ruled out by experiment
-     <sup>
-      <xref ref-type="bibr" rid="CR59">
-       59
-      </xref>
-     </sup>
-     .
+     and so this model is not ruled out by experiment.
     </p>
     <p id="Par184">
      In general then, we expect that by simulating full CQ dynamics satisfying the decoherence diffusion trade-off we will be able to squeeze

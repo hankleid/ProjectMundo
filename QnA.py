@@ -20,11 +20,11 @@ def make_fulltexts():
                 save_fulltext(get_copy(xml), f"{fd}/{lang}.txt")
 
 def generate_qs(num_qs, fd):
-    # q_prompt = f"Please read the following scientific journal article. Generate {num_qs} detailed and specific questions to test a reader's understanding of the article. Each question should be unique. The questions should labeled 1-{num_qs}. The questions should be multiple choice with 5 possible answers labeled A-E. There should only be one correct answer from the options. The questions should cover as much of the entire article's content as possible. Please format your response as a JSON object with the question, possible answers, and correct answers. The JSON key to each question should be its number. Here is the article: "
+    q_prompt = f"Please read the following scientific journal article. Generate {num_qs} detailed and specific questions to test a reader's understanding of the article. Each question should be unique. The questions should labeled 1-{num_qs}. The questions should be multiple choice with 5 possible answers labeled A-E. There should only be one correct answer from the options. The questions should cover as much of the entire article's content as possible. Please format your response as a JSON object with the question, possible answers, and correct answers. The JSON key to each question should be its number. Here is the article: "
 
-    q_prompt = f"Please read the following scientific journal article. Generate {num_qs} detailed and specific questions to test a reader's understanding, targeting the tables and figures only. Each question should be unique. The questions should labeled 1-{num_qs}. The questions should be multiple choice with 5 possible answers labeled A-E. There should only be one correct answer from the options. The questions should be as specific to the tables and figures as possible. Please format your response as a JSON object with the question, possible answers, and correct answers. The JSON key to each question should be its number. Here is the article and the figures: "
+    # q_prompt = f"Please read the following scientific journal article. Generate {num_qs} detailed and specific questions to test a reader's understanding, targeting the tables and figures only. Each question should be unique. The questions should labeled 1-{num_qs}. The questions should be multiple choice with 5 possible answers labeled A-E. There should only be one correct answer from the options. The questions should be as specific to the tables and figures as possible. Please format your response as a JSON object with the question, possible answers, and correct answers. The JSON key to each question should be its number. Here is the article and the figures: "
 
-    res = tl.generate_qs(num_qs, f"{fd}/eng_full.txt", q_prompt, figs=True)
+    res = tl.generate_qs(num_qs, f"{fd}/eng_full.txt", q_prompt, figs=False)
     qna = {}
     with open(f"{fd}/QnA.json", "w+") as f:
         f.write(res)
@@ -68,7 +68,7 @@ def quiz(lang, fd, text_fd):
         fn = "QnA"
     else:
         fn = f"QnA_{code}"
-    res = tl.quiz_translation(lang, text_fd+f"/{code}_full.txt", fd+f"/{fn}.json")
+    res = tl.quiz_translation(lang, text_fd+f"/{code}_full.txt", fd+f"/{fn}.json", figs=False)
     with open(f"{fd}/QnA_{code}_answers.json", "w+") as f:
         f.write(res)
 
@@ -107,21 +107,29 @@ if __name__ == "__main__":
     article3 = "10.1038/s41467-023-42766-6" # cats
     article4 = "10.1038/s41467-017-00516-5" # Ahn et al.
     article5 = "10.1038/s41467-019-11343-1" # Jelena
+    article6 = "10.1038/s41467-023-40666-3" # human behavior
 
-    articles = [filename_from_DOI(doi=doi) for doi in [article1,article2,article3,article4,article5]]
+    articles = [filename_from_DOI(doi=doi) for doi in [article1,article2,article3,article4,article5,article6]]
 
-    a = articles[0]
-    fd = f"FullTexts/{a}/20q_temp0_figs"
-    text_fd = f"FullTexts/{a}"
-    tl.upload_images(a)
+    for a in articles[-1:]:
+        # a = articles[0]
+        print(a)
+        fd = f"FullTexts/{a}/20q_temp0_figs"
+        text_fd = f"FullTexts/{a}"
+        # tl.upload_images(a)
 
-    tl.temp = 0
-    # generate_qs(20, text_fd)
-    tl.temp = 1
-    langs = [l for l in load_langs()['translation']]
-    for lang in langs:
-        # translate_qs(lang, text_fd)
-        quiz(lang, fd, text_fd)
-        print(lang, grade(lang, fd))
-        pass
+        tl.temp = 0
+        generate_qs(20, text_fd)
+        langs = [l for l in load_langs()['translation']]#[:-6]
+        # langs = ["Spanish"]
+        for lang in langs:
+            tl.temp = 0
+            translate_qs(lang, text_fd)
+            try:
+                tl.temp = 1
+                quiz(lang, text_fd, text_fd)
+                print(lang, grade(lang, text_fd))
+            except:
+                print(a)
+            pass
 

@@ -27,12 +27,21 @@
     "Russian": "rus",
     "Arabic": "ara",
     "Farsi": "per",
-    "Swahili": "swa"
+    "Swahili": "swa",
+    "Vietnamese": "vie"
   },
   "codes": {
     "eng": {
       "name": "English",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Anxious individuals shift emotion control from lateral frontal pole to dorsolateral prefrontal cortex"
+        },
+        {
+          "doi": "10X1038_s41467-022-29976-0",
+          "title": "Beam steering at the nanosecond time scale with an atomically thin reflector"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Exploring patterns enriched in a dataset with contrastive principal component analysis"
@@ -42,12 +51,32 @@
           "title": "Strain-engineered growth of two-dimensional materials"
         },
         {
+          "doi": "10X1038_s41467-019-14096-z",
+          "title": "Heuristic recurrent algorithms for photonic Ising machines"
+        },
+        {
           "doi": "10X1038_s41467-023-43348-2",
           "title": "Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity"
         },
         {
+          "doi": "10X1038_s41467-021-21624-3",
+          "title": "Reconfigurable photonics with on-chip single-photon detectors"
+        },
+        {
           "doi": "10X1038_s41467-023-42766-6",
           "title": "A global synthesis and assessment of free-ranging domestic cat diet"
+        },
+        {
+          "doi": "10X1038_s41746-019-0216-8",
+          "title": "Deep learning interpretation of echocardiograms"
+        },
+        {
+          "doi": "10X1038_s41586-024-07386-0",
+          "title": "Full-colour 3D holographic augmented-reality displays with metasurface waveguides"
+        },
+        {
+          "doi": "10X1038_s41598-023-44786-0",
+          "title": "Variational quantum metrology for multiparameter estimation under dephasing noise"
         },
         {
           "doi": "10X1038_s41467-019-11343-1",
@@ -62,6 +91,10 @@
     "zh1": {
       "name": "中文（简体）",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "焦虑个体将情绪控制从侧额极转移到背外侧前额叶皮层"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "利用对比主成分分析探索数据集中丰富的模式"
@@ -88,6 +121,10 @@
       "name": "中文（繁體）",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "焦慮個體將情緒控制從側額極轉移到背外側前額葉皮層"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "利用對比主成分分析探索數據集中增強的模式"
         },
@@ -112,6 +149,10 @@
     "deu": {
       "name": "Deutsch",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Ängstliche Individuen verlagern die Emotionskontrolle vom lateralen Frontpol zur dorsolateralen präfrontalen Kortex"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Erforschung von Mustern, die in einem Datensatz mit kontrastiver Hauptkomponentenanalyse angereichert sind"
@@ -138,6 +179,10 @@
       "name": "日本語",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "不安を抱える個人は、側頭前頭極から背外側前頭前野へ感情制御をシフトする"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "対比主成分分析を用いたデータセットにおけるパターンの強化の探求"
         },
@@ -163,12 +208,20 @@
       "name": "Français",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Les individus anxieux déplacent le contrôle émotionnel du pôle frontal latéral au cortex préfrontal dorsolatéral"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Exploration des motifs enrichis dans un ensemble de données avec l'analyse en composantes principales contrastive"
         },
         {
           "doi": "10X1038_s41467-017-00516-5",
           "title": "Croissance des matériaux bidimensionnels par ingénierie de contrainte"
+        },
+        {
+          "doi": "10X1038_s41467-019-14096-z",
+          "title": "Algorithmes récurrents heuristiques pour les machines Ising photoniques"
         },
         {
           "doi": "10X1038_s41467-023-42766-6",
@@ -188,12 +241,12 @@
       "name": "한국어",
       "articles": [
         {
-          "doi": "10X1038_s41467-018-04608-8",
-          "title": "대조 주성분 분석을 통한 데이터셋에서의 패턴 탐색"
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "불안한 개인들은 감정 조절을 측두 전두극에서 배측 외측 전전두엽으로 이동시킨다"
         },
         {
-          "doi": "10X1038_s41467-017-00516-5",
-          "title": "변형 공학을 통한 이차원 물질의 성장"
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "대조 주성분 분석을 통한 데이터셋에서의 패턴 탐색"
         },
         {
           "doi": "10X1038_s41467-017-00516-5",
@@ -216,6 +269,10 @@
     "hin": {
       "name": "हिन्दी",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "चिंतित व्यक्ति भावनात्मक नियंत्रण को पार्श्व ललाट ध्रुव से डोर्सोलेटरल प्रीफ्रंटल कॉर्टेक्स में स्थानांतरित करते हैं"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "विपरीत मुख्य घटक विश्लेषण के साथ एक डेटासेट में समृद्ध पैटर्न का अन्वेषण"
@@ -242,6 +299,10 @@
       "name": "বাংলা",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "উদ্বিগ্ন ব্যক্তিরা আবেগ নিয়ন্ত্রণ স্থানান্তর করে পার্শ্বীয় ফ্রন্টাল পোল থেকে ডরসোল্যাটারাল প্রিফ্রন্টাল কর্টেক্সে"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "বৈপরীত্যপূর্ণ প্রধান উপাদান বিশ্লেষণের মাধ্যমে একটি ডেটাসেটে সমৃদ্ধ প্যাটার্ন অন্বেষণ"
         },
@@ -266,6 +327,10 @@
     "urd": {
       "name": "اُردُو",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "پریشان افراد جذباتی کنٹرول کو لیٹرل فرنٹل پول سے ڈورسلٹرل پریفرنٹل کورٹیکس کی طرف منتقل کرتے ہیں"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "متضاد پرنسپل کمپوننٹ تجزیہ کے ساتھ ڈیٹا سیٹ میں افزودہ پیٹرنز کی تلاش"
@@ -292,6 +357,10 @@
       "name": "मराठी",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "चिंताग्रस्त व्यक्ती भावनिक नियंत्रणाची दिशा पार्श्विक फ्रंटल पोलवरून डोर्सोलॅटरल प्रीफ्रंटल कॉर्टेक्सकडे बदलतात"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "विरोधाभासी मुख्य घटक विश्लेषणासह डेटासेटमध्ये समृद्ध नमुने शोधणे"
         },
@@ -316,6 +385,10 @@
     "tam": {
       "name": "தமிழ்",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "கவலைக்கிடமான நபர்கள் உணர்ச்சி கட்டுப்பாட்டை பக்கவாட்டு முன் தலையணியிலிருந்து பின்புறம் முன் மூளைக்கோட்டிற்கு மாற்றுகின்றனர்"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "மாறுபட்ட பிரதான கூறு பகுப்பாய்வின் மூலம் தரவுத்தொகுப்பில் செறிந்துள்ள முறைமைகளை ஆராய்தல்"
@@ -342,6 +415,10 @@
       "name": "తెలుగు",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "ఆతురతతో ఉన్న వ్యక్తులు భావోద్వేగ నియంత్రణను లాటరల్ ఫ్రంటల్ పోల్ నుండి డోర్సోలాటరల్ ప్రీఫ్రంటల్ కార్టెక్స్‌కు మార్చుకుంటారు"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "కాంట్రాస్టివ్ ప్రిన్సిపల్ కంపోనెంట్ విశ్లేషణతో డేటాసెట్‌లో సమృద్ధిగా ఉన్న నమూనాలను అన్వేషించడం"
         },
@@ -366,6 +443,10 @@
     "guj": {
       "name": "ગુજરાતી",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "ચિંતિત વ્યક્તિઓ ભાવનાત્મક નિયંત્રણને બાજુના ફ્રન્ટલ પોલમાંથી ડોર્સોલેટરલ પ્રીફ્રન્ટલ કોર્ટેક્સમાં ખસેડે છે"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "વિરોધાત્મક મુખ્ય ઘટક વિશ્લેષણ સાથે ડેટાસેટમાં સમૃદ્ધ પેટર્નની શોધખોળ"
@@ -392,6 +473,14 @@
       "name": "Italiano",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Gli individui ansiosi spostano il controllo delle emozioni dal polo frontale laterale alla corteccia prefrontale dorsolaterale"
+        },
+        {
+          "doi": "10X1038_s41467-022-29976-0",
+          "title": "Controllo del fascio alla scala temporale dei nanosecondi con un riflettore atomico sottile"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Esplorazione di schemi arricchiti in un dataset con l'analisi delle componenti principali contrastive"
         },
@@ -417,16 +506,16 @@
       "name": "Español",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Los individuos ansiosos cambian el control emocional del polo frontal lateral a la corteza prefrontal dorsolateral"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Explorando patrones enriquecidos en un conjunto de datos con análisis de componentes principales contrastivo"
         },
         {
-          "doi": "10X1038_s41467-023-43348-2",
-          "title": "Gravitationally induced decoherence vs space-time diffusion: testing the quantum nature of gravity"
-        },
-        {
           "doi": "10X1038_s41467-017-00516-5",
-          "title": "Strain-engineered growth of two-dimensional materials"
+          "title": "Crecimiento de materiales bidimensionales mediante ingeniería de deformación"
         },
         {
           "doi": "10X1038_s41467-023-43348-2",
@@ -449,6 +538,10 @@
     "nld": {
       "name": "Nederlands",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Angstige individuen verschuiven emotiecontrole van laterale frontale pool naar dorsolaterale prefrontale cortex"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Patronen verkennen die verrijkt zijn in een dataset met contrastieve hoofcomponentenanalyse"
@@ -475,6 +568,10 @@
       "name": "Svenska",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Oroliga individer skiftar känslokontroll från lateral frontpol till dorsolateral prefrontal cortex"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Utforska mönster berikade i en dataset med kontrastiv huvudkomponentanalys"
         },
@@ -499,6 +596,10 @@
     "dan": {
       "name": "Dansk",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Ængstelige individer skifter følelseskontrol fra lateral frontpol til dorsolateral præfrontal cortex"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Udforskning af mønstre beriget i et datasæt med kontrastiv hovedkomponentanalyse"
@@ -525,6 +626,10 @@
       "name": "עִבְֿרִית",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "אנשים חרדתיים מעבירים את השליטה ברגשות מהקוטב הפרונטלי הלטרלי לקורטקס הפרה-פרונטלי הדורסולטרלי"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "חקר דפוסים מועשרים במערך נתונים באמצעות ניתוח רכיבים עיקריים ניגודיים"
         },
@@ -549,6 +654,10 @@
     "msa": {
       "name": "Bahasa Melayu",
       "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Individu yang cemas mengalihkan kawalan emosi dari kutub frontal lateral ke korteks prefrontal dorsolateral"
+        },
         {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Meneroka corak yang diperkaya dalam set data dengan analisis komponen utama kontras"
@@ -575,6 +684,10 @@
       "name": "Srpski",
       "articles": [
         {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Anksiozni pojedinci prebacuju kontrolu emocija sa lateralnog frontalnog pola na dorzolateralni prefrontalni korteks"
+        },
+        {
           "doi": "10X1038_s41467-018-04608-8",
           "title": "Istraživanje obrazaca obogaćenih u skupu podataka pomoću kontrastivne analize glavnih komponenti"
         },
@@ -597,19 +710,191 @@
       ]
     },
     "por": {
-      "name": "Português"
+      "name": "Português",
+      "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Indivíduos ansiosos mudam o controle emocional do polo frontal lateral para o córtex pré-frontal dorsolateral"
+        },
+        {
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "Explorando padrões enriquecidos em um conjunto de dados com análise de componentes principais contrastiva"
+        },
+        {
+          "doi": "10X1038_s41467-017-00516-5",
+          "title": "Crescimento de materiais bidimensionais com engenharia de deformação"
+        },
+        {
+          "doi": "10X1038_s41467-023-42766-6",
+          "title": "Uma síntese global e avaliação da dieta de gatos domésticos de vida livre"
+        },
+        {
+          "doi": "10X1038_s41467-019-11343-1",
+          "title": "Fotônica de diamante projetada inversamente"
+        },
+        {
+          "doi": "10X1038_s41467-023-43444-3",
+          "title": "Ritmos circadianos alimentares e risco de doenças cardiovasculares na coorte prospectiva NutriNet-Santé"
+        }
+      ]
     },
     "tur": {
-      "name": "Türkçe"
+      "name": "Türkçe",
+      "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Kaygılı bireyler duygusal kontrolü lateral frontal polden dorsolateral prefrontal kortekse kaydırır"
+        },
+        {
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "Kontrastif Temel Bileşen Analizi ile Bir Veri Kümesinde Zenginleştirilmiş Desenlerin Keşfi"
+        },
+        {
+          "doi": "10X1038_s41467-017-00516-5",
+          "title": "İki boyutlu malzemelerin gerilim mühendisliği ile büyütülmesi"
+        },
+        {
+          "doi": "10X1038_s41467-023-42766-6",
+          "title": "Serbest Gezen Evcil Kedilerin Diyetinin Küresel Bir Sentezi ve Değerlendirmesi"
+        },
+        {
+          "doi": "10X1038_s41467-019-11343-1",
+          "title": "Ters Tasarımlı Elmas Fotonik"
+        },
+        {
+          "doi": "10X1038_s41467-023-43444-3",
+          "title": "Diyetle İlgili Sirkadiyen Ritimler ve Prospektif NutriNet-Santé Kohortunda Kardiyovasküler Hastalık Riski"
+        }
+      ]
+    },
+    "rus": {
+      "name": "русский язык",
+      "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Тревожные индивиды переключают контроль эмоций с латерального фронтального полюса на дорсолатеральную префронтальную кору"
+        },
+        {
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "Исследование обогащенных паттернов в наборе данных с помощью контрастного анализа главных компонент"
+        },
+        {
+          "doi": "10X1038_s41467-017-00516-5",
+          "title": "Рост двумерных материалов с управляемым напряжением"
+        },
+        {
+          "doi": "10X1038_s41467-023-42766-6",
+          "title": "Глобальный синтез и оценка рациона свободно гуляющих домашних кошек"
+        },
+        {
+          "doi": "10X1038_s41467-019-11343-1",
+          "title": "Обратное проектирование фотоники на основе алмаза"
+        },
+        {
+          "doi": "10X1038_s41467-023-43444-3",
+          "title": "Диетические циркадные ритмы и риск сердечно-сосудистых заболеваний в проспективной когорте NutriNet-Santé"
+        }
+      ]
     },
     "ara": {
-      "name": "العربية"
+      "name": "العربية",
+      "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "الأفراد القلقون يحولون التحكم في العواطف من القطب الجبهي الجانبي إلى القشرة الجبهية الأمامية الظهرية الجانبية"
+        },
+        {
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "استكشاف الأنماط الغنية في مجموعة بيانات باستخدام تحليل المكونات الرئيسية التبايني"
+        },
+        {
+          "doi": "10X1038_s41467-017-00516-5",
+          "title": "النمو المُهندَس للإجهاد للمواد ثنائية الأبعاد"
+        },
+        {
+          "doi": "10X1038_s41467-023-42766-6",
+          "title": "توليف عالمي وتقييم لنظام غذاء القطط المنزلية الطليقة"
+        },
+        {
+          "doi": "10X1038_s41467-019-11343-1",
+          "title": "الفوتونيات الماسية المصممة عكسيًا"
+        },
+        {
+          "doi": "10X1038_s41467-023-43444-3",
+          "title": "الإيقاعات اليومية الغذائية وخطر الإصابة بأمراض القلب والأوعية الدموية في دراسة NutriNet-Santé المستقبلية"
+        }
+      ]
     },
     "per": {
-      "name": "فارسی"
+      "name": "فارسی",
+      "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "افراد مضطرب کنترل احساسات را از قطب پیشانی جانبی به قشر پیش‌پیشانی پشتی‌جانبی منتقل می‌کنند"
+        },
+        {
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "بررسی الگوهای غنی‌شده در یک مجموعه داده با تحلیل مؤلفه‌های اصلی متضاد"
+        },
+        {
+          "doi": "10X1038_s41467-017-00516-5",
+          "title": "رشد مهندسی‌شده با کرنش مواد دو‌بعدی"
+        },
+        {
+          "doi": "10X1038_s41467-023-42766-6",
+          "title": "یک ترکیب و ارزیابی جهانی از رژیم غذایی گربه‌های خانگی آزاد"
+        },
+        {
+          "doi": "10X1038_s41746-019-0216-8",
+          "title": "تفسیر یادگیری عمیق از اکوکاردیوگرام‌ها"
+        },
+        {
+          "doi": "10X1038_s41467-019-11343-1",
+          "title": "فوتونیک الماس با طراحی معکوس"
+        },
+        {
+          "doi": "10X1038_s41467-023-43444-3",
+          "title": "ریتم‌های شبانه‌روزی رژیم غذایی و خطر بیماری‌های قلبی عروقی در مطالعه آینده‌نگر NutriNet-Santé"
+        }
+      ]
     },
     "swa": {
-      "name": "Kiswahili"
+      "name": "Kiswahili",
+      "articles": [
+        {
+          "doi": "10X1038_s41467-023-40666-3",
+          "title": "Watu wenye wasiwasi hubadilisha udhibiti wa hisia kutoka kwenye ncha ya mbele ya ubongo hadi kwenye gamba la mbele la ubongo la dorsolateral"
+        },
+        {
+          "doi": "10X1038_s41467-018-04608-8",
+          "title": "Kuchunguza mifumo iliyoimarishwa katika seti ya data kwa kutumia uchambuzi wa vipengele vya kimsingi vya kulinganisha"
+        },
+        {
+          "doi": "10X1038_s41467-017-00516-5",
+          "title": "Ukuaji wa vifaa vya vipimo viwili vilivyoundwa kwa kutumia mkazo"
+        },
+        {
+          "doi": "10X1038_s41467-023-42766-6",
+          "title": "Muhtasari wa Kimataifa na Tathmini ya Lishe ya Paka wa Nyumbani Wanaozurura"
+        },
+        {
+          "doi": "10X1038_s41467-019-11343-1",
+          "title": "Inverse-designed diamond photonics"
+        },
+        {
+          "doi": "10X1038_s41467-023-43444-3",
+          "title": "Mzunguko wa mlo wa kila siku na hatari ya magonjwa ya moyo na mishipa katika utafiti wa kikundi cha NutriNet-Santé"
+        }
+      ]
+    },
+    "vie": {
+      "name": "Tiếng Việt",
+      "articles": [
+        {
+          "doi": "10X1038_s41598-023-44786-0",
+          "title": "Đo lường lượng tử biến phân cho ước lượng đa tham số dưới nhiễu pha"
+        }
+      ]
     }
   }
 }

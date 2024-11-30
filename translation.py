@@ -149,6 +149,7 @@ class Translator():
       img_prompt = {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img}"}}
       messages[1]["content"].append(img_prompt)
       text_count += img
+    # print(self.images)
 
 
     response = self.client.chat.completions.create(
@@ -221,13 +222,25 @@ class Translator():
     j = response.rindex("}")+1 # end of the xml object
     return response[i:j]
   
-  def quiz_translation(self, lang, article_path, qs_path):
+  def quiz_translation(self, lang, article_path, qs_path, figs=False):
     # tries to answer questions about translated article
     article = self._load_text(article_path)
     qs = self._load_text(qs_path)
-    prompt = f"Please read the following scientific journal article, which has been translated into {lang}. Then answer the questions based on your understanding. Report your answers as a JSON where the keys are the question numbers and the values are your letter answers. Here is the article: {article}\n\n and here are the questions: {qs}"
+    prompt = f"Please read the following scientific journal article, which has been translated into {lang}. Then answer the questions based on your understanding. Report your answers as a JSON where the keys are the question numbers and the values are your letter answers. Figures of the article are attached. Here is the article to read: '{article}'\n\n and here are the questions: {qs}."
 
-    response = self.chat_prompt(prompt)
-    i = response.find("{") # start of the xml object
-    j = response.rindex("}")+1 # end of the xml object
-    return response[i:j]
+    if figs:
+      response = self.chat_prompt_with_figures(text_prompt=prompt)
+    else:
+      response = self.chat_prompt(prompt)
+
+    try:
+      i = response.find("{") # start of the xml object
+      j = response.rindex("}")+1 # end of the xml object
+      return response[i:j]
+    except:
+      # print(qs)
+      # print(article)
+      print(lang)
+      print(response)
+      # try again
+      self.quiz_translation(lang, article_path, qs_path, figs=figs)

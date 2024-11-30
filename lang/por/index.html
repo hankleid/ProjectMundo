@@ -1,0 +1,42 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <link href="/style/jats-preview.css" rel="stylesheet" type="text/css"/>
+  <script src="/js/jquery-3.7.1.min.js" type="text/javascript">
+  </script>
+  <script src="/js/webscript.js" type="text/javascript">
+  </script>
+ </head>
+ <body>
+  <div id="nav-placeholder">
+  </div>
+  <div class="articles-index">
+   <a href="10X1038_s41467-023-40666-3.xml">
+    Indivíduos ansiosos mudam o controle emocional do polo frontal lateral para o córtex pré-frontal dorsolateral
+   </a>
+   <a href="10X1038_s41467-018-04608-8.xml">
+    Explorando padrões enriquecidos em um conjunto de dados com análise de componentes principais contrastiva
+   </a>
+   <a href="10X1038_s41467-017-00516-5.xml">
+    Crescimento de materiais bidimensionais com engenharia de deformação
+   </a>
+   <a href="10X1038_s41467-023-42766-6.xml">
+    Uma síntese global e avaliação da dieta de gatos domésticos de vida livre
+   </a>
+   <a href="10X1038_s41467-019-11343-1.xml">
+    Fotônica de diamante projetada inversamente
+   </a>
+   <a href="10X1038_s41467-023-43444-3.xml">
+    Ritmos circadianos alimentares e risco de doenças cardiovasculares na coorte prospectiva NutriNet-Santé
+   </a>
+  </div>
+  <script>
+   $.get("/style/navigation.html", function(data){
+          $("#nav-placeholder").replaceWith(data);
+      });
+  </script>
+  <script>
+   setTimeout(function() {configureDropdown('index', 'por');}, 100);
+  </script>
+ </body>
+</html>

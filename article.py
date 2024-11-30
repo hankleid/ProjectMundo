@@ -193,7 +193,7 @@ def split_to_parts(xml, numparts):
     if numparts == 0:
         return []
     elif numparts == 1:
-        return xml
+        return [xml]
     else:
         l, split = len(xml), []
         for i in range(numparts):
@@ -281,6 +281,10 @@ def translate_article(xml, tl, language, split=None):
         tables = [tables[:len(tables)//2], tables[len(tables)//2:]]
     else:
         tables = [tables]
+    if len(figures) > 3:
+        figures = [figures[:len(figures)//2], figures[len(figures)//2:]]
+    else:
+        figures = [figures]
 
     fig_locations, tab_locations = {}, {}
     for p in body.find_all('p'):
@@ -301,12 +305,12 @@ def translate_article(xml, tl, language, split=None):
     to_translate = [[front.find('article-title'),
                      front.find('abstract'),
                      back.find('ack'), back.find('sec', {'sec-type': 'author-contribution'})]
-                    + [title for title in xml.find_all('title')],
-                    figures]
-    for chunk in tables:
+                    + [title for title in xml.find_all('title')]]
+    
+    for chunk in tables+figures+split_pars:
         to_translate.append(chunk)
-    for chunk in split_pars:
-        to_translate.append(chunk)
+    # for chunk in split_pars:
+    #     to_translate.append(chunk)
     to_translate = [x for x in to_translate if x]
 
     
@@ -314,7 +318,7 @@ def translate_article(xml, tl, language, split=None):
     if tl.use_context:
         for xml in to_translate:
             if xml[0].name == 'fig':
-                newfigs = translate(xml,tl,language,inplace=False,delay=True)
+                newfigs += translate(xml,tl,language,inplace=False,delay=True)
             elif xml[0].name == 'table-wrap':
                 newtabs += translate(xml,tl,language,inplace=False,delay=True)
             else:
