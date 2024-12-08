@@ -48,7 +48,7 @@ body { margin-left: 8%;
   font-size: 16px;
   color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 10px 10px;
   text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ body { margin-left: 8%;
   border: none;
   outline: none;
   color: white;
-  padding: 20px 20px;
+  padding: 10px 10px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -92,7 +92,7 @@ body { margin-left: 8%;
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -109,15 +109,47 @@ body { margin-left: 8%;
 
 div.articles-index {
   padding-top: 32px;
-  font-size: 20;
+  font-size: 22;
   font-family: sans-serif;
 }
 
-div.articles-index a {
+div.articles-index div.index-entry {
+  display: block;
+  padding-bottom: 40px;
+}
+
+div.articles-index div.index-entry div.entry-link {
+  display: block;
+  padding-bottom: 5px;
+}
+
+div.articles-index div.index-entry div.entry-link a {
   color: #004711;
   display: block;
-  line-height: 50px;
+  font-weight: 600;
+  font-size: 20;
 }
+
+div.articles-index div.index-entry div.entry-meta {
+  padding-top: 5px
+}
+
+div.entry-meta div.line1  {
+  color: #000000;
+  display: block;
+  line-height: 2px;
+  font-size: 16;
+}
+
+div.entry-meta div.line2  {
+  color: #6a6a6a;
+  display: block;
+  padding-top: 14px;
+  width: 50%;
+  line-height: 15px;
+  font-size: 14;
+}
+
 
 div.front, div.footer { }
 

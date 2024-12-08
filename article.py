@@ -263,7 +263,7 @@ def translate(xml: u[str,list], tl, language, inplace=True, delay=False):
         xml = [x for x in xml if x]
         return translate_list(xml, tl, language, inplace=inplace)
 
-def translate_article(xml, tl, language, split=None):
+def translate_article(xml, tl, language):
     # edits xml in place with translated text.
         # xml: article to translate
         # tl: Translator object
@@ -275,16 +275,13 @@ def translate_article(xml, tl, language, split=None):
     back = xml.back
 
     # Restructure the sentences. Save the figures since we take them out here.
+    par_num_lim, fig_num_lim, tab_num_lim = 5, 2, 2
+
     figures = [get_copy(fig) for fig in body.find_all('fig')]
     tables = [get_copy(tab) for tab in body.find_all('table-wrap')]
-    if len(tables) > 3:
-        tables = [tables[:len(tables)//2], tables[len(tables)//2:]]
-    else:
-        tables = [tables]
-    if len(figures) > 3:
-        figures = [figures[:len(figures)//2], figures[len(figures)//2:]]
-    else:
-        figures = [figures]
+
+    tables = split_to_parts(tables, len(tables)//tab_num_lim)
+    figures = split_to_parts(figures, len(figures)//fig_num_lim)
 
     fig_locations, tab_locations = {}, {}
     for p in body.find_all('p'):
@@ -293,9 +290,9 @@ def translate_article(xml, tl, language, split=None):
             fig_locations[p['id']] = numfigs
         if numtabs > 0:
             tab_locations[p['id']] = numtabs
+
     pars = [p for p in body.find_all('p') if p.has_attr('id')]
-    if split:
-        split_pars = split_to_parts(pars, split)
+    split_pars = split_to_parts(pars, len(pars)//par_num_lim)
 
 
     # Translate the article title and abstract.
@@ -309,8 +306,7 @@ def translate_article(xml, tl, language, split=None):
     
     for chunk in tables+figures+split_pars:
         to_translate.append(chunk)
-    # for chunk in split_pars:
-    #     to_translate.append(chunk)
+        
     to_translate = [x for x in to_translate if x]
 
     

@@ -1498,6 +1498,13 @@ or pipeline) parameterized.
             </b>
           </sup>
         </xsl:when>
+        <xsl:when test="@rid='fn2'">
+          <sup>
+            <b>
+              <text>★</text>
+            </b>
+          </sup>
+        </xsl:when>
         <xsl:otherwise>
           <sup>
             <xsl:apply-templates select="."/>
