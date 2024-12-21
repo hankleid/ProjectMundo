@@ -33,7 +33,7 @@ def update_catalog(dois):
                             "volume": str_strip(this_data.find("volume").string),
                             "pages": str_strip(this_data.find("fpage").string)+"-"+str_strip(this_data.find("lpage").string),
                             "doi": str_strip(this_data.find("article-id", {"pub-id-type":"doi"}).string),
-                            "date": str_strip(date.find("day").string)+"/"+str_strip(date.find("month").string)+"/"+str_strip(date.find("year").string),
+                            "date": str_strip(date.find("year").string)+"-"+str_strip(date.find("month").string)+"-"+str_strip(date.find("day").string),
                             "authors": "".join([str_strip(c.find("given-names").string)+" "+str_strip(c.find("surname").string)+", " for c in contribs])[:-2]
                         }
                     title = str_strip(this_data.find("article-title").string)
@@ -60,6 +60,14 @@ def update_dropdown_langs(langs):
     with open("style/navigation.html", "w+") as f:
         f.write(html.prettify())
 
+def date_score(date):
+    # format: YYYY/(M)M/(D)D
+    i = date.find("-")
+    sum = int(date[0:i]) * 10000
+    j = date[i+1:].find("-")
+    sum += int(date[i+1:i+1+j])*100 + int(date[-2:])
+    return sum
+
 def update_index_files(langs):
     #
     # CREATES NEW INDEX FILE FOR EACH LANGUAGE W/ TRANSLATED TITLES.
@@ -74,19 +82,24 @@ def update_index_files(langs):
     articles_dict = load_articles()
     dois = list(articles_dict.keys())
 
+    _articles = []
     for code in codes:
         # Add links to all available articles.
         articles.clear()
         articles_with_lang = [doi for doi in dois if code in articles_dict[doi]['langs'].keys()]
         for a in articles_with_lang:
             m = articles_dict[a]["meta"]
-            line1 = f"<div class='line1'><i>{m['journal']}</i> <b>{m['volume']}</b>, {m['pages']} ({m['date'][-4:]})</div>"
+            line1 = f"<div class='line1'><i>{m['journal']}</i> <b>{m['volume']}</b>, {m['pages']} ({m['date'][0:4]})</div>"
             # line2 = f"<div class='line2'>DOI: {m['doi']}</div>"
             line2 = f"<div class='line2'>{m['authors']}</div>"
 
             html_str = f"<div class='index-entry'><div class='entry-link'><a href='/articles/{a}/{code}.xml'>{articles_dict[a]['langs'][code]}</a></div><div class='entry-meta'>{line1}{line2}</div></div>"
 
-            articles.append(BeautifulSoup(html_str, features="html.parser"))
+            _articles.append({date_score(m['date']): BeautifulSoup(html_str, features="html.parser")})
+        
+        _articles = sorted(_articles, key=lambda d: -list(d.keys())[0])
+        for a in _articles:
+            articles.append(list(a.values())[0])
         
         # Change the on-load script.
         script = scripts[-1]

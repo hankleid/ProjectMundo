@@ -5,17 +5,22 @@ import os
 import base64
 from io import BytesIO
 from PIL import Image
+from google.cloud import translate_v2 as gtrans
+import time
 
 class Translator():
   def __init__(self, model):
     self.name = model
     if model == "gpt":
       self.model = "gpt-4o-2024-08-06"
+      # self.model = "gpt-4o-mini-2024-07-18"
+      self.max_tokens = 16384
       self.api_key_location = "../keys/openai_key.txt"
       self.use_tokens = True
       self.client = OpenAI(api_key=self.api_key())
     elif model == "llama":
       self.model = "llama3.1-405b"
+      self.max_tokens = 4096
       self.api_key_location = "../keys/llama_key.txt"
       self.use_tokens = False
       self.client = OpenAI(api_key=self.api_key(), base_url="https://api.llama-api.com")
@@ -56,14 +61,13 @@ class Translator():
   def load_article(self, path):
     self.context = self._load_text(path)
 
-  def generate_qs(self, num_qs, path, prompt, figs=False):
-    article = self._load_text(path)
-    prompt += f"'{article}"
-
+  def prompt_get_json(self, prompt, figs=False):
+    print("prompting...")
     if figs:
       response = self.chat_prompt_with_figures(text_prompt=prompt)
     else:
       response = self.chat_prompt(prompt)
+    print(response)
     i = response.find("{") # start of the xml object
     j = response.rindex("}")+1 # end of the xml object
     return response[i:j]
@@ -118,17 +122,19 @@ class Translator():
     
     self.images = img_encodings
 
-  def chat_prompt(self, prompt):
+  def chat_prompt(self, prompt, printing=True):
     # returns the result of a GPT chat prompt
     response = self.client.chat.completions.create(
       model=self.model,
       temperature=self.temp,
-      messages=self.saved_convo + [{"role": "user", "content": prompt}]
+      messages=self.saved_convo + [{"role": "user", "content": prompt}],
+      max_tokens=self.max_tokens
     )
     ret = response.choices[0].message.content
 
     token_price = sum([self.num_tokens(prompt), self.num_tokens(ret)] + [self.num_tokens(d["content"]) for d in self.saved_convo])
-    print(f"Exchange complete. Price: {token_price} tokens.")
+    if printing:
+      print(f"Exchange complete. Price: {token_price} tokens.")
     self.token_count += token_price
     return ret
   
@@ -166,8 +172,22 @@ class Translator():
 
   def translate_text(self, text, language):
     # returns the translation of bare text into any language.
-    prompt = f"The following phrase is an exerpt from a scientific article. If this phrase is in {language} already, just return the sentence without changing it. Otherwise, please translate the phrase into {language}: {text}"
-    return self.chat_prompt(prompt)
+    # returns a list of translations or single translation.
+
+    # prompt = f"The following phrase is an exerpt from a scientific article. If this phrase is in {language} already, just return the sentence without changing it. Otherwise, please translate the phrase into {language}: {text}"
+    prompt = f"Please translate the following text into {language}:\n\n"
+
+    if isinstance(text, list):
+      res = []
+      count = self.token_count
+      for t in text:
+        res.append(self.chat_prompt(prompt+t, printing=False))
+        time.sleep(0.05)
+      count = self.token_count - count
+      print(f"{language}: {count} tokens.")
+      return res
+    else: # single translation
+      return self.chat_prompt(prompt+text)
 
   def translate_xml(self, xml: u[str,list], language):
     # returns the (string of) an xml object or list of xml objects after translating its contents into any language.
@@ -212,35 +232,53 @@ class Translator():
       print(len(translated))
       return translated
     
-  def translate_qs(self, lang, path):
-    # translates a json file of questions into lang
-    qs = self._load_text(path)
-    prompt = f"The following JSON comprises a list of questions about an academic journal article. Please translate the questions and options into {lang}. Do not translate the keys of the JSON. Please return the translated JSON. Here is the JSON to translate: {qs}"
 
-    response = self.chat_prompt(prompt)
-    i = response.find("{") # start of the xml object
-    j = response.rindex("}")+1 # end of the xml object
-    return response[i:j]
+
+class GoogleTranslator():
+  ISO_dict = {
+      "English": "en",
+      "Chinese (simplified characters)": "zh-CN",
+      "Chinese (traditional characters)": "zh-TW",
+      "German": "de",
+      "Japanese": "ja",
+      "French": "fr",
+      "Korean": "ko",
+      "Hindi": "hi",
+      "Bengali": "bn",
+      "Urdu": "ur",
+      "Marathi": "mr",
+      "Tamil": "ta",
+      "Telugu": "te",
+      "Gujarati": "gu",
+      "Italian": "it",
+      "Spanish": "es",
+      "Dutch": "nl",
+      "Swedish": "sv",
+      "Danish": "da",
+      "Hebrew": "iw",
+      "Malay": "ms",
+      "Serbian": "sr",
+      "Portuguese": "pt",
+      "Turkish": "tr",
+      "Russian": "ru",
+      "Arabic": "ar",
+      "Farsi": "fa",
+      "Swahili": "sw",
+      "Vietnamese": "vi"
+    }
   
-  def quiz_translation(self, lang, article_path, qs_path, figs=False):
-    # tries to answer questions about translated article
-    article = self._load_text(article_path)
-    qs = self._load_text(qs_path)
-    prompt = f"Please read the following scientific journal article, which has been translated into {lang}. Then answer the questions based on your understanding. Report your answers as a JSON where the keys are the question numbers and the values are your letter answers. Figures of the article are attached. Here is the article to read: '{article}'\n\n and here are the questions: {qs}."
-
-    if figs:
-      response = self.chat_prompt_with_figures(text_prompt=prompt)
+  def __init__(self):
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"../keys/googletrans_key.json"
+    self.client = gtrans.Client()
+  
+  def translate(self, txt, lang):
+    res = self.client.translate(txt,
+                                target_language=self.ISO(lang),
+                                source_language="en")
+    if isinstance(res, list):
+      return [r['input'] for r in res], [r['translatedText'] for r in res]
     else:
-      response = self.chat_prompt(prompt)
-
-    try:
-      i = response.find("{") # start of the xml object
-      j = response.rindex("}")+1 # end of the xml object
-      return response[i:j]
-    except:
-      # print(qs)
-      # print(article)
-      print(lang)
-      print(response)
-      # try again
-      self.quiz_translation(lang, article_path, qs_path, figs=figs)
+      return res['input'], res['translatedText']
+  
+  def ISO(self, lang):
+    return self.ISO_dict[lang]

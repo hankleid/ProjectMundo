@@ -21,7 +21,6 @@ function gen_entry(parent, link, lang, name) {
     lang_el.setAttribute("id", lang);
     lang_el.innerHTML = name;
     parent.appendChild(lang_el);
-    console.log(lang_el);
 }
 
 function configureDropdown(doi, lang) {
@@ -34,15 +33,14 @@ function configureDropdown(doi, lang) {
     let dropdown = document.getElementById("lang-dropdown");
 
     // Remove all the languages in the dropdown.
-    while (dropdown.lastElementChild) { dropdown.removeChild(dropdown.lastElementChild) }
+    while (dropdown.lastElementChild) { dropdown.removeChild(dropdown.lastElementChild); }
 
     // Repopulate the dropdown menu.
     get_lang_dict().then(function(lang_data) {
         let dropdown_button = document.getElementById("btn-dropdown");
-        dropdown_button.textContent = lang_data.codes[lang];
+        dropdown_button.innerHTML = lang_data.codes[lang]+' <i class="fa fa-caret-down"></i>';
 
         all_langs = Object.keys(lang_data.codes);
-        console.log(all_langs);
 
         // Determine the languages with which to populate the dropdown.
         get_articles_dict().then(function(article_data) {
@@ -62,13 +60,39 @@ function configureDropdown(doi, lang) {
     
     // Update the home link to correct language.
     let home = document.getElementById("home");
-    home.setAttribute("href", "/index/" + lang + ".html")
+    home.setAttribute("href", "/index/" + lang + ".html");
+
+    // Refresh the search event listener.
+    document.getElementById("search-txt").addEventListener("keydown", function(event) {
+        if (event.key === 'Enter') {
+            search()
+        }
+    });
 }
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function dropDown() {
     document.getElementById("lang-dropdown").classList.toggle("show");
+}
+
+function search() {
+    get_articles_dict().then(function(article_data) {
+        let s = document.getElementById("search-txt").value;
+        let found = false;
+
+        keys = Object.keys(article_data);
+        for (let i = 0; i < keys.length; i++) {
+            if (s == article_data[keys[i]]['meta']['doi']) {
+                found = true;
+                window.location.href = "/articles/" + keys[i] + "/eng.xml";
+            }
+        }
+
+        if (!found) {
+            console.log("not found :(");
+        }
+    });
 }
 
 // Close the dropdown if the user clicks outside of it

@@ -36,7 +36,29 @@ def get_copy(xml):
         return copy.find(xml.name)
     else:
         return copy
-    
+
+def load_text(path):
+    with open(path, "r") as f:
+      try:
+        lines = f.readlines()
+        return ''.join(lines)
+      except:
+        print("Article not found!")
+
+def save_text(path, s):
+    with open(path, "w+") as f:
+        f.write(s)
+
+def load_json(path):
+    d = {}
+    with open(path, "r") as f:
+        d = json.load(f)
+    return d
+
+def save_json(path, d):
+    with open(path, "w+") as f:
+        json.dump(d, f, indent=4)
+
 def save_fulltext(xml, fn):
     # Saves the raw text (exluding equations) to a file
     # to be used as context for the translator.
@@ -61,8 +83,8 @@ def save_fulltext(xml, fn):
         t.clear(decompose=True)
 
     # ADD TITLE AND ABSTRACT TO DOCUMENT
-    fulltext += stripped(this.front.find("article-title").string) + "\n\n"
-    fulltext += stripped(this.front.find("abstract").find("title").string) + ": "
+    fulltext += stripped(this.front.find("article-title").find_all(text=True)) + "\n\n"
+    fulltext += stripped(this.front.find("abstract").find("title").find_all(text=True)) + ": "
     this.front.find("abstract").find("title").clear(decompose=True)
     fulltext += stripped(this.front.find("abstract").find_all(text=True)) + "\n\n"
 
@@ -263,19 +285,15 @@ def translate(xml: u[str,list], tl, language, inplace=True, delay=False):
         xml = [x for x in xml if x]
         return translate_list(xml, tl, language, inplace=inplace)
 
-def translate_article(xml, tl, language):
-    # edits xml in place with translated text.
-        # xml: article to translate
-        # tl: Translator object
-        # language: language to translate to
-        # split: divide paragraphs into split num. of pars
-
+def chunkify(xml):
+    # returns the objects to translate in [[],[]] form
+    # parses pars and returns the figure and table locations
     front = xml.front
     body = xml.body
     back = xml.back
 
     # Restructure the sentences. Save the figures since we take them out here.
-    par_num_lim, fig_num_lim, tab_num_lim = 5, 2, 2
+    par_num_lim, fig_num_lim, tab_num_lim, titles_num_lim = 5, 2, 2, 20
 
     figures = [get_copy(fig) for fig in body.find_all('fig')]
     tables = [get_copy(tab) for tab in body.find_all('table-wrap')]
@@ -294,6 +312,8 @@ def translate_article(xml, tl, language):
     pars = [p for p in body.find_all('p') if p.has_attr('id')]
     split_pars = split_to_parts(pars, len(pars)//par_num_lim)
 
+    # titles = [title for title in xml.find_all('title')]
+    # titles = split_to_parts(titles, len(titles)//titles_num_lim)
 
     # Translate the article title and abstract.
     # Translate the body. Translate figures independently so the translator doesn't get confused.
@@ -301,39 +321,50 @@ def translate_article(xml, tl, language):
     # Translate the (sub)titles in case they were missed. 
     to_translate = [[front.find('article-title'),
                      front.find('abstract'),
-                     back.find('ack'), back.find('sec', {'sec-type': 'author-contribution'})]
-                    + [title for title in xml.find_all('title')]]
+                     back.find('ack'), back.find('sec', {'sec-type': 'author-contribution'})],
+                     [title for title in xml.find_all('title')]]
     
+
     for chunk in tables+figures+split_pars:
         to_translate.append(chunk)
         
     to_translate = [x for x in to_translate if x]
 
+    return to_translate, fig_locations, tab_locations
+
+
+def translate_article(xml, tl, language):
+    # edits xml in place with translated text.
+        # xml: article to translate
+        # tl: Translator object
+        # language: language to translate to
+
+    to_translate, fig_locations, tab_locations = chunkify(xml)
     
     newfigs, newtabs = [], []
     if tl.use_context:
-        for xml in to_translate:
-            if xml[0].name == 'fig':
-                newfigs += translate(xml,tl,language,inplace=False,delay=True)
-            elif xml[0].name == 'table-wrap':
-                newtabs += translate(xml,tl,language,inplace=False,delay=True)
+        for x in to_translate:
+            if x[0].name == 'fig':
+                newfigs += translate(x,tl,language,inplace=False,delay=True)
+            elif x[0].name == 'table-wrap':
+                newtabs += translate(x,tl,language,inplace=False,delay=True)
             else:
-                translate(xml,tl,language,delay=True)
+                translate(x,tl,language,delay=True)
     else:
         for _ in to_translate:
-            for xml in _:
-                if xml.name == 'fig':
-                    newfigs.append(translate(xml,tl,language,inplace=False))
-                elif xml.name == 'table-wrap':
-                    newtabs.append(translate(xml,tl,language,inplace=False))
+            for x in _:
+                if x.name == 'fig':
+                    newfigs.append(translate(x,tl,language,inplace=False))
+                elif x.name == 'table-wrap':
+                    newtabs.append(translate(x,tl,language,inplace=False))
                 else:
-                    translate(xml,tl,language)
+                    translate(x,tl,language)
 
     # Replace the translated figures.
     if len(newfigs) > 0:
-        append_to_pars(body, fig_locations, newfigs)
+        append_to_pars(xml.body, fig_locations, newfigs)
     if len(newtabs) > 0:
-        append_to_pars(body, tab_locations, newtabs)
+        append_to_pars(xml.body, tab_locations, newtabs)
 
 
 #################################

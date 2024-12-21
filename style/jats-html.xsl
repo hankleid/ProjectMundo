@@ -217,6 +217,7 @@ or pipeline) parameterized.
         <xsl:value-of
           select="/article/front/article-meta/title-group/article-title[1]"/>
       </title>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
       <link rel="stylesheet" type="text/css" href="{$css}"/>
       <!-- XXX check: any other header stuff? XXX -->
     </head>
