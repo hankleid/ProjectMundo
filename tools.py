@@ -31,7 +31,7 @@ def update_catalog(dois):
                         articles_dict[doi]["meta"] = {
                             "journal": str_strip(this_data.find("abbrev-journal-title").string),
                             "volume": str_strip(this_data.find("volume").string),
-                            "pages": str_strip(this_data.find("fpage").string)+"-"+str_strip(this_data.find("lpage").string),
+                            # "pages": str_strip(this_data.find("fpage").string)+"-"+str_strip(this_data.find("lpage").string),
                             "doi": str_strip(this_data.find("article-id", {"pub-id-type":"doi"}).string),
                             "date": str_strip(date.find("year").string)+"-"+str_strip(date.find("month").string)+"-"+str_strip(date.find("day").string),
                             "authors": "".join([str_strip(c.find("given-names").string)+" "+str_strip(c.find("surname").string)+", " for c in contribs])[:-2]
@@ -89,7 +89,7 @@ def update_index_files(langs):
         articles_with_lang = [doi for doi in dois if code in articles_dict[doi]['langs'].keys()]
         for a in articles_with_lang:
             m = articles_dict[a]["meta"]
-            line1 = f"<div class='line1'><i>{m['journal']}</i> <b>{m['volume']}</b>, {m['pages']} ({m['date'][0:4]})</div>"
+            line1 = f"<div class='line1'><i>{m['journal']}</i> <b>{m['volume']}</b>, ({m['date'][0:4]})</div>"
             # line2 = f"<div class='line2'>DOI: {m['doi']}</div>"
             line2 = f"<div class='line2'>{m['authors']}</div>"
 
@@ -114,9 +114,9 @@ if __name__ == "__main__":
     all_langs = [lang for lang in load_langs()['translation'].keys()]
 
     articles = all_articles
-    # update_catalog(articles)
+    # update_catalog(["10X1103_PRXQuantumX3X040326"])
     langs = all_langs
-    update_index_files(all_langs)
+    update_index_files(langs)
 
 
 

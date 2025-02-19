@@ -32,6 +32,7 @@ class Translator():
     self.token_count = 0
     self.context = ""
     self.use_context = False
+    self.use_example = False # give model an example translation with technical terms preserved in English.
     self.temp = 0
     self.images = [] # image encodings
     self.reset()
@@ -60,6 +61,19 @@ class Translator():
 
   def load_article(self, path):
     self.context = self._load_text(path)
+
+  def load_example(self):
+    example_path = "sample.txt"
+    txt = self._load_text(example_path)
+
+    og_txt, trans_txt = txt[:txt.find('\n')], txt[txt.find('\n')+2:]
+
+    prompt = f"Here is an excerpt of a scientific article: \n\n{og_txt}\n\nPlease take note of any highly domain specific words in this excerpt. Then, please translate the excerpt into Korean. But do not translate those highly domain specific words that you identified. For those words, keep the original English words in your translation instead. Everything else in the excerpt should be translated into Korean."
+    # Of these, only keep note of those terms which are the most technical and unique. 
+    # print(prompt)
+    # print(trans_txt)
+    self.saved_convo = [{"role": "user", "content": f"{prompt}"},
+                        {"role": "assistant", "content": f"{trans_txt}"}]
 
   def prompt_get_json(self, prompt, figs=False):
     print("prompting...")
@@ -130,6 +144,7 @@ class Translator():
       messages=self.saved_convo + [{"role": "user", "content": prompt}],
       max_tokens=self.max_tokens
     )
+    print(self.saved_convo + [{"role": "user", "content": prompt}])
     ret = response.choices[0].message.content
 
     token_price = sum([self.num_tokens(prompt), self.num_tokens(ret)] + [self.num_tokens(d["content"]) for d in self.saved_convo])
@@ -170,12 +185,17 @@ class Translator():
     self.token_count += token_price
     return ret
 
-  def translate_text(self, text, language):
+  def translate_text(self, text, language, prompt=None):
     # returns the translation of bare text into any language.
     # returns a list of translations or single translation.
 
     # prompt = f"The following phrase is an exerpt from a scientific article. If this phrase is in {language} already, just return the sentence without changing it. Otherwise, please translate the phrase into {language}: {text}"
-    prompt = f"Please translate the following text into {language}:\n\n"
+    if not prompt:
+      prompt = f"Please translate the following scientific excerpt into {language}."
+      if self.use_example:
+        prompt = "Perfect! Now, here is a different excerpt. Again, please take note of any highly domain specific words in this excerpt. Then, "+prompt+f" But do not translate those highly domain specific words that you identified. For those words, keep the original English words in your translation instead. Everything else in the excerpt should be translated into {language}. Print the list of words you decided to keep in English, then print the translation. \n\n"
+        # Of these, only keep note of those terms which are the most technical/unique. 
+      prompt += "\n\n"
 
     if isinstance(text, list):
       res = []
@@ -230,6 +250,7 @@ class Translator():
           currname = self.get_name_from_xml(a)
 
       print(len(translated))
+      # print(translated)
       return translated
     
 
@@ -282,3 +303,4 @@ class GoogleTranslator():
   
   def ISO(self, lang):
     return self.ISO_dict[lang]
+  

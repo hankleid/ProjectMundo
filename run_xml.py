@@ -8,7 +8,7 @@ import time
 # doi = "10.1038/s41467-024-52834-0" # Hsu et al.
 # doi = "10.1038/s41467-018-04608-8" # zou
 # doi = "10.1038/s41467-023-42766-6" # cats
-doi = "10.1038/s41467-017-00516-5" # Ahn et al.
+# doi = "10.1038/s41467-017-00516-5" # Ahn et al.
 # doi = "10.1038/s41467-019-11343-1" # physics/EE
 # doi = "10.1038/s41467-023-40666-3" # human behavior
 
@@ -20,6 +20,14 @@ doi = "10.1038/s41467-017-00516-5" # Ahn et al.
 # doi = "10.1038/s41746-019-0216-8" # Ghorbani (per)
 # doi = "10.1038/s41467-023-44527-x" # Kim (kor)
 # doi = "10.1038/s41586-023-05748-8" # Jo (kor)
+# doi = "10.1038/s42005-020-00412-3" # Mayor (fra)
+# doi = "10.1038/s41467-024-48975-x" # Guan (zh1)
+# doi = "10.1038/srep35658" # Sayed (ben)
+# doi = "10.1038/s41377-020-00354-z" # Lustig (heb)
+# doi = "10.1038/s41598-022-23052-9" # Bianchi (ita)
+# doi = "10.1038/s41467-024-52834-0" # Hsu (zh2)
+# doi = "10.1103/PRXQuantum.3.040326" # Gonzales-Garcia (spa)
+doi = "10.1038/s41467-024-50750-x" # Franco-Rubio (spa)
 
 # doi = "10.1038/s41598-023-51013-3" # sci rep 2
 # doi = "10.1038/s41598-023-43026-9" # sci rep 3
@@ -30,7 +38,9 @@ doi = "10.1038/s41467-017-00516-5" # Ahn et al.
 
 # folder_path = filename_from_DOI(doi=doi)
 
-data = get_article(doi)
+# data = get_nature_article(doi)
+data = get_nature_article(doi)
+
 # f = open(f"index.xml", "w")
 # f.write(data.prettify())
 # f.close()
@@ -38,9 +48,9 @@ data = get_article(doi)
 tl = Translator("gpt")
 tl.use_context = True
 languages = [l for l in load_langs()['translation'].keys()]#[-6:]
-languages = languages[languages.index("Vietnamese"):]
+# languages = languages[languages.index("Vietnamese"):]
 # languages = ["Chinese (simplified characters)","Bengali","Urdu","Marathi","Tamil","Telugu","Gujarati"]#, "Chinese (traditional characters)", "Japanese"]
-languages = ["Spanish"]
+languages = ["English", "Spanish"]
 
 if tl.use_context:
     fulltext_dir = f"FullTexts/{filename_from_DOI(doi=doi)}"

@@ -12,7 +12,7 @@ def make_fulltext(doi, lang):
     if not os.path.isdir(article_fd):
         os.mkdir(article_fd)   
     if not os.path.isfile(article_fd+f"/{code}.xml"):
-        article = get_article(doi)
+        article = get_nature_article(doi)
         add_mathML(article)
         save_text(article_fd+f"/{code}.xml", article.prettify())
     if not os.path.isfile(fulltxt_fd+f"/{code}_full.txt"):
@@ -127,6 +127,8 @@ def grade(quiz_path, answer_dir):
 if __name__ == "__main__":
     # make_fulltexts()
 
+    doi1 = "10.1038/s41586-024-07386-0" # Choi (kor)
+
     article1 = "10.1038/s41467-023-43444-3" # health
     article2 = "10.1038/s41467-018-04608-8" # zou
     article3 = "10.1038/s41467-023-42766-6" # cats
@@ -137,6 +139,10 @@ if __name__ == "__main__":
     article7 = "10.1038/s41598-023-44786-0" # le
     article8 = "10.1038/s41586-024-07386-0" # choi
     article9 = "10.1038/s41467-023-44527-x" # kim
+
+    doi1 = "10.1038/s42005-020-00412-3" # Mayor (fra)
+    doi1 = "10.1038/s41746-019-0216-8" # Ghorbani (per)
+    doi1 = "10.1038/s41377-020-00354-z" # Lustig (heb)
 
     article10 = "10.1038/s41598-023-51013-3" # sci rep 2 **
     article11 = "10.1038/s41598-023-43026-9" # biochem, endochrinology, neuroscience **
@@ -151,12 +157,12 @@ if __name__ == "__main__":
     langs_dict = load_langs()['translation']
     langs = [l for l in langs_dict.keys()]
     # langs = langs[langs.index("Bengali"):]
-    # langs = ["English"]
+    langs = ["Hebrew"]
 
     tl = Translator("gpt")
-    for doi in [article4]:#articles[4:5]:
+    for doi in [doi1]:#articles[4:5]:
         a = filename_from_DOI(doi=doi)
-        make_fulltext(doi, "Spanish")
+        make_fulltext(doi, "Hebrew")
         print(a)
         qna_path = f"FullTexts/{a}/50q_temp1_f_gpt"
         if not os.path.isdir(qna_path):

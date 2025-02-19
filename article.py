@@ -6,20 +6,19 @@ from typing import Union as u
 
 # ARTICLE ACQUISITION
 
-def get_article(doi):
-    # Returns the article @ doi in JATS (XML) format
+def get_nature_article(doi):
+    # Returns the Nature article @ doi in JATS (XML) format
     key = ""
     with open("../keys/nature_key.txt") as f:
         key = f.readline()
 
     URL = "http://api.springernature.com/openaccess/jats?"
-
     PARAMS = {
         "q": f"doi:{doi}",
         "api_key": key
     }
-
     r = requests.get(url=URL, params=PARAMS)
+
 
     data = BeautifulSoup(r.content, features="xml")
     # Enter correct XSLT style information.
@@ -27,6 +26,18 @@ def get_article(doi):
     # Remove the API response portion of the XML.
     data.response.replace_with(data.records.article)
 
+    return data
+
+def get_aps_article(doi):
+    # Returns the APS article @ doi in JATS (XML) format
+    URL = f"http://harvest.aps.org/v2/journals/articles/{doi}"
+    HEADERS = {
+        "Accept": "text/xml"
+    }
+    r = requests.get(url=URL, headers=HEADERS)
+
+    data = BeautifulSoup(r.content, features="xml")
+    data.insert(0, BeautifulSoup('<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>', features='xml'))
     return data
 
 def get_copy(xml):
@@ -84,19 +95,21 @@ def save_fulltext(xml, fn):
 
     # ADD TITLE AND ABSTRACT TO DOCUMENT
     fulltext += stripped(this.front.find("article-title").find_all(text=True)) + "\n\n"
-    fulltext += stripped(this.front.find("abstract").find("title").find_all(text=True)) + ": "
-    this.front.find("abstract").find("title").clear(decompose=True)
+    if this.front.find("abstract").find("title"):
+        fulltext += stripped(this.front.find("abstract").find("title").find_all(text=True)) + ": "
+        this.front.find("abstract").find("title").clear(decompose=True)
     fulltext += stripped(this.front.find("abstract").find_all(text=True)) + "\n\n"
 
     # ADD THE BODY OF THE ARTICLE
-    for p in [_ for _ in this.body.find_all('p') if _.has_attr('id')]:
+    for p in [_ for _ in this.body.find_all('p')]:# if _.has_attr('id')]:
         fulltext += stripped(p.find_all(text=True)) + "\n\n"
 
     # ADD TABLES
     for t in tabs:
         fulltext += stripped(t.find("label").find_all(text=True)) + ": " + stripped(t.find("caption").find_all(text=True)) + "\n"
         header = [_ for _ in t.find("thead").find_all("th")]
-        fulltext += stripped(["".join(h.find_all(text=True)) + "| " for h in header[:-1]] + header[-1].find_all(text=True)) + "\n"
+        if header:
+            fulltext += stripped(["".join(h.find_all(text=True)) + "| " for h in header[:-1]] + header[-1].find_all(text=True)) + "\n"
         body_rows = [_ for _ in t.find("tbody").find_all("tr")]
         for r in body_rows:
             cols = r.find_all("td")
@@ -226,12 +239,18 @@ def append_to_pars(xml, locs, toadd):
     # xml body to search for paragraphs
     # locs dictionary linking paragraph ids to num of extras
     # extras the extras to add
-    i = 0
-    for p, num_toadd in zip(locs.keys(), locs.values()):
-        par = xml.find('p', {'id': p})
-        for _ in range(num_toadd):
-            par.append(toadd[i])
-            i += 1
+    if isinstance(locs, int):
+        # paragraphs have no ids; add to end of paper before conclusion.
+        par = xml.find_all('sec')[locs]
+        for t in toadd:
+            par.append(t)
+    else:
+        i = 0
+        for p, num_toadd in zip(locs.keys(), locs.values()):
+            par = xml.find('p', {'id': p})
+            for _ in range(num_toadd):
+                par.append(toadd[i])
+                i += 1
 
 def translate_single(xml, tl, language, inplace=True):
     try:
@@ -293,7 +312,7 @@ def chunkify(xml):
     back = xml.back
 
     # Restructure the sentences. Save the figures since we take them out here.
-    par_num_lim, fig_num_lim, tab_num_lim, titles_num_lim = 5, 2, 2, 20
+    par_num_lim, fig_num_lim, tab_num_lim, titles_num_lim = 1, 2, 2, 20
 
     figures = [get_copy(fig) for fig in body.find_all('fig')]
     tables = [get_copy(tab) for tab in body.find_all('table-wrap')]
@@ -305,9 +324,25 @@ def chunkify(xml):
     for p in body.find_all('p'):
         numfigs, numtabs = parse_par(p)
         if numfigs > 0:
-            fig_locations[p['id']] = numfigs
+            try:
+                fig_locations[p['id']] = numfigs
+            except: # old papers don't have paragraph ids.
+                pass
         if numtabs > 0:
-            tab_locations[p['id']] = numtabs
+            try:
+                tab_locations[p['id']] = numtabs
+            except: # old papers don't have paragraph ids.
+                pass
+    if fig_locations == {} and tab_locations == {}:
+        # old papers don't have paragraph ids; set locations to the par before discussion.
+        secs = body.find_all('sec')
+        for i in range(len(secs)):
+            if (secs[i].find('title').string == "Summary"
+               or secs[i].find('title').string == "Discussion"
+               or secs[i].find('title').string == "Conclusion"
+               or secs[i].find('title').string == "Conclusions"):
+                fig_locations, tab_locations = i-1, i-1
+                break
 
     pars = [p for p in body.find_all('p') if p.has_attr('id')]
     split_pars = split_to_parts(pars, len(pars)//par_num_lim)
