@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -1685,74 +1685,74 @@
        1
       </label>
       <alternatives>
-       <mml:math id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+       <math id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            Δ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            G
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            d
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            i
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            s
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mo>
+        </mo>
+        <mo>
          −
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          R
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          T
-        </mml:mi>
-        <mml:mspace width="0.25em"/>
-        <mml:mi mathvariant="normal">
+        </mi>
+        <mspace width="0.25em"/>
+        <mi mathvariant="normal">
          ln
-        </mml:mi>
-        <mml:mspace width="0.25em"/>
-        <mml:mrow>
-         <mml:mo>
+        </mi>
+        <mspace width="0.25em"/>
+        <mrow>
+         <mo>
           (
-         </mml:mo>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+         </mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              K
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              s
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              p
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-         <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo>
           )
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="Equ1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1809,84 +1809,84 @@
        2
       </label>
       <alternatives>
-       <mml:math id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msubsup>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+       <math id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msubsup>
+         <mrow>
+          <mi mathvariant="normal">
            Δ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            G
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            o
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            l
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            v
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            L
-          </mml:mi>
-          <mml:msup>
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+          <msup>
+           <mrow>
+            <mi>
              i
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo>
+            </mi>
+           </mrow>
+           <mrow>
+            <mo>
              +
-            </mml:mo>
-           </mml:mrow>
-          </mml:msup>
-         </mml:mrow>
-        </mml:msubsup>
-        <mml:mo>
+            </mo>
+           </mrow>
+          </msup>
+         </mrow>
+        </msubsup>
+        <mo>
          ∝
-        </mml:mo>
-        <mml:mo>
+        </mo>
+        <mo>
          −
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          ln
-        </mml:mi>
-        <mml:mspace width="0.25em"/>
-        <mml:mrow>
-         <mml:mo>
+        </mi>
+        <mspace width="0.25em"/>
+        <mrow>
+         <mo>
           (
-         </mml:mo>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+         </mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              K
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              s
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              p
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-         <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo>
           )
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="Equ2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1997,86 +1997,86 @@
        3
       </label>
       <alternatives>
-       <mml:math id="Equ3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+       <math id="Equ3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            Li
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+          </mn>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            S
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            6
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+          </mn>
+         </mrow>
+        </msub>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          ↔
-        </mml:mo>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mo>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            Li
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+          </mn>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            S
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            6
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mspace width="0.25em"/>
-        <mml:mrow>
-         <mml:mo>
+          </mn>
+         </mrow>
+        </msub>
+        <mspace width="0.25em"/>
+        <mrow>
+         <mo>
           (
-         </mml:mo>
-         <mml:mrow>
-          <mml:mi>
+         </mo>
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            o
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            l
-          </mml:mi>
-         </mml:mrow>
-         <mml:mo>
+          </mi>
+         </mrow>
+         <mo>
           )
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="Equ3_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2097,108 +2097,108 @@
        4
       </label>
       <alternatives>
-       <mml:math id="Equ4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+       <math id="Equ4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            Li
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+          </mn>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            S
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            6
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mspace width="0.25em"/>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+          </mn>
+         </mrow>
+        </msub>
+        <mspace width="0.25em"/>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          ↔
-        </mml:mo>
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mo>
+        <msup>
+         <mrow>
+          <mi mathvariant="normal">
            Li
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            +
-          </mml:mo>
-         </mml:mrow>
-        </mml:msup>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+          </mo>
+         </mrow>
+        </msup>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            o
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            l
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          +
-        </mml:mo>
-        <mml:msubsup>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mo>
+        <msubsup>
+         <mrow>
+          <mi mathvariant="normal">
            LiS
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            6
-          </mml:mn>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mn>
+         </mrow>
+         <mrow>
+          <mo>
            −
-          </mml:mo>
-         </mml:mrow>
-        </mml:msubsup>
-        <mml:mspace width="0.25em"/>
-        <mml:mrow>
-         <mml:mo>
+          </mo>
+         </mrow>
+        </msubsup>
+        <mspace width="0.25em"/>
+        <mrow>
+         <mo>
           (
-         </mml:mo>
-         <mml:mrow>
-          <mml:mi>
+         </mo>
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            o
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            l
-          </mml:mi>
-         </mml:mrow>
-         <mml:mo>
+          </mi>
+         </mrow>
+         <mo>
           )
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="Equ4_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2219,113 +2219,113 @@
        5
       </label>
       <alternatives>
-       <mml:math id="Equ5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+       <math id="Equ5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            Li
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+          </mn>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            S
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            6
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mspace width="0.25em"/>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+          </mn>
+         </mrow>
+        </msub>
+        <mspace width="0.25em"/>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          ↔
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          2
-        </mml:mn>
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mn>
+        <msup>
+         <mrow>
+          <mi mathvariant="normal">
            Li
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            +
-          </mml:mo>
-         </mml:mrow>
-        </mml:msup>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+          </mo>
+         </mrow>
+        </msup>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            o
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            l
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          +
-        </mml:mo>
-        <mml:msubsup>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mo>
+        <msubsup>
+         <mrow>
+          <mi mathvariant="normal">
            S
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            6
-          </mml:mn>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mn>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-          <mml:mo>
+          </mn>
+          <mo>
            −
-          </mml:mo>
-         </mml:mrow>
-        </mml:msubsup>
-        <mml:mrow>
-         <mml:mo>
+          </mo>
+         </mrow>
+        </msubsup>
+        <mrow>
+         <mo>
           (
-         </mml:mo>
-         <mml:mrow>
-          <mml:mi>
+         </mo>
+         <mrow>
+          <mi>
            s
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            o
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            l
-          </mml:mi>
-         </mml:mrow>
-         <mml:mo>
+          </mi>
+         </mrow>
+         <mo>
           )
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="Equ5_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

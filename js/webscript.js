@@ -1,6 +1,6 @@
 // Returns (promise) the languages catalog.
 async function get_lang_dict() {
-    return await fetch('/lang.json')
+    return await fetch('/ProjectMundo/lang.json')
         .then(function(response) {
             return response.json();
         });
@@ -8,7 +8,7 @@ async function get_lang_dict() {
 
 // Returns (promise) the articles catalog.
 async function get_articles_dict() {
-    return await fetch('/articles.json')
+    return await fetch('/ProjectMundo/articles.json')
         .then(function(response) {
             return response.json();
         });
@@ -46,12 +46,12 @@ function configureDropdown(doi, lang) {
         get_articles_dict().then(function(article_data) {
             for (let i = 0; i < all_langs.length; i++) {
                 if (doi == "index") {
-                    link = "/index/" + all_langs[i] + ".html";
+                    link = "/ProjectMundo/index/" + all_langs[i] + ".html";
                     gen_entry(dropdown, link, all_langs[i], lang_data.codes[all_langs[i]]);
 
                 } else if (Object.keys(article_data[doi]['langs']).includes(all_langs[i])) {
                     // doi
-                    link = "/articles/" + doi + "/" + all_langs[i] + ".xml";
+                    link = "/ProjectMundo/articles/" + doi + "/" + all_langs[i] + ".xml";
                     gen_entry(dropdown, link, all_langs[i], lang_data.codes[all_langs[i]]);
                 }
             }
@@ -60,7 +60,7 @@ function configureDropdown(doi, lang) {
     
     // Update the home link to correct language.
     let home = document.getElementById("home");
-    home.setAttribute("href", "/index/" + lang + ".html");
+    home.setAttribute("href", "/ProjectMundo/index/" + lang + ".html");
 
     // Refresh the search event listener.
     document.getElementById("search-txt").addEventListener("keydown", function(event) {
@@ -85,7 +85,7 @@ function search() {
         for (let i = 0; i < keys.length; i++) {
             if (s == article_data[keys[i]]['meta']['doi']) {
                 found = true;
-                window.location.href = "/articles/" + keys[i] + "/eng.xml";
+                window.location.href = "/ProjectMundo/articles/" + keys[i] + "/eng.xml";
             }
         }
 

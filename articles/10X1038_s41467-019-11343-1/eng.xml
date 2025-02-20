@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" specific-use="web-only" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -1254,20 +1254,20 @@
      ). The observed fivefold reduction in the transmitted power when rotating the polarization by
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mfrac>
+         <mrow>
+          <mi>
            π
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:mfrac>
-       </mml:math>
+          </mn>
+         </mrow>
+        </mfrac>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

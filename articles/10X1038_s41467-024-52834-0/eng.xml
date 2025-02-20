@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -1199,29 +1199,29 @@
         vs.
         <inline-formula id="IEq1">
          <alternatives>
-          <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi mathvariant="bold">
+          <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mi mathvariant="bold">
               B
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:msub>
-              <mml:mrow>
-               <mml:mi>
+             </mi>
+            </mrow>
+            <mrow>
+             <msub>
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mrow>
-               <mml:mi>
+               </mi>
+              </mrow>
+              <mrow>
+               <mi>
                 B
-               </mml:mi>
-              </mml:mrow>
-             </mml:msub>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+               </mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq1_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1272,38 +1272,38 @@
         is sloped in the field region above the coercive fields (
         <inline-formula id="IEq2">
          <alternatives>
-          <mml:math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mo>
+          <math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mo>
             ∣
-           </mml:mo>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi mathvariant="bold">
+           </mo>
+           <msub>
+            <mrow>
+             <mi mathvariant="bold">
               B
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:msub>
-              <mml:mrow>
-               <mml:mi>
+             </mi>
+            </mrow>
+            <mrow>
+             <msub>
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mrow>
-               <mml:mi>
+               </mi>
+              </mrow>
+              <mrow>
+               <mi>
                 B
-               </mml:mi>
-              </mml:mrow>
-             </mml:msub>
-            </mml:mrow>
-           </mml:msub>
-           <mml:mo>
+               </mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </msub>
+           <mo>
             ∣
-           </mml:mo>
-           <mml:mo>
+           </mo>
+           <mo>
             &gt;
-           </mml:mo>
-          </mml:math>
+           </mo>
+          </math>
           <tex-math id="IEq2_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1958,20 +1958,20 @@
         Slope of the high field region as a function of external field angle from the
         <inline-formula id="IEq3">
          <alternatives>
-          <mml:math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mover accent="true">
-            <mml:mrow>
-             <mml:mi>
+          <math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mover accent="true">
+            <mrow>
+             <mi>
               z
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mo>
+             </mi>
+            </mrow>
+            <mrow>
+             <mo>
               ̂
-             </mml:mo>
-            </mml:mrow>
-           </mml:mover>
-          </mml:math>
+             </mo>
+            </mrow>
+           </mover>
+          </math>
           <tex-math id="IEq3_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2340,23 +2340,23 @@
      is in the direction of
      <inline-formula id="IEq01">
       <alternatives>
-       <mml:math id="IEq01_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mo>
+       <math id="IEq01_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>
          −
-        </mml:mo>
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <mover accent="true">
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq01_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2452,23 +2452,23 @@
      may partially cancel out the canting since the effective canting field is in the
      <inline-formula id="IEq02">
       <alternatives>
-       <mml:math id="IEq02_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mo>
+       <math id="IEq02_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>
          −
-        </mml:mo>
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <mover accent="true">
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq02_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2662,23 +2662,23 @@
      a is between 1 and 2.5 mT in the direction of
      <inline-formula id="IEq4">
       <alternatives>
-       <mml:math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mo>
+       <math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>
          −
-        </mml:mo>
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <mover accent="true">
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq4_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2961,23 +2961,23 @@
      ), we found the effective symmetry-breaking field due to canting is between 0 and 2.5 mT in the
      <inline-formula id="IEq5">
       <alternatives>
-       <mml:math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mo>
+       <math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>
          −
-        </mml:mo>
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <mover accent="true">
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq5_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2996,23 +2996,23 @@
      direction, and it is also dependent on the initialization direction (
      <inline-formula id="IEq6">
       <alternatives>
-       <mml:math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mo>
+       <math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mo>
          ±
-        </mml:mo>
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <mover accent="true">
+         <mrow>
+          <mi>
            z
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq6_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4356,15 +4356,15 @@
      at zero field (1.064 Ω), obtained by multiplying the AHE field sweep hysteresis loop in the z-direction by
      <inline-formula id="IEq7">
       <alternatives>
-       <mml:math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msqrt>
-         <mml:mrow>
-          <mml:mn>
+       <math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msqrt>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msqrt>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msqrt>
+       </math>
        <tex-math id="IEq7_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4861,20 +4861,20 @@
         from the
         <inline-formula id="IEq8">
          <alternatives>
-          <mml:math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mover accent="true">
-            <mml:mrow>
-             <mml:mi>
+          <math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mover accent="true">
+            <mrow>
+             <mi>
               z
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mo>
+             </mi>
+            </mrow>
+            <mrow>
+             <mo>
               ̂
-             </mml:mo>
-            </mml:mrow>
-           </mml:mover>
-          </mml:math>
+             </mo>
+            </mrow>
+           </mover>
+          </math>
           <tex-math id="IEq8_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -6079,20 +6079,20 @@
      Pulsed I–V switching measurements are carried out with a home-built setup including a Keithley 6221 ac current source, a Keithley 2182a nanovoltmeter, a GMW 5403 electromagnet, a Lakeshore 475 Gaussmeter, and a custom-built rotating dip stick chip carrier with electrical contacts. Keithley 6221 and 2182a are connected together in the pulsed-delta mode for simultaneous current sourcing and voltage measurement. All the switching measurements are conducted with 200 μs pulse width and 60 μs source delay. Every pulse switching curve is obtained with a reset magnetic field applied in the ±
      <inline-formula id="IEq03">
       <alternatives>
-       <mml:math id="IEq03_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq03_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mover accent="true">
+         <mrow>
+          <mi>
            z
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq03_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -6111,20 +6111,20 @@
      -direction at 100 mT before the current pulse sequence is applied. After the large set field is applied, the field is removed, and the sample is rotated back to in-plane configuration with respect to the magnetic field application direction (
      <inline-formula id="IEq9">
       <alternatives>
-       <mml:math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mover accent="true">
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mover accent="true">
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+         <mrow>
+          <mo>
            ̂
-          </mml:mo>
-         </mml:mrow>
-        </mml:mover>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mover>
+       </math>
        <tex-math id="IEq9_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

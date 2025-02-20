@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -807,54 +807,54 @@
     Our starting point is the SG with a Hausdorff dimension
     <inline-formula id="IEq1">
      <alternatives>
-      <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+      <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>
            d
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            f
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          ln
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mn>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mn>
            3
-          </mml:mn>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mn>
+         </mrow>
+        </mfenced>
+        <mo>
          /
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          ln
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mn>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mn>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          1.585
-        </mml:mn>
-       </mml:mrow>
-      </mml:math>
+        </mn>
+       </mrow>
+      </math>
       <tex-math id="IEq1_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -901,11 +901,11 @@
     , this lattice consists of helical waveguides, which is equivalent to a periodically driven potential that introduces an artificial gauge field
     <inline-formula id="IEq2">
      <alternatives>
-      <mml:math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mi mathvariant="bold-italic">
+      <math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi mathvariant="bold-italic">
         A
-       </mml:mi>
-      </mml:math>
+       </mi>
+      </math>
       <tex-math id="IEq2_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -942,77 +942,77 @@
        −1), sharing three corner sites. The fractal lattice of helical waveguides is generation G(4) with a total of 204 sites. Each blue site marks the position of a helical waveguide. The helicity of the waveguides introduces an artificial vector potential
        <inline-formula id="IEq3">
         <alternatives>
-         <mml:math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi mathvariant="bold-italic">
+         <math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi mathvariant="bold-italic">
             A
-           </mml:mi>
-           <mml:mfenced close=")" open="(">
-            <mml:mrow>
-             <mml:mi>
+           </mi>
+           <mfenced close=")" open="(">
+            <mrow>
+             <mi>
               z
-             </mml:mi>
-            </mml:mrow>
-           </mml:mfenced>
-           <mml:mo>
+             </mi>
+            </mrow>
+           </mfenced>
+           <mo>
             =
-           </mml:mo>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi>
+           </mo>
+           <msub>
+            <mrow>
+             <mi>
               A
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:msub>
-           <mml:mfenced close="]" open="[">
-            <mml:mrow>
-             <mml:mi>
+             </mn>
+            </mrow>
+           </msub>
+           <mfenced close="]" open="[">
+            <mrow>
+             <mi>
               sin
-             </mml:mi>
-             <mml:mfenced close=")" open="(">
-              <mml:mrow>
-               <mml:mi mathvariant="normal">
+             </mi>
+             <mfenced close=")" open="(">
+              <mrow>
+               <mi mathvariant="normal">
                 Ω
-               </mml:mi>
-               <mml:mi>
+               </mi>
+               <mi>
                 z
-               </mml:mi>
-              </mml:mrow>
-             </mml:mfenced>
-             <mml:mo>
+               </mi>
+              </mrow>
+             </mfenced>
+             <mo>
               ,
-             </mml:mo>
-             <mml:mo>
+             </mo>
+             <mo>
               −
-             </mml:mo>
-             <mml:mi>
+             </mo>
+             <mi>
               cos
-             </mml:mi>
-             <mml:mfenced close=")" open="(">
-              <mml:mrow>
-               <mml:mi mathvariant="normal">
+             </mi>
+             <mfenced close=")" open="(">
+              <mrow>
+               <mi mathvariant="normal">
                 Ω
-               </mml:mi>
-               <mml:mi>
+               </mi>
+               <mi>
                 z
-               </mml:mi>
-              </mml:mrow>
-             </mml:mfenced>
-             <mml:mo>
+               </mi>
+              </mrow>
+             </mfenced>
+             <mo>
               ,
-             </mml:mo>
-             <mml:mn>
+             </mo>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:mfenced>
-          </mml:mrow>
-         </mml:math>
+             </mn>
+            </mrow>
+           </mfenced>
+          </mrow>
+         </math>
          <tex-math id="IEq3_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1047,125 +1047,125 @@
       1
      </label>
      <alternatives>
-      <mml:math id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi>
+      <math id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>
          i
-        </mml:mi>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mi>
+        <msub>
+         <mrow>
+          <mi>
            ∂
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            z
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi>
            ψ
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            n
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <msub>
+         <mrow>
+          <mi>
            c
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:munder>
-         <mml:mrow>
-          <mml:mo>
+          </mn>
+         </mrow>
+        </msub>
+        <munder>
+         <mrow>
+          <mo>
            ∑
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+          </mo>
+         </mrow>
+         <mrow>
+          <mo>
            &lt;
-          </mml:mo>
-          <mml:mi>
+          </mo>
+          <mi>
            m
-          </mml:mi>
-          <mml:mo>
+          </mi>
+          <mo>
            &gt;
-          </mml:mo>
-         </mml:mrow>
-        </mml:munder>
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+          </mo>
+         </mrow>
+        </munder>
+        <msup>
+         <mrow>
+          <mi>
            e
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            i
-          </mml:mi>
-          <mml:mi mathvariant="bold-italic">
+          </mi>
+          <mi mathvariant="bold-italic">
            A
-          </mml:mi>
-          <mml:mfenced close=")" open="(">
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+          <mfenced close=")" open="(">
+           <mrow>
+            <mi>
              z
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+            </mi>
+           </mrow>
+          </mfenced>
+          <mo>
            ⋅
-          </mml:mo>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="bold-italic">
+          </mo>
+          <msub>
+           <mrow>
+            <mi mathvariant="bold-italic">
              r
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              m
-            </mml:mi>
-            <mml:mo>
+            </mi>
+            <mo>
              ,
-            </mml:mo>
-            <mml:mi>
+            </mo>
+            <mi>
              n
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:msup>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <msub>
+         <mrow>
+          <mi>
            ψ
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            m
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:mrow>
-      </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
       <tex-math id="Equ1_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1188,20 +1188,20 @@
     is the optical axis,
     <inline-formula id="IEq4">
      <alternatives>
-      <mml:math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:msub>
-        <mml:mrow>
-         <mml:mi>
+      <math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <msub>
+        <mrow>
+         <mi>
           ψ
-         </mml:mi>
-        </mml:mrow>
-        <mml:mrow>
-         <mml:mi>
+         </mi>
+        </mrow>
+        <mrow>
+         <mi>
           n
-         </mml:mi>
-        </mml:mrow>
-       </mml:msub>
-      </mml:math>
+         </mi>
+        </mrow>
+       </msub>
+      </math>
       <tex-math id="IEq4_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1224,20 +1224,20 @@
     th waveguide,
     <inline-formula id="IEq5">
      <alternatives>
-      <mml:math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:msub>
-        <mml:mrow>
-         <mml:mi>
+      <math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <msub>
+        <mrow>
+         <mi>
           c
-         </mml:mi>
-        </mml:mrow>
-        <mml:mrow>
-         <mml:mn>
+         </mi>
+        </mrow>
+        <mrow>
+         <mn>
           0
-         </mml:mn>
-        </mml:mrow>
-       </mml:msub>
-      </mml:math>
+         </mn>
+        </mrow>
+       </msub>
+      </math>
       <tex-math id="IEq5_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1256,26 +1256,26 @@
     is the coupling strength,
     <inline-formula id="IEq6">
      <alternatives>
-      <mml:math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:msub>
-        <mml:mrow>
-         <mml:mi mathvariant="bold-italic">
+      <math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <msub>
+        <mrow>
+         <mi mathvariant="bold-italic">
           r
-         </mml:mi>
-        </mml:mrow>
-        <mml:mrow>
-         <mml:mi>
+         </mi>
+        </mrow>
+        <mrow>
+         <mi>
           m
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           ,
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           n
-         </mml:mi>
-        </mml:mrow>
-       </mml:msub>
-      </mml:math>
+         </mi>
+        </mrow>
+       </msub>
+      </math>
       <tex-math id="IEq6_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1302,77 +1302,77 @@
     ,
     <inline-formula id="IEq7">
      <alternatives>
-      <mml:math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi mathvariant="bold-italic">
+      <math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi mathvariant="bold-italic">
          A
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            z
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <msub>
+         <mrow>
+          <mi>
            A
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close="]" open="[">
-         <mml:mrow>
-          <mml:mi>
+          </mn>
+         </mrow>
+        </msub>
+        <mfenced close="]" open="[">
+         <mrow>
+          <mi>
            sin
-          </mml:mi>
-          <mml:mfenced close=")" open="(">
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+          </mi>
+          <mfenced close=")" open="(">
+           <mrow>
+            <mi mathvariant="normal">
              Ω
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              z
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+            </mi>
+           </mrow>
+          </mfenced>
+          <mo>
            ,
-          </mml:mo>
-          <mml:mo>
+          </mo>
+          <mo>
            −
-          </mml:mo>
-          <mml:mi>
+          </mo>
+          <mi>
            cos
-          </mml:mi>
-          <mml:mfenced close=")" open="(">
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+          </mi>
+          <mfenced close=")" open="(">
+           <mrow>
+            <mi mathvariant="normal">
              Ω
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              z
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfenced>
-          <mml:mo>
+            </mi>
+           </mrow>
+          </mfenced>
+          <mo>
            ,
-          </mml:mo>
-          <mml:mn>
+          </mo>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:mfenced>
-       </mml:mrow>
-      </mml:math>
+          </mn>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </math>
       <tex-math id="IEq7_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1391,34 +1391,34 @@
     is the artificial vector potential induced by the helicity of the waveguides with amplitude
     <inline-formula id="IEq8">
      <alternatives>
-      <mml:math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+      <math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>
            A
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mn>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          k
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          R
-        </mml:mi>
-        <mml:mi mathvariant="normal">
+        </mi>
+        <mi mathvariant="normal">
          Ω
-        </mml:mi>
-       </mml:mrow>
-      </mml:math>
+        </mi>
+       </mrow>
+      </math>
       <tex-math id="IEq8_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1437,11 +1437,11 @@
     , in which
     <inline-formula id="IEq9">
      <alternatives>
-      <mml:math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mi>
+      <math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>
         k
-       </mml:mi>
-      </mml:math>
+       </mi>
+      </math>
       <tex-math id="IEq9_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1460,11 +1460,11 @@
     is the wavenumber of the light in the medium,
     <inline-formula id="IEq10">
      <alternatives>
-      <mml:math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mi>
+      <math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>
         R
-       </mml:mi>
-      </mml:math>
+       </mi>
+      </math>
       <tex-math id="IEq10_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1483,11 +1483,11 @@
     is the radius of the helix,
     <inline-formula id="IEq11">
      <alternatives>
-      <mml:math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mi mathvariant="normal">
+      <math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi mathvariant="normal">
         Ω
-       </mml:mi>
-      </mml:math>
+       </mi>
+      </math>
       <tex-math id="IEq11_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1506,28 +1506,28 @@
     is the longitudinal frequency of the helix corresponding to periodicity
     <inline-formula id="IEq12">
      <alternatives>
-      <mml:math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi>
+      <math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>
          L
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          2
-        </mml:mn>
-        <mml:mi>
+        </mn>
+        <mi>
          π
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          /
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          Ω
-        </mml:mi>
-       </mml:mrow>
-      </mml:math>
+        </mi>
+       </mrow>
+      </math>
       <tex-math id="IEq12_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1567,11 +1567,11 @@
     . The results of the quasi-energy spectrum
     <inline-formula id="IEq13">
      <alternatives>
-      <mml:math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mi>
+      <math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>
         β
-       </mml:mi>
-      </mml:math>
+       </mi>
+      </math>
       <tex-math id="IEq13_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1600,26 +1600,26 @@
     , with
     <inline-formula id="IEq14">
      <alternatives>
-      <mml:math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi mathvariant="bold-italic">
+      <math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi mathvariant="bold-italic">
          A
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            z
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          0
-        </mml:mn>
-       </mml:mrow>
-      </mml:math>
+        </mn>
+       </mrow>
+      </math>
       <tex-math id="IEq14_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1642,28 +1642,28 @@
     , with
     <inline-formula id="IEq15">
      <alternatives>
-      <mml:math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi mathvariant="bold-italic">
+      <math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi mathvariant="bold-italic">
          A
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            z
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mspace width="0.25em"/>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mspace width="0.25em"/>
+        <mo>
          ≠
-        </mml:mo>
-        <mml:mspace width="0.25em"/>
-        <mml:mn>
+        </mo>
+        <mspace width="0.25em"/>
+        <mn>
          0
-        </mml:mn>
-       </mml:mrow>
-      </mml:math>
+        </mn>
+       </mrow>
+      </math>
       <tex-math id="IEq15_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1711,26 +1711,26 @@
        Energy spectrum with
        <inline-formula id="IEq16">
         <alternatives>
-         <mml:math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi mathvariant="bold-italic">
+         <math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi mathvariant="bold-italic">
             A
-           </mml:mi>
-           <mml:mfenced close=")" open="(">
-            <mml:mrow>
-             <mml:mi>
+           </mi>
+           <mfenced close=")" open="(">
+            <mrow>
+             <mi>
               z
-             </mml:mi>
-            </mml:mrow>
-           </mml:mfenced>
-           <mml:mo>
+             </mi>
+            </mrow>
+           </mfenced>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             0
-           </mml:mn>
-          </mml:mrow>
-         </mml:math>
+           </mn>
+          </mrow>
+         </math>
          <tex-math id="IEq16_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1753,26 +1753,26 @@
        Quasi-energy spectrum with
        <inline-formula id="IEq17">
         <alternatives>
-         <mml:math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi mathvariant="bold-italic">
+         <math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi mathvariant="bold-italic">
             A
-           </mml:mi>
-           <mml:mfenced close=")" open="(">
-            <mml:mrow>
-             <mml:mi>
+           </mi>
+           <mfenced close=")" open="(">
+            <mrow>
+             <mi>
               z
-             </mml:mi>
-            </mml:mrow>
-           </mml:mfenced>
-           <mml:mo>
+             </mi>
+            </mrow>
+           </mfenced>
+           <mo>
             ≠
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             0
-           </mml:mn>
-          </mml:mrow>
-         </mml:math>
+           </mn>
+          </mrow>
+         </math>
          <tex-math id="IEq17_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1791,34 +1791,34 @@
        and
        <inline-formula id="IEq18">
         <alternatives>
-         <mml:math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi>
+         <math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>
               A
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:msub>
-           <mml:mo>
+             </mn>
+            </mrow>
+           </msub>
+           <mo>
             =
-           </mml:mo>
-           <mml:mi>
+           </mo>
+           <mi>
             k
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             R
-           </mml:mi>
-           <mml:mi mathvariant="normal">
+           </mi>
+           <mi mathvariant="normal">
             Ω
-           </mml:mi>
-          </mml:mrow>
-         </mml:math>
+           </mi>
+          </mrow>
+         </math>
          <tex-math id="IEq18_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1841,28 +1841,28 @@
        Field intensity patterns of two eigen-states localized at the external and internal edges of the fractal lattice (states 93 and 95, gray and red dots, respective√ly). The color bar indicates the intensity (normalized to the peak intensity in each state). The parameters used are the ambient refractive index
        <inline-formula id="IEq19">
         <alternatives>
-         <mml:math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi>
+         <math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>
               n
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:msub>
-           <mml:mo>
+             </mn>
+            </mrow>
+           </msub>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             1.45
-           </mml:mn>
-          </mml:mrow>
-         </mml:math>
+           </mn>
+          </mrow>
+         </math>
          <tex-math id="IEq19_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1881,44 +1881,44 @@
        , coupling strength
        <inline-formula id="IEq20">
         <alternatives>
-         <mml:math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi>
+         <math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>
               c
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:msub>
-           <mml:mo>
+             </mn>
+            </mrow>
+           </msub>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             1.9
-           </mml:mn>
-           <mml:mspace width="0.25em"/>
-           <mml:msup>
-            <mml:mrow>
-             <mml:mi mathvariant="normal">
+           </mn>
+           <mspace width="0.25em"/>
+           <msup>
+            <mrow>
+             <mi mathvariant="normal">
               cm
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mo>
+             </mi>
+            </mrow>
+            <mrow>
+             <mo>
               −
-             </mml:mo>
-             <mml:mn>
+             </mo>
+             <mn>
               1
-             </mml:mn>
-            </mml:mrow>
-           </mml:msup>
-          </mml:mrow>
-         </mml:math>
+             </mn>
+            </mrow>
+           </msup>
+          </mrow>
+         </math>
          <tex-math id="IEq20_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1937,19 +1937,19 @@
        , wavelength
        <inline-formula id="IEq21">
         <alternatives>
-         <mml:math id="IEq21_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi>
+         <math id="IEq21_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi>
             λ
-           </mml:mi>
-           <mml:mo>
+           </mi>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             0.633
-           </mml:mn>
-          </mml:mrow>
-         </mml:math>
+           </mn>
+          </mrow>
+         </math>
          <tex-math id="IEq21_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1968,19 +1968,19 @@
        µm, helix radius
        <inline-formula id="IEq22">
         <alternatives>
-         <mml:math id="IEq22_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi>
+         <math id="IEq22_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi>
             R
-           </mml:mi>
-           <mml:mo>
+           </mi>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             10
-           </mml:mn>
-          </mml:mrow>
-         </mml:math>
+           </mn>
+          </mrow>
+         </math>
          <tex-math id="IEq22_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1999,38 +1999,38 @@
        µm, longitudinal frequency of the helix
        <inline-formula id="IEq23">
         <alternatives>
-         <mml:math id="IEq23_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi mathvariant="normal">
+         <math id="IEq23_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi mathvariant="normal">
             Ω
-           </mml:mi>
-           <mml:mo>
+           </mi>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             2
-           </mml:mn>
-           <mml:mi>
+           </mn>
+           <mi>
             π
-           </mml:mi>
-           <mml:mspace width="0.25em"/>
-           <mml:msup>
-            <mml:mrow>
-             <mml:mi mathvariant="normal">
+           </mi>
+           <mspace width="0.25em"/>
+           <msup>
+            <mrow>
+             <mi mathvariant="normal">
               cm
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mo>
+             </mi>
+            </mrow>
+            <mrow>
+             <mo>
               −
-             </mml:mo>
-             <mml:mn>
+             </mo>
+             <mn>
               1
-             </mml:mn>
-            </mml:mrow>
-           </mml:msup>
-          </mml:mrow>
-         </mml:math>
+             </mn>
+            </mrow>
+           </msup>
+          </mrow>
+         </math>
          <tex-math id="IEq23_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2049,26 +2049,26 @@
        , and lattice constant
        <inline-formula id="IEq24">
         <alternatives>
-         <mml:math id="IEq24_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mi>
+         <math id="IEq24_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mi>
             a
-           </mml:mi>
-           <mml:mo>
+           </mi>
+           <mo>
             =
-           </mml:mo>
-           <mml:mn>
+           </mo>
+           <mn>
             14
-           </mml:mn>
-           <mml:msqrt>
-            <mml:mrow>
-             <mml:mn>
+           </mn>
+           <msqrt>
+            <mrow>
+             <mn>
               3
-             </mml:mn>
-            </mml:mrow>
-           </mml:msqrt>
-          </mml:mrow>
-         </mml:math>
+             </mn>
+            </mrow>
+           </msqrt>
+          </mrow>
+         </math>
          <tex-math id="IEq24_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2125,176 +2125,176 @@
       2
      </label>
      <alternatives>
-      <mml:math id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi>
+      <math id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>
          C
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          12
-        </mml:mn>
-        <mml:mi>
+        </mn>
+        <mi>
          π
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          i
-        </mml:mi>
-        <mml:munder>
-         <mml:mrow>
-          <mml:mo>
+        </mi>
+        <munder>
+         <mrow>
+          <mo>
            ∑
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mo>
+         </mrow>
+         <mrow>
+          <mi>
            j
-          </mml:mi>
-          <mml:mo>
+          </mi>
+          <mo>
            ∈
-          </mml:mo>
-          <mml:mi>
+          </mo>
+          <mi>
            A
-          </mml:mi>
-         </mml:mrow>
-        </mml:munder>
-        <mml:munder>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+        </munder>
+        <munder>
+         <mrow>
+          <mo>
            ∑
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mo>
+         </mrow>
+         <mrow>
+          <mi>
            k
-          </mml:mi>
-          <mml:mo>
+          </mi>
+          <mo>
            ∈
-          </mml:mo>
-          <mml:mi>
+          </mo>
+          <mi>
            B
-          </mml:mi>
-         </mml:mrow>
-        </mml:munder>
-        <mml:munder>
-         <mml:mrow>
-          <mml:mo>
+          </mi>
+         </mrow>
+        </munder>
+        <munder>
+         <mrow>
+          <mo>
            ∑
-          </mml:mo>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mo>
+         </mrow>
+         <mrow>
+          <mi>
            l
-          </mml:mi>
-          <mml:mo>
+          </mi>
+          <mo>
            ∈
-          </mml:mo>
-          <mml:mi>
+          </mo>
+          <mi>
            C
-          </mml:mi>
-         </mml:mrow>
-        </mml:munder>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+         </mrow>
+        </munder>
+        <mfenced close=")" open="(">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>
              P
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              j
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              k
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi>
              P
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              k
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              l
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi>
              P
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              l
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              j
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:mo>
+            </mi>
+           </mrow>
+          </msub>
+          <mo>
            −
-          </mml:mo>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mo>
+          <msub>
+           <mrow>
+            <mi>
              P
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              j
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              l
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi>
              P
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              l
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              k
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi>
              P
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              k
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              j
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:mfenced>
-       </mml:mrow>
-      </mml:math>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </math>
       <tex-math id="Equ2_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2313,25 +2313,25 @@
     where
     <inline-formula id="IEq25">
      <alternatives>
-      <mml:math id="IEq25_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mi>
+      <math id="IEq25_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mi>
          j
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          ,
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          k
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          ,
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          l
-        </mml:mi>
-       </mml:mrow>
-      </mml:math>
+        </mi>
+       </mrow>
+      </math>
       <tex-math id="IEq25_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2354,49 +2354,49 @@
     , arranged anti-clockwise],
     <inline-formula id="IEq26">
      <alternatives>
-      <mml:math id="IEq26_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+      <math id="IEq26_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>
            P
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+         <mrow>
+          <mi>
            j
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            k
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mo>
+        </mo>
+        <mo>
          ⟨
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          j
-        </mml:mi>
-        <mml:mi mathvariant="normal">
+        </mi>
+        <mi mathvariant="normal">
          ∣
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          P
-        </mml:mi>
-        <mml:mi mathvariant="normal">
+        </mi>
+        <mi mathvariant="normal">
          ∣
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          k
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          ⟩
-        </mml:mo>
-       </mml:mrow>
-      </mml:math>
+        </mo>
+       </mrow>
+      </math>
       <tex-math id="IEq26_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2415,11 +2415,11 @@
     and the projector operator
     <inline-formula id="IEq27">
      <alternatives>
-      <mml:math id="IEq27_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mi>
+      <math id="IEq27_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mi>
         P
-       </mml:mi>
-      </mml:math>
+       </mi>
+      </math>
       <tex-math id="IEq27_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2502,25 +2502,25 @@
     shows that the wavepacket can pass a defect (indicated by the blue dot in the fractal lattice)—a site with on-site disorder of strength
     <inline-formula id="IEq28">
      <alternatives>
-      <mml:math id="IEq28_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mn>
+      <math id="IEq28_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mn>
          0.1
-        </mml:mn>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mn>
+        <msub>
+         <mrow>
+          <mi>
            c
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-       </mml:mrow>
-      </mml:math>
+          </mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
       <tex-math id="IEq28_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2539,25 +2539,25 @@
     . We find that the propagation of wavepackets of edge states in the fractal system is very robust against random on-site disorder of strength up to
     <inline-formula id="IEq29">
      <alternatives>
-      <mml:math id="IEq29_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mn>
+      <math id="IEq29_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mn>
          0.2
-        </mml:mn>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mn>
+        <msub>
+         <mrow>
+          <mi>
            c
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-       </mml:mrow>
-      </mml:math>
+          </mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
       <tex-math id="IEq29_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2613,25 +2613,25 @@
        Evolution in the fractal lattice containing an on-site disorder of
        <inline-formula id="IEq30">
         <alternatives>
-         <mml:math id="IEq30_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mn>
+         <math id="IEq30_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mn>
             0.1
-           </mml:mn>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi>
+           </mn>
+           <msub>
+            <mrow>
+             <mi>
               c
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:msub>
-          </mml:mrow>
-         </mml:math>
+             </mn>
+            </mrow>
+           </msub>
+          </mrow>
+         </math>
          <tex-math id="IEq30_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2713,25 +2713,25 @@
     shows that the wavepacket is able to pass a defect in the fractal lattice (its position is given by the blue dot)—a site with on-site disorder of strength
     <inline-formula id="IEq31">
      <alternatives>
-      <mml:math id="IEq31_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mml:mrow>
-        <mml:mn>
+      <math id="IEq31_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+       <mrow>
+        <mn>
          0.1
-        </mml:mn>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mn>
+        <msub>
+         <mrow>
+          <mi>
            c
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-       </mml:mrow>
-      </mml:math>
+          </mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
       <tex-math id="IEq31_TeX">
        \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2804,25 +2804,25 @@
        Propagation into the fractal region containing a defect (blue dot) in the form of on-site disorder of
        <inline-formula id="IEq32">
         <alternatives>
-         <mml:math id="IEq32_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-          <mml:mrow>
-           <mml:mn>
+         <math id="IEq32_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+          <mrow>
+           <mn>
             0.1
-           </mml:mn>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mi>
+           </mn>
+           <msub>
+            <mrow>
+             <mi>
               c
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               0
-             </mml:mn>
-            </mml:mrow>
-           </mml:msub>
-          </mml:mrow>
-         </mml:math>
+             </mn>
+            </mrow>
+           </msub>
+          </mrow>
+         </math>
          <tex-math id="IEq32_TeX">
           \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

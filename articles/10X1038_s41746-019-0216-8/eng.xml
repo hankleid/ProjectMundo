@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -489,20 +489,20 @@
      Echocardiography uses ultrasound technology to capture high temporal and spatial resolution images of the heart and surrounding structures, and is the most common imaging modality in cardiovascular medicine. Using convolutional neural networks on a large new dataset, we show that deep learning applied to echocardiography can identify local cardiac structures, estimate cardiac function, and predict systemic phenotypes that modify cardiovascular risk but not readily identifiable to human interpretation. Our deep learning model, EchoNet, accurately identified the presence of pacemaker leads (AUC = 0.89), enlarged left atrium (AUC = 0.86), left ventricular hypertrophy (AUC = 0.75), left ventricular end systolic and diastolic volumes (
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -521,20 +521,20 @@
      = 0.74 and
      <inline-formula id="IEq2">
       <alternatives>
-       <mml:math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -553,20 +553,20 @@
      = 0.70), and ejection fraction (
      <inline-formula id="IEq3">
       <alternatives>
-       <mml:math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq3_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -585,20 +585,20 @@
      = 0.50), as well as predicted systemic phenotypes of age (
      <inline-formula id="IEq4">
       <alternatives>
-       <mml:math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq4_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -617,20 +617,20 @@
      = 0.46), sex (AUC = 0.88), weight (
      <inline-formula id="IEq5">
       <alternatives>
-       <mml:math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq5_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -649,20 +649,20 @@
      = 0.56), and height (
      <inline-formula id="IEq6">
       <alternatives>
-       <mml:math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq6_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1686,16 +1686,16 @@
         For each task, representative positive examples are shown side-by-side with regions of interest from the respective model. Shaded areas indicate
         <inline-formula id="IEq7">
          <alternatives>
-          <mml:math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mrow>
-            <mml:mn>
+          <math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mrow>
+            <mn>
              95
-            </mml:mn>
-            <mml:mi>
+            </mn>
+            <mi>
              %
-            </mml:mi>
-           </mml:mrow>
-          </mml:math>
+            </mi>
+           </mrow>
+          </math>
           <tex-math id="IEq7_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1740,20 +1740,20 @@
      ). Left ventricular ESV and EDV were accurately predicted. For the prediction of ESV, an
      <inline-formula id="IEq8">
       <alternatives>
-       <mml:math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq8_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1772,20 +1772,20 @@
      score of 0.74 and mean absolute error (MAE) of 13.3 mL was achieved versus MAE of 25.4 mL if we use mean prediction which is to predict every patient’s ESV as the average ESCV value of patients. The result for the EDV prediction was an
      <inline-formula id="IEq9">
       <alternatives>
-       <mml:math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq9_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1812,20 +1812,20 @@
      d). We show the relative performance of a deep learning model undergoing a standard human workflow of evaluating ESV and EDV then subsequently calculating ejection fraction from the two volumetric measurements vs. direct “end-to-end” deep learning prediction of ejection fraction and show that the “end-to-end” deep learning prediction model had improved performance. Using the trained EchoNet, an
      <inline-formula id="IEq10">
       <alternatives>
-       <mml:math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq10_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1844,16 +1844,16 @@
      score of 0.50 and MAE of
      <inline-formula id="IEq11">
       <alternatives>
-       <mml:math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mn>
+       <math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mn>
           7.0
-         </mml:mn>
-         <mml:mi>
+         </mn>
+         <mi>
           %
-         </mml:mi>
-        </mml:mrow>
-       </mml:math>
+         </mi>
+        </mrow>
+       </math>
        <tex-math id="IEq11_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1872,16 +1872,16 @@
      is achieved (MAE of mean prediction =
      <inline-formula id="IEq12">
       <alternatives>
-       <mml:math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mn>
+       <math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mn>
           9.9
-         </mml:mn>
-         <mml:mi>
+         </mn>
+         <mi>
           %
-         </mml:mi>
-        </mml:mrow>
-       </mml:math>
+         </mi>
+        </mrow>
+       </math>
        <tex-math id="IEq12_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1948,20 +1948,20 @@
      EchoNet predicted systemic phenotypes of age (
      <inline-formula id="IEq13">
       <alternatives>
-       <mml:math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq13_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1980,20 +1980,20 @@
      = 0.46, MAE = 9.8 year, mean prediction MAE = 13.4 year), sex (AUC = 0.88), weight (
      <inline-formula id="IEq14">
       <alternatives>
-       <mml:math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq14_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2012,20 +2012,20 @@
      = 0.56, MAE = 10.7 Kg, mean prediction MAE = 15.4 Kg), and height (
      <inline-formula id="IEq15">
       <alternatives>
-       <mml:math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq15_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2343,16 +2343,16 @@
      for classification), and they did not improve performance. For each prediction task, we chose the best performing hyper-parameters using grid search (24 models trained for each task) to optimize learning rate and weight decay regularization factor. In order to perform model selection, for each tasks, we split the training data into training and validation set by using
      <inline-formula id="IEq16">
       <alternatives>
-       <mml:math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mn>
+       <math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mn>
           10
-         </mml:mn>
-         <mml:mi>
+         </mn>
+         <mi>
           %
-         </mml:mi>
-        </mml:mrow>
-       </mml:math>
+         </mi>
+        </mrow>
+       </math>
        <tex-math id="IEq16_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2397,20 +2397,20 @@
      c). During each step of stochastic gradient descent in the training process, we randomly sample 24 training frames, and we perturb each training frame with a random rotation between −20 to 20 degrees and with adding a number sampled uniformly between −0.1 to 0.1 to image pixels (pixels values are normalized) to increase or decrease brightness of the image. Data augmentation results in improvement for all of the tasks; between 1–4% improvement in AUC metric for classification tasks and 2–10% improvement in
      <inline-formula id="IEq17">
       <alternatives>
-       <mml:math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq17_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2470,11 +2470,11 @@
      the simplest way to compute such score is to have a first-order linear approximation of the model by taking the gradient of the output with respect to the input; the weights of the resulting linear model are the sensitivity of the output to perturbation of their corresponding features (pixels). More formally, given the
      <inline-formula id="IEq18">
       <alternatives>
-       <mml:math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mi>
+       <math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          d
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="IEq18_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2493,37 +2493,37 @@
      -dimensional input
      <inline-formula id="IEq19">
       <alternatives>
-       <mml:math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mrow>
-           <mml:mi mathvariant="bold">
+       <math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold">
             x
-           </mml:mi>
-          </mml:mrow>
-          <mml:mrow>
-           <mml:mi>
+           </mi>
+          </mrow>
+          <mrow>
+           <mi>
             t
-           </mml:mi>
-          </mml:mrow>
-         </mml:msub>
-         <mml:mo>
+           </mi>
+          </mrow>
+         </msub>
+         <mo>
           ∈
-         </mml:mo>
-         <mml:msup>
-          <mml:mrow>
-           <mml:mi mathvariant="double-struck">
+         </mo>
+         <msup>
+          <mrow>
+           <mi mathvariant="double-struck">
             R
-           </mml:mi>
-          </mml:mrow>
-          <mml:mrow>
-           <mml:mi>
+           </mi>
+          </mrow>
+          <mrow>
+           <mi>
             d
-           </mml:mi>
-          </mml:mrow>
-         </mml:msup>
-        </mml:mrow>
-       </mml:math>
+           </mi>
+          </mrow>
+         </msup>
+        </mrow>
+       </math>
        <tex-math id="IEq19_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2542,26 +2542,26 @@
      and the model’s prediction function
      <inline-formula id="IEq20">
       <alternatives>
-       <mml:math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mi>
+       <math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>
           f
-         </mml:mi>
-         <mml:mrow>
-          <mml:mo>
+         </mi>
+         <mrow>
+          <mo>
            (
-          </mml:mo>
-          <mml:mrow>
-           <mml:mo>
+          </mo>
+          <mrow>
+           <mo>
             .
-           </mml:mo>
-          </mml:mrow>
-          <mml:mo>
+           </mo>
+          </mrow>
+          <mo>
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq20_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2580,11 +2580,11 @@
      , the importance score of the
      <inline-formula id="IEq21">
       <alternatives>
-       <mml:math id="IEq21_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mi>
+       <math id="IEq21_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>
          j
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="IEq21_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2603,62 +2603,62 @@
      ’th feature is
      <inline-formula id="IEq22">
       <alternatives>
-       <mml:math id="IEq22_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mo>
+       <math id="IEq22_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>
           ∣
-         </mml:mo>
-         <mml:msub>
-          <mml:mrow>
-           <mml:mo>
+         </mo>
+         <msub>
+          <mrow>
+           <mo>
             ∇
-           </mml:mo>
-          </mml:mrow>
-          <mml:mrow>
-           <mml:mi mathvariant="bold">
+           </mo>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">
             x
-           </mml:mi>
-          </mml:mrow>
-         </mml:msub>
-         <mml:mi>
+           </mi>
+          </mrow>
+         </msub>
+         <mi>
           f
-         </mml:mi>
-         <mml:msub>
-          <mml:mrow>
-           <mml:mrow>
-            <mml:mo>
+         </mi>
+         <msub>
+          <mrow>
+           <mrow>
+            <mo>
              (
-            </mml:mo>
-            <mml:mrow>
-             <mml:msub>
-              <mml:mrow>
-               <mml:mi mathvariant="bold">
+            </mo>
+            <mrow>
+             <msub>
+              <mrow>
+               <mi mathvariant="bold">
                 x
-               </mml:mi>
-              </mml:mrow>
-              <mml:mrow>
-               <mml:mi>
+               </mi>
+              </mrow>
+              <mrow>
+               <mi>
                 t
-               </mml:mi>
-              </mml:mrow>
-             </mml:msub>
-            </mml:mrow>
-            <mml:mo>
+               </mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mo>
              )
-            </mml:mo>
-           </mml:mrow>
-          </mml:mrow>
-          <mml:mrow>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mi>
             j
-           </mml:mi>
-          </mml:mrow>
-         </mml:msub>
-         <mml:mo>
+           </mi>
+          </mrow>
+         </msub>
+         <mo>
           ∣
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="IEq22_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2727,20 +2727,20 @@
      EchoNet performance greatly improved with efforts to augment data size, homogenize input data, and with optimize model training with hyperparameter search. Our experience shows that increasing number of unique patients in the training set can significantly improve the model, more so than increasing the sampling rate of frames from the same patients. Homogenizing the input images by selection of cardiac view prior to model training greatly improved training speed and decreased computational time without significant loss in model performance. Finally, we found that results can be significantly improved with careful hyperparameter choice; between 7–9% in AUC metric for classification tasks and 3–10% in
      <inline-formula id="IEq23">
       <alternatives>
-       <mml:math id="IEq23_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq23_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mrow>
+          <mi>
            R
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            2
-          </mml:mn>
-         </mml:mrow>
-        </mml:msup>
-       </mml:math>
+          </mn>
+         </mrow>
+        </msup>
+       </math>
        <tex-math id="IEq23_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

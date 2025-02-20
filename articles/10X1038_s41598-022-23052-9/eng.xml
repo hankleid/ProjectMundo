@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -1042,21 +1042,21 @@
      is a multi-modal model that makes use of an image (
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>
           I
-         </mml:mi>
-         <mml:msup>
-          <mml:mi>
+         </mi>
+         <msup>
+          <mi>
            θ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            I
-          </mml:mi>
-         </mml:msup>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </msup>
+        </msub>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1075,21 +1075,21 @@
      ) and a text (
      <inline-formula id="IEq2">
       <alternatives>
-       <mml:math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi>
+       <math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>
           T
-         </mml:mi>
-         <mml:msup>
-          <mml:mi>
+         </mi>
+         <msup>
+          <mi>
            θ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            T
-          </mml:mi>
-         </mml:msup>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </msup>
+        </msub>
+       </math>
        <tex-math id="IEq2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1112,47 +1112,47 @@
      ,
      <inline-formula id="IEq3">
       <alternatives>
-       <mml:math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mi>
+       <math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mi>
            I
-          </mml:mi>
-          <mml:msup>
-           <mml:mi>
+          </mi>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             I
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:mi>
+          </mo>
+          <mi>
            i
-          </mml:mi>
-          <mml:mo stretchy="false">
+          </mi>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-         <mml:mo>
+          </mo>
+         </mrow>
+         <mo>
           ∈
-         </mml:mo>
-         <mml:msup>
-          <mml:mrow>
-           <mml:mi mathvariant="double-struck">
+         </mo>
+         <msup>
+          <mrow>
+           <mi mathvariant="double-struck">
             R
-           </mml:mi>
-          </mml:mrow>
-          <mml:mn>
+           </mi>
+          </mrow>
+          <mn>
            512
-          </mml:mn>
-         </mml:msup>
-        </mml:mrow>
-       </mml:math>
+          </mn>
+         </msup>
+        </mrow>
+       </math>
        <tex-math id="IEq3_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1175,25 +1175,25 @@
      pairs of matching images and texts
      <inline-formula id="IEq4">
       <alternatives>
-       <mml:math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mo>
+       <math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>
           &lt;
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           i
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           ,
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           t
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           &gt;
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="IEq4_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1216,21 +1216,21 @@
      , the image of a red shirt and the description “a red shirt”), encoded using
      <inline-formula id="IEq5">
       <alternatives>
-       <mml:math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi>
+       <math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>
           I
-         </mml:mi>
-         <mml:msup>
-          <mml:mi>
+         </mi>
+         <msup>
+          <mi>
            θ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            I
-          </mml:mi>
-         </mml:msup>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </msup>
+        </msub>
+       </math>
        <tex-math id="IEq5_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1249,21 +1249,21 @@
      and
      <inline-formula id="IEq6">
       <alternatives>
-       <mml:math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi>
+       <math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>
           T
-         </mml:mi>
-         <mml:msup>
-          <mml:mi>
+         </mi>
+         <msup>
+          <mi>
            θ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            T
-          </mml:mi>
-         </mml:msup>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </msup>
+        </msub>
+       </math>
        <tex-math id="IEq6_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1282,16 +1282,16 @@
      ,
      <inline-formula id="IEq7">
       <alternatives>
-       <mml:math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi>
+       <math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>
           L
-         </mml:mi>
-         <mml:mn>
+         </mi>
+         <mn>
           2
-         </mml:mn>
-        </mml:msub>
-       </mml:math>
+         </mn>
+        </msub>
+       </math>
        <tex-math id="IEq7_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1314,89 +1314,89 @@
      minimizes cross-entropy loss such that
      <inline-formula id="IEq8">
       <alternatives>
-       <mml:math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mover accent="true">
+           <mrow>
+            <mi>
              I
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo stretchy="false">
+            </mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">
              ¯
-            </mml:mo>
-           </mml:mrow>
-          </mml:mover>
-          <mml:msup>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mover>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             I
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:msub>
-           <mml:mi>
+          </mo>
+          <msub>
+           <mi>
             i
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             j
-           </mml:mi>
-          </mml:msub>
-          <mml:mo stretchy="false">
+           </mi>
+          </msub>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-         <mml:mo>
+          </mo>
+         </mrow>
+         <mo>
           ·
-         </mml:mo>
-         <mml:msub>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+         </mo>
+         <msub>
+          <mover accent="true">
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo stretchy="false">
+            </mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">
              ¯
-            </mml:mo>
-           </mml:mrow>
-          </mml:mover>
-          <mml:msup>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mover>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             T
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:msub>
-           <mml:mi>
+          </mo>
+          <msub>
+           <mi>
             t
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             k
-           </mml:mi>
-          </mml:msub>
-          <mml:mo stretchy="false">
+           </mi>
+          </msub>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq8_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1415,40 +1415,40 @@
      for
      <inline-formula id="IEq9">
       <alternatives>
-       <mml:math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mi>
+       <math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>
           j
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           ,
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           k
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           =
-         </mml:mo>
-         <mml:mn>
+         </mo>
+         <mn>
           1
-         </mml:mn>
-         <mml:mo>
+         </mn>
+         <mo>
           ,
-         </mml:mo>
-         <mml:mo>
+         </mo>
+         <mo>
           .
-         </mml:mo>
-         <mml:mo>
+         </mo>
+         <mo>
           .
-         </mml:mo>
-         <mml:mo>
+         </mo>
+         <mo>
           ,
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           N
-         </mml:mi>
-        </mml:mrow>
-       </mml:math>
+         </mi>
+        </mrow>
+       </math>
        <tex-math id="IEq9_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1467,19 +1467,19 @@
      is highest when the caption is paired with the correct image (
      <inline-formula id="IEq10">
       <alternatives>
-       <mml:math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mi>
+       <math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>
           j
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           =
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           k
-         </mml:mi>
-        </mml:mrow>
-       </mml:math>
+         </mi>
+        </mrow>
+       </math>
        <tex-math id="IEq10_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1498,19 +1498,19 @@
      ), and low otherwise (
      <inline-formula id="IEq11">
       <alternatives>
-       <mml:math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mi>
+       <math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>
           j
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           ≠
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           k
-         </mml:mi>
-        </mml:mrow>
-       </mml:math>
+         </mi>
+        </mrow>
+       </math>
        <tex-math id="IEq11_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1529,43 +1529,43 @@
      ), where
      <inline-formula id="IEq12">
       <alternatives>
-       <mml:math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mover accent="true">
+           <mrow>
+            <mi>
              I
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo stretchy="false">
+            </mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">
              ¯
-            </mml:mo>
-           </mml:mrow>
-          </mml:mover>
-          <mml:msup>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mover>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             I
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:mo>
+          </mo>
+          <mo>
            ·
-          </mml:mo>
-          <mml:mo stretchy="false">
+          </mo>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq12_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1584,43 +1584,43 @@
      /
      <inline-formula id="IEq13">
       <alternatives>
-       <mml:math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mover accent="true">
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo stretchy="false">
+            </mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">
              ¯
-            </mml:mo>
-           </mml:mrow>
-          </mml:mover>
-          <mml:msup>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mover>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             I
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:mo>
+          </mo>
+          <mo>
            ·
-          </mml:mo>
-          <mml:mo stretchy="false">
+          </mo>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq13_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1639,16 +1639,16 @@
      are the
      <inline-formula id="IEq14">
       <alternatives>
-       <mml:math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi>
+       <math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi>
           L
-         </mml:mi>
-         <mml:mn>
+         </mi>
+         <mn>
           2
-         </mml:mn>
-        </mml:msub>
-       </mml:math>
+         </mn>
+        </msub>
+       </math>
        <tex-math id="IEq14_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1682,495 +1682,495 @@
        1
       </label>
       <alternatives>
-       <mml:math display="block" id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mtable>
-          <mml:mtr>
-           <mml:mtd/>
-           <mml:mtd columnalign="left">
-            <mml:mrow>
-             <mml:mi mathvariant="script">
+       <math display="block" id="Equ1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd/>
+           <mtd columnalign="left">
+            <mrow>
+             <mi mathvariant="script">
               L
-             </mml:mi>
-             <mml:mrow>
-              <mml:mo stretchy="false">
+             </mi>
+             <mrow>
+              <mo stretchy="false">
                (
-              </mml:mo>
-              <mml:msup>
-               <mml:mi>
+              </mo>
+              <msup>
+               <mi>
                 θ
-               </mml:mi>
-               <mml:mi>
+               </mi>
+               <mi>
                 I
-               </mml:mi>
-              </mml:msup>
-              <mml:mo>
+               </mi>
+              </msup>
+              <mo>
                ,
-              </mml:mo>
-              <mml:msup>
-               <mml:mi>
+              </mo>
+              <msup>
+               <mi>
                 θ
-               </mml:mi>
-               <mml:mi>
+               </mi>
+               <mi>
                 T
-               </mml:mi>
-              </mml:msup>
-              <mml:mo stretchy="false">
+               </mi>
+              </msup>
+              <mo stretchy="false">
                )
-              </mml:mo>
-             </mml:mrow>
-             <mml:mo>
+              </mo>
+             </mrow>
+             <mo>
               =
-             </mml:mo>
-             <mml:mo>
+             </mo>
+             <mo>
               -
-             </mml:mo>
-             <mml:mfrac>
-              <mml:mn>
+             </mo>
+             <mfrac>
+              <mn>
                1
-              </mml:mn>
-              <mml:mrow>
-               <mml:mn>
+              </mn>
+              <mrow>
+               <mn>
                 2
-               </mml:mn>
-               <mml:mi>
+               </mn>
+               <mi>
                 N
-               </mml:mi>
-              </mml:mrow>
-             </mml:mfrac>
-             <mml:mfenced close=")" open="(">
-              <mml:munder>
-               <mml:mo>
+               </mi>
+              </mrow>
+             </mfrac>
+             <mfenced close=")" open="(">
+              <munder>
+               <mo>
                 ∑
-               </mml:mo>
-               <mml:mi>
+               </mo>
+               <mi>
                 j
-               </mml:mi>
-              </mml:munder>
-              <mml:mo>
+               </mi>
+              </munder>
+              <mo>
                log
-              </mml:mo>
-              <mml:mfrac>
-               <mml:msup>
-                <mml:mi>
+              </mo>
+              <mfrac>
+               <msup>
+                <mi>
                  e
-                </mml:mi>
-                <mml:mrow>
-                 <mml:msub>
-                  <mml:mover accent="true">
-                   <mml:mrow>
-                    <mml:mi>
+                </mi>
+                <mrow>
+                 <msub>
+                  <mover accent="true">
+                   <mrow>
+                    <mi>
                      I
-                    </mml:mi>
-                   </mml:mrow>
-                   <mml:mrow>
-                    <mml:mo stretchy="false">
+                    </mi>
+                   </mrow>
+                   <mrow>
+                    <mo stretchy="false">
                      ¯
-                    </mml:mo>
-                   </mml:mrow>
-                  </mml:mover>
-                  <mml:msup>
-                   <mml:mi>
+                    </mo>
+                   </mrow>
+                  </mover>
+                  <msup>
+                   <mi>
                     θ
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     I
-                   </mml:mi>
-                  </mml:msup>
-                 </mml:msub>
-                 <mml:mrow>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msup>
+                 </msub>
+                 <mrow>
+                  <mo stretchy="false">
                    (
-                  </mml:mo>
-                  <mml:msub>
-                   <mml:mi>
+                  </mo>
+                  <msub>
+                   <mi>
                     i
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     j
-                   </mml:mi>
-                  </mml:msub>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msub>
+                  <mo stretchy="false">
                    )
-                  </mml:mo>
-                 </mml:mrow>
-                 <mml:mo>
+                  </mo>
+                 </mrow>
+                 <mo>
                   ·
-                 </mml:mo>
-                 <mml:msub>
-                  <mml:mover accent="true">
-                   <mml:mrow>
-                    <mml:mi>
+                 </mo>
+                 <msub>
+                  <mover accent="true">
+                   <mrow>
+                    <mi>
                      T
-                    </mml:mi>
-                   </mml:mrow>
-                   <mml:mrow>
-                    <mml:mo stretchy="false">
+                    </mi>
+                   </mrow>
+                   <mrow>
+                    <mo stretchy="false">
                      ¯
-                    </mml:mo>
-                   </mml:mrow>
-                  </mml:mover>
-                  <mml:msup>
-                   <mml:mi>
+                    </mo>
+                   </mrow>
+                  </mover>
+                  <msup>
+                   <mi>
                     θ
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     T
-                   </mml:mi>
-                  </mml:msup>
-                 </mml:msub>
-                 <mml:mrow>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msup>
+                 </msub>
+                 <mrow>
+                  <mo stretchy="false">
                    (
-                  </mml:mo>
-                  <mml:msub>
-                   <mml:mi>
+                  </mo>
+                  <msub>
+                   <mi>
                     t
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     j
-                   </mml:mi>
-                  </mml:msub>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msub>
+                  <mo stretchy="false">
                    )
-                  </mml:mo>
-                 </mml:mrow>
-                </mml:mrow>
-               </mml:msup>
-               <mml:mrow>
-                <mml:msub>
-                 <mml:mo>
+                  </mo>
+                 </mrow>
+                </mrow>
+               </msup>
+               <mrow>
+                <msub>
+                 <mo>
                   ∑
-                 </mml:mo>
-                 <mml:msup>
-                  <mml:mi>
+                 </mo>
+                 <msup>
+                  <mi>
                    k
-                  </mml:mi>
-                  <mml:msup>
-                   <mml:mrow/>
-                   <mml:mo>
+                  </mi>
+                  <msup>
+                   <mrow/>
+                   <mo>
                     ′
-                   </mml:mo>
-                  </mml:msup>
-                 </mml:msup>
-                </mml:msub>
-                <mml:msup>
-                 <mml:mi>
+                   </mo>
+                  </msup>
+                 </msup>
+                </msub>
+                <msup>
+                 <mi>
                   e
-                 </mml:mi>
-                 <mml:mrow>
-                  <mml:msub>
-                   <mml:mover accent="true">
-                    <mml:mrow>
-                     <mml:mi>
+                 </mi>
+                 <mrow>
+                  <msub>
+                   <mover accent="true">
+                    <mrow>
+                     <mi>
                       I
-                     </mml:mi>
-                    </mml:mrow>
-                    <mml:mrow>
-                     <mml:mo stretchy="false">
+                     </mi>
+                    </mrow>
+                    <mrow>
+                     <mo stretchy="false">
                       ¯
-                     </mml:mo>
-                    </mml:mrow>
-                   </mml:mover>
-                   <mml:msup>
-                    <mml:mi>
+                     </mo>
+                    </mrow>
+                   </mover>
+                   <msup>
+                    <mi>
                      θ
-                    </mml:mi>
-                    <mml:mi>
+                    </mi>
+                    <mi>
                      I
-                    </mml:mi>
-                   </mml:msup>
-                  </mml:msub>
-                  <mml:mrow>
-                   <mml:mo stretchy="false">
+                    </mi>
+                   </msup>
+                  </msub>
+                  <mrow>
+                   <mo stretchy="false">
                     (
-                   </mml:mo>
-                   <mml:msub>
-                    <mml:mi>
+                   </mo>
+                   <msub>
+                    <mi>
                      i
-                    </mml:mi>
-                    <mml:mi>
+                    </mi>
+                    <mi>
                      j
-                    </mml:mi>
-                   </mml:msub>
-                   <mml:mo stretchy="false">
+                    </mi>
+                   </msub>
+                   <mo stretchy="false">
                     )
-                   </mml:mo>
-                  </mml:mrow>
-                  <mml:mo>
+                   </mo>
+                  </mrow>
+                  <mo>
                    ·
-                  </mml:mo>
-                  <mml:msub>
-                   <mml:mover accent="true">
-                    <mml:mrow>
-                     <mml:mi>
+                  </mo>
+                  <msub>
+                   <mover accent="true">
+                    <mrow>
+                     <mi>
                       T
-                     </mml:mi>
-                    </mml:mrow>
-                    <mml:mrow>
-                     <mml:mo stretchy="false">
+                     </mi>
+                    </mrow>
+                    <mrow>
+                     <mo stretchy="false">
                       ¯
-                     </mml:mo>
-                    </mml:mrow>
-                   </mml:mover>
-                   <mml:msup>
-                    <mml:mi>
+                     </mo>
+                    </mrow>
+                   </mover>
+                   <msup>
+                    <mi>
                      θ
-                    </mml:mi>
-                    <mml:mi>
+                    </mi>
+                    <mi>
                      T
-                    </mml:mi>
-                   </mml:msup>
-                  </mml:msub>
-                  <mml:mrow>
-                   <mml:mo stretchy="false">
+                    </mi>
+                   </msup>
+                  </msub>
+                  <mrow>
+                   <mo stretchy="false">
                     (
-                   </mml:mo>
-                   <mml:msub>
-                    <mml:mi>
+                   </mo>
+                   <msub>
+                    <mi>
                      t
-                    </mml:mi>
-                    <mml:msup>
-                     <mml:mi>
+                    </mi>
+                    <msup>
+                     <mi>
                       k
-                     </mml:mi>
-                     <mml:msup>
-                      <mml:mrow/>
-                      <mml:mo>
+                     </mi>
+                     <msup>
+                      <mrow/>
+                      <mo>
                        ′
-                      </mml:mo>
-                     </mml:msup>
-                    </mml:msup>
-                   </mml:msub>
-                   <mml:mo stretchy="false">
+                      </mo>
+                     </msup>
+                    </msup>
+                   </msub>
+                   <mo stretchy="false">
                     )
-                   </mml:mo>
-                  </mml:mrow>
-                 </mml:mrow>
-                </mml:msup>
-               </mml:mrow>
-              </mml:mfrac>
-              <mml:mo>
+                   </mo>
+                  </mrow>
+                 </mrow>
+                </msup>
+               </mrow>
+              </mfrac>
+              <mo>
                +
-              </mml:mo>
-              <mml:munder>
-               <mml:mo>
+              </mo>
+              <munder>
+               <mo>
                 ∑
-               </mml:mo>
-               <mml:mi>
+               </mo>
+               <mi>
                 k
-               </mml:mi>
-              </mml:munder>
-              <mml:mo>
+               </mi>
+              </munder>
+              <mo>
                log
-              </mml:mo>
-              <mml:mfrac>
-               <mml:msup>
-                <mml:mi>
+              </mo>
+              <mfrac>
+               <msup>
+                <mi>
                  e
-                </mml:mi>
-                <mml:mrow>
-                 <mml:msub>
-                  <mml:mover accent="true">
-                   <mml:mrow>
-                    <mml:mi>
+                </mi>
+                <mrow>
+                 <msub>
+                  <mover accent="true">
+                   <mrow>
+                    <mi>
                      I
-                    </mml:mi>
-                   </mml:mrow>
-                   <mml:mrow>
-                    <mml:mo stretchy="false">
+                    </mi>
+                   </mrow>
+                   <mrow>
+                    <mo stretchy="false">
                      ¯
-                    </mml:mo>
-                   </mml:mrow>
-                  </mml:mover>
-                  <mml:msup>
-                   <mml:mi>
+                    </mo>
+                   </mrow>
+                  </mover>
+                  <msup>
+                   <mi>
                     θ
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     I
-                   </mml:mi>
-                  </mml:msup>
-                 </mml:msub>
-                 <mml:mrow>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msup>
+                 </msub>
+                 <mrow>
+                  <mo stretchy="false">
                    (
-                  </mml:mo>
-                  <mml:msub>
-                   <mml:mi>
+                  </mo>
+                  <msub>
+                   <mi>
                     i
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     k
-                   </mml:mi>
-                  </mml:msub>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msub>
+                  <mo stretchy="false">
                    )
-                  </mml:mo>
-                 </mml:mrow>
-                 <mml:mo>
+                  </mo>
+                 </mrow>
+                 <mo>
                   ·
-                 </mml:mo>
-                 <mml:msub>
-                  <mml:mover accent="true">
-                   <mml:mrow>
-                    <mml:mi>
+                 </mo>
+                 <msub>
+                  <mover accent="true">
+                   <mrow>
+                    <mi>
                      T
-                    </mml:mi>
-                   </mml:mrow>
-                   <mml:mrow>
-                    <mml:mo stretchy="false">
+                    </mi>
+                   </mrow>
+                   <mrow>
+                    <mo stretchy="false">
                      ¯
-                    </mml:mo>
-                   </mml:mrow>
-                  </mml:mover>
-                  <mml:msup>
-                   <mml:mi>
+                    </mo>
+                   </mrow>
+                  </mover>
+                  <msup>
+                   <mi>
                     θ
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     T
-                   </mml:mi>
-                  </mml:msup>
-                 </mml:msub>
-                 <mml:mrow>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msup>
+                 </msub>
+                 <mrow>
+                  <mo stretchy="false">
                    (
-                  </mml:mo>
-                  <mml:msub>
-                   <mml:mi>
+                  </mo>
+                  <msub>
+                   <mi>
                     t
-                   </mml:mi>
-                   <mml:mi>
+                   </mi>
+                   <mi>
                     k
-                   </mml:mi>
-                  </mml:msub>
-                  <mml:mo stretchy="false">
+                   </mi>
+                  </msub>
+                  <mo stretchy="false">
                    )
-                  </mml:mo>
-                 </mml:mrow>
-                </mml:mrow>
-               </mml:msup>
-               <mml:mrow>
-                <mml:msub>
-                 <mml:mo>
+                  </mo>
+                 </mrow>
+                </mrow>
+               </msup>
+               <mrow>
+                <msub>
+                 <mo>
                   ∑
-                 </mml:mo>
-                 <mml:msup>
-                  <mml:mi>
+                 </mo>
+                 <msup>
+                  <mi>
                    j
-                  </mml:mi>
-                  <mml:msup>
-                   <mml:mrow/>
-                   <mml:mo>
+                  </mi>
+                  <msup>
+                   <mrow/>
+                   <mo>
                     ′
-                   </mml:mo>
-                  </mml:msup>
-                 </mml:msup>
-                </mml:msub>
-                <mml:msup>
-                 <mml:mi>
+                   </mo>
+                  </msup>
+                 </msup>
+                </msub>
+                <msup>
+                 <mi>
                   e
-                 </mml:mi>
-                 <mml:mrow>
-                  <mml:msub>
-                   <mml:mover accent="true">
-                    <mml:mrow>
-                     <mml:mi>
+                 </mi>
+                 <mrow>
+                  <msub>
+                   <mover accent="true">
+                    <mrow>
+                     <mi>
                       I
-                     </mml:mi>
-                    </mml:mrow>
-                    <mml:mrow>
-                     <mml:mo stretchy="false">
+                     </mi>
+                    </mrow>
+                    <mrow>
+                     <mo stretchy="false">
                       ¯
-                     </mml:mo>
-                    </mml:mrow>
-                   </mml:mover>
-                   <mml:msup>
-                    <mml:mi>
+                     </mo>
+                    </mrow>
+                   </mover>
+                   <msup>
+                    <mi>
                      θ
-                    </mml:mi>
-                    <mml:mi>
+                    </mi>
+                    <mi>
                      I
-                    </mml:mi>
-                   </mml:msup>
-                  </mml:msub>
-                  <mml:mrow>
-                   <mml:mo stretchy="false">
+                    </mi>
+                   </msup>
+                  </msub>
+                  <mrow>
+                   <mo stretchy="false">
                     (
-                   </mml:mo>
-                   <mml:msub>
-                    <mml:mi>
+                   </mo>
+                   <msub>
+                    <mi>
                      i
-                    </mml:mi>
-                    <mml:msup>
-                     <mml:mi>
+                    </mi>
+                    <msup>
+                     <mi>
                       j
-                     </mml:mi>
-                     <mml:msup>
-                      <mml:mrow/>
-                      <mml:mo>
+                     </mi>
+                     <msup>
+                      <mrow/>
+                      <mo>
                        ′
-                      </mml:mo>
-                     </mml:msup>
-                    </mml:msup>
-                   </mml:msub>
-                   <mml:mo stretchy="false">
+                      </mo>
+                     </msup>
+                    </msup>
+                   </msub>
+                   <mo stretchy="false">
                     )
-                   </mml:mo>
-                  </mml:mrow>
-                  <mml:mo>
+                   </mo>
+                  </mrow>
+                  <mo>
                    ·
-                  </mml:mo>
-                  <mml:msub>
-                   <mml:mover accent="true">
-                    <mml:mrow>
-                     <mml:mi>
+                  </mo>
+                  <msub>
+                   <mover accent="true">
+                    <mrow>
+                     <mi>
                       T
-                     </mml:mi>
-                    </mml:mrow>
-                    <mml:mrow>
-                     <mml:mo stretchy="false">
+                     </mi>
+                    </mrow>
+                    <mrow>
+                     <mo stretchy="false">
                       ¯
-                     </mml:mo>
-                    </mml:mrow>
-                   </mml:mover>
-                   <mml:msup>
-                    <mml:mi>
+                     </mo>
+                    </mrow>
+                   </mover>
+                   <msup>
+                    <mi>
                      θ
-                    </mml:mi>
-                    <mml:mi>
+                    </mi>
+                    <mi>
                      T
-                    </mml:mi>
-                   </mml:msup>
-                  </mml:msub>
-                  <mml:mrow>
-                   <mml:mo stretchy="false">
+                    </mi>
+                   </msup>
+                  </msub>
+                  <mrow>
+                   <mo stretchy="false">
                     (
-                   </mml:mo>
-                   <mml:msub>
-                    <mml:mi>
+                   </mo>
+                   <msub>
+                    <mi>
                      t
-                    </mml:mi>
-                    <mml:mi>
+                    </mi>
+                    <mi>
                      k
-                    </mml:mi>
-                   </mml:msub>
-                   <mml:mo stretchy="false">
+                    </mi>
+                   </msub>
+                   <mo stretchy="false">
                     )
-                   </mml:mo>
-                  </mml:mrow>
-                 </mml:mrow>
-                </mml:msup>
-               </mml:mrow>
-              </mml:mfrac>
-             </mml:mfenced>
-            </mml:mrow>
-           </mml:mtd>
-          </mml:mtr>
-         </mml:mtable>
-        </mml:mrow>
-       </mml:math>
+                   </mo>
+                  </mrow>
+                 </mrow>
+                </msup>
+               </mrow>
+              </mfrac>
+             </mfenced>
+            </mrow>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+       </math>
        <tex-math id="Equ1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2191,116 +2191,116 @@
        2
       </label>
       <alternatives>
-       <mml:math display="block" id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mtable>
-          <mml:mtr>
-           <mml:mtd/>
-           <mml:mtd columnalign="left">
-            <mml:mrow>
-             <mml:msup>
-              <mml:mi>
+       <math display="block" id="Equ2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd/>
+           <mtd columnalign="left">
+            <mrow>
+             <msup>
+              <mi>
                θ
-              </mml:mi>
-              <mml:mrow>
-               <mml:mi>
+              </mi>
+              <mrow>
+               <mi>
                 I
-               </mml:mi>
-               <mml:mrow/>
-               <mml:mo>
+               </mi>
+               <mrow/>
+               <mo>
                 ∗
-               </mml:mo>
-              </mml:mrow>
-             </mml:msup>
-             <mml:mo>
+               </mo>
+              </mrow>
+             </msup>
+             <mo>
               ,
-             </mml:mo>
-             <mml:msup>
-              <mml:mi>
+             </mo>
+             <msup>
+              <mi>
                θ
-              </mml:mi>
-              <mml:mrow>
-               <mml:mi>
+              </mi>
+              <mrow>
+               <mi>
                 T
-               </mml:mi>
-               <mml:mrow/>
-               <mml:mo>
+               </mi>
+               <mrow/>
+               <mo>
                 ∗
-               </mml:mo>
-              </mml:mrow>
-             </mml:msup>
-             <mml:mo>
+               </mo>
+              </mrow>
+             </msup>
+             <mo>
               =
-             </mml:mo>
-             <mml:munder>
-              <mml:mrow>
-               <mml:mi mathvariant="normal">
+             </mo>
+             <munder>
+              <mrow>
+               <mi mathvariant="normal">
                 arg
-               </mml:mi>
-               <mml:mspace width="0.166667em"/>
-               <mml:mi mathvariant="normal">
+               </mi>
+               <mspace width="0.166667em"/>
+               <mi mathvariant="normal">
                 min
-               </mml:mi>
-              </mml:mrow>
-              <mml:mrow>
-               <mml:msup>
-                <mml:mi>
+               </mi>
+              </mrow>
+              <mrow>
+               <msup>
+                <mi>
                  θ
-                </mml:mi>
-                <mml:mi>
+                </mi>
+                <mi>
                  I
-                </mml:mi>
-               </mml:msup>
-               <mml:mo>
+                </mi>
+               </msup>
+               <mo>
                 ,
-               </mml:mo>
-               <mml:msup>
-                <mml:mi>
+               </mo>
+               <msup>
+                <mi>
                  θ
-                </mml:mi>
-                <mml:mi>
+                </mi>
+                <mi>
                  T
-                </mml:mi>
-               </mml:msup>
-              </mml:mrow>
-             </mml:munder>
-             <mml:mspace width="0.166667em"/>
-             <mml:mi mathvariant="script">
+                </mi>
+               </msup>
+              </mrow>
+             </munder>
+             <mspace width="0.166667em"/>
+             <mi mathvariant="script">
               L
-             </mml:mi>
-             <mml:mrow>
-              <mml:mo stretchy="false">
+             </mi>
+             <mrow>
+              <mo stretchy="false">
                (
-              </mml:mo>
-              <mml:msup>
-               <mml:mi>
+              </mo>
+              <msup>
+               <mi>
                 θ
-               </mml:mi>
-               <mml:mi>
+               </mi>
+               <mi>
                 I
-               </mml:mi>
-              </mml:msup>
-              <mml:mo>
+               </mi>
+              </msup>
+              <mo>
                ,
-              </mml:mo>
-              <mml:msup>
-               <mml:mi>
+              </mo>
+              <msup>
+               <mi>
                 θ
-               </mml:mi>
-               <mml:mi>
+               </mi>
+               <mi>
                 T
-               </mml:mi>
-              </mml:msup>
-              <mml:mo stretchy="false">
+               </mi>
+              </msup>
+              <mo stretchy="false">
                )
-              </mml:mo>
-             </mml:mrow>
-            </mml:mrow>
-           </mml:mtd>
-          </mml:mtr>
-         </mml:mtable>
-        </mml:mrow>
-       </mml:math>
+              </mo>
+             </mrow>
+            </mrow>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+       </math>
        <tex-math id="Equ2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2319,16 +2319,16 @@
      Here,
      <inline-formula id="IEq15">
       <alternatives>
-       <mml:math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mi>
+       <math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>
           θ
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           I
-         </mml:mi>
-        </mml:msup>
-       </mml:math>
+         </mi>
+        </msup>
+       </math>
        <tex-math id="IEq15_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2347,16 +2347,16 @@
      and
      <inline-formula id="IEq16">
       <alternatives>
-       <mml:math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mi>
+       <math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mi>
           θ
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           T
-         </mml:mi>
-        </mml:msup>
-       </mml:math>
+         </mi>
+        </msup>
+       </math>
        <tex-math id="IEq16_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2375,19 +2375,19 @@
      are the learnable parameters of the image and text encoder neural networks, and the
      <inline-formula id="IEq17">
       <alternatives>
-       <mml:math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mo stretchy="false">
+       <math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo stretchy="false">
           (
-         </mml:mo>
-         <mml:mo>
+         </mo>
+         <mo>
           ·
-         </mml:mo>
-         <mml:mo stretchy="false">
+         </mo>
+         <mo stretchy="false">
           )
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="IEq17_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2505,99 +2505,99 @@
      . For example, a product classification model might be trained on
      <inline-formula id="IEq18">
       <alternatives>
-       <mml:math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mo>
+       <math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mo>
           &lt;
-         </mml:mo>
-         <mml:mi>
+         </mo>
+         <mi>
           p
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           r
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           o
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           d
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           u
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           c
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           t
-         </mml:mi>
-         <mml:mspace width="0.166667em"/>
-         <mml:mi>
+         </mi>
+         <mspace width="0.166667em"/>
+         <mi>
           d
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           e
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           s
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           c
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           r
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           i
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           p
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           t
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           i
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           o
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           n
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           ,
-         </mml:mo>
-         <mml:mspace width="0.166667em"/>
-         <mml:mi>
+         </mo>
+         <mspace width="0.166667em"/>
+         <mi>
           c
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           a
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           t
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           e
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           g
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           o
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           r
-         </mml:mi>
-         <mml:mi>
+         </mi>
+         <mi>
           y
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           &gt;
-         </mml:mo>
-        </mml:mrow>
-       </mml:math>
+         </mo>
+        </mrow>
+       </math>
        <tex-math id="IEq18_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2782,47 +2782,47 @@
         appealing as a general fashion model, applicable to situations where supervised systems are not practical or viable. Our model is trained on over 700k
         <inline-formula id="IEq19">
          <alternatives>
-          <mml:math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mrow>
-            <mml:mo>
+          <math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mrow>
+            <mo>
              &lt;
-            </mml:mo>
-            <mml:mi>
+            </mo>
+            <mi>
              i
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              m
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              a
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              g
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              e
-            </mml:mi>
-            <mml:mo>
+            </mi>
+            <mo>
              ,
-            </mml:mo>
-            <mml:mspace width="0.166667em"/>
-            <mml:mi>
+            </mo>
+            <mspace width="0.166667em"/>
+            <mi>
              t
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              e
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              x
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              t
-            </mml:mi>
-            <mml:mo>
+            </mi>
+            <mo>
              &gt;
-            </mml:mo>
-           </mml:mrow>
-          </mml:math>
+            </mo>
+           </mrow>
+          </math>
           <tex-math id="IEq19_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3057,43 +3057,43 @@
      performs the dot product between the input caption embedding and each image vector embedding obtained via
      <inline-formula id="IEq20">
       <alternatives>
-       <mml:math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mover accent="true">
+           <mrow>
+            <mi>
              T
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo stretchy="false">
+            </mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">
              ¯
-            </mml:mo>
-           </mml:mrow>
-          </mml:mover>
-          <mml:msup>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mover>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             T
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:mo>
+          </mo>
+          <mo>
            ·
-          </mml:mo>
-          <mml:mo stretchy="false">
+          </mo>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq20_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3112,43 +3112,43 @@
      and
      <inline-formula id="IEq21">
       <alternatives>
-       <mml:math id="IEq21_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msub>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq21_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msub>
+          <mover accent="true">
+           <mrow>
+            <mi>
              I
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mo stretchy="false">
+            </mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">
              ¯
-            </mml:mo>
-           </mml:mrow>
-          </mml:mover>
-          <mml:msup>
-           <mml:mi>
+            </mo>
+           </mrow>
+          </mover>
+          <msup>
+           <mi>
             θ
-           </mml:mi>
-           <mml:mi>
+           </mi>
+           <mi>
             I
-           </mml:mi>
-          </mml:msup>
-         </mml:msub>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+           </mi>
+          </msup>
+         </msub>
+         <mrow>
+          <mo stretchy="false">
            (
-          </mml:mo>
-          <mml:mo>
+          </mo>
+          <mo>
            ·
-          </mml:mo>
-          <mml:mo stretchy="false">
+          </mo>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq21_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3176,19 +3176,19 @@
      (Hit Rate @
      <inline-formula id="IEq22">
       <alternatives>
-       <mml:math id="IEq22_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:mi>
+       <math id="IEq22_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <mi>
           k
-         </mml:mi>
-         <mml:mo>
+         </mi>
+         <mo>
           =
-         </mml:mo>
-         <mml:mn>
+         </mo>
+         <mn>
           5
-         </mml:mn>
-        </mml:mrow>
-       </mml:math>
+         </mn>
+        </mrow>
+       </math>
        <tex-math id="IEq22_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3762,16 +3762,16 @@
      . We run benchmarks on
      <inline-formula id="IEq23">
       <alternatives>
-       <mml:math id="IEq23_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi mathvariant="bold">
+       <math id="IEq23_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi mathvariant="bold">
           TEST
-         </mml:mi>
-         <mml:mi mathvariant="bold">
+         </mi>
+         <mi mathvariant="bold">
           S
-         </mml:mi>
-        </mml:msub>
-       </mml:math>
+         </mi>
+        </msub>
+       </math>
        <tex-math id="IEq23_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3790,16 +3790,16 @@
      ,
      <inline-formula id="IEq24">
       <alternatives>
-       <mml:math id="IEq24_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi mathvariant="bold">
+       <math id="IEq24_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi mathvariant="bold">
           KAGL
-         </mml:mi>
-         <mml:mi mathvariant="bold">
+         </mi>
+         <mi mathvariant="bold">
           S
-         </mml:mi>
-        </mml:msub>
-       </mml:math>
+         </mi>
+        </msub>
+       </math>
        <tex-math id="IEq24_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3818,11 +3818,11 @@
      ,
      <inline-formula id="IEq25">
       <alternatives>
-       <mml:math id="IEq25_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mi mathvariant="bold">
+       <math id="IEq25_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi mathvariant="bold">
          F
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="IEq25_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3843,16 +3843,16 @@
      </bold>
      <inline-formula id="IEq26">
       <alternatives>
-       <mml:math id="IEq26_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi mathvariant="bold">
+       <math id="IEq26_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi mathvariant="bold">
           MNIST
-         </mml:mi>
-         <mml:mi mathvariant="bold">
+         </mi>
+         <mi mathvariant="bold">
           S
-         </mml:mi>
-        </mml:msub>
-       </mml:math>
+         </mi>
+        </msub>
+       </math>
        <tex-math id="IEq26_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3871,16 +3871,16 @@
      and
      <inline-formula id="IEq27">
       <alternatives>
-       <mml:math id="IEq27_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mi mathvariant="bold">
+       <math id="IEq27_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mi mathvariant="bold">
           DEEP
-         </mml:mi>
-         <mml:mi mathvariant="bold">
+         </mi>
+         <mi mathvariant="bold">
           S
-         </mml:mi>
-        </mml:msub>
-       </mml:math>
+         </mi>
+        </msub>
+       </math>
        <tex-math id="IEq27_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3957,16 +3957,16 @@
      , one may argue that the supervised model has an easier job in our case: much fewer categories (
      <inline-formula id="IEq28">
       <alternatives>
-       <mml:math id="IEq28_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-         <mml:mn>
+       <math id="IEq28_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msup>
+         <mn>
           10
-         </mml:mn>
-         <mml:mn>
+         </mn>
+         <mn>
           1
-         </mml:mn>
-        </mml:msup>
-       </mml:math>
+         </mn>
+        </msup>
+       </math>
        <tex-math id="IEq28_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3985,23 +3985,23 @@
      vs.
      <inline-formula id="IEq29">
       <alternatives>
-       <mml:math id="IEq29_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-         <mml:msup>
-          <mml:mn>
+       <math id="IEq29_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+         <msup>
+          <mn>
            10
-          </mml:mn>
-          <mml:mn>
+          </mn>
+          <mn>
            3
-          </mml:mn>
-         </mml:msup>
-         <mml:mrow>
-          <mml:mo stretchy="false">
+          </mn>
+         </msup>
+         <mrow>
+          <mo stretchy="false">
            )
-          </mml:mo>
-         </mml:mrow>
-        </mml:mrow>
-       </mml:math>
+          </mo>
+         </mrow>
+        </mrow>
+       </math>
        <tex-math id="IEq29_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4068,11 +4068,11 @@
           <p>
            <inline-formula id="IEq30">
             <alternatives>
-             <mml:math id="IEq30_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-              <mml:mi mathvariant="normal">
+             <math id="IEq30_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mi mathvariant="normal">
                Δ
-              </mml:mi>
-             </mml:math>
+              </mi>
+             </math>
              <tex-math id="IEq30_TeX">
               \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4099,16 +4099,16 @@
           <p>
            <inline-formula id="IEq31">
             <alternatives>
-             <mml:math id="IEq31_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-              <mml:msub>
-               <mml:mi mathvariant="monospace">
+             <math id="IEq31_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <msub>
+               <mi mathvariant="monospace">
                 TEST
-               </mml:mi>
-               <mml:mi mathvariant="monospace">
+               </mi>
+               <mi mathvariant="monospace">
                 S
-               </mml:mi>
-              </mml:msub>
-             </mml:math>
+               </mi>
+              </msub>
+             </math>
              <tex-math id="IEq31_TeX">
               \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4147,16 +4147,16 @@
           <p>
            <inline-formula id="IEq32">
             <alternatives>
-             <mml:math id="IEq32_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-              <mml:msub>
-               <mml:mi mathvariant="monospace">
+             <math id="IEq32_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <msub>
+               <mi mathvariant="monospace">
                 KAGL
-               </mml:mi>
-               <mml:mi mathvariant="monospace">
+               </mi>
+               <mi mathvariant="monospace">
                 S
-               </mml:mi>
-              </mml:msub>
-             </mml:math>
+               </mi>
+              </msub>
+             </math>
              <tex-math id="IEq32_TeX">
               \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4195,16 +4195,16 @@
           <p>
            <inline-formula id="IEq33">
             <alternatives>
-             <mml:math id="IEq33_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-              <mml:msub>
-               <mml:mi mathvariant="monospace">
+             <math id="IEq33_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <msub>
+               <mi mathvariant="monospace">
                 DEEP
-               </mml:mi>
-               <mml:mi mathvariant="monospace">
+               </mi>
+               <mi mathvariant="monospace">
                 S
-               </mml:mi>
-              </mml:msub>
-             </mml:math>
+               </mi>
+              </msub>
+             </math>
              <tex-math id="IEq33_TeX">
               \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4243,24 +4243,24 @@
           <p>
            <inline-formula id="IEq34">
             <alternatives>
-             <mml:math id="IEq34_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-              <mml:mrow>
-               <mml:mi mathvariant="monospace">
+             <math id="IEq34_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+              <mrow>
+               <mi mathvariant="monospace">
                 F
-               </mml:mi>
-               <mml:mo>
+               </mi>
+               <mo>
                 -
-               </mml:mo>
-               <mml:msub>
-                <mml:mi mathvariant="monospace">
+               </mo>
+               <msub>
+                <mi mathvariant="monospace">
                  MNIST
-                </mml:mi>
-                <mml:mi mathvariant="monospace">
+                </mi>
+                <mi mathvariant="monospace">
                  S
-                </mml:mi>
-               </mml:msub>
-              </mml:mrow>
-             </mml:math>
+                </mi>
+               </msub>
+              </mrow>
+             </math>
              <tex-math id="IEq34_TeX">
               \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4865,16 +4865,16 @@
       </italic>
       <inline-formula id="IEq35">
        <alternatives>
-        <mml:math id="IEq35_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-         <mml:mrow>
-          <mml:mo>
+        <math id="IEq35_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mo>
            =
-          </mml:mo>
-          <mml:mn>
+          </mo>
+          <mn>
            0.53
-          </mml:mn>
-         </mml:mrow>
-        </mml:math>
+          </mn>
+         </mrow>
+        </math>
         <tex-math id="IEq35_TeX">
          \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4893,19 +4893,19 @@
       ), a percentage that quickly rises to 0.82 with
       <inline-formula id="IEq36">
        <alternatives>
-        <mml:math id="IEq36_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-         <mml:mrow>
-          <mml:mi>
+        <math id="IEq36_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mi>
            k
-          </mml:mi>
-          <mml:mo>
+          </mi>
+          <mo>
            =
-          </mml:mo>
-          <mml:mn>
+          </mo>
+          <mn>
            5
-          </mml:mn>
-         </mml:mrow>
-        </mml:math>
+          </mn>
+         </mrow>
+        </math>
         <tex-math id="IEq36_TeX">
          \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4931,16 +4931,16 @@
       </italic>
       <inline-formula id="IEq37">
        <alternatives>
-        <mml:math id="IEq37_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-         <mml:mrow>
-          <mml:mo>
+        <math id="IEq37_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mo>
            =
-          </mml:mo>
-          <mml:mn>
+          </mo>
+          <mn>
            0.51
-          </mml:mn>
-         </mml:mrow>
-        </mml:math>
+          </mn>
+         </mrow>
+        </math>
         <tex-math id="IEq37_TeX">
          \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -4962,16 +4962,16 @@
       </italic>
       <inline-formula id="IEq38">
        <alternatives>
-        <mml:math id="IEq38_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-         <mml:mrow>
-          <mml:mo>
+        <math id="IEq38_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mrow>
+          <mo>
            =
-          </mml:mo>
-          <mml:mn>
+          </mo>
+          <mn>
            0.73
-          </mml:mn>
-         </mml:mrow>
-        </mml:math>
+          </mn>
+         </mrow>
+        </math>
         <tex-math id="IEq38_TeX">
          \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

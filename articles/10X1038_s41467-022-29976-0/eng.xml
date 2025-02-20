@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -1997,60 +1997,60 @@
      = 1.4 V). Defining the center-of-mass deflection of the full (not background-subtracted) reflection as
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            i
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mo>
+        <mfrac>
+         <mrow>
+          <mi mathvariant="normal">
            Σ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            I
-          </mml:mi>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi>
+          </mi>
+          <msub>
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              i
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi mathvariant="normal">
            Σ
-          </mml:mi>
-          <mml:mi>
+          </mi>
+          <mi>
            I
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfrac>
-       </mml:math>
+          </mi>
+         </mrow>
+        </mfrac>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2069,27 +2069,27 @@
      , we present scatter plots of
      <inline-formula id="IEq2">
       <alternatives>
-       <mml:math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2108,27 +2108,27 @@
      and
      <inline-formula id="IEq3">
       <alternatives>
-       <mml:math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            y
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq3_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2207,49 +2207,49 @@
         Scatter plot of the beam deflection (
         <inline-formula id="IEq4">
          <alternatives>
-          <mml:math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+          <math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mi>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>
               x
-             </mml:mi>
-            </mml:mrow>
-           </mml:msub>
-           <mml:mo>
+             </mi>
+            </mrow>
+           </msub>
+           <mo>
             ,
-           </mml:mo>
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+           </mo>
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mi>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>
               y
-             </mml:mi>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+             </mi>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq4_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2272,27 +2272,27 @@
         The gate dependence of the deflection perpendicular to the gate edge (
         <inline-formula id="IEq5">
          <alternatives>
-          <mml:math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+          <math id="IEq5_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mo>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mo>
               ⊥
-             </mml:mo>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+             </mo>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq5_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2361,88 +2361,88 @@
      . Specifically, for a diffraction-limited beam spot, the deflection is predicted to be
      <inline-formula id="IEq6">
       <alternatives>
-       <mml:math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq6_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mo>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mo>
            ⊥
-          </mml:mo>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mo>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mo>
+        <mfrac>
+         <mrow>
+          <mi mathvariant="normal">
            NA
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0.42
-          </mml:mn>
-          <mml:mo>
+          </mn>
+          <mo>
            ⋅
-          </mml:mo>
-          <mml:msqrt>
-           <mml:mrow>
-            <mml:mn>
+          </mo>
+          <msqrt>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:msup>
-             <mml:mrow>
-              <mml:mi>
+            </mn>
+            <msup>
+             <mrow>
+              <mi>
                π
-              </mml:mi>
-             </mml:mrow>
-             <mml:mrow>
-              <mml:mn>
+              </mi>
+             </mrow>
+             <mrow>
+              <mn>
                3
-              </mml:mn>
-             </mml:mrow>
-            </mml:msup>
-           </mml:mrow>
-          </mml:msqrt>
-         </mml:mrow>
-        </mml:mfrac>
-        <mml:mo>
+              </mn>
+             </mrow>
+            </msup>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </mfrac>
+        <mo>
          ⋅
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          Δ
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          ϕ
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          0.23
-        </mml:mn>
-        <mml:mo>
+        </mn>
+        <mo>
          ⋅
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          Δ
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          ϕ
-        </mml:mi>
-       </mml:math>
+        </mi>
+       </math>
        <tex-math id="IEq6_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2576,27 +2576,27 @@
      . Keeping only one of the resonances red-shifted causes the beam to deflect upwards at an angle towards the red-shifted side (green and blue). This is further shown by plotting the full set of center-of-mass deflections,
      <inline-formula id="IEq7">
       <alternatives>
-       <mml:math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq7_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq7_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2615,27 +2615,27 @@
      and
      <inline-formula id="IEq8">
       <alternatives>
-       <mml:math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq8_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            y
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq8_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2662,27 +2662,27 @@
      , we now observe that they span a broader, two-dimensional area. Consequently, the gate dependence of
      <inline-formula id="IEq9">
       <alternatives>
-       <mml:math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq9_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq9_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2701,27 +2701,27 @@
      and
      <inline-formula id="IEq10">
       <alternatives>
-       <mml:math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq10_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            y
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq10_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2748,27 +2748,27 @@
      —is now more intricate. Instead of simply being (negatively) proportional to each other,
      <inline-formula id="IEq11">
       <alternatives>
-       <mml:math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq11_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq11_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2787,27 +2787,27 @@
      takes on both positive and negative values when
      <inline-formula id="IEq12">
       <alternatives>
-       <mml:math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq12_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            y
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq12_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2826,27 +2826,27 @@
      is intermediate, and
      <inline-formula id="IEq13">
       <alternatives>
-       <mml:math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq13_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            y
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq13_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2865,27 +2865,27 @@
      can be either large or near-zero when
      <inline-formula id="IEq14">
       <alternatives>
-       <mml:math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mover accent="true">
-           <mml:mrow>
-            <mml:mi>
+       <math id="IEq14_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mrow>
+            <mi>
              θ
-            </mml:mi>
-           </mml:mrow>
-           <mml:mo>
+            </mi>
+           </mrow>
+           <mo>
             ¯
-           </mml:mo>
-          </mml:mover>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi>
+           </mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>
            x
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-       </mml:math>
+          </mi>
+         </mrow>
+        </msub>
+       </math>
        <tex-math id="IEq14_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -2990,59 +2990,59 @@
         Scatter plot of the center-of-mass deflection
         <inline-formula id="IEq15">
          <alternatives>
-          <mml:math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mrow>
-            <mml:mo>
+          <math id="IEq15_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mrow>
+            <mo>
              (
-            </mml:mo>
-            <mml:mrow>
-             <mml:msub>
-              <mml:mrow>
-               <mml:mover accent="true">
-                <mml:mrow>
-                 <mml:mi>
+            </mo>
+            <mrow>
+             <msub>
+              <mrow>
+               <mover accent="true">
+                <mrow>
+                 <mi>
                   θ
-                 </mml:mi>
-                </mml:mrow>
-                <mml:mo>
+                 </mi>
+                </mrow>
+                <mo>
                  ¯
-                </mml:mo>
-               </mml:mover>
-              </mml:mrow>
-              <mml:mrow>
-               <mml:mi>
+                </mo>
+               </mover>
+              </mrow>
+              <mrow>
+               <mi>
                 x
-               </mml:mi>
-              </mml:mrow>
-             </mml:msub>
-             <mml:mo>
+               </mi>
+              </mrow>
+             </msub>
+             <mo>
               ,
-             </mml:mo>
-             <mml:msub>
-              <mml:mrow>
-               <mml:mover accent="true">
-                <mml:mrow>
-                 <mml:mi>
+             </mo>
+             <msub>
+              <mrow>
+               <mover accent="true">
+                <mrow>
+                 <mi>
                   θ
-                 </mml:mi>
-                </mml:mrow>
-                <mml:mo>
+                 </mi>
+                </mrow>
+                <mo>
                  ¯
-                </mml:mo>
-               </mml:mover>
-              </mml:mrow>
-              <mml:mrow>
-               <mml:mi>
+                </mo>
+               </mover>
+              </mrow>
+              <mrow>
+               <mi>
                 y
-               </mml:mi>
-              </mml:mrow>
-             </mml:msub>
-            </mml:mrow>
-            <mml:mo>
+               </mi>
+              </mrow>
+             </msub>
+            </mrow>
+            <mo>
              )
-            </mml:mo>
-           </mml:mrow>
-          </mml:math>
+            </mo>
+           </mrow>
+          </math>
           <tex-math id="IEq15_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3073,27 +3073,27 @@
         Gate dependence of
         <inline-formula id="IEq16">
          <alternatives>
-          <mml:math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+          <math id="IEq16_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mi>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>
               x
-             </mml:mi>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+             </mi>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq16_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3116,27 +3116,27 @@
         ) and
         <inline-formula id="IEq17">
          <alternatives>
-          <mml:math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+          <math id="IEq17_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mi>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>
               y
-             </mml:mi>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+             </mi>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq17_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3163,27 +3163,27 @@
         ,
         <inline-formula id="IEq18">
          <alternatives>
-          <mml:math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+          <math id="IEq18_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mi>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>
               x
-             </mml:mi>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+             </mi>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq18_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3202,27 +3202,27 @@
         and
         <inline-formula id="IEq19">
          <alternatives>
-          <mml:math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:msub>
-            <mml:mrow>
-             <mml:mover accent="true">
-              <mml:mrow>
-               <mml:mi>
+          <math id="IEq19_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mrow>
+               <mi>
                 θ
-               </mml:mi>
-              </mml:mrow>
-              <mml:mo>
+               </mi>
+              </mrow>
+              <mo>
                ¯
-              </mml:mo>
-             </mml:mover>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mi>
+              </mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>
               y
-             </mml:mi>
-            </mml:mrow>
-           </mml:msub>
-          </mml:math>
+             </mi>
+            </mrow>
+           </msub>
+          </math>
           <tex-math id="IEq19_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -3267,125 +3267,125 @@
      We investigate the temporal response of our system by applying a small oscillating bottom gate voltage,
      <inline-formula id="IEq20">
       <alternatives>
-       <mml:math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq20_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi>
            V
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+          </mi>
+         </mrow>
+         <mrow>
+          <mi mathvariant="normal">
            BG
-          </mml:mi>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mi>
+          </mi>
+         </mrow>
+        </msub>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mi>
            t
-          </mml:mi>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+          </mi>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+        </mo>
+        <msub>
+         <mrow>
+          <mi>
            V
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+         </mrow>
+         <mrow>
+          <mn>
            0
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+          </mn>
+         </mrow>
+        </msub>
+        <mo>
          +
-        </mml:mo>
-        <mml:mi mathvariant="normal">
+        </mo>
+        <mi mathvariant="normal">
          Δ
-        </mml:mi>
-        <mml:mi>
+        </mi>
+        <mi>
          V
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          ⋅
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          sin
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mfrac>
-           <mml:mrow>
-            <mml:mn>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi>
+            </mn>
+            <mi>
              π
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              t
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              τ
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfrac>
-         </mml:mrow>
-        </mml:mfenced>
-        <mml:mo>
+            </mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfenced>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          0.7
-        </mml:mn>
-        <mml:mi mathvariant="normal">
+        </mn>
+        <mi mathvariant="normal">
          V
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          +
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          0.45
-        </mml:mn>
-        <mml:mi mathvariant="normal">
+        </mn>
+        <mi mathvariant="normal">
          V
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          ⋅
-        </mml:mo>
-        <mml:mi>
+        </mo>
+        <mi>
          sin
-        </mml:mi>
-        <mml:mfenced close=")" open="(">
-         <mml:mrow>
-          <mml:mfrac>
-           <mml:mrow>
-            <mml:mn>
+        </mi>
+        <mfenced close=")" open="(">
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-            <mml:mi>
+            </mn>
+            <mi>
              π
-            </mml:mi>
-            <mml:mi>
+            </mi>
+            <mi>
              t
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              τ
-            </mml:mi>
-           </mml:mrow>
-          </mml:mfrac>
-         </mml:mrow>
-        </mml:mfenced>
-       </mml:math>
+            </mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfenced>
+       </math>
        <tex-math id="IEq20_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}

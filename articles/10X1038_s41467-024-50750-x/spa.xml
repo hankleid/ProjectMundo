@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -11634,67 +11634,67 @@
       Estado fundamental
      </title>
      <p id="Par51">
- Considere a continuación el problema de estimar observables locales en el estado fundamental de Hamiltonianos de muchos cuerpos en el límite termodinámico. Se espera que la tasa de convergencia de una aproximación de tamaño finito de un observable local a su límite termodinámico para el problema del estado fundamental dependa de si el modelo tiene un gap (y por lo tanto el estado fundamental tiene correlaciones que decaen exponencialmente) o no tiene gap. Aunque generalmente es difícil caracterizar rigurosamente la tasa de convergencia de una aproximación de tamaño finito al límite termodinámico para estados fundamentales, es razonable suponer físicamente ya sea Convergencia Logarítmica, donde la Ecuación (
-       <xref ref-type="disp-formula" rid="Equ18">
+      Considere a continuación el problema de estimar observables locales en el estado fundamental de Hamiltonianos de muchos cuerpos en el límite termodinámico. Se espera que la tasa de convergencia de una aproximación de tamaño finito de un observable local a su límite termodinámico para el problema del estado fundamental dependa de si el modelo tiene un gap (y por lo tanto el estado fundamental tiene correlaciones que decaen exponencialmente) o no tiene gap. Aunque generalmente es difícil caracterizar rigurosamente la tasa de convergencia de una aproximación de tamaño finito al límite termodinámico para estados fundamentales, es razonable suponer físicamente ya sea Convergencia Logarítmica, donde la Ecuación (
+      <xref ref-type="disp-formula" rid="Equ18">
        13
-       </xref>
-       ) se cumple para
-       <inline-formula id="IEq74">
+      </xref>
+      ) se cumple para
+      <inline-formula id="IEq74">
        <alternatives>
-       <math id="IEq74_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mi>
-       n
-       </mi>
-       <mo>
-       =
-       </mo>
-       <mi mathvariant="normal">
-       Ω
-       </mi>
-       <mrow>
-       <mo>
-       (
-       </mo>
-       <mrow>
-       <msup>
-              <mrow>
-              <mi>
+        <math id="IEq74_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mi>
+          n
+         </mi>
+         <mo>
+          =
+         </mo>
+         <mi mathvariant="normal">
+          Ω
+         </mi>
+         <mrow>
+          <mo>
+           (
+          </mo>
+          <mrow>
+           <msup>
+            <mrow>
+             <mi>
               log
-              </mi>
-              </mrow>
-              <mrow>
-              <mi>
+             </mi>
+            </mrow>
+            <mrow>
+             <mi>
               d
-              </mi>
-              </mrow>
-       </msup>
-       <mrow>
-              <mo>
-              (
-              </mo>
-              <mrow>
-              <mn>
+             </mi>
+            </mrow>
+           </msup>
+           <mrow>
+            <mo>
+             (
+            </mo>
+            <mrow>
+             <mn>
               1
-              </mn>
-              <mo>
+             </mn>
+             <mo>
               /
-              </mo>
-              <mi>
+             </mo>
+             <mi>
               ε
-              </mi>
-              </mrow>
-              <mo>
-              )
-              </mo>
-       </mrow>
-       </mrow>
-       <mo>
-       )
-       </mo>
-       </mrow>
-       </math>
-       <tex-math id="IEq74_TeX">
-       \documentclass[12pt]{minimal}
+             </mi>
+            </mrow>
+            <mo>
+             )
+            </mo>
+           </mrow>
+          </mrow>
+          <mo>
+           )
+          </mo>
+         </mrow>
+        </math>
+        <tex-math id="IEq74_TeX">
+         \documentclass[12pt]{minimal}
                                    \usepackage{amsmath}
                                    \usepackage{wasysym}
                                    \usepackage{amsfonts}
@@ -11704,104 +11704,104 @@
                                    \usepackage{upgreek}
                                    \setlength{\oddsidemargin}{-69pt}
                                    \begin{document}$$n=\Omega ({\log }^{d}(1/\varepsilon ))$$\end{document}
-       </tex-math>
-       <inline-graphic href="41467_2024_50750_Article_IEq74.gif" mime-subtype="GIF" specific-use="web"/>
+        </tex-math>
+        <inline-graphic href="41467_2024_50750_Article_IEq74.gif" mime-subtype="GIF" specific-use="web"/>
        </alternatives>
-       </inline-formula>
-       con
-       <italic>
+      </inline-formula>
+      con
+      <italic>
        d
-       </italic>
-       siendo la dimensión de la red, o Convergencia de Ley de Potencia donde la Ecuación (
-       <xref ref-type="disp-formula" rid="Equ18">
+      </italic>
+      siendo la dimensión de la red, o Convergencia de Ley de Potencia donde la Ecuación (
+      <xref ref-type="disp-formula" rid="Equ18">
        13
-       </xref>
-       ) se cumple para
-       <italic>
+      </xref>
+      ) se cumple para
+      <italic>
        n
-       </italic>
-       = Ω(poly(
-       <italic>
+      </italic>
+      = Ω(poly(
+      <italic>
        ε
-       </italic>
-       )). Se espera que el primer caso se cumpla para modelos con gap, y puede establecerse rigurosamente para modelos que satisfacen la condición de orden topológico cuántico local
-       <sup>
+      </italic>
+      )). Se espera que el primer caso se cumpla para modelos con gap, y puede establecerse rigurosamente para modelos que satisfacen la condición de orden topológico cuántico local
+      <sup>
        <xref ref-type="bibr" rid="CR42">
-       42
+        42
        </xref>
        ,
        <xref ref-type="bibr" rid="CR61">
-       61
+        61
        </xref>
        <xref ref-type="bibr" rid="CR47">
-       47
+        47
        </xref>
        ,
        <xref ref-type="bibr" rid="CR49">
-       49
+        49
        </xref>
        ,
        <xref ref-type="bibr" rid="CR50">
-       50
+        50
        </xref>
-       </sup>
-       . Además, para modelos con gap, se espera que la Convergencia Logarítmica sea ajustada ya que podemos construir fácilmente ejemplos de Hamiltonianos con gap localmente espaciales (como el modelo AKLT), para los cuales se necesita un tamaño de sistema de al menos
-       <inline-formula id="IEq75">
+      </sup>
+      . Además, para modelos con gap, se espera que la Convergencia Logarítmica sea ajustada ya que podemos construir fácilmente ejemplos de Hamiltonianos con gap localmente espaciales (como el modelo AKLT), para los cuales se necesita un tamaño de sistema de al menos
+      <inline-formula id="IEq75">
        <alternatives>
-       <math id="IEq75_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mi mathvariant="normal">
-       Ω
-       </mi>
-       <mrow>
-       <mo>
-       (
-       </mo>
-       <mrow>
-       <msup>
-              <mrow>
-              <mi>
+        <math id="IEq75_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mi mathvariant="normal">
+          Ω
+         </mi>
+         <mrow>
+          <mo>
+           (
+          </mo>
+          <mrow>
+           <msup>
+            <mrow>
+             <mi>
               log
-              </mi>
-              </mrow>
-              <mrow>
-              <mi>
+             </mi>
+            </mrow>
+            <mrow>
+             <mi>
               d
-              </mi>
-              </mrow>
-       </msup>
-       <mrow>
-              <mo>
-              (
-              </mo>
+             </mi>
+            </mrow>
+           </msup>
+           <mrow>
+            <mo>
+             (
+            </mo>
+            <mrow>
+             <msup>
               <mrow>
-              <msup>
-              <mrow>
-              <mi>
-              ε
-              </mi>
+               <mi>
+                ε
+               </mi>
               </mrow>
               <mrow>
-              <mo>
-              −
-              </mo>
-              <mn>
-              1
-              </mn>
+               <mo>
+                −
+               </mo>
+               <mn>
+                1
+               </mn>
               </mrow>
-              </msup>
-              </mrow>
-              <mo>
-              )
-              </mo>
-       </mrow>
-       </mrow>
-       <mo>
-       )
-       </mo>
-       </mrow>
-       </math>
-       <tex-math id="IEq75_TeX">
-       \documentclass[12pt]{minimal}
+             </msup>
+            </mrow>
+            <mo>
+             )
+            </mo>
+           </mrow>
+          </mrow>
+          <mo>
+           )
+          </mo>
+         </mrow>
+        </math>
+        <tex-math id="IEq75_TeX">
+         \documentclass[12pt]{minimal}
                                    \usepackage{amsmath}
                                    \usepackage{wasysym}
                                    \usepackage{amsfonts}
@@ -11811,88 +11811,88 @@
                                    \usepackage{upgreek}
                                    \setlength{\oddsidemargin}{-69pt}
                                    \begin{document}$$\Omega ({\log }^{d}({\varepsilon }^{-1}))$$\end{document}
-       </tex-math>
-       <inline-graphic href="41467_2024_50750_Article_IEq75.gif" mime-subtype="GIF" specific-use="web"/>
+        </tex-math>
+        <inline-graphic href="41467_2024_50750_Article_IEq75.gif" mime-subtype="GIF" specific-use="web"/>
        </alternatives>
-       </inline-formula>
-       para aproximar el límite termodinámico de un observable local a una precisión
-       <italic>
+      </inline-formula>
+      para aproximar el límite termodinámico de un observable local a una precisión
+      <italic>
        ε
-       </italic>
-       (ver nota suplementaria
-       <xref ref-type="supplementary-material" rid="MOESM1">
+      </italic>
+      (ver nota suplementaria
+      <xref ref-type="supplementary-material" rid="MOESM1">
        IVB
-       </xref>
-       , proposición 2). Se espera que la Convergencia de Ley de Potencia se mantenga para modelos críticos (sin gap)—por ejemplo, este es el caso para los Hamiltonianos fermiónicos Gaussianos analizados en la sección anterior, bajo condiciones muy generales para la superficie de Fermi. Similar a la situación con la dinámica, los algoritmos clásicos actualmente disponibles con garantías rigurosas para calcular un observable del estado fundamental utilizan ya sea diagonalización exacta o un método de subespacio de Krylov en el Hamiltoniano de tamaño finito que aproxima el límite termodinámico. Así, para modelos que satisfacen la condición de Convergencia Logarítmica, una computadora clásica requeriría tiempo
-       <inline-formula id="IEq76">
+      </xref>
+      , proposición 2). Se espera que la Convergencia de Ley de Potencia se mantenga para modelos críticos (sin gap)—por ejemplo, este es el caso para los Hamiltonianos fermiónicos Gaussianos analizados en la sección anterior, bajo condiciones muy generales para la superficie de Fermi. Similar a la situación con la dinámica, los algoritmos clásicos actualmente disponibles con garantías rigurosas para calcular un observable del estado fundamental utilizan ya sea diagonalización exacta o un método de subespacio de Krylov en el Hamiltoniano de tamaño finito que aproxima el límite termodinámico. Así, para modelos que satisfacen la condición de Convergencia Logarítmica, una computadora clásica requeriría tiempo
+      <inline-formula id="IEq76">
        <alternatives>
-       <math id="IEq76_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mi>
-       exp
-       </mi>
-       <mrow>
-       <mo>
-       (
-       </mo>
-       <mrow>
-       <mi mathvariant="normal">
-              Ω
-       </mi>
-       <mrow>
+        <math id="IEq76_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mi>
+          exp
+         </mi>
+         <mrow>
+          <mo>
+           (
+          </mo>
+          <mrow>
+           <mi mathvariant="normal">
+            Ω
+           </mi>
+           <mrow>
+            <mo>
+             (
+            </mo>
+            <mrow>
+             <msup>
+              <mrow>
+               <mi>
+                log
+               </mi>
+              </mrow>
+              <mrow>
+               <mi>
+                d
+               </mi>
+              </mrow>
+             </msup>
+             <mrow>
               <mo>
-              (
+               (
               </mo>
               <mrow>
-              <msup>
-              <mrow>
-              <mi>
-              log
-              </mi>
-              </mrow>
-              <mrow>
-              <mi>
-              d
-              </mi>
-              </mrow>
-              </msup>
-              <mrow>
-              <mo>
-              (
-              </mo>
-              <mrow>
-              <msup>
-              <mrow>
-              <mi>
-              ε
-              </mi>
-              </mrow>
-              <mrow>
-              <mo>
-              −
-              </mo>
-              <mn>
-              1
-              </mn>
-              </mrow>
-              </msup>
+               <msup>
+                <mrow>
+                 <mi>
+                  ε
+                 </mi>
+                </mrow>
+                <mrow>
+                 <mo>
+                  −
+                 </mo>
+                 <mn>
+                  1
+                 </mn>
+                </mrow>
+               </msup>
               </mrow>
               <mo>
-              )
+               )
               </mo>
-              </mrow>
-              </mrow>
-              <mo>
-              )
-              </mo>
-       </mrow>
-       </mrow>
-       <mo>
-       )
-       </mo>
-       </mrow>
-       </math>
-       <tex-math id="IEq76_TeX">
-       \documentclass[12pt]{minimal}
+             </mrow>
+            </mrow>
+            <mo>
+             )
+            </mo>
+           </mrow>
+          </mrow>
+          <mo>
+           )
+          </mo>
+         </mrow>
+        </math>
+        <tex-math id="IEq76_TeX">
+         \documentclass[12pt]{minimal}
                                    \usepackage{amsmath}
                                    \usepackage{wasysym}
                                    \usepackage{amsfonts}
@@ -11902,75 +11902,75 @@
                                    \usepackage{upgreek}
                                    \setlength{\oddsidemargin}{-69pt}
                                    \begin{document}$$\exp (\Omega ({\log }^{d}({\varepsilon }^{-1})))$$\end{document}
-       </tex-math>
-       <inline-graphic href="41467_2024_50750_Article_IEq76.gif" mime-subtype="GIF" specific-use="web"/>
+        </tex-math>
+        <inline-graphic href="41467_2024_50750_Article_IEq76.gif" mime-subtype="GIF" specific-use="web"/>
        </alternatives>
-       </inline-formula>
-       en el peor de los casos. En cambio, para modelos que satisfacen la condición de Convergencia de Ley de Potencia, se espera que una computadora clásica requiera tiempo
-       <inline-formula id="IEq77">
+      </inline-formula>
+      en el peor de los casos. En cambio, para modelos que satisfacen la condición de Convergencia de Ley de Potencia, se espera que una computadora clásica requiera tiempo
+      <inline-formula id="IEq77">
        <alternatives>
-       <math id="IEq77_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-       <mi>
-       exp
-       </mi>
-       <mrow>
-       <mo>
-       (
-       </mo>
-       <mrow>
-       <mi mathvariant="normal">
-              Ω
-       </mi>
-       <mrow>
-              <mo>
-              (
-              </mo>
-              <mrow>
-              <mspace width="0.25em"/>
-              <mstyle>
+        <math id="IEq77_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+         <mi>
+          exp
+         </mi>
+         <mrow>
+          <mo>
+           (
+          </mo>
+          <mrow>
+           <mi mathvariant="normal">
+            Ω
+           </mi>
+           <mrow>
+            <mo>
+             (
+            </mo>
+            <mrow>
+             <mspace width="0.25em"/>
+             <mstyle>
               <mtext>
-              poly
+               poly
               </mtext>
-              </mstyle>
-              <mspace width="0.25em"/>
-              <mrow>
+             </mstyle>
+             <mspace width="0.25em"/>
+             <mrow>
               <mo>
-              (
+               (
               </mo>
               <mrow>
-              <msup>
-              <mrow>
-              <mi>
-              ε
-              </mi>
-              </mrow>
-              <mrow>
-              <mo>
-              −
-              </mo>
-              <mn>
-              1
-              </mn>
-              </mrow>
-              </msup>
-              </mrow>
-              <mo>
-              )
-              </mo>
-              </mrow>
+               <msup>
+                <mrow>
+                 <mi>
+                  ε
+                 </mi>
+                </mrow>
+                <mrow>
+                 <mo>
+                  −
+                 </mo>
+                 <mn>
+                  1
+                 </mn>
+                </mrow>
+               </msup>
               </mrow>
               <mo>
-              )
+               )
               </mo>
-       </mrow>
-       </mrow>
-       <mo>
-       )
-       </mo>
-       </mrow>
-       </math>
-       <tex-math id="IEq77_TeX">
-       \documentclass[12pt]{minimal}
+             </mrow>
+            </mrow>
+            <mo>
+             )
+            </mo>
+           </mrow>
+          </mrow>
+          <mo>
+           )
+          </mo>
+         </mrow>
+        </math>
+        <tex-math id="IEq77_TeX">
+         \documentclass[12pt]{minimal}
                                    \usepackage{amsmath}
                                    \usepackage{wasysym}
                                    \usepackage{amsfonts}
@@ -11980,16 +11980,16 @@
                                    \usepackage{upgreek}
                                    \setlength{\oddsidemargin}{-69pt}
                                    \begin{document}$$\exp (\Omega (\,{\mbox{poly}}\,({\varepsilon }^{-1})))$$\end{document}
-       </tex-math>
-       <inline-graphic href="41467_2024_50750_Article_IEq77.gif" mime-subtype="GIF" specific-use="web"/>
+        </tex-math>
+        <inline-graphic href="41467_2024_50750_Article_IEq77.gif" mime-subtype="GIF" specific-use="web"/>
        </alternatives>
-       </inline-formula>
-       <sup>
+      </inline-formula>
+      <sup>
        <xref ref-type="bibr" rid="CR62">
-       62
+        62
        </xref>
-       </sup>
-       .
+      </sup>
+      .
      </p>
      <p id="Par52">
       Además, para asegurar que existe un algoritmo cuántico que alcanza el estado fundamental, asumiremos que

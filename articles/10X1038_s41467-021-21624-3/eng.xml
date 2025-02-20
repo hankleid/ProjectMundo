@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>
+<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>
 <!DOCTYPE response>
 <article article-type="research-article" dtd-version="1.2" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
  <front>
@@ -1076,61 +1076,61 @@
      d shows the power ratio (defined as
      <inline-formula id="IEq1">
       <alternatives>
-       <mml:math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:mi mathvariant="normal">
+       <math id="IEq1_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi mathvariant="normal">
          PR
-        </mml:mi>
-        <mml:mo>
+        </mi>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          10
-        </mml:mn>
-        <mml:mspace width="0.25em"/>
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi mathvariant="normal">
+        </mn>
+        <mspace width="0.25em"/>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">
            log
-          </mml:mi>
-          <mml:mspace width="0.25em"/>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:mn>
+          </mi>
+          <mspace width="0.25em"/>
+         </mrow>
+         <mrow>
+          <mn>
            10
-          </mml:mn>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mfrac>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+          </mn>
+         </mrow>
+        </msub>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              counts
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              B
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              counts
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mi>
+            </mi>
+           </mrow>
+           <mrow>
+            <mi>
              A
-            </mml:mi>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:mfrac>
-       </mml:math>
+            </mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </math>
        <tex-math id="IEq1_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1358,20 +1358,20 @@
         one arm of the HBT setup is on-chip while the second arm is connected to the SNSPD system. The coincidences are then measured using a time-to-digital converter. Optical components: BS beam splitter, NF notch filter, TG transmission grating, POL polarizer, (
         <inline-formula id="IEq4">
          <alternatives>
-          <mml:math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-           <mml:mfrac>
-            <mml:mrow>
-             <mml:mi>
+          <math id="IEq4_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+           <mfrac>
+            <mrow>
+             <mi>
               λ
-             </mml:mi>
-            </mml:mrow>
-            <mml:mrow>
-             <mml:mn>
+             </mi>
+            </mrow>
+            <mrow>
+             <mn>
               2
-             </mml:mn>
-            </mml:mrow>
-           </mml:mfrac>
-          </mml:math>
+             </mn>
+            </mrow>
+           </mfrac>
+          </math>
           <tex-math id="IEq4_TeX">
            \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1744,47 +1744,47 @@
      , for silicon nitride
      <inline-formula id="IEq2">
       <alternatives>
-       <mml:math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq2_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi>
            n
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+          </mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              Si
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              3
-            </mml:mn>
-           </mml:mrow>
-          </mml:msub>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+            </mn>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              N
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              4
-            </mml:mn>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+            </mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          2
-        </mml:mn>
-       </mml:math>
+        </mn>
+       </math>
        <tex-math id="IEq2_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
@@ -1803,35 +1803,35 @@
      and for silicon dioxide
      <inline-formula id="IEq3">
       <alternatives>
-       <mml:math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
-        <mml:msub>
-         <mml:mrow>
-          <mml:mi>
+       <math id="IEq3_Math" xmlns="http://www.w3.org/1998/Math/MathML">
+        <msub>
+         <mrow>
+          <mi>
            n
-          </mml:mi>
-         </mml:mrow>
-         <mml:mrow>
-          <mml:msub>
-           <mml:mrow>
-            <mml:mi mathvariant="normal">
+          </mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">
              SiO
-            </mml:mi>
-           </mml:mrow>
-           <mml:mrow>
-            <mml:mn>
+            </mi>
+           </mrow>
+           <mrow>
+            <mn>
              2
-            </mml:mn>
-           </mml:mrow>
-          </mml:msub>
-         </mml:mrow>
-        </mml:msub>
-        <mml:mo>
+            </mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </msub>
+        <mo>
          =
-        </mml:mo>
-        <mml:mn>
+        </mo>
+        <mn>
          1.45
-        </mml:mn>
-       </mml:math>
+        </mn>
+       </math>
        <tex-math id="IEq3_TeX">
         \documentclass[12pt]{minimal}
 				\usepackage{amsmath}
