@@ -433,7 +433,7 @@ def filename_from_DOI(xml=None, doi=None, language=None):
     return str_strip(filename)
 
 def change_graphic_dir(xml):
-    dir = f"/MediaObjects/{filename_from_DOI(xml=xml)}"
+    dir = f"/ProjectMundo/MediaObjects/{filename_from_DOI(xml=xml)}"
 
     graphics = [graphic for graphic in xml.find_all('graphic') if graphic.has_attr('href') and 'MediaObjects' in graphic['href']]
     for graphic in graphics:

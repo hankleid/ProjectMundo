@@ -116,23 +116,24 @@ if __name__ == "__main__":
     articles = all_articles
     # update_catalog(["10X1103_PRXQuantumX3X040326"])
     langs = all_langs
-    update_index_files(langs)
+    # update_index_files(langs)
 
 
-    # for d in all_articles:
-    #     for l in list(load_langs()['translation'].values()):
-    #         path = f"articles/{d}/{l}.xml"
-    #         if os.path.exists(path):
-    #             data = None
-    #             with open(path, "r") as f:
-    #                 data = BeautifulSoup(str(f.read()), features="xml")
+    for d in all_articles:
+        for l in list(load_langs()['translation'].values()):
+            path = f"articles/{d}/{l}.xml"
+            if os.path.exists(path):
+                data = None
+                with open(path, "r") as f:
+                    data = BeautifulSoup(str(f.read()), features="xml")
 
-    #             new_xsl_el = BeautifulSoup(f"<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>", features="xml")
-    #             data.contents[0].replace_with(new_xsl_el)
-    #             print(d, l)
+                # new_xsl_el = BeautifulSoup(f"<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>", features="xml")
+                # data.contents[0].replace_with(new_xsl_el)
+                change_graphic_dir(data)
+                print(d, l)
 
-    #             with open(path, "w") as f:
-    #                 f.write(data.prettify())
+                with open(path, "w") as f:
+                    f.write(data.prettify())
 
     # title = this_data.find("article-title").string
     # print(title)
