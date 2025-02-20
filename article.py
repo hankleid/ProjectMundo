@@ -435,15 +435,15 @@ def filename_from_DOI(xml=None, doi=None, language=None):
 def change_graphic_dir(xml):
     dir = f"/ProjectMundo/MediaObjects/{filename_from_DOI(xml=xml)}"
 
-    def _change_graphic_dir(x, linkstr):
+    def _change_graphic_dir(linkstr):
         graphics = [graphic for graphic in xml.find_all('graphic') if graphic.has_attr(linkstr) and 'MediaObjects' in graphic[linkstr]]
         for graphic in graphics:
             curr_dir = graphic[linkstr]
             fn = curr_dir[curr_dir.rindex('/'):]
             graphic[linkstr] = (dir+fn).replace("\n","").replace(" ","")
     
-    _change_graphic_dir(xml, 'href')
-    _change_graphic_dir(xml, 'xlink:href')
+    _change_graphic_dir('href')
+    _change_graphic_dir('xlink:href')
 
 def str_strip(string):
     return string.replace("\n","").strip()
