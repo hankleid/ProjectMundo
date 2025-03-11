@@ -93,7 +93,7 @@ def update_index_files(langs):
             # line2 = f"<div class='line2'>DOI: {m['doi']}</div>"
             line2 = f"<div class='line2'>{m['authors']}</div>"
 
-            html_str = f"<div class='index-entry'><div class='entry-link'><a href='/ProjectMundo/articles/{a}/{code}.xml'>{articles_dict[a]['langs'][code]}</a></div><div class='entry-meta'>{line1}{line2}</div></div>"
+            html_str = f"<div class='index-entry'><div class='entry-link'><a href='/ProjectMundo-Anon/articles/{a}/{code}.xml'>{articles_dict[a]['langs'][code]}</a></div><div class='entry-meta'>{line1}{line2}</div></div>"
 
             _articles.append({date_score(m['date']): BeautifulSoup(html_str, features="html.parser")})
         
@@ -118,22 +118,24 @@ if __name__ == "__main__":
     langs = all_langs
     # update_index_files(langs)
 
-
+    count = 0
     for d in all_articles:
-        for l in list(load_langs()['translation'].values()):
+        for l in list(load_langs()['translation'].values())[1:]:
             path = f"articles/{d}/{l}.xml"
             if os.path.exists(path):
-                data = None
-                with open(path, "r") as f:
-                    data = BeautifulSoup(str(f.read()), features="xml")
+                count += 1
+                # data = None
+                # with open(path, "r") as f:
+                #     data = BeautifulSoup(str(f.read()), features="xml")
 
-                # new_xsl_el = BeautifulSoup(f"<?xml-stylesheet type='text/xsl' href='/ProjectMundo/style/jats-html.xsl'?>", features="xml")
-                # data.contents[0].replace_with(new_xsl_el)
-                change_graphic_dir(data)
+                # # new_xsl_el = BeautifulSoup(f"<?xml-stylesheet type='text/xsl' href='/ProjectMundo-Anon/style/jats-html.xsl'?>", features="xml")
+                # # data.contents[0].replace_with(new_xsl_el)
+                # change_graphic_dir(data)
                 print(d, l)
 
-                with open(path, "w") as f:
-                    f.write(data.prettify())
+                # with open(path, "w") as f:
+                #     f.write(data.prettify())
+    print(count)
 
     # title = this_data.find("article-title").string
     # print(title)
