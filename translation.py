@@ -144,7 +144,7 @@ class Translator():
       messages=self.saved_convo + [{"role": "user", "content": prompt}],
       max_tokens=self.max_tokens
     )
-    print(self.saved_convo + [{"role": "user", "content": prompt}])
+    # print(self.saved_convo + [{"role": "user", "content": prompt}])
     ret = response.choices[0].message.content
 
     token_price = sum([self.num_tokens(prompt), self.num_tokens(ret)] + [self.num_tokens(d["content"]) for d in self.saved_convo])

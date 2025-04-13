@@ -7,7 +7,7 @@ import time
 # doi = "10.1038/s41467-023-43444-3" # health
 # doi = "10.1038/s41467-024-52834-0" # Hsu et al.
 # doi = "10.1038/s41467-018-04608-8" # zou
-# doi = "10.1038/s41467-023-42766-6" # cats
+doi = "10.1038/s41467-023-42766-6" # cats
 # doi = "10.1038/s41467-017-00516-5" # Ahn et al.
 # doi = "10.1038/s41467-019-11343-1" # physics/EE
 # doi = "10.1038/s41467-023-40666-3" # human behavior
@@ -27,7 +27,7 @@ import time
 # doi = "10.1038/s41598-022-23052-9" # Bianchi (ita)
 # doi = "10.1038/s41467-024-52834-0" # Hsu (zh2)
 # doi = "10.1103/PRXQuantum.3.040326" # Gonzales-Garcia (spa)
-doi = "10.1038/s41467-024-50750-x" # Franco-Rubio (spa)
+# doi = "10.1038/s41467-024-50750-x" # Franco-Rubio (spa)
 
 # doi = "10.1038/s41598-023-51013-3" # sci rep 2
 # doi = "10.1038/s41598-023-43026-9" # sci rep 3
@@ -50,7 +50,7 @@ tl.use_context = True
 languages = [l for l in load_langs()['translation'].keys()]#[-6:]
 # languages = languages[languages.index("Vietnamese"):]
 # languages = ["Chinese (simplified characters)","Bengali","Urdu","Marathi","Tamil","Telugu","Gujarati"]#, "Chinese (traditional characters)", "Japanese"]
-languages = ["English", "Spanish"]
+languages = ["Slovene"]
 
 if tl.use_context:
     fulltext_dir = f"FullTexts/{filename_from_DOI(doi=doi)}"

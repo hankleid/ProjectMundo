@@ -312,7 +312,7 @@ def chunkify(xml):
     back = xml.back
 
     # Restructure the sentences. Save the figures since we take them out here.
-    par_num_lim, fig_num_lim, tab_num_lim, titles_num_lim = 1, 2, 2, 20
+    par_num_lim, fig_num_lim, tab_num_lim, titles_num_lim = 5, 2, 2, 20
 
     figures = [get_copy(fig) for fig in body.find_all('fig')]
     tables = [get_copy(tab) for tab in body.find_all('table-wrap')]
