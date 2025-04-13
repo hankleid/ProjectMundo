@@ -37,7 +37,7 @@ def get_aps_article(doi):
     r = requests.get(url=URL, headers=HEADERS)
 
     data = BeautifulSoup(r.content, features="xml")
-    data.insert(0, BeautifulSoup('<?xml-stylesheet type="text/xsl" href="/style/jats-html.xsl"?>', features='xml'))
+    data.insert(0, BeautifulSoup('<?xml-stylesheet type="text/xsl" href="/ProjectMundo/style/jats-html.xsl"?>', features='xml'))
     return data
 
 def get_copy(xml):
