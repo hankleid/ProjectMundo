@@ -214,7 +214,7 @@ if __name__ == "__main__":
     articles3 = ["10.1038/s41467-024-48700-8","10.1038/s41467-024-51355-0","10.1038/s41467-023-43832-9"]
 
     languages2 = [
-        # "English",
+        "English",
         "Chinese (simplified characters)",
         "German",
         "French",
@@ -226,7 +226,7 @@ if __name__ == "__main__":
         "Farsi",
         "Swahili",
     ]
-    languages = list(load_langs()['translation'].keys())[1:-1]
+    # languages = list(load_langs()['translation'].keys())[1:-1]
 
     # num_errors = [check_xml_errors(doi, lang) for doi in articles2 for lang in languages2]
     # missing_p_errors = [e[0] for e in num_errors]
@@ -236,9 +236,9 @@ if __name__ == "__main__":
     # print(sum(missing_fig_errors), "missing fig/table/equation errors out of", len(missing_fig_errors), "translations")
     # print(sum(nesting_errors), "nesting errors out of", len(nesting_errors), "translations")
 
-    tokens = [count_tokens(doi, lang) for doi in articles1 for lang in ['English']]
+    # tokens = [count_tokens(doi, lang) for doi in articles1 for lang in ['English']]
     # print(sum(tokens)/len(tokens))
-    print(tokens)
+    # print(tokens)
 
     
     # all_articles = [doi for doi in os.listdir(f"articles") if doi != ".DS_Store"]
@@ -248,7 +248,7 @@ if __name__ == "__main__":
     # update_catalog(['10X1038_s41467-024-46372-y'])
     # langs = all_langs
     # # langs = ['Chinese (simplified characters)']
-    # update_index_files(langs)
+    update_index_files(languages2)
 
 
     # for d in all_articles:
